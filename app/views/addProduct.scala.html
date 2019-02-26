@@ -1,0 +1,53 @@
+@import helper._
+@(addProductForm: Form[models.Product])(user: models.User)
+
+
+    @main("AddProduct", user) {
+
+        <div class="container">
+            <h2 class = "text-center text-muted">Add A Product To <span class = "logo">Sourced Soles</span></h2>
+
+            <div class="row">
+
+                <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 col-centered">
+
+
+                @form(action = routes.HomeController.addProductSubmit(), 'class -> "form-horizontal", 'role -> "form", 'enctype -> "multipart/form-data") {
+
+                    @inputText(addProductForm("id"), '_label -> "ID", 'class -> "form-control")
+                    @inputText(addProductForm("name"), '_label -> "Name", 'class -> "form-control")
+                    @inputText(addProductForm("brand"), '_label -> "Brand", 'class -> "form-control")
+                    @inputText(addProductForm("size"), '_label -> "Size", 'class -> "form-control")
+                    @inputText(addProductForm("stock"), '_label -> "Stock", 'class -> "form-control")
+                    @inputText(addProductForm("price"), '_label -> "Price", 'class -> "form-control")
+
+                    @inputText(addProductForm("id"), '_label -> "", 'hidden -> "hidden")
+
+                    @select(
+                        addProductForm("category.id"),
+                        options(Category.options),
+                        '_label -> "Category", '_default -> "-- Choose A Category--",
+                        '_showConstraints -> false, 'class -> "form-control"
+                    )
+
+                    <label>Image Upload</label>
+                    <input class = "btn btn-danger" type = "file" name = "upload">
+
+                    <br>
+
+                    <div class="actions">
+                        <input type="submit" value="Add Product" class="btn btn-danger">
+
+
+                        @*<button type="cancel" onclick="javascript:window.location='http://stackoverflow.com';">Cancel</button>*@
+                        <a href="@routes.HomeController.products()" class="btn btn-warning">Cancel</a>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    }
+
+    }

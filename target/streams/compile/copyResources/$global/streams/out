@@ -1,0 +1,8 @@
+[debug] Copy resource mappings: 
+[debug] 	(/home/wdd/beG/conf/evolutions,/home/wdd/beG/target/scala-2.11/classes/evolutions)
+[debug] 	(/home/wdd/beG/conf/application.conf,/home/wdd/beG/target/scala-2.11/classes/application.conf)
+[debug] 	(/home/wdd/beG/conf/logback.xml,/home/wdd/beG/target/scala-2.11/classes/logback.xml)
+[debug] 	(/home/wdd/beG/conf/routes,/home/wdd/beG/target/scala-2.11/classes/routes)
+[debug] 	(/home/wdd/beG/conf/evolutions/default,/home/wdd/beG/target/scala-2.11/classes/evolutions/default)
+[debug] 	(/home/wdd/beG/conf/evolutions/default/2.sql,/home/wdd/beG/target/scala-2.11/classes/evolutions/default/2.sql)
+[debug] 	(/home/wdd/beG/conf/evolutions/default/1.sql,/home/wdd/beG/target/scala-2.11/classes/evolutions/default/1.sql)
