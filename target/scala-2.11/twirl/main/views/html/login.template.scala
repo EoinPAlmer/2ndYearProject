@@ -39,7 +39,7 @@ Seq[Any](format.raw/*2.52*/("""
     """),format.raw/*6.5*/("""<div class="container">
         <div class="row">
             <div class = "col-lg-6 col-md-6 col-sm-8 col-xs-12 col-centered" id = "loginbounds">
-                <h2 class = "text-center text-muted">Login into <span class = "logo">Sourced Soles</span></h2>
+                <h2 class = "text-center text-muted">Login into <span class = "logo">Sneaker Sanctuary</span></h2>
 
                 """),_display_(/*11.18*/if(loginForm.hasGlobalErrors)/*11.47*/{_display_(Seq[Any](format.raw/*11.48*/("""
                     """),format.raw/*12.21*/("""<p class = "alert alert-warning">
@@ -87,10 +87,10 @@ Seq[Any](format.raw/*2.52*/("""
 object login extends login_Scope0.login_Scope1.login
               /*
                   -- GENERATED --
-                  DATE: Fri Feb 22 14:31:52 GMT 2019
-                  SOURCE: /home/wdd/IanDaly-sourcedsoles-d991719c7913/app/views/login.scala.html
-                  HASH: d2b1f54640c62630efc4d52891bd106fa786a5f4
-                  MATRIX: 813->18|958->68|986->71|1012->89|1051->91|1083->97|1386->373|1424->402|1463->403|1512->424|1598->483|1616->492|1657->512|1706->533|1759->555|1805->574|1844->604|1883->605|1932->626|2014->681|2028->686|2070->707|2119->728|2172->750|2218->769|2233->775|2306->839|2346->841|2395->863|2512->958|2561->980|2688->1085|2737->1106|3077->1416|3106->1432
+                  DATE: Wed Feb 27 14:49:28 GMT 2019
+                  SOURCE: /home/wdd/2ndYearProject/app/views/login.scala.html
+                  HASH: 2e6ae40febbcd314f4de1956c6b3ba46712153fa
+                  MATRIX: 813->18|958->68|986->71|1012->89|1051->91|1083->97|1390->377|1428->406|1467->407|1516->428|1602->487|1620->496|1661->516|1710->537|1763->559|1809->578|1848->608|1887->609|1936->630|2018->685|2032->690|2074->711|2123->732|2176->754|2222->773|2237->779|2310->843|2350->845|2399->867|2516->962|2565->984|2692->1089|2741->1110|3081->1420|3110->1436
                   LINES: 30->2|35->2|37->4|37->4|37->4|39->6|44->11|44->11|44->11|45->12|46->13|46->13|46->13|47->14|48->15|50->17|50->17|50->17|51->18|52->19|52->19|52->19|53->20|54->21|56->23|56->23|56->23|56->23|57->24|57->24|58->25|58->25|59->26|68->35|68->35
                   -- GENERATED --
               */

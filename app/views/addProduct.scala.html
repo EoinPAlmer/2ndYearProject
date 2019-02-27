@@ -5,7 +5,7 @@
     @main("AddProduct", user) {
 
         <div class="container">
-            <h2 class = "text-center text-muted">Add A Product To <span class = "logo">Sourced Soles</span></h2>
+            <h2 class = "text-center text-muted">Add A Product To <span class = "logo">Sneaker Sanctuary</span></h2>
 
             <div class="row">
 
@@ -31,16 +31,16 @@
                     )
 
                     <label>Image Upload</label>
-                    <input class = "btn btn-danger" type = "file" name = "upload">
+                    <input class = "btn btn-dark" type = "file" name = "upload">
 
                     <br>
 
                     <div class="actions">
-                        <input type="submit" value="Add Product" class="btn btn-danger">
+                        <input type="submit" value="Add Product" class="btn btn-dark">
 
 
                         @*<button type="cancel" onclick="javascript:window.location='http://stackoverflow.com';">Cancel</button>*@
-                        <a href="@routes.HomeController.products()" class="btn btn-warning">Cancel</a>
+                        <a href="@routes.HomeController.products()" class="btn btn-danger">Cancel</a>
 
 
                     </div>

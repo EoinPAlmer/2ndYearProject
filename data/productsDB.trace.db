@@ -359,3 +359,16 @@ Caused by: java.lang.IllegalStateException: The file is locked: nio:/home/wdd/be
 	at org.h2.mvstore.FileStore.open(FileStore.java:172)
 	at org.h2.mvstore.MVStore.<init>(MVStore.java:344)
 	... 23 more
+2019-02-27 15:55:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM PLAY_EVOLUTIONS ID ID[*] ID EMAIL"; SQL statement:
+SELECT * FROM PLAY_EVOLUTIONS ID ID ID EMAIL [42000-192]
+2019-02-27 15:55:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM PLAY_EVOLUTIONS ID ID[*] ID EMAIL"; SQL statement:
+SELECT * FROM PLAY_EVOLUTIONS ID ID ID EMAIL [42000-192]
+2019-02-27 15:56:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+SELECT EMAIL
+FROM USERS [42102-192]
+2019-02-27 15:56:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INFORMATION_SCHEMA[*].USERS"; expected "INSERT, {"; SQL statement:
+INFORMATION_SCHEMA.USERS [42001-192]
