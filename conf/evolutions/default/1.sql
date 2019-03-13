@@ -3,36 +3,42 @@
 
 # --- !Ups
 
-create table category (
-  id                            bigint not null,
-  name                          varchar(255),
-  constraint pk_category primary key (id)
+Create Table catagory(
+    id          int not null,
+    name        varchar2(255),
+    constraint pkcatagory primary key (id)
 );
-create sequence category_seq;
+create sequence catagory_seq;
 
-create table product (
-  id                            bigint not null,
-  name                          varchar(255),
-  brand                         varchar(255),
-  size                          integer,
-  stock                         integer,
-  price                         double,
-  category_id                   bigint,
-  constraint pk_product primary key (id)
+Create Table product(
+    prod_ID         int not null,
+    prod_name       varchar(255),
+    brand           varchar(255),
+    size            int,
+    price           float,
+    stock           int,
+    cata_Id         int,
+    constriant pk_product Primary Key (prod_id)
 );
-create sequence product_seq;
+Create sequence product_seq;
 
-create table user (
-  email                         varchar(255) not null,
-  role                          varchar(255),
-  name                          varchar(255),
-  password                      varchar(255),
-  constraint pk_user primary key (email)
+Create Table User(
+    email       varchar2(255),
+    name        varchar(255),
+    role        varchar2(255),
+    PASSWORD    varchar(255),
+    constraint pk_user primary key (email)
 );
 
-alter table product add constraint fk_product_category_id foreign key (category_id) references category (id) on delete restrict on update restrict;
-create index ix_product_category_id on product (category_id);
-
+Create Table cart(
+    cart_ID         int,
+    cart_price      float,
+    cart_qty        int,
+    prod_ID         int,
+    constraint pk_cart primary key(cart_ID),
+    Foreign Key(prod_ID) references Product(prod_ID)
+);
+Create sequence cart_seq;
 
 # --- !Downs
 
@@ -45,5 +51,7 @@ drop sequence if exists category_seq;
 drop table if exists product;
 drop sequence if exists product_seq;
 
-drop table if exists user;
+drop table if exists User;
 
+drop table if exists cart;
+drop sequence if exists cart_seq;

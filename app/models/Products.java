@@ -1,4 +1,3 @@
-
 package models;
 
 import java.util.*;
@@ -8,7 +7,7 @@ import play.data.validation.*;
 import com.avaje.ebean.*;
 
 @Entity
-public class Product extends Model {
+public class Products extends Model {
 
     @Id
     private Long id;
@@ -27,10 +26,10 @@ public class Product extends Model {
     private Category category;
 
 
-    public Product() {
+    public Products() {
     }
 
-    public Product(Long id, String name, String brand, int size, int stock, double price) {
+    public Products(Long id, String name, String brand, int size, int stock, double price) {
         this.id = id;
         this.name = name;
         this.brand = brand;
@@ -87,13 +86,13 @@ public class Product extends Model {
         this.price = price;
     }
 
-    public static Finder<Long,Product> find = new Finder<Long,Product>(Product.class);
+    public static Finder<Long,Products> find = new Finder<Long,Products>(Products.class);
 
     public Category getCategory() {
         return category;
     }
 
-    public static List<Product> findAll(){
-        return Product.find.all();
+    public static List<Products> findAll(){
+        return Products.find.all();
     }
 }
