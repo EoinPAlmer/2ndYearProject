@@ -37,11 +37,11 @@ public class HomeController extends Controller {
     }
 
     public Result products(Long cat) {
-        List<Product> productsList = new ArrayList<Product>();
+        List<Products> productsList = new ArrayList<Product>();
         List<Category> categoriesList = Category.findAll();
 
         if(cat == 0){
-            productsList = Product.findAll();
+            productsList = Products.findAll();
         }else{
             productsList = Category.find.ref(cat).getProducts();
         }
@@ -65,7 +65,7 @@ public class HomeController extends Controller {
     @Security.Authenticated(Secured.class)
     @With(AuthAdmin.class)
     public Result addProduct() {
-        Form<Product> addProductForm = formFactory.form(Product.class);
+        Form<Product> addProductForm = formFactory.form(Products.class);
         return ok(addProduct.render(addProductForm, getUserFromSession()));
     }
 

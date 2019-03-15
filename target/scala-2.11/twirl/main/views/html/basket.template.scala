@@ -21,16 +21,16 @@ import play.data._
 import play.api.data.Field
 import play.mvc.Http.Context.Implicit._
 
-class basket extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template1[models.User.Customer,play.twirl.api.HtmlFormat.Appendable] {
+class basket extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template1[models.Customer,play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
-  def apply/*1.2*/(customer: models.User.Customer):play.twirl.api.HtmlFormat.Appendable = {
+  def apply/*1.2*/(customer: models.Customer):play.twirl.api.HtmlFormat.Appendable = {
     _display_ {
       {
 import play.api.Play.current
-import models.products._
+import models.Products._
 
-Seq[Any](format.raw/*1.34*/("""
+Seq[Any](format.raw/*1.29*/("""
 
 """),format.raw/*5.1*/("""
 """),format.raw/*6.1*/("""<!-- Pass page title and user on to main -->
@@ -111,9 +111,9 @@ Seq[Any](format.raw/*1.34*/("""
     }
   }
 
-  def render(customer:models.User.Customer): play.twirl.api.HtmlFormat.Appendable = apply(customer)
+  def render(customer:models.Customer): play.twirl.api.HtmlFormat.Appendable = apply(customer)
 
-  def f:((models.User.Customer) => play.twirl.api.HtmlFormat.Appendable) = (customer) => apply(customer)
+  def f:((models.Customer) => play.twirl.api.HtmlFormat.Appendable) = (customer) => apply(customer)
 
   def ref: this.type = this
 
@@ -126,10 +126,10 @@ Seq[Any](format.raw/*1.34*/("""
 object basket extends basket_Scope0.basket
               /*
                   -- GENERATED --
-                  DATE: Wed Mar 13 17:13:12 GMT 2019
+                  DATE: Fri Mar 15 11:08:10 GMT 2019
                   SOURCE: /home/wdd/2ndYearProject/app/views/basket.scala.html
-                  HASH: 93492a7cf83aaf4ef0708653c92d015589f1fa0f
-                  MATRIX: 761->1|941->33|969->91|996->92|1067->138|1108->171|1147->173|1177->176|1250->223|1291->255|1331->257|1364->263|1435->307|1449->312|1485->327|1518->333|1558->343|1599->357|1748->479|1820->529|2027->709|2042->715|2090->742|2412->1037|2427->1043|2474->1069|2801->1368|2830->1369|2860->1372|2921->1406|2949->1407|2977->1408|3344->1748|3385->1780|3425->1782|3466->1795|3568->1870|3631->1917|3671->1919|3712->1932|3765->1958|3775->1959|3812->1975|3866->2002|3876->2003|3922->2028|3983->2062|4031->2089|4092->2123|4144->2154|4198->2181|4208->2182|4243->2196|4306->2232|4321->2238|4374->2270|4495->2364|4510->2370|4560->2399|4685->2493|4747->2525|4779->2530
+                  HASH: 6582ec43c6c0d319f11d544bd65f95bbc3476d83
+                  MATRIX: 756->1|931->28|959->86|986->87|1057->133|1098->166|1137->168|1167->171|1240->218|1281->250|1321->252|1354->258|1425->302|1439->307|1475->322|1508->328|1548->338|1589->352|1738->474|1810->524|2017->704|2032->710|2080->737|2402->1032|2417->1038|2464->1064|2791->1363|2820->1364|2850->1367|2911->1401|2939->1402|2967->1403|3334->1743|3375->1775|3415->1777|3456->1790|3558->1865|3621->1912|3661->1914|3702->1927|3755->1953|3765->1954|3802->1970|3856->1997|3866->1998|3912->2023|3973->2057|4021->2084|4082->2118|4134->2149|4188->2176|4198->2177|4233->2191|4296->2227|4311->2233|4364->2265|4485->2359|4500->2365|4550->2394|4675->2488|4737->2520|4769->2525
                   LINES: 27->1|33->1|35->5|36->6|37->7|37->7|37->7|40->10|43->13|43->13|43->13|44->14|45->15|45->15|45->15|46->16|47->17|50->20|52->22|52->22|58->28|58->28|58->28|64->34|64->34|64->34|74->44|74->44|75->45|76->46|76->46|77->47|93->63|93->63|93->63|94->64|95->65|95->65|95->65|96->66|97->67|97->67|97->67|98->68|98->68|98->68|99->69|99->69|100->70|100->70|101->71|101->71|101->71|102->72|102->72|102->72|103->73|103->73|103->73|105->75|106->76|107->77
                   -- GENERATED --
               */

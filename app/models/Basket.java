@@ -45,6 +45,14 @@ public class Basket extends Model {
     public void setId(Long id) {
         this.id = id;
     }
+    public List<OrderItem> getBasketItems() {
+        return basketItems;
+    }
+
+    public void setBasketItems(List<OrderItem> basketItems) {
+        this.basketItems = basketItems;
+    }
+
 
     public double getBasketTotal() {
         
@@ -77,6 +85,22 @@ public class Basket extends Model {
                 }             
             }
        }
+    }
+       public ShopOrder getOrder() {
+        return order;
+    }
+
+    public void setOrder(ShopOrder order) {
+        this.order = order;
+    }
+
+    public Basket getBasket() {
+        return basket;
+    }
+
+    public void setBasket(Basket basket) {
+        this.basket = basket;
+    }
 
        public void removeAllItems() {
         for(OrderItem i: this.basketItems) {
@@ -84,5 +108,9 @@ public class Basket extends Model {
         }
         this.basketItems = null;
     }
+    @OneToMany(mappedBy = "basket", cascade = CascadeType.PERSIST)
+    private List<OrderItem> basketItems;
+    
+    @OneToOne
+    private Customer customer;
     }
-}

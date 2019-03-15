@@ -74,8 +74,7 @@ public class OrderItem extends Model {
     public void setPrice(double price) {
         this.price = price;
     }
-
-
+    
 public List<OrderItem> getBasketItems() {
     return basketItems;
 }

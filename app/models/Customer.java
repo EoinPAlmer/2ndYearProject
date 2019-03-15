@@ -33,14 +33,6 @@ public class Customer extends  User {
         return find.where().eq("email",email).eq("password",password).findUnique();
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public String getRole() {
         return role;
     }
@@ -48,21 +40,20 @@ public class Customer extends  User {
     public void setRole(String role) {
         this.role = role;
     }
-
-    public String getName() {
-        return name;
+    public ShopOrder getOrder() {
+        return order;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setOrder(ShopOrder order) {
+        this.order = order;
     }
 
-    public String getPassword() {
-        return password;
+    public Basket getBasket() {
+        return basket;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setBasket(Basket basket) {
+        this.basket = basket;
     }
 
     public static User getUserById(String id){
@@ -72,4 +63,9 @@ public class Customer extends  User {
             return find.byId(id);
         }
     }
+    @OneToOne(mappedBy="customer", cascade = CascadeType.ALL)
+    private Basket basket;
+
+@OneToMany(mappedBy="customer", cascade = CascadeType.ALL)
+    private List<ShopOrder> orders;
 }
