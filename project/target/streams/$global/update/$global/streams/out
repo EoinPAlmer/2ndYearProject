@@ -20,7 +20,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.5.9/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.5.9/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.5.9/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.play#sbt-plugin;2.5.9!ivy.xml(ivy.original) (1881ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.play#sbt-plugin;2.5.9!ivy.xml(ivy.original) (1726ms)
 [debug] 	found com.typesafe.play#sbt-plugin;2.5.9 in sbt-plugin-releases
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.9->com.typesafe.play#sbt-routes-compiler_2.10;2.5.9 [compile->default(compile)]
 [info] Resolving com.typesafe.play#sbt-routes-compiler_2.10;2.5.9 ...
@@ -42,7 +42,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.5.9/sbt-routes-compiler_2.10-2.5.9.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.5.9/sbt-routes-compiler_2.10-2.5.9.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.5.9/sbt-routes-compiler_2.10-2.5.9.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#sbt-routes-compiler_2.10;2.5.9!sbt-routes-compiler_2.10.pom(pom.original) (62ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.play#sbt-routes-compiler_2.10;2.5.9!sbt-routes-compiler_2.10.pom(pom.original) (112ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.5.9/jars/sbt-routes-compiler_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.5.9/jars/sbt-routes-compiler_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-routes-compiler_2.10/2.5.9/jars/sbt-routes-compiler_2.10.jar
@@ -81,7 +81,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.1.1/twirl-api_2.10-1.1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.1.1/twirl-api_2.10-1.1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.1.1/twirl-api_2.10-1.1.1.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#twirl-api_2.10;1.1.1!twirl-api_2.10.pom(pom.original) (67ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.play#twirl-api_2.10;1.1.1!twirl-api_2.10.pom(pom.original) (68ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-api_2.10/1.1.1/jars/twirl-api_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-api_2.10/1.1.1/jars/twirl-api_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-api_2.10/1.1.1/jars/twirl-api_2.10.jar
@@ -124,7 +124,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.4!commons-lang3.pom(pom.original) (102ms)
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.4!commons-lang3.pom(pom.original) (106ms)
 [info] Resolving org.apache.commons#commons-parent;37 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;37 {}
 [info] Resolving org.apache.commons#commons-parent;37 ...
@@ -144,7 +144,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/37/commons-parent-37.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;37!commons-parent.pom(pom.original) (107ms)
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;37!commons-parent.pom(pom.original) (106ms)
 [info] Resolving org.apache#apache;16 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache#apache;16 {}
 [debug] sbt-chain: module revision found in cache: org.apache#apache;16
@@ -207,7 +207,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-run-support_2.10/2.5.9/sbt-run-support_2.10-2.5.9.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-run-support_2.10/2.5.9/sbt-run-support_2.10-2.5.9.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/sbt-run-support_2.10/2.5.9/sbt-run-support_2.10-2.5.9.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#sbt-run-support_2.10;2.5.9!sbt-run-support_2.10.pom(pom.original) (136ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.play#sbt-run-support_2.10;2.5.9!sbt-run-support_2.10.pom(pom.original) (67ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-run-support_2.10/2.5.9/jars/sbt-run-support_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/sbt-run-support_2.10/2.5.9/jars/sbt-run-support_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-run-support_2.10/2.5.9/jars/sbt-run-support_2.10.jar
@@ -239,7 +239,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.5.9/build-link-2.5.9.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.5.9/build-link-2.5.9.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.5.9/build-link-2.5.9.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#build-link;2.5.9!build-link.pom(pom.original) (61ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.play#build-link;2.5.9!build-link.pom(pom.original) (59ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/build-link/2.5.9/jars/build-link.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/build-link/2.5.9/jars/build-link.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/build-link/2.5.9/jars/build-link.jar
@@ -301,7 +301,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.10/1.1.1/twirl-compiler_2.10-1.1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.10/1.1.1/twirl-compiler_2.10-1.1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.10/1.1.1/twirl-compiler_2.10-1.1.1.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#twirl-compiler_2.10;1.1.1!twirl-compiler_2.10.pom(pom.original) (61ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.play#twirl-compiler_2.10;1.1.1!twirl-compiler_2.10.pom(pom.original) (59ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-compiler_2.10/1.1.1/jars/twirl-compiler_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-compiler_2.10/1.1.1/jars/twirl-compiler_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-compiler_2.10/1.1.1/jars/twirl-compiler_2.10.jar
@@ -405,7 +405,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-parser_2.10/1.1.1/twirl-parser_2.10-1.1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-parser_2.10/1.1.1/twirl-parser_2.10-1.1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/twirl-parser_2.10/1.1.1/twirl-parser_2.10-1.1.1.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#twirl-parser_2.10;1.1.1!twirl-parser_2.10.pom(pom.original) (60ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.play#twirl-parser_2.10;1.1.1!twirl-parser_2.10.pom(pom.original) (57ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-parser_2.10/1.1.1/jars/twirl-parser_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/twirl-parser_2.10/1.1.1/jars/twirl-parser_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/twirl-parser_2.10/1.1.1/jars/twirl-parser_2.10.jar
@@ -470,7 +470,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom
-[debug] 	[SUCCESSFUL ] com.typesafe#config;1.3.0!config.pom(pom.original) (59ms)
+[debug] 	[SUCCESSFUL ] com.typesafe#config;1.3.0!config.pom(pom.original) (58ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.3.0/bundles/config.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/config/1.3.0/bundles/config.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/config/1.3.0/bundles/config.jar
@@ -496,7 +496,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/net.contentobjects.jnotify/jnotify/0.94-play-1/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/net.contentobjects.jnotify/jnotify/0.94-play-1/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/net.contentobjects.jnotify/jnotify/0.94-play-1/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] net.contentobjects.jnotify#jnotify;0.94-play-1!ivy.xml(ivy.original) (1645ms)
+[debug] 	[SUCCESSFUL ] net.contentobjects.jnotify#jnotify;0.94-play-1!ivy.xml(ivy.original) (2405ms)
 [debug] 	found net.contentobjects.jnotify#jnotify;0.94-play-1 in sbt-plugin-releases
 [debug] == resolving dependencies com.typesafe.play#sbt-plugin;2.5.9->com.typesafe.sbt#sbt-twirl;1.1.1 [compile->default(compile)]
 [info] Resolving com.typesafe.sbt#sbt-twirl;1.1.1 ...
@@ -513,7 +513,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.1.1/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.1.1/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.1.1/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-twirl;1.1.1!ivy.xml(ivy.original) (1786ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-twirl;1.1.1!ivy.xml(ivy.original) (1734ms)
 [debug] 	found com.typesafe.sbt#sbt-twirl;1.1.1 in sbt-plugin-releases
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-twirl;1.1.1->com.typesafe.play#twirl-compiler_2.10;1.1.1 [compile->default(compile)]
@@ -539,7 +539,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.0.3/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.0.3/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.0.3/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-native-packager;1.0.3!ivy.xml(ivy.original) (1719ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-native-packager;1.0.3!ivy.xml(ivy.original) (1906ms)
 [debug] 	found com.typesafe.sbt#sbt-native-packager;1.0.3 in sbt-plugin-releases
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-native-packager;1.0.3->org.apache.commons#commons-compress;1.4.1 [compile->default(compile)]
@@ -564,7 +564,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-compress;1.4.1!commons-compress.pom(pom.original) (103ms)
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-compress;1.4.1!commons-compress.pom(pom.original) (98ms)
 [info] Resolving org.apache.commons#commons-parent;24 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;24 {}
 [info] Resolving org.apache.commons#commons-parent;24 ...
@@ -584,7 +584,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/24/commons-parent-24.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-parent/24/commons-parent-24.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-parent/24/commons-parent-24.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;24!commons-parent.pom(pom.original) (115ms)
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-parent;24!commons-parent.pom(pom.original) (112ms)
 [info] Resolving org.apache#apache;9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache#apache;9 {}
 [debug] sbt-chain: module revision found in cache: org.apache#apache;9
@@ -628,7 +628,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.pom
-[debug] 	[SUCCESSFUL ] org.tukaani#xz;1.0!xz.pom(pom.original) (61ms)
+[debug] 	[SUCCESSFUL ] org.tukaani#xz;1.0!xz.pom(pom.original) (58ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.tukaani/xz/1.0/jars/xz.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.tukaani/xz/1.0/jars/xz.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.tukaani/xz/1.0/jars/xz.jar
@@ -675,7 +675,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.7/commons-compress-1.7.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.7/commons-compress-1.7.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.7/commons-compress-1.7.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-compress;1.7!commons-compress.pom(pom.original) (101ms)
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-compress;1.7!commons-compress.pom(pom.original) (102ms)
 [info] Resolving org.apache.commons#commons-parent;32 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;32 {}
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-parent;32
@@ -876,7 +876,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava/10.0.1/guava-10.0.1.pom
-[debug] 	[SUCCESSFUL ] com.google.guava#guava;10.0.1!guava.pom(pom.original) (100ms)
+[debug] 	[SUCCESSFUL ] com.google.guava#guava;10.0.1!guava.pom(pom.original) (98ms)
 [info] Resolving com.google.guava#guava-parent;10.0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.google.guava#guava-parent;10.0.1 {}
 [info] Resolving com.google.guava#guava-parent;10.0.1 ...
@@ -896,7 +896,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava-parent/10.0.1/guava-parent-10.0.1.pom
-[debug] 	[SUCCESSFUL ] com.google.guava#guava-parent;10.0.1!guava-parent.pom(pom.original) (57ms)
+[debug] 	[SUCCESSFUL ] com.google.guava#guava-parent;10.0.1!guava-parent.pom(pom.original) (100ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -1219,7 +1219,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.3/ant-1.9.3.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.3/ant-1.9.3.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.3/ant-1.9.3.pom
-[debug] 	[SUCCESSFUL ] org.apache.ant#ant;1.9.3!ant.pom(pom.original) (103ms)
+[debug] 	[SUCCESSFUL ] org.apache.ant#ant;1.9.3!ant.pom(pom.original) (106ms)
 [info] Resolving org.apache.ant#ant-parent;1.9.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant-parent;1.9.3 {}
 [info] Resolving org.apache.ant#ant-parent;1.9.3 ...
@@ -1239,7 +1239,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.3/ant-parent-1.9.3.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.3/ant-parent-1.9.3.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant-parent/1.9.3/ant-parent-1.9.3.pom
-[debug] 	[SUCCESSFUL ] org.apache.ant#ant-parent;1.9.3!ant-parent.pom(pom.original) (98ms)
+[debug] 	[SUCCESSFUL ] org.apache.ant#ant-parent;1.9.3!ant-parent.pom(pom.original) (107ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-parent/1.9.3/jars/ant-parent.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.apache.ant/ant-parent/1.9.3/jars/ant-parent.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.apache.ant/ant-parent/1.9.3/jars/ant-parent.jar
@@ -1279,7 +1279,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.3/ant-launcher-1.9.3.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.3/ant-launcher-1.9.3.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.3/ant-launcher-1.9.3.pom
-[debug] 	[SUCCESSFUL ] org.apache.ant#ant-launcher;1.9.3!ant-launcher.pom(pom.original) (57ms)
+[debug] 	[SUCCESSFUL ] org.apache.ant#ant-launcher;1.9.3!ant-launcher.pom(pom.original) (60ms)
 [info] Resolving org.apache.ant#ant-parent;1.9.3 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.ant#ant-parent;1.9.3 {}
 [debug] sbt-chain: module revision found in cache: org.apache.ant#ant-parent;1.9.3
@@ -1325,7 +1325,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.pom
-[debug] 	[SUCCESSFUL ] org.bouncycastle#bcprov-jdk15on;1.51!bcprov-jdk15on.pom(pom.original) (78ms)
+[debug] 	[SUCCESSFUL ] org.bouncycastle#bcprov-jdk15on;1.51!bcprov-jdk15on.pom(pom.original) (73ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.bouncycastle/bcprov-jdk15on/1.51/jars/bcprov-jdk15on.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.bouncycastle/bcprov-jdk15on/1.51/jars/bcprov-jdk15on.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.bouncycastle/bcprov-jdk15on/1.51/jars/bcprov-jdk15on.jar
@@ -1366,7 +1366,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.10/sbt_0.13/1.3.0/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-web;1.3.0!ivy.xml(ivy.original) (1716ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-web;1.3.0!ivy.xml(ivy.original) (1745ms)
 [debug] 	found com.typesafe.sbt#sbt-web;1.3.0 in sbt-plugin-releases
 [debug] == resolving dependencies com.typesafe.sbt#sbt-web;1.3.0->com.typesafe.akka#akka-actor_2.10;2.3.9 [compile->default(compile)]
 [info] Resolving com.typesafe.akka#akka-actor_2.10;2.3.9 ...
@@ -1388,7 +1388,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.9/akka-actor_2.10-2.3.9.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.9/akka-actor_2.10-2.3.9.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.9/akka-actor_2.10-2.3.9.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.10;2.3.9!akka-actor_2.10.pom(pom.original) (62ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.10;2.3.9!akka-actor_2.10.pom(pom.original) (59ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.akka/akka-actor_2.10/2.3.9/jars/akka-actor_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.akka/akka-actor_2.10/2.3.9/jars/akka-actor_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.akka/akka-actor_2.10/2.3.9/jars/akka-actor_2.10.jar
@@ -1444,7 +1444,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/webjars-locator/0.26/webjars-locator-0.26.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/webjars-locator/0.26/webjars-locator-0.26.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/webjars-locator/0.26/webjars-locator-0.26.pom
-[debug] 	[SUCCESSFUL ] org.webjars#webjars-locator;0.26!webjars-locator.pom(pom.original) (99ms)
+[debug] 	[SUCCESSFUL ] org.webjars#webjars-locator;0.26!webjars-locator.pom(pom.original) (100ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -1477,7 +1477,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.26/webjars-locator-core-0.26.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.26/webjars-locator-core-0.26.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.26/webjars-locator-core-0.26.pom
-[debug] 	[SUCCESSFUL ] org.webjars#webjars-locator-core;0.26!webjars-locator-core.pom(pom.original) (108ms)
+[debug] 	[SUCCESSFUL ] org.webjars#webjars-locator-core;0.26!webjars-locator-core.pom(pom.original) (111ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -1509,7 +1509,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.pom
-[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.7!slf4j-api.pom(pom.original) (57ms)
+[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.7!slf4j-api.pom(pom.original) (59ms)
 [info] Resolving org.slf4j#slf4j-parent;1.7.7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.7 {}
 [info] Resolving org.slf4j#slf4j-parent;1.7.7 ...
@@ -1529,7 +1529,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.7/slf4j-parent-1.7.7.pom
-[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.7.7!slf4j-parent.pom(pom.original) (99ms)
+[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.7.7!slf4j-parent.pom(pom.original) (104ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-parent/1.7.7/jars/slf4j-parent.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-parent/1.7.7/jars/slf4j-parent.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-parent/1.7.7/jars/slf4j-parent.jar
@@ -1571,7 +1571,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.pom
-[debug] 	[SUCCESSFUL ] org.apache.commons#commons-compress;1.9!commons-compress.pom(pom.original) (97ms)
+[debug] 	[SUCCESSFUL ] org.apache.commons#commons-compress;1.9!commons-compress.pom(pom.original) (100ms)
 [info] Resolving org.apache.commons#commons-parent;34 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-parent;34 {}
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-parent;34
@@ -1620,7 +1620,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.3.3/jackson-databind-2.3.3.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.3.3/jackson-databind-2.3.3.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.3.3/jackson-databind-2.3.3.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.3.3!jackson-databind.pom(pom.original) (98ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.3.3!jackson-databind.pom(pom.original) (102ms)
 [info] Resolving com.fasterxml#oss-parent;12 ...
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml#oss-parent;12 {}
 [info] Resolving com.fasterxml#oss-parent;12 ...
@@ -1640,7 +1640,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/12/oss-parent-12.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/12/oss-parent-12.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/oss-parent/12/oss-parent-12.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml#oss-parent;12!oss-parent.pom(pom.original) (105ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml#oss-parent;12!oss-parent.pom(pom.original) (104ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml/oss-parent/12/jars/oss-parent.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml/oss-parent/12/jars/oss-parent.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml/oss-parent/12/jars/oss-parent.jar
@@ -1678,7 +1678,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.3.0/jackson-annotations-2.3.0.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.3.0!jackson-annotations.pom(pom.original) (64ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.3.0!jackson-annotations.pom(pom.original) (57ms)
 [info] Resolving com.fasterxml#oss-parent;11 ...
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml#oss-parent;11 {}
 [info] Resolving com.fasterxml#oss-parent;11 ...
@@ -1698,7 +1698,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/11/oss-parent-11.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/11/oss-parent-11.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/oss-parent/11/oss-parent-11.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml#oss-parent;11!oss-parent.pom(pom.original) (106ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml#oss-parent;11!oss-parent.pom(pom.original) (102ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml/oss-parent/11/jars/oss-parent.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml/oss-parent/11/jars/oss-parent.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml/oss-parent/11/jars/oss-parent.jar
@@ -1736,7 +1736,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.3.3/jackson-core-2.3.3.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.3.3/jackson-core-2.3.3.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.3.3/jackson-core-2.3.3.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.3.3!jackson-core.pom(pom.original) (103ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.3.3!jackson-core.pom(pom.original) (101ms)
 [info] Resolving com.fasterxml#oss-parent;12 ...
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml#oss-parent;12 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml#oss-parent;12
@@ -1778,7 +1778,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-js-engine/scala_2.10/sbt_0.13/1.1.3/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-js-engine/scala_2.10/sbt_0.13/1.1.3/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-js-engine/scala_2.10/sbt_0.13/1.1.3/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-js-engine;1.1.3!ivy.xml(ivy.original) (1716ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-js-engine;1.1.3!ivy.xml(ivy.original) (1722ms)
 [debug] 	found com.typesafe.sbt#sbt-js-engine;1.1.3 in sbt-plugin-releases
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.3->com.typesafe#jse_2.10;1.1.2 [compile->default(compile)]
@@ -1803,7 +1803,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/jse_2.10/1.1.2/jse_2.10-1.1.2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/jse_2.10/1.1.2/jse_2.10-1.1.2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/jse_2.10/1.1.2/jse_2.10-1.1.2.pom
-[debug] 	[SUCCESSFUL ] com.typesafe#jse_2.10;1.1.2!jse_2.10.pom(pom.original) (58ms)
+[debug] 	[SUCCESSFUL ] com.typesafe#jse_2.10;1.1.2!jse_2.10.pom(pom.original) (57ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/jse_2.10/1.1.2/jars/jse_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/jse_2.10/1.1.2/jars/jse_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/jse_2.10/1.1.2/jars/jse_2.10.jar
@@ -1850,7 +1850,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.10;2.3.11!akka-actor_2.10.pom(pom.original) (59ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.10;2.3.11!akka-actor_2.10.pom(pom.original) (56ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.akka/akka-actor_2.10/2.3.11/jars/akka-actor_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.akka/akka-actor_2.10/2.3.11/jars/akka-actor_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.akka/akka-actor_2.10/2.3.11/jars/akka-actor_2.10.jar
@@ -1932,7 +1932,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.3.11/akka-contrib_2.10-2.3.11.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.3.11/akka-contrib_2.10-2.3.11.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.3.11/akka-contrib_2.10-2.3.11.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-contrib_2.10;2.3.11!akka-contrib_2.10.pom(pom.original) (78ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-contrib_2.10;2.3.11!akka-contrib_2.10.pom(pom.original) (57ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.akka/akka-contrib_2.10/2.3.11/jars/akka-contrib_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.akka/akka-contrib_2.10/2.3.11/jars/akka-contrib_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.akka/akka-contrib_2.10/2.3.11/jars/akka-contrib_2.10.jar
@@ -1982,7 +1982,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.3.11/akka-remote_2.10-2.3.11.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.3.11/akka-remote_2.10-2.3.11.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.3.11/akka-remote_2.10-2.3.11.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.10;2.3.11!akka-remote_2.10.pom(pom.original) (114ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.10;2.3.11!akka-remote_2.10.pom(pom.original) (108ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.akka/akka-remote_2.10/2.3.11/jars/akka-remote_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.akka/akka-remote_2.10/2.3.11/jars/akka-remote_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.akka/akka-remote_2.10/2.3.11/jars/akka-remote_2.10.jar
@@ -2046,7 +2046,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.pom
-[debug] 	[SUCCESSFUL ] io.netty#netty;3.8.0.Final!netty.pom(pom.original) (102ms)
+[debug] 	[SUCCESSFUL ] io.netty#netty;3.8.0.Final!netty.pom(pom.original) (99ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -2094,7 +2094,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom
-[debug] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.pom(pom.original) (100ms)
+[debug] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.pom(pom.original) (99ms)
 [info] Resolving com.google#google;1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.google#google;1 {}
 [debug] sbt-chain: module revision found in cache: com.google#google;1
@@ -2142,7 +2142,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom
-[debug] 	[SUCCESSFUL ] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.pom(pom.original) (60ms)
+[debug] 	[SUCCESSFUL ] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.pom(pom.original) (58ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.uncommons.maths/uncommons-maths/1.2.2a/jars/uncommons-maths.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.uncommons.maths/uncommons-maths/1.2.2a/jars/uncommons-maths.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.uncommons.maths/uncommons-maths/1.2.2a/jars/uncommons-maths.jar
@@ -2185,7 +2185,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.3.11/akka-cluster_2.10-2.3.11.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.3.11/akka-cluster_2.10-2.3.11.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.3.11/akka-cluster_2.10-2.3.11.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-cluster_2.10;2.3.11!akka-cluster_2.10.pom(pom.original) (58ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-cluster_2.10;2.3.11!akka-cluster_2.10.pom(pom.original) (57ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.akka/akka-cluster_2.10/2.3.11/jars/akka-cluster_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.akka/akka-cluster_2.10/2.3.11/jars/akka-cluster_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.akka/akka-cluster_2.10/2.3.11/jars/akka-cluster_2.10.jar
@@ -2240,7 +2240,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence-experimental_2.10/2.3.11/akka-persistence-experimental_2.10-2.3.11.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence-experimental_2.10/2.3.11/akka-persistence-experimental_2.10-2.3.11.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence-experimental_2.10/2.3.11/akka-persistence-experimental_2.10-2.3.11.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-persistence-experimental_2.10;2.3.11!akka-persistence-experimental_2.10.pom(pom.original) (101ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.akka#akka-persistence-experimental_2.10;2.3.11!akka-persistence-experimental_2.10.pom(pom.original) (99ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.akka/akka-persistence-experimental_2.10/2.3.11/jars/akka-persistence-experimental_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.akka/akka-persistence-experimental_2.10/2.3.11/jars/akka-persistence-experimental_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.akka/akka-persistence-experimental_2.10/2.3.11/jars/akka-persistence-experimental_2.10.jar
@@ -2299,7 +2299,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.5/leveldb-0.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.5/leveldb-0.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.5/leveldb-0.5.pom
-[debug] 	[SUCCESSFUL ] org.iq80.leveldb#leveldb;0.5!leveldb.pom(pom.original) (101ms)
+[debug] 	[SUCCESSFUL ] org.iq80.leveldb#leveldb;0.5!leveldb.pom(pom.original) (97ms)
 [info] Resolving org.iq80.leveldb#leveldb-project;0.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.iq80.leveldb#leveldb-project;0.5 {}
 [info] Resolving org.iq80.leveldb#leveldb-project;0.5 ...
@@ -2319,7 +2319,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-project/0.5/leveldb-project-0.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-project/0.5/leveldb-project-0.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-project/0.5/leveldb-project-0.5.pom
-[debug] 	[SUCCESSFUL ] org.iq80.leveldb#leveldb-project;0.5!leveldb-project.pom(pom.original) (109ms)
+[debug] 	[SUCCESSFUL ] org.iq80.leveldb#leveldb-project;0.5!leveldb-project.pom(pom.original) (103ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.iq80.leveldb/leveldb-project/0.5/jars/leveldb-project.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.iq80.leveldb/leveldb-project/0.5/jars/leveldb-project.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.iq80.leveldb/leveldb-project/0.5/jars/leveldb-project.jar
@@ -2373,7 +2373,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.5/leveldb-api-0.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.5/leveldb-api-0.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.5/leveldb-api-0.5.pom
-[debug] 	[SUCCESSFUL ] org.iq80.leveldb#leveldb-api;0.5!leveldb-api.pom(pom.original) (57ms)
+[debug] 	[SUCCESSFUL ] org.iq80.leveldb#leveldb-api;0.5!leveldb-api.pom(pom.original) (56ms)
 [info] Resolving org.iq80.leveldb#leveldb-project;0.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.iq80.leveldb#leveldb-project;0.5 {}
 [debug] sbt-chain: module revision found in cache: org.iq80.leveldb#leveldb-project;0.5
@@ -2441,7 +2441,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava-parent/12.0/guava-parent-12.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava-parent/12.0/guava-parent-12.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava-parent/12.0/guava-parent-12.0.pom
-[debug] 	[SUCCESSFUL ] com.google.guava#guava-parent;12.0!guava-parent.pom(pom.original) (105ms)
+[debug] 	[SUCCESSFUL ] com.google.guava#guava-parent;12.0!guava-parent.pom(pom.original) (55ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -2540,7 +2540,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-project/1.7/leveldbjni-project-1.7.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-project/1.7/leveldbjni-project-1.7.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-project/1.7/leveldbjni-project-1.7.pom
-[debug] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-project;1.7!leveldbjni-project.pom(pom.original) (104ms)
+[debug] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-project;1.7!leveldbjni-project.pom(pom.original) (97ms)
 [info] Resolving org.fusesource#fusesource-pom;1.9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.fusesource#fusesource-pom;1.9 {}
 [info] Resolving org.fusesource#fusesource-pom;1.9 ...
@@ -2560,7 +2560,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/fusesource-pom/1.9/fusesource-pom-1.9.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/fusesource-pom/1.9/fusesource-pom-1.9.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/fusesource-pom/1.9/fusesource-pom-1.9.pom
-[debug] 	[SUCCESSFUL ] org.fusesource#fusesource-pom;1.9!fusesource-pom.pom(pom.original) (106ms)
+[debug] 	[SUCCESSFUL ] org.fusesource#fusesource-pom;1.9!fusesource-pom.pom(pom.original) (99ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.fusesource/fusesource-pom/1.9/jars/fusesource-pom.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.fusesource/fusesource-pom/1.9/jars/fusesource-pom.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.fusesource/fusesource-pom/1.9/jars/fusesource-pom.jar
@@ -2623,7 +2623,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni/1.7/leveldbjni-1.7.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni/1.7/leveldbjni-1.7.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni/1.7/leveldbjni-1.7.pom
-[debug] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni;1.7!leveldbjni.pom(pom.original) (111ms)
+[debug] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni;1.7!leveldbjni.pom(pom.original) (108ms)
 [info] Resolving org.fusesource.leveldbjni#leveldbjni-project;1.7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.fusesource.leveldbjni#leveldbjni-project;1.7 {}
 [debug] sbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni-project;1.7
@@ -2691,7 +2691,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/hawtjni/hawtjni-project/1.8/hawtjni-project-1.8.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/hawtjni/hawtjni-project/1.8/hawtjni-project-1.8.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/hawtjni/hawtjni-project/1.8/hawtjni-project-1.8.pom
-[debug] 	[SUCCESSFUL ] org.fusesource.hawtjni#hawtjni-project;1.8!hawtjni-project.pom(pom.original) (103ms)
+[debug] 	[SUCCESSFUL ] org.fusesource.hawtjni#hawtjni-project;1.8!hawtjni-project.pom(pom.original) (104ms)
 [info] Resolving org.fusesource#fusesource-pom;1.9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.fusesource#fusesource-pom;1.9 {}
 [debug] sbt-chain: module revision found in cache: org.fusesource#fusesource-pom;1.9
@@ -2750,7 +2750,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-osx/1.5/leveldbjni-osx-1.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-osx/1.5/leveldbjni-osx-1.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-osx/1.5/leveldbjni-osx-1.5.pom
-[debug] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-osx;1.5!leveldbjni-osx.pom(pom.original) (99ms)
+[debug] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-osx;1.5!leveldbjni-osx.pom(pom.original) (102ms)
 [info] Resolving org.fusesource.leveldbjni#leveldbjni-project;1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.fusesource.leveldbjni#leveldbjni-project;1.5 {}
 [info] Resolving org.fusesource.leveldbjni#leveldbjni-project;1.5 ...
@@ -2770,7 +2770,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-project/1.5/leveldbjni-project-1.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-project/1.5/leveldbjni-project-1.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-project/1.5/leveldbjni-project-1.5.pom
-[debug] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-project;1.5!leveldbjni-project.pom(pom.original) (104ms)
+[debug] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-project;1.5!leveldbjni-project.pom(pom.original) (102ms)
 [info] Resolving org.fusesource#fusesource-pom;1.9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.fusesource#fusesource-pom;1.9 {}
 [debug] sbt-chain: module revision found in cache: org.fusesource#fusesource-pom;1.9
@@ -2831,7 +2831,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-linux32/1.5/leveldbjni-linux32-1.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-linux32/1.5/leveldbjni-linux32-1.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-linux32/1.5/leveldbjni-linux32-1.5.pom
-[debug] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-linux32;1.5!leveldbjni-linux32.pom(pom.original) (99ms)
+[debug] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-linux32;1.5!leveldbjni-linux32.pom(pom.original) (97ms)
 [info] Resolving org.fusesource.leveldbjni#leveldbjni-project;1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.fusesource.leveldbjni#leveldbjni-project;1.5 {}
 [debug] sbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni-project;1.5
@@ -2883,7 +2883,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-linux64/1.5/leveldbjni-linux64-1.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-linux64/1.5/leveldbjni-linux64-1.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-linux64/1.5/leveldbjni-linux64-1.5.pom
-[debug] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-linux64;1.5!leveldbjni-linux64.pom(pom.original) (102ms)
+[debug] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-linux64;1.5!leveldbjni-linux64.pom(pom.original) (100ms)
 [info] Resolving org.fusesource.leveldbjni#leveldbjni-project;1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.fusesource.leveldbjni#leveldbjni-project;1.5 {}
 [debug] sbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni-project;1.5
@@ -2935,7 +2935,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-win32/1.5/leveldbjni-win32-1.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-win32/1.5/leveldbjni-win32-1.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-win32/1.5/leveldbjni-win32-1.5.pom
-[debug] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-win32;1.5!leveldbjni-win32.pom(pom.original) (100ms)
+[debug] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-win32;1.5!leveldbjni-win32.pom(pom.original) (102ms)
 [info] Resolving org.fusesource.leveldbjni#leveldbjni-project;1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.fusesource.leveldbjni#leveldbjni-project;1.5 {}
 [debug] sbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni-project;1.5
@@ -2987,7 +2987,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-win64/1.5/leveldbjni-win64-1.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-win64/1.5/leveldbjni-win64-1.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-win64/1.5/leveldbjni-win64-1.5.pom
-[debug] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-win64;1.5!leveldbjni-win64.pom(pom.original) (98ms)
+[debug] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-win64;1.5!leveldbjni-win64.pom(pom.original) (100ms)
 [info] Resolving org.fusesource.leveldbjni#leveldbjni-project;1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.fusesource.leveldbjni#leveldbjni-project;1.5 {}
 [debug] sbt-chain: module revision found in cache: org.fusesource.leveldbjni#leveldbjni-project;1.5
@@ -3111,7 +3111,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/trireme/trireme-core/0.8.5/trireme-core-0.8.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/trireme/trireme-core/0.8.5/trireme-core-0.8.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/io/apigee/trireme/trireme-core/0.8.5/trireme-core-0.8.5.pom
-[debug] 	[SUCCESSFUL ] io.apigee.trireme#trireme-core;0.8.5!trireme-core.pom(pom.original) (56ms)
+[debug] 	[SUCCESSFUL ] io.apigee.trireme#trireme-core;0.8.5!trireme-core.pom(pom.original) (55ms)
 [info] Resolving io.apigee.trireme#trireme;0.8.5 ...
 [debug] sbt-chain: Checking cache for: dependency: io.apigee.trireme#trireme;0.8.5 {}
 [info] Resolving io.apigee.trireme#trireme;0.8.5 ...
@@ -3131,7 +3131,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/trireme/trireme/0.8.5/trireme-0.8.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/trireme/trireme/0.8.5/trireme-0.8.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/io/apigee/trireme/trireme/0.8.5/trireme-0.8.5.pom
-[debug] 	[SUCCESSFUL ] io.apigee.trireme#trireme;0.8.5!trireme.pom(pom.original) (100ms)
+[debug] 	[SUCCESSFUL ] io.apigee.trireme#trireme;0.8.5!trireme.pom(pom.original) (99ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -3190,7 +3190,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.pom
-[debug] 	[SUCCESSFUL ] io.apigee#rhino;1.7R5pre4!rhino.pom(pom.original) (57ms)
+[debug] 	[SUCCESSFUL ] io.apigee#rhino;1.7R5pre4!rhino.pom(pom.original) (55ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -3236,7 +3236,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/trireme/trireme-node10src/0.8.5/trireme-node10src-0.8.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/trireme/trireme-node10src/0.8.5/trireme-node10src-0.8.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/io/apigee/trireme/trireme-node10src/0.8.5/trireme-node10src-0.8.5.pom
-[debug] 	[SUCCESSFUL ] io.apigee.trireme#trireme-node10src;0.8.5!trireme-node10src.pom(pom.original) (60ms)
+[debug] 	[SUCCESSFUL ] io.apigee.trireme#trireme-node10src;0.8.5!trireme-node10src.pom(pom.original) (58ms)
 [info] Resolving io.apigee.trireme#trireme-node10;0.8.5 ...
 [debug] sbt-chain: Checking cache for: dependency: io.apigee.trireme#trireme-node10;0.8.5 {}
 [info] Resolving io.apigee.trireme#trireme-node10;0.8.5 ...
@@ -3256,7 +3256,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/trireme/trireme-node10/0.8.5/trireme-node10-0.8.5.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/trireme/trireme-node10/0.8.5/trireme-node10-0.8.5.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/io/apigee/trireme/trireme-node10/0.8.5/trireme-node10-0.8.5.pom
-[debug] 	[SUCCESSFUL ] io.apigee.trireme#trireme-node10;0.8.5!trireme-node10.pom(pom.original) (58ms)
+[debug] 	[SUCCESSFUL ] io.apigee.trireme#trireme-node10;0.8.5!trireme-node10.pom(pom.original) (57ms)
 [info] Resolving io.apigee.trireme#trireme;0.8.5 ...
 [debug] sbt-chain: Checking cache for: dependency: io.apigee.trireme#trireme;0.8.5 {}
 [debug] sbt-chain: module revision found in cache: io.apigee.trireme#trireme;0.8.5
@@ -3314,7 +3314,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.3.2/spray-json_2.10-1.3.2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.3.2/spray-json_2.10-1.3.2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.3.2/spray-json_2.10-1.3.2.pom
-[debug] 	[SUCCESSFUL ] io.spray#spray-json_2.10;1.3.2!spray-json_2.10.pom(pom.original) (57ms)
+[debug] 	[SUCCESSFUL ] io.spray#spray-json_2.10;1.3.2!spray-json_2.10.pom(pom.original) (56ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/io.spray/spray-json_2.10/1.3.2/bundles/spray-json_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/io.spray/spray-json_2.10/1.3.2/bundles/spray-json_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.spray/spray-json_2.10/1.3.2/bundles/spray-json_2.10.jar
@@ -3364,7 +3364,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.pom
-[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-simple;1.7.12!slf4j-simple.pom(pom.original) (76ms)
+[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-simple;1.7.12!slf4j-simple.pom(pom.original) (57ms)
 [info] Resolving org.slf4j#slf4j-parent;1.7.12 ...
 [debug] sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.12 {}
 [info] Resolving org.slf4j#slf4j-parent;1.7.12 ...
@@ -3384,7 +3384,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.12/slf4j-parent-1.7.12.pom
-[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.7.12!slf4j-parent.pom(pom.original) (105ms)
+[debug] 	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.7.12!slf4j-parent.pom(pom.original) (101ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-parent/1.7.12/jars/slf4j-parent.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.slf4j/slf4j-parent/1.7.12/jars/slf4j-parent.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.slf4j/slf4j-parent/1.7.12/jars/slf4j-parent.jar
@@ -3482,7 +3482,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/npm_2.10/1.1.1/npm_2.10-1.1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/npm_2.10/1.1.1/npm_2.10-1.1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/npm_2.10/1.1.1/npm_2.10-1.1.1.pom
-[debug] 	[SUCCESSFUL ] com.typesafe#npm_2.10;1.1.1!npm_2.10.pom(pom.original) (60ms)
+[debug] 	[SUCCESSFUL ] com.typesafe#npm_2.10;1.1.1!npm_2.10.pom(pom.original) (56ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/npm_2.10/1.1.1/jars/npm_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe/npm_2.10/1.1.1/jars/npm_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe/npm_2.10/1.1.1/jars/npm_2.10.jar
@@ -3536,7 +3536,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/npm/2.11.2/npm-2.11.2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/npm/2.11.2/npm-2.11.2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/npm/2.11.2/npm-2.11.2.pom
-[debug] 	[SUCCESSFUL ] org.webjars#npm;2.11.2!npm.pom(pom.original) (99ms)
+[debug] 	[SUCCESSFUL ] org.webjars#npm;2.11.2!npm.pom(pom.original) (96ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -3602,7 +3602,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-coffeescript/scala_2.10/sbt_0.13/1.0.0/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-coffeescript/scala_2.10/sbt_0.13/1.0.0/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-coffeescript/scala_2.10/sbt_0.13/1.0.0/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-coffeescript;1.0.0!ivy.xml(ivy.original) (1703ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-coffeescript;1.0.0!ivy.xml(ivy.original) (1739ms)
 [debug] 	found com.typesafe.sbt#sbt-coffeescript;1.0.0 in sbt-plugin-releases
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-coffeescript;1.0.0->org.webjars#coffee-script-node;1.7.1 [compile->default(compile)]
@@ -3627,7 +3627,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/coffee-script-node/1.7.1/coffee-script-node-1.7.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/coffee-script-node/1.7.1/coffee-script-node-1.7.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/coffee-script-node/1.7.1/coffee-script-node-1.7.1.pom
-[debug] 	[SUCCESSFUL ] org.webjars#coffee-script-node;1.7.1!coffee-script-node.pom(pom.original) (58ms)
+[debug] 	[SUCCESSFUL ] org.webjars#coffee-script-node;1.7.1!coffee-script-node.pom(pom.original) (60ms)
 [info] Resolving org.webjars#coffee-script-parent;1.7.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.webjars#coffee-script-parent;1.7.1 {}
 [info] Resolving org.webjars#coffee-script-parent;1.7.1 ...
@@ -3647,7 +3647,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/coffee-script-parent/1.7.1/coffee-script-parent-1.7.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/coffee-script-parent/1.7.1/coffee-script-parent-1.7.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/coffee-script-parent/1.7.1/coffee-script-parent-1.7.1.pom
-[debug] 	[SUCCESSFUL ] org.webjars#coffee-script-parent;1.7.1!coffee-script-parent.pom(pom.original) (105ms)
+[debug] 	[SUCCESSFUL ] org.webjars#coffee-script-parent;1.7.1!coffee-script-parent.pom(pom.original) (99ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -3725,7 +3725,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-less/scala_2.10/sbt_0.13/1.1.0/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-less/scala_2.10/sbt_0.13/1.1.0/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-less/scala_2.10/sbt_0.13/1.1.0/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-less;1.1.0!ivy.xml(ivy.original) (1855ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-less;1.1.0!ivy.xml(ivy.original) (1560ms)
 [debug] 	found com.typesafe.sbt#sbt-less;1.1.0 in sbt-plugin-releases
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-less;1.1.0->org.webjars#less-node;2.5.0 [compile->default(compile)]
@@ -3750,7 +3750,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/less-node/2.5.0/less-node-2.5.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/less-node/2.5.0/less-node-2.5.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/less-node/2.5.0/less-node-2.5.0.pom
-[debug] 	[SUCCESSFUL ] org.webjars#less-node;2.5.0!less-node.pom(pom.original) (57ms)
+[debug] 	[SUCCESSFUL ] org.webjars#less-node;2.5.0!less-node.pom(pom.original) (59ms)
 [info] Resolving org.webjars#less-parent;2.5.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.webjars#less-parent;2.5.0 {}
 [info] Resolving org.webjars#less-parent;2.5.0 ...
@@ -3770,7 +3770,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/less-parent/2.5.0/less-parent-2.5.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/less-parent/2.5.0/less-parent-2.5.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/less-parent/2.5.0/less-parent-2.5.0.pom
-[debug] 	[SUCCESSFUL ] org.webjars#less-parent;2.5.0!less-parent.pom(pom.original) (101ms)
+[debug] 	[SUCCESSFUL ] org.webjars#less-parent;2.5.0!less-parent.pom(pom.original) (102ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -3815,7 +3815,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/source-map/0.1.40-1/source-map-0.1.40-1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/source-map/0.1.40-1/source-map-0.1.40-1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/source-map/0.1.40-1/source-map-0.1.40-1.pom
-[debug] 	[SUCCESSFUL ] org.webjars#source-map;0.1.40-1!source-map.pom(pom.original) (104ms)
+[debug] 	[SUCCESSFUL ] org.webjars#source-map;0.1.40-1!source-map.pom(pom.original) (107ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -3925,7 +3925,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/clean-css/2.2.7/clean-css-2.2.7.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/clean-css/2.2.7/clean-css-2.2.7.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/clean-css/2.2.7/clean-css-2.2.7.pom
-[debug] 	[SUCCESSFUL ] org.webjars#clean-css;2.2.7!clean-css.pom(pom.original) (57ms)
+[debug] 	[SUCCESSFUL ] org.webjars#clean-css;2.2.7!clean-css.pom(pom.original) (60ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -3961,7 +3961,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/es6-promise-node/2.1.1/es6-promise-node-2.1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/es6-promise-node/2.1.1/es6-promise-node-2.1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/es6-promise-node/2.1.1/es6-promise-node-2.1.1.pom
-[debug] 	[SUCCESSFUL ] org.webjars#es6-promise-node;2.1.1!es6-promise-node.pom(pom.original) (61ms)
+[debug] 	[SUCCESSFUL ] org.webjars#es6-promise-node;2.1.1!es6-promise-node.pom(pom.original) (58ms)
 [info] Resolving org.webjars#es6-promise-parent;2.1.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.webjars#es6-promise-parent;2.1.1 {}
 [info] Resolving org.webjars#es6-promise-parent;2.1.1 ...
@@ -3981,7 +3981,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/es6-promise-parent/2.1.1/es6-promise-parent-2.1.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/es6-promise-parent/2.1.1/es6-promise-parent-2.1.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/es6-promise-parent/2.1.1/es6-promise-parent-2.1.1.pom
-[debug] 	[SUCCESSFUL ] org.webjars#es6-promise-parent;2.1.1!es6-promise-parent.pom(pom.original) (104ms)
+[debug] 	[SUCCESSFUL ] org.webjars#es6-promise-parent;2.1.1!es6-promise-parent.pom(pom.original) (105ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -4023,7 +4023,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-jshint/scala_2.10/sbt_0.13/1.0.4/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-jshint/scala_2.10/sbt_0.13/1.0.4/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-jshint/scala_2.10/sbt_0.13/1.0.4/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-jshint;1.0.4!ivy.xml(ivy.original) (1481ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-jshint;1.0.4!ivy.xml(ivy.original) (1890ms)
 [debug] 	found com.typesafe.sbt#sbt-jshint;1.0.4 in sbt-plugin-releases
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-jshint;1.0.4->org.webjars#jshint-node;2.6.3-2 [compile->default(compile)]
@@ -4048,7 +4048,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/jshint-node/2.6.3-2/jshint-node-2.6.3-2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/jshint-node/2.6.3-2/jshint-node-2.6.3-2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/jshint-node/2.6.3-2/jshint-node-2.6.3-2.pom
-[debug] 	[SUCCESSFUL ] org.webjars#jshint-node;2.6.3-2!jshint-node.pom(pom.original) (101ms)
+[debug] 	[SUCCESSFUL ] org.webjars#jshint-node;2.6.3-2!jshint-node.pom(pom.original) (58ms)
 [info] Resolving org.webjars#jshint-parent;2.6.3-2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.webjars#jshint-parent;2.6.3-2 {}
 [info] Resolving org.webjars#jshint-parent;2.6.3-2 ...
@@ -4068,7 +4068,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/jshint-parent/2.6.3-2/jshint-parent-2.6.3-2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/jshint-parent/2.6.3-2/jshint-parent-2.6.3-2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/jshint-parent/2.6.3-2/jshint-parent-2.6.3-2.pom
-[debug] 	[SUCCESSFUL ] org.webjars#jshint-parent;2.6.3-2!jshint-parent.pom(pom.original) (100ms)
+[debug] 	[SUCCESSFUL ] org.webjars#jshint-parent;2.6.3-2!jshint-parent.pom(pom.original) (101ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -4112,7 +4112,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/underscorejs/1.5.2-2/underscorejs-1.5.2-2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/underscorejs/1.5.2-2/underscorejs-1.5.2-2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/underscorejs/1.5.2-2/underscorejs-1.5.2-2.pom
-[debug] 	[SUCCESSFUL ] org.webjars#underscorejs;1.5.2-2!underscorejs.pom(pom.original) (104ms)
+[debug] 	[SUCCESSFUL ] org.webjars#underscorejs;1.5.2-2!underscorejs.pom(pom.original) (102ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -4148,7 +4148,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/console-browserify/0.1.6-1/console-browserify-0.1.6-1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/console-browserify/0.1.6-1/console-browserify-0.1.6-1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/console-browserify/0.1.6-1/console-browserify-0.1.6-1.pom
-[debug] 	[SUCCESSFUL ] org.webjars#console-browserify;0.1.6-1!console-browserify.pom(pom.original) (102ms)
+[debug] 	[SUCCESSFUL ] org.webjars#console-browserify;0.1.6-1!console-browserify.pom(pom.original) (107ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -4189,7 +4189,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/strip-json-comments/1.0.2-1/strip-json-comments-1.0.2-1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/strip-json-comments/1.0.2-1/strip-json-comments-1.0.2-1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/strip-json-comments/1.0.2-1/strip-json-comments-1.0.2-1.pom
-[debug] 	[SUCCESSFUL ] org.webjars#strip-json-comments;1.0.2-1!strip-json-comments.pom(pom.original) (109ms)
+[debug] 	[SUCCESSFUL ] org.webjars#strip-json-comments;1.0.2-1!strip-json-comments.pom(pom.original) (101ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -4221,7 +4221,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-rjs/scala_2.10/sbt_0.13/1.0.8/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-rjs/scala_2.10/sbt_0.13/1.0.8/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-rjs/scala_2.10/sbt_0.13/1.0.8/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-rjs;1.0.8!ivy.xml(ivy.original) (1735ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-rjs;1.0.8!ivy.xml(ivy.original) (1760ms)
 [debug] 	found com.typesafe.sbt#sbt-rjs;1.0.8 in sbt-plugin-releases
 [debug] == resolving dependencies com.typesafe.sbt#sbt-rjs;1.0.8->org.webjars#rjs;2.2.0 [compile->default(compile)]
 [info] Resolving org.webjars#rjs;2.2.0 ...
@@ -4243,7 +4243,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/rjs/2.2.0/rjs-2.2.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/rjs/2.2.0/rjs-2.2.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/rjs/2.2.0/rjs-2.2.0.pom
-[debug] 	[SUCCESSFUL ] org.webjars#rjs;2.2.0!rjs.pom(pom.original) (176ms)
+[debug] 	[SUCCESSFUL ] org.webjars#rjs;2.2.0!rjs.pom(pom.original) (111ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -4272,7 +4272,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-js-engine/scala_2.10/sbt_0.13/1.1.4/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-js-engine/scala_2.10/sbt_0.13/1.1.4/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-js-engine/scala_2.10/sbt_0.13/1.1.4/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-js-engine;1.1.4!ivy.xml(ivy.original) (1714ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-js-engine;1.1.4!ivy.xml(ivy.original) (1703ms)
 [debug] 	found com.typesafe.sbt#sbt-js-engine;1.1.4 in sbt-plugin-releases
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-js-engine;1.1.4->com.typesafe#jse_2.10;1.1.2 [compile->default(compile)]
@@ -4306,7 +4306,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-digest/scala_2.10/sbt_0.13/1.1.1/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-digest/scala_2.10/sbt_0.13/1.1.1/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-digest/scala_2.10/sbt_0.13/1.1.1/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-digest;1.1.1!ivy.xml(ivy.original) (1711ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-digest;1.1.1!ivy.xml(ivy.original) (1602ms)
 [debug] 	found com.typesafe.sbt#sbt-digest;1.1.1 in sbt-plugin-releases
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-digest;1.1.1->com.typesafe.sbt#sbt-js-engine;1.1.4 [compile->default(compile)]
@@ -4327,7 +4327,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-mocha/scala_2.10/sbt_0.13/1.1.0/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-mocha/scala_2.10/sbt_0.13/1.1.0/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-mocha/scala_2.10/sbt_0.13/1.1.0/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-mocha;1.1.0!ivy.xml(ivy.original) (1695ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-mocha;1.1.0!ivy.xml(ivy.original) (1702ms)
 [debug] 	found com.typesafe.sbt#sbt-mocha;1.1.0 in sbt-plugin-releases
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-mocha;1.1.0->org.webjars#mocha;1.17.1 [compile->default(compile)]
@@ -4352,7 +4352,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/mocha/1.17.1/mocha-1.17.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/mocha/1.17.1/mocha-1.17.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/mocha/1.17.1/mocha-1.17.1.pom
-[debug] 	[SUCCESSFUL ] org.webjars#mocha;1.17.1!mocha.pom(pom.original) (106ms)
+[debug] 	[SUCCESSFUL ] org.webjars#mocha;1.17.1!mocha.pom(pom.original) (104ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -4387,7 +4387,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/debug/0.7.4/debug-0.7.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/debug/0.7.4/debug-0.7.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/debug/0.7.4/debug-0.7.4.pom
-[debug] 	[SUCCESSFUL ] org.webjars#debug;0.7.4!debug.pom(pom.original) (106ms)
+[debug] 	[SUCCESSFUL ] org.webjars#debug;0.7.4!debug.pom(pom.original) (104ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -4423,7 +4423,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/diff/1.0.7/diff-1.0.7.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/diff/1.0.7/diff-1.0.7.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/diff/1.0.7/diff-1.0.7.pom
-[debug] 	[SUCCESSFUL ] org.webjars#diff;1.0.7!diff.pom(pom.original) (104ms)
+[debug] 	[SUCCESSFUL ] org.webjars#diff;1.0.7!diff.pom(pom.original) (101ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -4461,7 +4461,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.6/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.6/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.6/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] org.irundaia.sbt#sbt-sassify;1.4.6!ivy.xml(ivy.original) (1687ms)
+[debug] 	[SUCCESSFUL ] org.irundaia.sbt#sbt-sassify;1.4.6!ivy.xml(ivy.original) (1725ms)
 [debug] 	found org.irundaia.sbt#sbt-sassify;1.4.6 in sbt-plugin-releases
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.sbt#sbt-web;1.2.2 [compile->default(compile)]
 [debug] == resolving dependencies org.irundaia.sbt#sbt-sassify;1.4.6->com.typesafe.sbt#sbt-web;1.3.0 [compile->default(compile)]
@@ -4485,7 +4485,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.10/2.4.6/play-json_2.10-2.4.6.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.10/2.4.6/play-json_2.10-2.4.6.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.10/2.4.6/play-json_2.10-2.4.6.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.10;2.4.6!play-json_2.10.pom(pom.original) (105ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.10;2.4.6!play-json_2.10.pom(pom.original) (116ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-json_2.10/2.4.6/jars/play-json_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-json_2.10/2.4.6/jars/play-json_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/play-json_2.10/2.4.6/jars/play-json_2.10.jar
@@ -4539,7 +4539,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.10/2.4.6/play-iteratees_2.10-2.4.6.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.10/2.4.6/play-iteratees_2.10-2.4.6.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.10/2.4.6/play-iteratees_2.10-2.4.6.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-iteratees_2.10;2.4.6!play-iteratees_2.10.pom(pom.original) (60ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-iteratees_2.10;2.4.6!play-iteratees_2.10.pom(pom.original) (70ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-iteratees_2.10/2.4.6/jars/play-iteratees_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-iteratees_2.10/2.4.6/jars/play-iteratees_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/play-iteratees_2.10/2.4.6/jars/play-iteratees_2.10.jar
@@ -4592,7 +4592,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.pom
-[debug] 	[SUCCESSFUL ] org.scala-stm#scala-stm_2.10;0.7!scala-stm_2.10.pom(pom.original) (59ms)
+[debug] 	[SUCCESSFUL ] org.scala-stm#scala-stm_2.10;0.7!scala-stm_2.10.pom(pom.original) (66ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-stm/scala-stm_2.10/0.7/jars/scala-stm_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-stm/scala-stm_2.10/0.7/jars/scala-stm_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-stm/scala-stm_2.10/0.7/jars/scala-stm_2.10.jar
@@ -4668,7 +4668,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.10/2.4.6/play-functional_2.10-2.4.6.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.10/2.4.6/play-functional_2.10-2.4.6.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.10/2.4.6/play-functional_2.10-2.4.6.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.10;2.4.6!play-functional_2.10.pom(pom.original) (63ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.10;2.4.6!play-functional_2.10.pom(pom.original) (61ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-functional_2.10/2.4.6/jars/play-functional_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-functional_2.10/2.4.6/jars/play-functional_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/play-functional_2.10/2.4.6/jars/play-functional_2.10.jar
@@ -4721,7 +4721,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.10/2.4.6/play-datacommons_2.10-2.4.6.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.10/2.4.6/play-datacommons_2.10-2.4.6.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.10/2.4.6/play-datacommons_2.10-2.4.6.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-datacommons_2.10;2.4.6!play-datacommons_2.10.pom(pom.original) (60ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-datacommons_2.10;2.4.6!play-datacommons_2.10.pom(pom.original) (58ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-datacommons_2.10/2.4.6/jars/play-datacommons_2.10.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-datacommons_2.10/2.4.6/jars/play-datacommons_2.10.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/play-datacommons_2.10/2.4.6/jars/play-datacommons_2.10.jar
@@ -4774,7 +4774,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.pom
-[debug] 	[SUCCESSFUL ] joda-time#joda-time;2.8.1!joda-time.pom(pom.original) (120ms)
+[debug] 	[SUCCESSFUL ] joda-time#joda-time;2.8.1!joda-time.pom(pom.original) (102ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/joda-time/joda-time/2.8.1/jars/joda-time.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/joda-time/joda-time/2.8.1/jars/joda-time.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/joda-time/joda-time/2.8.1/jars/joda-time.jar
@@ -4815,7 +4815,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.7/joda-convert-1.7.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.7/joda-convert-1.7.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/joda/joda-convert/1.7/joda-convert-1.7.pom
-[debug] 	[SUCCESSFUL ] org.joda#joda-convert;1.7!joda-convert.pom(pom.original) (113ms)
+[debug] 	[SUCCESSFUL ] org.joda#joda-convert;1.7!joda-convert.pom(pom.original) (105ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.joda/joda-convert/1.7/jars/joda-convert.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.joda/joda-convert/1.7/jars/joda-convert.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.joda/joda-convert/1.7/jars/joda-convert.jar
@@ -4868,7 +4868,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.5.4!jackson-core.pom(pom.original) (100ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.5.4!jackson-core.pom(pom.original) (109ms)
 [info] Resolving com.fasterxml.jackson#jackson-parent;2.5.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.5.1 {}
 [info] Resolving com.fasterxml.jackson#jackson-parent;2.5.1 ...
@@ -4888,7 +4888,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.5.1/jackson-parent-2.5.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.5.1/jackson-parent-2.5.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-parent/2.5.1/jackson-parent-2.5.1.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson#jackson-parent;2.5.1!jackson-parent.pom(pom.original) (108ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson#jackson-parent;2.5.1!jackson-parent.pom(pom.original) (99ms)
 [info] Resolving com.fasterxml#oss-parent;19 ...
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml#oss-parent;19 {}
 [info] Resolving com.fasterxml#oss-parent;19 ...
@@ -4908,7 +4908,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/19/oss-parent-19.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/oss-parent/19/oss-parent-19.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/oss-parent/19/oss-parent-19.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml#oss-parent;19!oss-parent.pom(pom.original) (107ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml#oss-parent;19!oss-parent.pom(pom.original) (104ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml/oss-parent/19/jars/oss-parent.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.fasterxml/oss-parent/19/jars/oss-parent.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.fasterxml/oss-parent/19/jars/oss-parent.jar
@@ -5011,7 +5011,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.5.4!jackson-databind.pom(pom.original) (101ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.5.4!jackson-databind.pom(pom.original) (106ms)
 [info] Resolving com.fasterxml.jackson#jackson-parent;2.5.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.5.1 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.5.1
@@ -5066,7 +5066,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4!jackson-datatype-jdk8.pom(pom.original) (60ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4!jackson-datatype-jdk8.pom(pom.original) (56ms)
 [info] Resolving com.fasterxml.jackson#jackson-parent;2.5.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.5.1 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.5.1
@@ -5118,7 +5118,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4.pom
-[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4!jackson-datatype-jsr310.pom(pom.original) (101ms)
+[debug] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4!jackson-datatype-jsr310.pom(pom.original) (102ms)
 [info] Resolving com.fasterxml.jackson#jackson-parent;2.5.1 ...
 [debug] sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.5.1 {}
 [debug] sbt-chain: module revision found in cache: com.fasterxml.jackson#jackson-parent;2.5.1
@@ -5191,7 +5191,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/nativelibs4java/jnaerator-runtime/0.12/jnaerator-runtime-0.12.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/nativelibs4java/jnaerator-runtime/0.12/jnaerator-runtime-0.12.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/nativelibs4java/jnaerator-runtime/0.12/jnaerator-runtime-0.12.pom
-[debug] 	[SUCCESSFUL ] com.nativelibs4java#jnaerator-runtime;0.12!jnaerator-runtime.pom(pom.original) (57ms)
+[debug] 	[SUCCESSFUL ] com.nativelibs4java#jnaerator-runtime;0.12!jnaerator-runtime.pom(pom.original) (58ms)
 [info] Resolving com.nativelibs4java#jnaerator-parent;0.12 ...
 [debug] sbt-chain: Checking cache for: dependency: com.nativelibs4java#jnaerator-parent;0.12 {}
 [info] Resolving com.nativelibs4java#jnaerator-parent;0.12 ...
@@ -5211,7 +5211,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/nativelibs4java/jnaerator-parent/0.12/jnaerator-parent-0.12.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/nativelibs4java/jnaerator-parent/0.12/jnaerator-parent-0.12.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/nativelibs4java/jnaerator-parent/0.12/jnaerator-parent-0.12.pom
-[debug] 	[SUCCESSFUL ] com.nativelibs4java#jnaerator-parent;0.12!jnaerator-parent.pom(pom.original) (106ms)
+[debug] 	[SUCCESSFUL ] com.nativelibs4java#jnaerator-parent;0.12!jnaerator-parent.pom(pom.original) (100ms)
 [info] Resolving com.nativelibs4java#nativelibs4java-parent;1.9 ...
 [debug] sbt-chain: Checking cache for: dependency: com.nativelibs4java#nativelibs4java-parent;1.9 {}
 [info] Resolving com.nativelibs4java#nativelibs4java-parent;1.9 ...
@@ -5231,7 +5231,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/nativelibs4java/nativelibs4java-parent/1.9/nativelibs4java-parent-1.9.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/nativelibs4java/nativelibs4java-parent/1.9/nativelibs4java-parent-1.9.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/nativelibs4java/nativelibs4java-parent/1.9/nativelibs4java-parent-1.9.pom
-[debug] 	[SUCCESSFUL ] com.nativelibs4java#nativelibs4java-parent;1.9!nativelibs4java-parent.pom(pom.original) (254ms)
+[debug] 	[SUCCESSFUL ] com.nativelibs4java#nativelibs4java-parent;1.9!nativelibs4java-parent.pom(pom.original) (103ms)
 [info] Resolving org.sonatype.oss#oss-parent;7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7
@@ -5282,7 +5282,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/nativelibs4java/ochafik-util/0.12/ochafik-util-0.12.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/nativelibs4java/ochafik-util/0.12/ochafik-util-0.12.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/nativelibs4java/ochafik-util/0.12/ochafik-util-0.12.pom
-[debug] 	[SUCCESSFUL ] com.nativelibs4java#ochafik-util;0.12!ochafik-util.pom(pom.original) (62ms)
+[debug] 	[SUCCESSFUL ] com.nativelibs4java#ochafik-util;0.12!ochafik-util.pom(pom.original) (153ms)
 [info] Resolving com.nativelibs4java#jnaerator-parent;0.12 ...
 [debug] sbt-chain: Checking cache for: dependency: com.nativelibs4java#jnaerator-parent;0.12 {}
 [debug] sbt-chain: module revision found in cache: com.nativelibs4java#jnaerator-parent;0.12
@@ -5324,7 +5324,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-enhancer/scala_2.10/sbt_0.13/1.1.0/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-enhancer/scala_2.10/sbt_0.13/1.1.0/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-enhancer/scala_2.10/sbt_0.13/1.1.0/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-play-enhancer;1.1.0!ivy.xml(ivy.original) (1728ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-play-enhancer;1.1.0!ivy.xml(ivy.original) (1730ms)
 [debug] 	found com.typesafe.sbt#sbt-play-enhancer;1.1.0 in sbt-plugin-releases
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbt#sbt-play-enhancer;1.1.0->com.typesafe.play#play-enhancer;1.1.0 [compile->default(compile)]
@@ -5349,7 +5349,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-enhancer/1.1.0/play-enhancer-1.1.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-enhancer/1.1.0/play-enhancer-1.1.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-enhancer/1.1.0/play-enhancer-1.1.0.pom
-[debug] 	[SUCCESSFUL ] com.typesafe.play#play-enhancer;1.1.0!play-enhancer.pom(pom.original) (60ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.play#play-enhancer;1.1.0!play-enhancer.pom(pom.original) (133ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-enhancer/1.1.0/jars/play-enhancer.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.typesafe.play/play-enhancer/1.1.0/jars/play-enhancer.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/play-enhancer/1.1.0/jars/play-enhancer.jar
@@ -5381,7 +5381,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.pom
-[debug] 	[SUCCESSFUL ] org.javassist#javassist;3.18.2-GA!javassist.pom(pom.original) (104ms)
+[debug] 	[SUCCESSFUL ] org.javassist#javassist;3.18.2-GA!javassist.pom(pom.original) (179ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.javassist/javassist/3.18.2-GA/bundles/javassist.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.javassist/javassist/3.18.2-GA/bundles/javassist.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.javassist/javassist/3.18.2-GA/bundles/javassist.jar
@@ -5410,7 +5410,7 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-ebean/scala_2.10/sbt_0.13/3.0.2/ivys/ivy.xml
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-ebean/scala_2.10/sbt_0.13/3.0.2/ivys/ivy.xml.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-ebean/scala_2.10/sbt_0.13/3.0.2/ivys/ivy.xml
-[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-play-ebean;3.0.2!ivy.xml(ivy.original) (1445ms)
+[debug] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-play-ebean;3.0.2!ivy.xml(ivy.original) (1688ms)
 [debug] 	found com.typesafe.sbt#sbt-play-ebean;3.0.2 in sbt-plugin-releases
 [debug] == resolving dependencies com.typesafe.sbt#sbt-play-ebean;3.0.2->org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.2 [compile->default(compile)]
 [info] Resolving org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.2 ...
@@ -5432,7 +5432,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/4.9.2/avaje-ebeanorm-agent-4.9.2.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/4.9.2/avaje-ebeanorm-agent-4.9.2.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/4.9.2/avaje-ebeanorm-agent-4.9.2.pom
-[debug] 	[SUCCESSFUL ] org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.2!avaje-ebeanorm-agent.pom(pom.original) (102ms)
+[debug] 	[SUCCESSFUL ] org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.2!avaje-ebeanorm-agent.pom(pom.original) (101ms)
 [info] Resolving org.avaje#avaje-javaparent;2.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.avaje#avaje-javaparent;2.1 {}
 [info] Resolving org.avaje#avaje-javaparent;2.1 ...
@@ -5452,7 +5452,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/avaje/avaje-javaparent/2.1/avaje-javaparent-2.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/avaje/avaje-javaparent/2.1/avaje-javaparent-2.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/avaje/avaje-javaparent/2.1/avaje-javaparent-2.1.pom
-[debug] 	[SUCCESSFUL ] org.avaje#avaje-javaparent;2.1!avaje-javaparent.pom(pom.original) (159ms)
+[debug] 	[SUCCESSFUL ] org.avaje#avaje-javaparent;2.1!avaje-javaparent.pom(pom.original) (94ms)
 [info] Resolving org.avaje#avaje-parent;2.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.avaje#avaje-parent;2.1 {}
 [info] Resolving org.avaje#avaje-parent;2.1 ...
@@ -5472,7 +5472,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/avaje/avaje-parent/2.1/avaje-parent-2.1.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/avaje/avaje-parent/2.1/avaje-parent-2.1.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/avaje/avaje-parent/2.1/avaje-parent-2.1.pom
-[debug] 	[SUCCESSFUL ] org.avaje#avaje-parent;2.1!avaje-parent.pom(pom.original) (104ms)
+[debug] 	[SUCCESSFUL ] org.avaje#avaje-parent;2.1!avaje-parent.pom(pom.original) (98ms)
 [info] Resolving org.sonatype.oss#oss-parent;9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}
 [debug] sbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9
@@ -5523,7 +5523,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/javax/persistence/persistence-api/1.0/persistence-api-1.0.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/javax/persistence/persistence-api/1.0/persistence-api-1.0.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/javax/persistence/persistence-api/1.0/persistence-api-1.0.pom
-[debug] 	[SUCCESSFUL ] javax.persistence#persistence-api;1.0!persistence-api.pom(pom.original) (63ms)
+[debug] 	[SUCCESSFUL ] javax.persistence#persistence-api;1.0!persistence-api.pom(pom.original) (105ms)
 [debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/javax.persistence/persistence-api/1.0/jars/persistence-api.jar
 [debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/javax.persistence/persistence-api/1.0/jars/persistence-api.jar
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/javax.persistence/persistence-api/1.0/jars/persistence-api.jar
@@ -9726,7 +9726,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.6/paranamer-2.6.pom
-[debug] 	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.6!paranamer.pom(pom.original) (102ms)
+[debug] 	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer;2.6!paranamer.pom(pom.original) (99ms)
 [info] Resolving com.thoughtworks.paranamer#paranamer-parent;2.6 ...
 [debug] sbt-chain: Checking cache for: dependency: com.thoughtworks.paranamer#paranamer-parent;2.6 {}
 [info] Resolving com.thoughtworks.paranamer#paranamer-parent;2.6 ...
@@ -9746,7 +9746,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.6/paranamer-parent-2.6.pom
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.6/paranamer-parent-2.6.pom.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer-parent/2.6/paranamer-parent-2.6.pom
-[debug] 	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer-parent;2.6!paranamer-parent.pom(pom.original) (146ms)
+[debug] 	[SUCCESSFUL ] com.thoughtworks.paranamer#paranamer-parent;2.6!paranamer-parent.pom(pom.original) (114ms)
 [info] Resolving org.codehaus#codehaus-parent;4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.codehaus#codehaus-parent;4 {}
 [debug] sbt-chain: module revision found in cache: org.codehaus#codehaus-parent;4
@@ -16805,142 +16805,142 @@
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.5.9/jars/sbt-plugin.jar
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.5.9/jars/sbt-plugin.jar.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.play/sbt-plugin/scala_2.10/sbt_0.13/2.5.9/jars/sbt-plugin.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#sbt-plugin;2.5.9!sbt-plugin.jar (2188ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#sbt-plugin;2.5.9!sbt-plugin.jar (2469ms)
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-coffeescript/scala_2.10/sbt_0.13/1.0.0/jars/sbt-coffeescript.jar
 [info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-coffeescript/scala_2.10/sbt_0.13/1.0.0/jars/sbt-coffeescript.jar ...
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-coffeescript/scala_2.10/sbt_0.13/1.0.0/jars/sbt-coffeescript.jar
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-coffeescript/scala_2.10/sbt_0.13/1.0.0/jars/sbt-coffeescript.jar.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-coffeescript/scala_2.10/sbt_0.13/1.0.0/jars/sbt-coffeescript.jar
-[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-coffeescript;1.0.0!sbt-coffeescript.jar (1943ms)
+[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-coffeescript;1.0.0!sbt-coffeescript.jar (2310ms)
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-less/scala_2.10/sbt_0.13/1.1.0/jars/sbt-less.jar
 [info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-less/scala_2.10/sbt_0.13/1.1.0/jars/sbt-less.jar ...
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-less/scala_2.10/sbt_0.13/1.1.0/jars/sbt-less.jar
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-less/scala_2.10/sbt_0.13/1.1.0/jars/sbt-less.jar.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-less/scala_2.10/sbt_0.13/1.1.0/jars/sbt-less.jar
-[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-less;1.1.0!sbt-less.jar (2295ms)
+[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-less;1.1.0!sbt-less.jar (2077ms)
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-jshint/scala_2.10/sbt_0.13/1.0.4/jars/sbt-jshint.jar
 [info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-jshint/scala_2.10/sbt_0.13/1.0.4/jars/sbt-jshint.jar ...
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-jshint/scala_2.10/sbt_0.13/1.0.4/jars/sbt-jshint.jar
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-jshint/scala_2.10/sbt_0.13/1.0.4/jars/sbt-jshint.jar.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-jshint/scala_2.10/sbt_0.13/1.0.4/jars/sbt-jshint.jar
-[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-jshint;1.0.4!sbt-jshint.jar (1867ms)
+[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-jshint;1.0.4!sbt-jshint.jar (2028ms)
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-rjs/scala_2.10/sbt_0.13/1.0.8/jars/sbt-rjs.jar
 [info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-rjs/scala_2.10/sbt_0.13/1.0.8/jars/sbt-rjs.jar ...
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-rjs/scala_2.10/sbt_0.13/1.0.8/jars/sbt-rjs.jar
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-rjs/scala_2.10/sbt_0.13/1.0.8/jars/sbt-rjs.jar.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-rjs/scala_2.10/sbt_0.13/1.0.8/jars/sbt-rjs.jar
-[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-rjs;1.0.8!sbt-rjs.jar (2252ms)
+[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-rjs;1.0.8!sbt-rjs.jar (2237ms)
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-digest/scala_2.10/sbt_0.13/1.1.1/jars/sbt-digest.jar
 [info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-digest/scala_2.10/sbt_0.13/1.1.1/jars/sbt-digest.jar ...
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-digest/scala_2.10/sbt_0.13/1.1.1/jars/sbt-digest.jar
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-digest/scala_2.10/sbt_0.13/1.1.1/jars/sbt-digest.jar.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-digest/scala_2.10/sbt_0.13/1.1.1/jars/sbt-digest.jar
-[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-digest;1.1.1!sbt-digest.jar (2063ms)
+[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-digest;1.1.1!sbt-digest.jar (2122ms)
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-mocha/scala_2.10/sbt_0.13/1.1.0/jars/sbt-mocha.jar
 [info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-mocha/scala_2.10/sbt_0.13/1.1.0/jars/sbt-mocha.jar ...
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-mocha/scala_2.10/sbt_0.13/1.1.0/jars/sbt-mocha.jar
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-mocha/scala_2.10/sbt_0.13/1.1.0/jars/sbt-mocha.jar.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-mocha/scala_2.10/sbt_0.13/1.1.0/jars/sbt-mocha.jar
-[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-mocha;1.1.0!sbt-mocha.jar (2062ms)
+[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-mocha;1.1.0!sbt-mocha.jar (2446ms)
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.6/jars/sbt-sassify.jar
 [info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.6/jars/sbt-sassify.jar ...
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.6/jars/sbt-sassify.jar
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.6/jars/sbt-sassify.jar.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.irundaia.sbt/sbt-sassify/scala_2.10/sbt_0.13/1.4.6/jars/sbt-sassify.jar
-[info] 	[SUCCESSFUL ] org.irundaia.sbt#sbt-sassify;1.4.6!sbt-sassify.jar (2370ms)
+[info] 	[SUCCESSFUL ] org.irundaia.sbt#sbt-sassify;1.4.6!sbt-sassify.jar (2639ms)
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-enhancer/scala_2.10/sbt_0.13/1.1.0/jars/sbt-play-enhancer.jar
 [info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-enhancer/scala_2.10/sbt_0.13/1.1.0/jars/sbt-play-enhancer.jar ...
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-enhancer/scala_2.10/sbt_0.13/1.1.0/jars/sbt-play-enhancer.jar
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-enhancer/scala_2.10/sbt_0.13/1.1.0/jars/sbt-play-enhancer.jar.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-enhancer/scala_2.10/sbt_0.13/1.1.0/jars/sbt-play-enhancer.jar
-[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-play-enhancer;1.1.0!sbt-play-enhancer.jar (1845ms)
+[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-play-enhancer;1.1.0!sbt-play-enhancer.jar (2057ms)
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-ebean/scala_2.10/sbt_0.13/3.0.2/jars/sbt-play-ebean.jar
 [info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-ebean/scala_2.10/sbt_0.13/3.0.2/jars/sbt-play-ebean.jar ...
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-ebean/scala_2.10/sbt_0.13/3.0.2/jars/sbt-play-ebean.jar
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-ebean/scala_2.10/sbt_0.13/3.0.2/jars/sbt-play-ebean.jar.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-play-ebean/scala_2.10/sbt_0.13/3.0.2/jars/sbt-play-ebean.jar
-[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-play-ebean;3.0.2!sbt-play-ebean.jar (2015ms)
+[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-play-ebean;3.0.2!sbt-play-ebean.jar (2245ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.5.9/sbt-routes-compiler_2.10-2.5.9.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.5.9/sbt-routes-compiler_2.10-2.5.9.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.5.9/sbt-routes-compiler_2.10-2.5.9.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.5.9/sbt-routes-compiler_2.10-2.5.9.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/sbt-routes-compiler_2.10/2.5.9/sbt-routes-compiler_2.10-2.5.9.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#sbt-routes-compiler_2.10;2.5.9!sbt-routes-compiler_2.10.jar (161ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#sbt-routes-compiler_2.10;2.5.9!sbt-routes-compiler_2.10.jar (209ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/sbt-run-support_2.10/2.5.9/sbt-run-support_2.10-2.5.9.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-run-support_2.10/2.5.9/sbt-run-support_2.10-2.5.9.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-run-support_2.10/2.5.9/sbt-run-support_2.10-2.5.9.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/sbt-run-support_2.10/2.5.9/sbt-run-support_2.10-2.5.9.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/sbt-run-support_2.10/2.5.9/sbt-run-support_2.10-2.5.9.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#sbt-run-support_2.10;2.5.9!sbt-run-support_2.10.jar (117ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#sbt-run-support_2.10;2.5.9!sbt-run-support_2.10.jar (122ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.jar
-[info] 	[SUCCESSFUL ] com.typesafe#config;1.3.0!config.jar(bundle) (238ms)
+[info] 	[SUCCESSFUL ] com.typesafe#config;1.3.0!config.jar(bundle) (148ms)
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/net.contentobjects.jnotify/jnotify/0.94-play-1/jars/jnotify.jar
 [info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/net.contentobjects.jnotify/jnotify/0.94-play-1/jars/jnotify.jar ...
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/net.contentobjects.jnotify/jnotify/0.94-play-1/jars/jnotify.jar
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/net.contentobjects.jnotify/jnotify/0.94-play-1/jars/jnotify.jar.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/net.contentobjects.jnotify/jnotify/0.94-play-1/jars/jnotify.jar
-[info] 	[SUCCESSFUL ] net.contentobjects.jnotify#jnotify;0.94-play-1!jnotify.jar (2198ms)
+[info] 	[SUCCESSFUL ] net.contentobjects.jnotify#jnotify;0.94-play-1!jnotify.jar (2181ms)
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.1.1/jars/sbt-twirl.jar
 [info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.1.1/jars/sbt-twirl.jar ...
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.1.1/jars/sbt-twirl.jar
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.1.1/jars/sbt-twirl.jar.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-twirl/scala_2.10/sbt_0.13/1.1.1/jars/sbt-twirl.jar
-[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-twirl;1.1.1!sbt-twirl.jar (1574ms)
+[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-twirl;1.1.1!sbt-twirl.jar (2094ms)
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.0.3/jars/sbt-native-packager.jar
 [info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.0.3/jars/sbt-native-packager.jar ...
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.0.3/jars/sbt-native-packager.jar
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.0.3/jars/sbt-native-packager.jar.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-native-packager/scala_2.10/sbt_0.13/1.0.3/jars/sbt-native-packager.jar
-[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-native-packager;1.0.3!sbt-native-packager.jar (2420ms)
+[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-native-packager;1.0.3!sbt-native-packager.jar (2376ms)
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.10/sbt_0.13/1.3.0/jars/sbt-web.jar
 [info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.10/sbt_0.13/1.3.0/jars/sbt-web.jar ...
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.10/sbt_0.13/1.3.0/jars/sbt-web.jar
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.10/sbt_0.13/1.3.0/jars/sbt-web.jar.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-web/scala_2.10/sbt_0.13/1.3.0/jars/sbt-web.jar
-[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-web;1.3.0!sbt-web.jar (2213ms)
+[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-web;1.3.0!sbt-web.jar (1822ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.1.1/twirl-api_2.10-1.1.1.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.1.1/twirl-api_2.10-1.1.1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.1.1/twirl-api_2.10-1.1.1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.1.1/twirl-api_2.10-1.1.1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.10/1.1.1/twirl-api_2.10-1.1.1.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#twirl-api_2.10;1.1.1!twirl-api_2.10.jar (120ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#twirl-api_2.10;1.1.1!twirl-api_2.10.jar (94ms)
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
 [info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
-[info] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.4!commons-lang3.jar (110ms)
+[info] 	[SUCCESSFUL ] org.apache.commons#commons-lang3;3.4!commons-lang3.jar (136ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.5.9/build-link-2.5.9.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.5.9/build-link-2.5.9.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.5.9/build-link-2.5.9.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.5.9/build-link-2.5.9.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.5.9/build-link-2.5.9.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#build-link;2.5.9!build-link.jar (93ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#build-link;2.5.9!build-link.jar (60ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.10/1.1.1/twirl-compiler_2.10-1.1.1.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.10/1.1.1/twirl-compiler_2.10-1.1.1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.10/1.1.1/twirl-compiler_2.10-1.1.1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.10/1.1.1/twirl-compiler_2.10-1.1.1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/twirl-compiler_2.10/1.1.1/twirl-compiler_2.10-1.1.1.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#twirl-compiler_2.10;1.1.1!twirl-compiler_2.10.jar (113ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#twirl-compiler_2.10;1.1.1!twirl-compiler_2.10.jar (119ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.5.9/play-exceptions-2.5.9.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.5.9/play-exceptions-2.5.9.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.5.9/play-exceptions-2.5.9.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.5.9/play-exceptions-2.5.9.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.5.9/play-exceptions-2.5.9.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-exceptions;2.5.9!play-exceptions.jar (99ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-exceptions;2.5.9!play-exceptions.jar (105ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/twirl-parser_2.10/1.1.1/twirl-parser_2.10-1.1.1.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-parser_2.10/1.1.1/twirl-parser_2.10-1.1.1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-parser_2.10/1.1.1/twirl-parser_2.10-1.1.1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/twirl-parser_2.10/1.1.1/twirl-parser_2.10-1.1.1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/twirl-parser_2.10/1.1.1/twirl-parser_2.10-1.1.1.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#twirl-parser_2.10;1.1.1!twirl-parser_2.10.jar (97ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#twirl-parser_2.10;1.1.1!twirl-parser_2.10.jar (143ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.6!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.vafer#jdeb;1.3!jdeb.jar
 [debug] 	[NOT REQUIRED] org.apache.maven#maven-core;3.2.2!maven-core.jar
@@ -16950,7 +16950,7 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.3/ant-1.9.3.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.3/ant-1.9.3.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant/1.9.3/ant-1.9.3.jar
-[info] 	[SUCCESSFUL ] org.apache.ant#ant;1.9.3!ant.jar (387ms)
+[info] 	[SUCCESSFUL ] org.apache.ant#ant;1.9.3!ant.jar (379ms)
 [debug] 	[NOT REQUIRED] org.bouncycastle#bcpg-jdk15on;1.51!bcpg-jdk15on.jar
 [debug] 	[NOT REQUIRED] org.apache.maven#maven-model;3.2.2!maven-model.jar
 [debug] 	[NOT REQUIRED] org.apache.maven#maven-settings;3.2.2!maven-settings.jar
@@ -16982,223 +16982,223 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.3/ant-launcher-1.9.3.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.3/ant-launcher-1.9.3.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/ant/ant-launcher/1.9.3/ant-launcher-1.9.3.jar
-[info] 	[SUCCESSFUL ] org.apache.ant#ant-launcher;1.9.3!ant-launcher.jar (117ms)
+[info] 	[SUCCESSFUL ] org.apache.ant#ant-launcher;1.9.3!ant-launcher.jar (65ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.jar
 [info] downloading https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.jar
-[info] 	[SUCCESSFUL ] org.bouncycastle#bcprov-jdk15on;1.51!bcprov-jdk15on.jar (491ms)
+[info] 	[SUCCESSFUL ] org.bouncycastle#bcprov-jdk15on;1.51!bcprov-jdk15on.jar (467ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/webjars-locator/0.26/webjars-locator-0.26.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/webjars-locator/0.26/webjars-locator-0.26.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/webjars-locator/0.26/webjars-locator-0.26.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/webjars-locator/0.26/webjars-locator-0.26.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/webjars-locator/0.26/webjars-locator-0.26.jar
-[info] 	[SUCCESSFUL ] org.webjars#webjars-locator;0.26!webjars-locator.jar (103ms)
+[info] 	[SUCCESSFUL ] org.webjars#webjars-locator;0.26!webjars-locator.jar (100ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.26/webjars-locator-core-0.26.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.26/webjars-locator-core-0.26.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.26/webjars-locator-core-0.26.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.26/webjars-locator-core-0.26.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.26/webjars-locator-core-0.26.jar
-[info] 	[SUCCESSFUL ] org.webjars#webjars-locator-core;0.26!webjars-locator-core.jar (98ms)
+[info] 	[SUCCESSFUL ] org.webjars#webjars-locator-core;0.26!webjars-locator-core.jar (104ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar
 [info] downloading https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar
-[info] 	[SUCCESSFUL ] org.apache.commons#commons-compress;1.9!commons-compress.jar (142ms)
+[info] 	[SUCCESSFUL ] org.apache.commons#commons-compress;1.9!commons-compress.jar (143ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/jse_2.10/1.1.2/jse_2.10-1.1.2.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/jse_2.10/1.1.2/jse_2.10-1.1.2.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/jse_2.10/1.1.2/jse_2.10-1.1.2.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/jse_2.10/1.1.2/jse_2.10-1.1.2.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/jse_2.10/1.1.2/jse_2.10-1.1.2.jar
-[info] 	[SUCCESSFUL ] com.typesafe#jse_2.10;1.1.2!jse_2.10.jar (123ms)
+[info] 	[SUCCESSFUL ] com.typesafe#jse_2.10;1.1.2!jse_2.10.jar (115ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/npm_2.10/1.1.1/npm_2.10-1.1.1.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/npm_2.10/1.1.1/npm_2.10-1.1.1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/npm_2.10/1.1.1/npm_2.10-1.1.1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/npm_2.10/1.1.1/npm_2.10-1.1.1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/npm_2.10/1.1.1/npm_2.10-1.1.1.jar
-[info] 	[SUCCESSFUL ] com.typesafe#npm_2.10;1.1.1!npm_2.10.jar (103ms)
+[info] 	[SUCCESSFUL ] com.typesafe#npm_2.10;1.1.1!npm_2.10.jar (100ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.3.11/akka-actor_2.10-2.3.11.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.10;2.3.11!akka-actor_2.10.jar (500ms)
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.10;2.3.11!akka-actor_2.10.jar (598ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.3.11/akka-contrib_2.10-2.3.11.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.3.11/akka-contrib_2.10-2.3.11.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.3.11/akka-contrib_2.10-2.3.11.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.3.11/akka-contrib_2.10-2.3.11.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-contrib_2.10/2.3.11/akka-contrib_2.10-2.3.11.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-contrib_2.10;2.3.11!akka-contrib_2.10.jar (211ms)
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-contrib_2.10;2.3.11!akka-contrib_2.10.jar (223ms)
 [debug] 		tried https://repo1.maven.org/maven2/io/apigee/trireme/trireme-core/0.8.5/trireme-core-0.8.5.jar
 [info] downloading https://repo1.maven.org/maven2/io/apigee/trireme/trireme-core/0.8.5/trireme-core-0.8.5.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/trireme/trireme-core/0.8.5/trireme-core-0.8.5.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/trireme/trireme-core/0.8.5/trireme-core-0.8.5.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/io/apigee/trireme/trireme-core/0.8.5/trireme-core-0.8.5.jar
-[info] 	[SUCCESSFUL ] io.apigee.trireme#trireme-core;0.8.5!trireme-core.jar (148ms)
+[info] 	[SUCCESSFUL ] io.apigee.trireme#trireme-core;0.8.5!trireme-core.jar (163ms)
 [debug] 		tried https://repo1.maven.org/maven2/io/apigee/trireme/trireme-node10src/0.8.5/trireme-node10src-0.8.5.jar
 [info] downloading https://repo1.maven.org/maven2/io/apigee/trireme/trireme-node10src/0.8.5/trireme-node10src-0.8.5.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/trireme/trireme-node10src/0.8.5/trireme-node10src-0.8.5.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/trireme/trireme-node10src/0.8.5/trireme-node10src-0.8.5.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/io/apigee/trireme/trireme-node10src/0.8.5/trireme-node10src-0.8.5.jar
-[info] 	[SUCCESSFUL ] io.apigee.trireme#trireme-node10src;0.8.5!trireme-node10src.jar (209ms)
+[info] 	[SUCCESSFUL ] io.apigee.trireme#trireme-node10src;0.8.5!trireme-node10src.jar (202ms)
 [debug] 		tried https://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.3.2/spray-json_2.10-1.3.2.jar
 [info] downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.3.2/spray-json_2.10-1.3.2.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.3.2/spray-json_2.10-1.3.2.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.3.2/spray-json_2.10-1.3.2.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/io/spray/spray-json_2.10/1.3.2/spray-json_2.10-1.3.2.jar
-[info] 	[SUCCESSFUL ] io.spray#spray-json_2.10;1.3.2!spray-json_2.10.jar(bundle) (143ms)
+[info] 	[SUCCESSFUL ] io.spray#spray-json_2.10;1.3.2!spray-json_2.10.jar(bundle) (142ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar
 [info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-simple/1.7.12/slf4j-simple-1.7.12.jar
-[info] 	[SUCCESSFUL ] org.slf4j#slf4j-simple;1.7.12!slf4j-simple.jar (102ms)
+[info] 	[SUCCESSFUL ] org.slf4j#slf4j-simple;1.7.12!slf4j-simple.jar (61ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.3.11/akka-remote_2.10-2.3.11.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.3.11/akka-remote_2.10-2.3.11.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.3.11/akka-remote_2.10-2.3.11.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.3.11/akka-remote_2.10-2.3.11.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.3.11/akka-remote_2.10-2.3.11.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.10;2.3.11!akka-remote_2.10.jar (314ms)
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.10;2.3.11!akka-remote_2.10.jar (264ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.3.11/akka-cluster_2.10-2.3.11.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.3.11/akka-cluster_2.10-2.3.11.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.3.11/akka-cluster_2.10-2.3.11.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.3.11/akka-cluster_2.10-2.3.11.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.3.11/akka-cluster_2.10-2.3.11.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-cluster_2.10;2.3.11!akka-cluster_2.10.jar (239ms)
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-cluster_2.10;2.3.11!akka-cluster_2.10.jar (245ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence-experimental_2.10/2.3.11/akka-persistence-experimental_2.10-2.3.11.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence-experimental_2.10/2.3.11/akka-persistence-experimental_2.10-2.3.11.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence-experimental_2.10/2.3.11/akka-persistence-experimental_2.10-2.3.11.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence-experimental_2.10/2.3.11/akka-persistence-experimental_2.10-2.3.11.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/akka/akka-persistence-experimental_2.10/2.3.11/akka-persistence-experimental_2.10-2.3.11.jar
-[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-persistence-experimental_2.10;2.3.11!akka-persistence-experimental_2.10.jar (215ms)
+[info] 	[SUCCESSFUL ] com.typesafe.akka#akka-persistence-experimental_2.10;2.3.11!akka-persistence-experimental_2.10.jar (343ms)
 [debug] 		tried https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar
 [info] downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar
-[info] 	[SUCCESSFUL ] io.netty#netty;3.8.0.Final!netty.jar(bundle) (214ms)
+[info] 	[SUCCESSFUL ] io.netty#netty;3.8.0.Final!netty.jar(bundle) (331ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
 [info] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar
-[info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(bundle) (167ms)
+[info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(bundle) (148ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar
 [info] downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar
-[info] 	[SUCCESSFUL ] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar (101ms)
+[info] 	[SUCCESSFUL ] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar (105ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.5/leveldb-0.5.jar
 [info] downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.5/leveldb-0.5.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.5/leveldb-0.5.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.5/leveldb-0.5.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb/0.5/leveldb-0.5.jar
-[info] 	[SUCCESSFUL ] org.iq80.leveldb#leveldb;0.5!leveldb.jar (137ms)
+[info] 	[SUCCESSFUL ] org.iq80.leveldb#leveldb;0.5!leveldb.jar (135ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.7/leveldbjni-all-1.7.jar
 [info] downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.7/leveldbjni-all-1.7.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.7/leveldbjni-all-1.7.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.7/leveldbjni-all-1.7.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.7/leveldbjni-all-1.7.jar
-[info] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-all;1.7!leveldbjni-all.jar(bundle) (250ms)
+[info] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-all;1.7!leveldbjni-all.jar(bundle) (213ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.5/leveldb-api-0.5.jar
 [info] downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.5/leveldb-api-0.5.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.5/leveldb-api-0.5.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.5/leveldb-api-0.5.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/iq80/leveldb/leveldb-api/0.5/leveldb-api-0.5.jar
-[info] 	[SUCCESSFUL ] org.iq80.leveldb#leveldb-api;0.5!leveldb-api.jar (106ms)
+[info] 	[SUCCESSFUL ] org.iq80.leveldb#leveldb-api;0.5!leveldb-api.jar (121ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/google/guava/guava/12.0/guava-12.0.jar
 [info] downloading https://repo1.maven.org/maven2/com/google/guava/guava/12.0/guava-12.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/12.0/guava-12.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/google/guava/guava/12.0/guava-12.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/google/guava/guava/12.0/guava-12.0.jar
-[info] 	[SUCCESSFUL ] com.google.guava#guava;12.0!guava.jar (348ms)
+[info] 	[SUCCESSFUL ] com.google.guava#guava;12.0!guava.jar (410ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni/1.7/leveldbjni-1.7.jar
 [info] downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni/1.7/leveldbjni-1.7.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni/1.7/leveldbjni-1.7.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni/1.7/leveldbjni-1.7.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni/1.7/leveldbjni-1.7.jar
-[info] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni;1.7!leveldbjni.jar (102ms)
+[info] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni;1.7!leveldbjni.jar (105ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-osx/1.5/leveldbjni-osx-1.5.jar
 [info] downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-osx/1.5/leveldbjni-osx-1.5.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-osx/1.5/leveldbjni-osx-1.5.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-osx/1.5/leveldbjni-osx-1.5.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-osx/1.5/leveldbjni-osx-1.5.jar
-[info] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-osx;1.5!leveldbjni-osx.jar (116ms)
+[info] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-osx;1.5!leveldbjni-osx.jar (123ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-linux32/1.5/leveldbjni-linux32-1.5.jar
 [info] downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-linux32/1.5/leveldbjni-linux32-1.5.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-linux32/1.5/leveldbjni-linux32-1.5.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-linux32/1.5/leveldbjni-linux32-1.5.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-linux32/1.5/leveldbjni-linux32-1.5.jar
-[info] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-linux32;1.5!leveldbjni-linux32.jar (131ms)
+[info] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-linux32;1.5!leveldbjni-linux32.jar (123ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-linux64/1.5/leveldbjni-linux64-1.5.jar
 [info] downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-linux64/1.5/leveldbjni-linux64-1.5.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-linux64/1.5/leveldbjni-linux64-1.5.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-linux64/1.5/leveldbjni-linux64-1.5.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-linux64/1.5/leveldbjni-linux64-1.5.jar
-[info] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-linux64;1.5!leveldbjni-linux64.jar (165ms)
+[info] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-linux64;1.5!leveldbjni-linux64.jar (148ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-win32/1.5/leveldbjni-win32-1.5.jar
 [info] downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-win32/1.5/leveldbjni-win32-1.5.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-win32/1.5/leveldbjni-win32-1.5.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-win32/1.5/leveldbjni-win32-1.5.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-win32/1.5/leveldbjni-win32-1.5.jar
-[info] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-win32;1.5!leveldbjni-win32.jar (111ms)
+[info] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-win32;1.5!leveldbjni-win32.jar (107ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-win64/1.5/leveldbjni-win64-1.5.jar
 [info] downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-win64/1.5/leveldbjni-win64-1.5.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-win64/1.5/leveldbjni-win64-1.5.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-win64/1.5/leveldbjni-win64-1.5.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-win64/1.5/leveldbjni-win64-1.5.jar
-[info] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-win64;1.5!leveldbjni-win64.jar (103ms)
+[info] 	[SUCCESSFUL ] org.fusesource.leveldbjni#leveldbjni-win64;1.5!leveldbjni-win64.jar (105ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/fusesource/hawtjni/hawtjni-runtime/1.8/hawtjni-runtime-1.8.jar
 [info] downloading https://repo1.maven.org/maven2/org/fusesource/hawtjni/hawtjni-runtime/1.8/hawtjni-runtime-1.8.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/hawtjni/hawtjni-runtime/1.8/hawtjni-runtime-1.8.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/fusesource/hawtjni/hawtjni-runtime/1.8/hawtjni-runtime-1.8.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/fusesource/hawtjni/hawtjni-runtime/1.8/hawtjni-runtime-1.8.jar
-[info] 	[SUCCESSFUL ] org.fusesource.hawtjni#hawtjni-runtime;1.8!hawtjni-runtime.jar (102ms)
+[info] 	[SUCCESSFUL ] org.fusesource.hawtjni#hawtjni-runtime;1.8!hawtjni-runtime.jar (100ms)
 [debug] 		tried https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.jar
 [info] downloading https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.jar
-[info] 	[SUCCESSFUL ] io.apigee#rhino;1.7R5pre4!rhino.jar (281ms)
+[info] 	[SUCCESSFUL ] io.apigee#rhino;1.7R5pre4!rhino.jar (308ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar
 [info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar
-[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar (102ms)
+[info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.12!slf4j-api.jar (99ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/npm/2.11.2/npm-2.11.2.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/npm/2.11.2/npm-2.11.2.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/npm/2.11.2/npm-2.11.2.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/npm/2.11.2/npm-2.11.2.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/npm/2.11.2/npm-2.11.2.jar
-[info] 	[SUCCESSFUL ] org.webjars#npm;2.11.2!npm.jar (520ms)
+[info] 	[SUCCESSFUL ] org.webjars#npm;2.11.2!npm.jar (543ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/coffee-script-node/1.7.1/coffee-script-node-1.7.1.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/coffee-script-node/1.7.1/coffee-script-node-1.7.1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/coffee-script-node/1.7.1/coffee-script-node-1.7.1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/coffee-script-node/1.7.1/coffee-script-node-1.7.1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/coffee-script-node/1.7.1/coffee-script-node-1.7.1.jar
-[info] 	[SUCCESSFUL ] org.webjars#coffee-script-node;1.7.1!coffee-script-node.jar (64ms)
+[info] 	[SUCCESSFUL ] org.webjars#coffee-script-node;1.7.1!coffee-script-node.jar (104ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/less-node/2.5.0/less-node-2.5.0.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/less-node/2.5.0/less-node-2.5.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/less-node/2.5.0/less-node-2.5.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/less-node/2.5.0/less-node-2.5.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/less-node/2.5.0/less-node-2.5.0.jar
-[info] 	[SUCCESSFUL ] org.webjars#less-node;2.5.0!less-node.jar (130ms)
+[info] 	[SUCCESSFUL ] org.webjars#less-node;2.5.0!less-node.jar (129ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/source-map/0.1.40-1/source-map-0.1.40-1.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/source-map/0.1.40-1/source-map-0.1.40-1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/source-map/0.1.40-1/source-map-0.1.40-1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/source-map/0.1.40-1/source-map-0.1.40-1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/source-map/0.1.40-1/source-map-0.1.40-1.jar
-[info] 	[SUCCESSFUL ] org.webjars#source-map;0.1.40-1!source-map.jar (101ms)
+[info] 	[SUCCESSFUL ] org.webjars#source-map;0.1.40-1!source-map.jar (102ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/mkdirp/0.5.0/mkdirp-0.5.0.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/mkdirp/0.5.0/mkdirp-0.5.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/mkdirp/0.5.0/mkdirp-0.5.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/mkdirp/0.5.0/mkdirp-0.5.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/mkdirp/0.5.0/mkdirp-0.5.0.jar
-[info] 	[SUCCESSFUL ] org.webjars#mkdirp;0.5.0!mkdirp.jar (105ms)
+[info] 	[SUCCESSFUL ] org.webjars#mkdirp;0.5.0!mkdirp.jar (100ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/clean-css/2.2.7/clean-css-2.2.7.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/clean-css/2.2.7/clean-css-2.2.7.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/clean-css/2.2.7/clean-css-2.2.7.jar
@@ -17210,176 +17210,176 @@
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/es6-promise-node/2.1.1/es6-promise-node-2.1.1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/es6-promise-node/2.1.1/es6-promise-node-2.1.1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/es6-promise-node/2.1.1/es6-promise-node-2.1.1.jar
-[info] 	[SUCCESSFUL ] org.webjars#es6-promise-node;2.1.1!es6-promise-node.jar (106ms)
+[info] 	[SUCCESSFUL ] org.webjars#es6-promise-node;2.1.1!es6-promise-node.jar (101ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/amdefine/0.1.0-2/amdefine-0.1.0-2.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/amdefine/0.1.0-2/amdefine-0.1.0-2.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/amdefine/0.1.0-2/amdefine-0.1.0-2.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/amdefine/0.1.0-2/amdefine-0.1.0-2.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/amdefine/0.1.0-2/amdefine-0.1.0-2.jar
-[info] 	[SUCCESSFUL ] org.webjars#amdefine;0.1.0-2!amdefine.jar (111ms)
+[info] 	[SUCCESSFUL ] org.webjars#amdefine;0.1.0-2!amdefine.jar (101ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/jshint-node/2.6.3-2/jshint-node-2.6.3-2.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/jshint-node/2.6.3-2/jshint-node-2.6.3-2.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/jshint-node/2.6.3-2/jshint-node-2.6.3-2.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/jshint-node/2.6.3-2/jshint-node-2.6.3-2.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/jshint-node/2.6.3-2/jshint-node-2.6.3-2.jar
-[info] 	[SUCCESSFUL ] org.webjars#jshint-node;2.6.3-2!jshint-node.jar (122ms)
+[info] 	[SUCCESSFUL ] org.webjars#jshint-node;2.6.3-2!jshint-node.jar (118ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/strip-json-comments/1.0.2-1/strip-json-comments-1.0.2-1.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/strip-json-comments/1.0.2-1/strip-json-comments-1.0.2-1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/strip-json-comments/1.0.2-1/strip-json-comments-1.0.2-1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/strip-json-comments/1.0.2-1/strip-json-comments-1.0.2-1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/strip-json-comments/1.0.2-1/strip-json-comments-1.0.2-1.jar
-[info] 	[SUCCESSFUL ] org.webjars#strip-json-comments;1.0.2-1!strip-json-comments.jar (100ms)
+[info] 	[SUCCESSFUL ] org.webjars#strip-json-comments;1.0.2-1!strip-json-comments.jar (106ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/underscorejs/1.5.2-2/underscorejs-1.5.2-2.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/underscorejs/1.5.2-2/underscorejs-1.5.2-2.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/underscorejs/1.5.2-2/underscorejs-1.5.2-2.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/underscorejs/1.5.2-2/underscorejs-1.5.2-2.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/underscorejs/1.5.2-2/underscorejs-1.5.2-2.jar
-[info] 	[SUCCESSFUL ] org.webjars#underscorejs;1.5.2-2!underscorejs.jar (101ms)
+[info] 	[SUCCESSFUL ] org.webjars#underscorejs;1.5.2-2!underscorejs.jar (102ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/console-browserify/0.1.6-1/console-browserify-0.1.6-1.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/console-browserify/0.1.6-1/console-browserify-0.1.6-1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/console-browserify/0.1.6-1/console-browserify-0.1.6-1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/console-browserify/0.1.6-1/console-browserify-0.1.6-1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/console-browserify/0.1.6-1/console-browserify-0.1.6-1.jar
-[info] 	[SUCCESSFUL ] org.webjars#console-browserify;0.1.6-1!console-browserify.jar (103ms)
+[info] 	[SUCCESSFUL ] org.webjars#console-browserify;0.1.6-1!console-browserify.jar (101ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/rjs/2.2.0/rjs-2.2.0.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/rjs/2.2.0/rjs-2.2.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/rjs/2.2.0/rjs-2.2.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/rjs/2.2.0/rjs-2.2.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/rjs/2.2.0/rjs-2.2.0.jar
-[info] 	[SUCCESSFUL ] org.webjars#rjs;2.2.0!rjs.jar (139ms)
+[info] 	[SUCCESSFUL ] org.webjars#rjs;2.2.0!rjs.jar (127ms)
 [debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-js-engine/scala_2.10/sbt_0.13/1.1.4/jars/sbt-js-engine.jar
 [info] downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-js-engine/scala_2.10/sbt_0.13/1.1.4/jars/sbt-js-engine.jar ...
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-js-engine/scala_2.10/sbt_0.13/1.1.4/jars/sbt-js-engine.jar
 [debug] 	sbt-plugin-releases: downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-js-engine/scala_2.10/sbt_0.13/1.1.4/jars/sbt-js-engine.jar.sha1
 [debug] sha1 OK for https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.typesafe.sbt/sbt-js-engine/scala_2.10/sbt_0.13/1.1.4/jars/sbt-js-engine.jar
-[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-js-engine;1.1.4!sbt-js-engine.jar (1801ms)
+[info] 	[SUCCESSFUL ] com.typesafe.sbt#sbt-js-engine;1.1.4!sbt-js-engine.jar (2229ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/mocha/1.17.1/mocha-1.17.1.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/mocha/1.17.1/mocha-1.17.1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/mocha/1.17.1/mocha-1.17.1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/mocha/1.17.1/mocha-1.17.1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/mocha/1.17.1/mocha-1.17.1.jar
-[info] 	[SUCCESSFUL ] org.webjars#mocha;1.17.1!mocha.jar (64ms)
+[info] 	[SUCCESSFUL ] org.webjars#mocha;1.17.1!mocha.jar (68ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/debug/0.7.4/debug-0.7.4.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/debug/0.7.4/debug-0.7.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/debug/0.7.4/debug-0.7.4.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/debug/0.7.4/debug-0.7.4.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/debug/0.7.4/debug-0.7.4.jar
-[info] 	[SUCCESSFUL ] org.webjars#debug;0.7.4!debug.jar (100ms)
+[info] 	[SUCCESSFUL ] org.webjars#debug;0.7.4!debug.jar (102ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/webjars/diff/1.0.7/diff-1.0.7.jar
 [info] downloading https://repo1.maven.org/maven2/org/webjars/diff/1.0.7/diff-1.0.7.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/diff/1.0.7/diff-1.0.7.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/webjars/diff/1.0.7/diff-1.0.7.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/webjars/diff/1.0.7/diff-1.0.7.jar
-[info] 	[SUCCESSFUL ] org.webjars#diff;1.0.7!diff.jar (101ms)
+[info] 	[SUCCESSFUL ] org.webjars#diff;1.0.7!diff.jar (100ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.10/2.4.6/play-json_2.10-2.4.6.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.10/2.4.6/play-json_2.10-2.4.6.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.10/2.4.6/play-json_2.10-2.4.6.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.10/2.4.6/play-json_2.10-2.4.6.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.10/2.4.6/play-json_2.10-2.4.6.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.10;2.4.6!play-json_2.10.jar (197ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-json_2.10;2.4.6!play-json_2.10.jar (170ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/nativelibs4java/jnaerator-runtime/0.12/jnaerator-runtime-0.12.jar
 [info] downloading https://repo1.maven.org/maven2/com/nativelibs4java/jnaerator-runtime/0.12/jnaerator-runtime-0.12.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/nativelibs4java/jnaerator-runtime/0.12/jnaerator-runtime-0.12.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/nativelibs4java/jnaerator-runtime/0.12/jnaerator-runtime-0.12.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/nativelibs4java/jnaerator-runtime/0.12/jnaerator-runtime-0.12.jar
-[info] 	[SUCCESSFUL ] com.nativelibs4java#jnaerator-runtime;0.12!jnaerator-runtime.jar (111ms)
+[info] 	[SUCCESSFUL ] com.nativelibs4java#jnaerator-runtime;0.12!jnaerator-runtime.jar (101ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.10/2.4.6/play-iteratees_2.10-2.4.6.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.10/2.4.6/play-iteratees_2.10-2.4.6.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.10/2.4.6/play-iteratees_2.10-2.4.6.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.10/2.4.6/play-iteratees_2.10-2.4.6.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.10/2.4.6/play-iteratees_2.10-2.4.6.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-iteratees_2.10;2.4.6!play-iteratees_2.10.jar (608ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-iteratees_2.10;2.4.6!play-iteratees_2.10.jar (231ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.10/2.4.6/play-functional_2.10-2.4.6.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.10/2.4.6/play-functional_2.10-2.4.6.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.10/2.4.6/play-functional_2.10-2.4.6.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.10/2.4.6/play-functional_2.10-2.4.6.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.10/2.4.6/play-functional_2.10-2.4.6.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.10;2.4.6!play-functional_2.10.jar (134ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-functional_2.10;2.4.6!play-functional_2.10.jar (159ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.10/2.4.6/play-datacommons_2.10-2.4.6.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.10/2.4.6/play-datacommons_2.10-2.4.6.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.10/2.4.6/play-datacommons_2.10-2.4.6.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.10/2.4.6/play-datacommons_2.10-2.4.6.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.10/2.4.6/play-datacommons_2.10-2.4.6.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-datacommons_2.10;2.4.6!play-datacommons_2.10.jar (101ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-datacommons_2.10;2.4.6!play-datacommons_2.10.jar (100ms)
 [debug] 		tried https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar
 [info] downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/joda-time/joda-time/2.8.1/joda-time-2.8.1.jar
-[info] 	[SUCCESSFUL ] joda-time#joda-time;2.8.1!joda-time.jar (164ms)
+[info] 	[SUCCESSFUL ] joda-time#joda-time;2.8.1!joda-time.jar (191ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/joda/joda-convert/1.7/joda-convert-1.7.jar
 [info] downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.7/joda-convert-1.7.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.7/joda-convert-1.7.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/joda/joda-convert/1.7/joda-convert-1.7.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/joda/joda-convert/1.7/joda-convert-1.7.jar
-[info] 	[SUCCESSFUL ] org.joda#joda-convert;1.7!joda-convert.jar (116ms)
+[info] 	[SUCCESSFUL ] org.joda#joda-convert;1.7!joda-convert.jar (110ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.5.4!jackson-core.jar(bundle) (139ms)
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.5.4!jackson-core.jar(bundle) (147ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.4/jackson-annotations-2.5.4.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.5.4!jackson-annotations.jar(bundle) (255ms)
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.5.4!jackson-annotations.jar(bundle) (106ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.5.4!jackson-databind.jar(bundle) (235ms)
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.5.4!jackson-databind.jar(bundle) (263ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.4/jackson-datatype-jdk8-2.5.4.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4!jackson-datatype-jdk8.jar(bundle) (103ms)
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.4!jackson-datatype-jdk8.jar(bundle) (101ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4.jar
 [info] downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.4/jackson-datatype-jsr310-2.5.4.jar
-[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4!jackson-datatype-jsr310.jar(bundle) (104ms)
+[info] 	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.4!jackson-datatype-jsr310.jar(bundle) (102ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.jar
 [info] downloading https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/scala-stm/scala-stm_2.10/0.7/scala-stm_2.10-0.7.jar
-[info] 	[SUCCESSFUL ] org.scala-stm#scala-stm_2.10;0.7!scala-stm_2.10.jar (194ms)
+[info] 	[SUCCESSFUL ] org.scala-stm#scala-stm_2.10;0.7!scala-stm_2.10.jar (231ms)
 [debug] 		tried https://repo1.maven.org/maven2/com/nativelibs4java/ochafik-util/0.12/ochafik-util-0.12.jar
 [info] downloading https://repo1.maven.org/maven2/com/nativelibs4java/ochafik-util/0.12/ochafik-util-0.12.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/nativelibs4java/ochafik-util/0.12/ochafik-util-0.12.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/nativelibs4java/ochafik-util/0.12/ochafik-util-0.12.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/nativelibs4java/ochafik-util/0.12/ochafik-util-0.12.jar
-[info] 	[SUCCESSFUL ] com.nativelibs4java#ochafik-util;0.12!ochafik-util.jar (104ms)
+[info] 	[SUCCESSFUL ] com.nativelibs4java#ochafik-util;0.12!ochafik-util.jar (119ms)
 [debug] 	[NOT REQUIRED] net.java.dev.jna#jna;4.1.0!jna.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/typesafe/play/play-enhancer/1.1.0/play-enhancer-1.1.0.jar
 [info] downloading https://repo1.maven.org/maven2/com/typesafe/play/play-enhancer/1.1.0/play-enhancer-1.1.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-enhancer/1.1.0/play-enhancer-1.1.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/com/typesafe/play/play-enhancer/1.1.0/play-enhancer-1.1.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/com/typesafe/play/play-enhancer/1.1.0/play-enhancer-1.1.0.jar
-[info] 	[SUCCESSFUL ] com.typesafe.play#play-enhancer;1.1.0!play-enhancer.jar (103ms)
+[info] 	[SUCCESSFUL ] com.typesafe.play#play-enhancer;1.1.0!play-enhancer.jar (100ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar
 [info] downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/javassist/javassist/3.18.2-GA/javassist-3.18.2-GA.jar
-[info] 	[SUCCESSFUL ] org.javassist#javassist;3.18.2-GA!javassist.jar(bundle) (198ms)
+[info] 	[SUCCESSFUL ] org.javassist#javassist;3.18.2-GA!javassist.jar(bundle) (253ms)
 [debug] 		tried https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/4.9.2/avaje-ebeanorm-agent-4.9.2.jar
 [info] downloading https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/4.9.2/avaje-ebeanorm-agent-4.9.2.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/4.9.2/avaje-ebeanorm-agent-4.9.2.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/4.9.2/avaje-ebeanorm-agent-4.9.2.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/org/avaje/ebeanorm/avaje-ebeanorm-agent/4.9.2/avaje-ebeanorm-agent-4.9.2.jar
-[info] 	[SUCCESSFUL ] org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.2!avaje-ebeanorm-agent.jar (91ms)
+[info] 	[SUCCESSFUL ] org.avaje.ebeanorm#avaje-ebeanorm-agent;4.9.2!avaje-ebeanorm-agent.jar (141ms)
 [debug] 		tried https://repo1.maven.org/maven2/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar
 [info] downloading https://repo1.maven.org/maven2/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar ...
 [debug] 	public: downloading https://repo1.maven.org/maven2/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar
 [debug] 	public: downloading https://repo1.maven.org/maven2/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar.sha1
 [debug] sha1 OK for https://repo1.maven.org/maven2/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar
-[info] 	[SUCCESSFUL ] javax.persistence#persistence-api;1.0!persistence-api.jar (116ms)
+[info] 	[SUCCESSFUL ] javax.persistence#persistence-api;1.0!persistence-api.jar (118ms)
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.11!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.11!main.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.11!compiler-interface.jar
@@ -17430,7 +17430,7 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 257605ms :: artifacts dl 44629ms
+[debug] :: resolution report :: resolve 256193ms :: artifacts dl 47787ms
 [debug] 	report for default#root-2ndyearproject-build;0.1-SNAPSHOT compile produced in /home/wdd/2ndYearProject/project/target/resolution-cache/reports/default-root-2ndyearproject-build-compile.xml
 [debug] 	report for default#root-2ndyearproject-build;0.1-SNAPSHOT runtime produced in /home/wdd/2ndYearProject/project/target/resolution-cache/reports/default-root-2ndyearproject-build-runtime.xml
 [debug] 	report for default#root-2ndyearproject-build;0.1-SNAPSHOT test produced in /home/wdd/2ndYearProject/project/target/resolution-cache/reports/default-root-2ndyearproject-build-test.xml
@@ -17444,5 +17444,5 @@
 [debug] 	report for default#root-2ndyearproject-build;0.1-SNAPSHOT docs produced in /home/wdd/2ndYearProject/project/target/resolution-cache/reports/default-root-2ndyearproject-build-docs.xml
 [debug] 	report for default#root-2ndyearproject-build;0.1-SNAPSHOT pom produced in /home/wdd/2ndYearProject/project/target/resolution-cache/reports/default-root-2ndyearproject-build-pom.xml
 [debug] 	report for default#root-2ndyearproject-build;0.1-SNAPSHOT scala-tool produced in /home/wdd/2ndYearProject/project/target/resolution-cache/reports/default-root-2ndyearproject-build-scala-tool.xml
-[debug] 	resolve done (257605ms resolve - 44629ms download)
+[debug] 	resolve done (256193ms resolve - 47787ms download)
 [info] Done updating.

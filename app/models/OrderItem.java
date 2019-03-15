@@ -92,12 +92,12 @@ public void setCustomer(Customer customer) {
 }
 
 
-public List<OrderItem> getItems() {
+public List<OrderItem> getProduct() {
     return items;
 }
 
-public void setItems(List<OrderItem> items) {
-    this.items = items;
+public void setProduct(List<OrderItem> Product) {
+    this.Prodcut = Product;
 }
 
 
