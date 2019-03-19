@@ -6,3 +6,5 @@ clean
 run
 h2-browser
 exit
+run
+exit

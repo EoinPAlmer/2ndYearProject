@@ -1,3 +1,24 @@
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/shopping/Basket.java:15:13: illegal start of type declaration[0m
+[0m[[0m[31merror[0m] [0m[0mprivate List<OrderItem> basketItems;[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/shopping/Basket.java:18:18: illegal start of type declaration[0m
+[0m[[0m[31merror[0m] [0m[0mprivate Customer customer;[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/shopping/OrderItem.java:14:23: illegal start of type declaration[0m
+[0m[[0m[31merror[0m] [0m[0m    private ShopOrder order;[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/shopping/OrderItem.java:17:20: illegal start of type declaration[0m
+[0m[[0m[31merror[0m] [0m[0m    private Basket basket;[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/shopping/OrderItem.java:22:24: illegal start of type declaration[0m
+[0m[[0m[31merror[0m] [0m[0m    private ItemOnSale item;[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/shopping/ShopOrder.java:14:17: illegal start of type declaration[0m
+[0m[[0m[31merror[0m] [0m[0m    private List<OrderItem> items;[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/shopping/ShopOrder.java:17:22: illegal start of type declaration[0m
+[0m[[0m[31merror[0m] [0m[0m    private Customer customer;[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
 [0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/users/Customer.java:13:9: illegal start of type declaration[0m
 [0m[[0m[31merror[0m] [0m[0mpackage models.users;[0m
 [0m[[0m[31merror[0m] [0m[0m        ^[0m
@@ -16,4 +37,10 @@
 [0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/users/Customer.java:20:8: illegal start of type declaration[0m
 [0m[[0m[31merror[0m] [0m[0mimport play.data.validation.*;[0m
 [0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/users/Customer.java:29:20: illegal start of type declaration[0m
+[0m[[0m[31merror[0m] [0m[0m    private Basket basket;[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/users/Customer.java:32:17: illegal start of type declaration[0m
+[0m[[0m[31merror[0m] [0m[0m    private List<ShopOrder> orders;[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m15 errors found[0m

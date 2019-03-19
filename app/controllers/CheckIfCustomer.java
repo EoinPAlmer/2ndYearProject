@@ -1,17 +1,18 @@
 package controllers;
 
 import play.mvc.*;
-
 import java.util.concurrent.CompletionStage;
 import java.util.concurrent.CompletableFuture;
 
-import models.*;
+import models.users.*;
 
-import javax.annotation.processing.Completion;
+// Check if this is an admin user (before permitting an action)
+public class CheckIfCustomer extends Action.Simple {
 
-
-public class AuthUser extends Action.Simple {
-
+    // Functional Java which is executed concurrently
+    // Promise represents a handle for the future result
+    // Http.Context contains the current request - which will be allowed
+    // only if the conditions here are met
     public CompletionStage<Result> call(Http.Context ctx) {
 
         // Check if current user (in session) is an admin

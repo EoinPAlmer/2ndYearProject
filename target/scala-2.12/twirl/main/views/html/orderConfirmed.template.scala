@@ -22,10 +22,10 @@ import play.mvc.Http.Context.Implicit._
 import play.data._
 import play.core.j.PlayFormsMagicForJava._
 
-object orderConfirmed extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template2[models.User.Customer,models.shopping.ShopOrder,play.twirl.api.HtmlFormat.Appendable] {
+object orderConfirmed extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template2[models.users.Customer,models.shopping.ShopOrder,play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
-  def apply/*1.2*/(customer: models.User.Customer, order: models.shopping.ShopOrder):play.twirl.api.HtmlFormat.Appendable = {
+  def apply/*1.2*/(customer: models.users.Customer, order: models.shopping.ShopOrder):play.twirl.api.HtmlFormat.Appendable = {
     _display_ {
       {
 /*4.2*/import play.api.Play.current
@@ -82,14 +82,15 @@ Seq[Any](format.raw/*2.1*/("""
         </div>
         </div>
 </div>
-""")))}))
+""")))}),format.raw/*54.2*/("""
+"""))
       }
     }
   }
 
-  def render(customer:models.User.Customer,order:models.shopping.ShopOrder): play.twirl.api.HtmlFormat.Appendable = apply(customer,order)
+  def render(customer:models.users.Customer,order:models.shopping.ShopOrder): play.twirl.api.HtmlFormat.Appendable = apply(customer,order)
 
-  def f:((models.User.Customer,models.shopping.ShopOrder) => play.twirl.api.HtmlFormat.Appendable) = (customer,order) => apply(customer,order)
+  def f:((models.users.Customer,models.shopping.ShopOrder) => play.twirl.api.HtmlFormat.Appendable) = (customer,order) => apply(customer,order)
 
   def ref: this.type = this
 
@@ -98,11 +99,11 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue Mar 19 15:23:27 GMT 2019
+                  DATE: Tue Mar 19 16:36:58 GMT 2019
                   SOURCE: /home/wdd/2ndYearProject/app/views/orderConfirmed.scala.html
-                  HASH: b2d6646f3d3294ffa5aafb58195b8a5d00435553
-                  MATRIX: 997->1|1136->71|1172->101|1204->127|1257->68|1285->152|1312->153|1383->199|1427->235|1466->237|1496->240|1569->287|1610->319|1650->321|1683->327|1754->371|1768->376|1804->391|1837->397|1877->407|1909->412|2215->691|2241->708|2281->710|2330->731|2440->814|2480->838|2520->840|2569->861|2630->895|2640->896|2677->912|2739->947|2749->948|2793->971|2862->1013|2910->1040|2972->1075|2982->1076|3017->1090|3086->1132|3138->1163|3222->1216|3293->1256|3324->1260|3500->1409|3558->1445
-                  LINES: 28->1|31->4|32->5|33->6|36->2|38->7|39->8|40->9|40->9|40->9|43->12|46->15|46->15|46->15|47->16|48->17|48->17|48->17|49->18|50->19|52->21|64->33|64->33|64->33|65->34|66->35|66->35|66->35|67->36|68->37|68->37|68->37|69->38|69->38|69->38|70->39|70->39|71->40|71->40|71->40|72->41|72->41|74->43|75->44|76->45|80->49|80->49
+                  HASH: bb01ee764bb8a2da77af60772beeea400d5d38c4
+                  MATRIX: 998->1|1138->72|1174->102|1206->128|1259->69|1287->153|1314->154|1385->200|1429->236|1468->238|1498->241|1571->288|1612->320|1652->322|1685->328|1756->372|1770->377|1806->392|1839->398|1879->408|1911->413|2217->692|2243->709|2283->711|2332->732|2442->815|2482->839|2522->841|2571->862|2632->896|2642->897|2679->913|2741->948|2751->949|2795->972|2864->1014|2912->1041|2974->1076|2984->1077|3019->1091|3088->1133|3140->1164|3224->1217|3295->1257|3326->1261|3502->1410|3560->1446|3663->1519
+                  LINES: 28->1|31->4|32->5|33->6|36->2|38->7|39->8|40->9|40->9|40->9|43->12|46->15|46->15|46->15|47->16|48->17|48->17|48->17|49->18|50->19|52->21|64->33|64->33|64->33|65->34|66->35|66->35|66->35|67->36|68->37|68->37|68->37|69->38|69->38|69->38|70->39|70->39|71->40|71->40|71->40|72->41|72->41|74->43|75->44|76->45|80->49|80->49|85->54
                   -- GENERATED --
               */
           

@@ -1,21 +1,20 @@
-package models;
-
-import play.db.ebean.Transactional;
-import play.api.Environment;
+package models.shopping;
 
 import java.util.*;
 import javax.persistence.*;
 
-
+import io.ebean.*;
 import play.data.format.*;
 import play.data.validation.*;
+import java.util.Date;
+import models.products.*;
+import models.users.*;
 
-import models.Products.*;
-import models.User.*;
-import models.Customer.*;
-import com.avaje.ebean.Model;
-
-
+@OneToMany(mappedBy="order", cascade = CascadeType.ALL)
+    private List<OrderItem> items;
+    
+    @ManyToOne
+    private Customer customer;
 // ShopOrder entity managed by Ebean
 @Entity
 public class ShopOrder extends Model {
@@ -51,6 +50,46 @@ public class ShopOrder extends Model {
 
     public void setOrderDate(Date orderDate) {
         orderDate = orderDate;
+    }
+
+    public ShopOrder getOrder() {
+        return order;
+    }
+
+    public void setOrder(ShopOrder order) {
+        this.order = order;
+    }
+
+    public Basket getBasket() {
+        return basket;
+    }
+
+    public void setBasket(Basket basket) {
+        this.basket = basket;
+    }
+
+    public ItemOnSale getItem() {
+        return item;
+    }
+
+    public void setItem(ItemOnSale item) {
+        this.item = item;
+    }
+
+    public List<OrderItem> getItems() {
+        return items;
+    }
+
+    public void setItems(List<OrderItem> items) {
+        this.items = items;
+    }
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
     }
     public double getOrderTotal() {
         

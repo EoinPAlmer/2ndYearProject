@@ -21,8 +21,15 @@ import play.data.validation.*;
 
 
 
+
 @Table(name = "user")
 @DiscriminatorValue("c")
+
+@OneToOne(mappedBy="customer", cascade = CascadeType.ALL)
+    private Basket basket;
+
+@OneToMany(mappedBy="customer", cascade = CascadeType.ALL)
+    private List<ShopOrder> orders;
 
 // Customer inherits from the User class
 @Entity

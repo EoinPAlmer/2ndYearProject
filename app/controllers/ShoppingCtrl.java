@@ -9,15 +9,13 @@ import play.db.ebean.Transactional;
 import play.api.Environment;
 
 // Import models
-import models.User.*;
-import models.ShopOrder.*;
-import models.Products.*;
-import models.Customer.*;
-
+import models.users.*;
+import models.products.*;
+import models.shopping.*;
 
 @Security.Authenticated(Secured.class)
 // Authorise user (check if user is a customer)
-@With(AuthUser.class)
+@With(CheckIfCustomer.class)
 
 public class ShoppingCtrl extends Controller {
 
@@ -33,14 +31,16 @@ public class ShoppingCtrl extends Controller {
     @Transactional
     public Result viewOrder(long id) {
         ShopOrder order = ShopOrder.find.byId(id);
-        return ok(orderConfirmed.render((Customer)Customer.getUserById(session().get("email")), order));
+        return ok(orderConfirmed.render((Customer)User.getUserById(session().get("email")), order));
     }
     @Transactional
     public Result addToBasket(Long id) {
         
+        // Find the item on sale
+        ItemOnSale item = ItemOnSale.find.byId(id);
         
         // Get basket for logged in customer
-        Customer customer = (Customer)Customer.getUserById(session().get("email"));
+        Customer customer = (Customer)User.getUserById(session().get("email"));
         
         // Check if item in basket
         if (customer.getBasket() == null) {
@@ -50,7 +50,7 @@ public class ShoppingCtrl extends Controller {
             customer.update();
         }
         // Add product to the basket and save
-        customer.getBasket();
+        customer.getBasket().addItemOnSale(item);
         customer.update();
         
         // Show the basket contents     
@@ -105,7 +105,7 @@ public class ShoppingCtrl extends Controller {
     public Result showBasket() {
         return ok(basket.render((Customer)User.getUserById(session().get("email"))));
     }
-    //add an item to basket
+    // Add an item to the basket
     @Transactional
     public Result addOne(Long itemId) {
         

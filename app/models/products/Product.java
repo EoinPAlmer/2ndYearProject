@@ -1,4 +1,4 @@
-package models;
+package models.products;
 
 import java.util.*;
 import javax.persistence.*;
@@ -7,7 +7,7 @@ import play.data.validation.*;
 import com.avaje.ebean.*;
 
 @Entity
-public class Products extends Model {
+public class Product extends Model {
 
     @Id
     private Long id;

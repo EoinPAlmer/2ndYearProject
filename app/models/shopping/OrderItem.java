@@ -3,14 +3,24 @@ package models;
 import java.util.*;
 import javax.persistence.*;
 
-
+import io.ebean.*;
 import play.data.format.*;
 import play.data.validation.*;
-import com.avaje.ebean.Model;
 
-import models.Products.*;
-import models.User.*;
-import models.Customer.*;
+import models.products.*;
+import models.users.*;
+
+@ManyToOne
+    private ShopOrder order;
+    
+    @ManyToOne
+    private Basket basket;
+    
+    // Unidirection mapping - Many order items can have one product
+    // Product not interested in this
+    @ManyToOne
+    private ItemOnSale item;
+
 
 // OrderItem entity managed by Ebean
 @Entity
@@ -74,40 +84,43 @@ public class OrderItem extends Model {
     public void setPrice(double price) {
         this.price = price;
     }
-    
-public List<OrderItem> getBasketItems() {
-    return basketItems;
+
+    public List<OrderItem> getBasketItems() {
+        return basketItems;
+    }
+
+    public void setBasketItems(List<OrderItem> basketItems) {
+        this.basketItems = basketItems;
+    }
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
+	public OrderItem(ItemOnSale ios) {
+        item = ios;
+        quantity = 1;
+        price = ios.getPrice();
+    }
+    public List<OrderItem> getItems() {
+        return items;
+    }
+
+    public void setItems(List<OrderItem> items) {
+        this.items = items;
+    }
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+
 }
 
-public void setBasketItems(List<OrderItem> basketItems) {
-    this.basketItems = basketItems;
-}
-
-public Customer getCustomer() {
-    return customer;
-}
-
-public void setCustomer(Customer customer) {
-    this.customer = customer;
-}
-
-
-public List<OrderItem> getProduct() {
-    return items;
-}
-
-public void setProduct(List<OrderItem> Product) {
-    this.Prodcut = Product;
-}
-
-
-
-@OneToMany(mappedBy = "basket", cascade = CascadeType.PERSIST)
-private List<OrderItem> basketItems;
-
-@OneToOne
-private Customer customer;
-
-
-
-}
