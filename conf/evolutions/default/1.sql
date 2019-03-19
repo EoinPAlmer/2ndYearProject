@@ -22,12 +22,18 @@ Create Table product(
 );
 Create sequence product_seq;
 
-Create Table User(
-    email       varchar2(255),
-    name        varchar(255),
-    role        varchar2(255),
-    PASSWORD    varchar(255),
-    constraint pk_user primary key (email)
+create table user (
+  type                          varchar(31) not null,
+  email                         varchar(255) not null,
+  name                          varchar(255),
+  password                      varchar(255),
+  role                          varchar(255),
+  street1                       varchar(255),
+  street2                       varchar(255),
+  town                          varchar(255),
+  post_code                     varchar(255),
+  credit_card                   varchar(255),
+  constraint pk_user primary key (email)
 );
 
 Create Table cart(

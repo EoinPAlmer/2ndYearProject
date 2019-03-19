@@ -45,7 +45,7 @@
                                     <p class="text-center"><b>Size:</b> @p.getSize</p>
                                     <p class="text-center"><b>Stock:</b> @p.getStock</p>
                                     <p class="text-center"><b>Brand:</b> @p.getCategory.getName</p>
-                                    @if(user != null) {
+                                    @if((user != null) && ("admin".equals(user.getRole()))) {
                                         <p class = "text-center"><a href="@routes.HomeController.deleteProduct(p.getId)"
                                         onclick="return confirmDel();">
                                             <button class = "btn btn-lg btn-dark"><span class="glyphicon glyphicon-trash thrashbutton"></span> </button>

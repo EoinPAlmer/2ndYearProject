@@ -1,4 +1,4 @@
-package models;
+/*package models;
 
 import java.util.*;
 import javax.persistence.*;
@@ -72,4 +72,4 @@ public class User extends Model {
             return find.byId(id);
         }
     }
-}
+}*/

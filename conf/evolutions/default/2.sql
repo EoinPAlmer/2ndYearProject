@@ -16,6 +16,7 @@ insert into product (id,name,brand,size,stock,category_id,price) values(6, "Nike
 insert into product (id,name,brand,size,stock,category_id,price) values(7, "Baleniaga Platform crocs", "Balenciaga", 9, 800, 10, 3);
 insert into product (id,name,brand,size,stock,category_id,price) values(8, "Balenciaga Thriple S", "Balenciaga", 9, 600, 10, 3);
 
-insert into user (email,role,name,password) values ('finn@sneakersan.com','FinnHarvey','admin','password');
-insert into user (email,role,name,password) values ('eoin@sneakersan.com','EoinPalmer','admin','password');
-insert into user (email,role,name,password) values ('paul@sneakersan.com','PaulRoche','admin','password');
+insert into user (type,email,role,name,password) values ('m','finn@sneakersan.com','Manager','FinnHarvey','password');
+insert into user (type,email,role,name,password) values ('m','eoin@sneakersan.com','Manager','EoinPalmer','password');
+insert into user (type,email,role,name,password) values ('m','paul@sneakersan.com','Manager','PaulRoche','password');
+insert into user (type,email,role,name,password) values ('c','customer@sneakersan.com','customer','customer','password');
