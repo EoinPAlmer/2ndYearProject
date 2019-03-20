@@ -1,5 +1,5 @@
 @import helper._
-@(addProductForm: Form[models.Product])(user: models.User)
+@(addProductForm: Form[models.products.Product])(user: models.users.User)
 
 
     @main("AddProduct", user) {
@@ -13,6 +13,9 @@
 
 
                 @form(action = routes.HomeController.addProductSubmit(), 'class -> "form-horizontal", 'role -> "form", 'enctype -> "multipart/form-data") {
+                    @* CSRF attack prevention *@
+                    @* this token, sent by the controller, will be used to aithenicate the form submission*@
+                    @CSRF.formField
 
                     @inputText(addProductForm("id"), '_label -> "ID", 'class -> "form-control")
                     @inputText(addProductForm("name"), '_label -> "Name", 'class -> "form-control")
@@ -22,14 +25,8 @@
                     @inputText(addProductForm("price"), '_label -> "Price", 'class -> "form-control")
 
                     @inputText(addProductForm("id"), '_label -> "", 'hidden -> "hidden")
-
-                    @select(
-                        addProductForm("category.id"),
-                        options(Category.options),
-                        '_label -> "Category", '_default -> "-- Choose A Category--",
-                        '_showConstraints -> false, 'class -> "form-control"
-                    )
-
+                   
+               
                     <label>Image Upload</label>
                     <input class = "btn btn-dark" type = "file" name = "upload">
 

@@ -1,46 +1,43 @@
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/shopping/Basket.java:15:13: illegal start of type declaration[0m
-[0m[[0m[31merror[0m] [0m[0mprivate List<OrderItem> basketItems;[0m
-[0m[[0m[31merror[0m] [0m[0m            ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/shopping/Basket.java:18:18: illegal start of type declaration[0m
-[0m[[0m[31merror[0m] [0m[0mprivate Customer customer;[0m
-[0m[[0m[31merror[0m] [0m[0m                 ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/shopping/OrderItem.java:14:23: illegal start of type declaration[0m
-[0m[[0m[31merror[0m] [0m[0m    private ShopOrder order;[0m
-[0m[[0m[31merror[0m] [0m[0m                      ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/shopping/OrderItem.java:17:20: illegal start of type declaration[0m
-[0m[[0m[31merror[0m] [0m[0m    private Basket basket;[0m
-[0m[[0m[31merror[0m] [0m[0m                   ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/shopping/OrderItem.java:22:24: illegal start of type declaration[0m
-[0m[[0m[31merror[0m] [0m[0m    private ItemOnSale item;[0m
-[0m[[0m[31merror[0m] [0m[0m                       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/shopping/ShopOrder.java:14:17: illegal start of type declaration[0m
-[0m[[0m[31merror[0m] [0m[0m    private List<OrderItem> items;[0m
-[0m[[0m[31merror[0m] [0m[0m                ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/shopping/ShopOrder.java:17:22: illegal start of type declaration[0m
-[0m[[0m[31merror[0m] [0m[0m    private Customer customer;[0m
-[0m[[0m[31merror[0m] [0m[0m                     ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/users/Customer.java:13:9: illegal start of type declaration[0m
-[0m[[0m[31merror[0m] [0m[0mpackage models.users;[0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/users/Customer.java:15:8: illegal start of type declaration[0m
-[0m[[0m[31merror[0m] [0m[0mimport java.util.*;[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/users/Customer.java:16:8: illegal start of type declaration[0m
-[0m[[0m[31merror[0m] [0m[0mimport javax.persistence.*;[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/users/Customer.java:18:8: illegal start of type declaration[0m
-[0m[[0m[31merror[0m] [0m[0mimport io.ebean.*;[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/users/Customer.java:19:8: illegal start of type declaration[0m
-[0m[[0m[31merror[0m] [0m[0mimport play.data.format.*;[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/users/Customer.java:20:8: illegal start of type declaration[0m
-[0m[[0m[31merror[0m] [0m[0mimport play.data.validation.*;[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/users/Customer.java:29:20: illegal start of type declaration[0m
-[0m[[0m[31merror[0m] [0m[0m    private Basket basket;[0m
-[0m[[0m[31merror[0m] [0m[0m                   ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/users/Customer.java:32:17: illegal start of type declaration[0m
-[0m[[0m[31merror[0m] [0m[0m    private List<ShopOrder> orders;[0m
-[0m[[0m[31merror[0m] [0m[0m                ^[0m
-[0m[[0m[31merror[0m] [0m[0m15 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/basket.scala.html:69:36: value getName is not a member of java.util.List[models.shopping.OrderProduct][0m
+[0m[[0m[31merror[0m] [0m[0m                <td>@i.getProducts.getName</td>[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/basket.scala.html:70:36: value getBrand is not a member of java.util.List[models.shopping.OrderProduct][0m
+[0m[[0m[31merror[0m] [0m[0m                <td>@i.getProducts.getBrand()</td>[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/login.scala.html:9:11: type Login is not a member of package models.users[0m
+[0m[[0m[31merror[0m] [0m[0m                <h2 class = "text-center text-muted">Login into <span class = "logo">Sneaker Sanctuary</span></h2>[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/login.scala.html:2:32: type Login is not a member of package models.users[0m
+[0m[[0m[31merror[0m] [0m[0m@(loginForm: Form[models.users.Login], user: models.users.User)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/login.scala.html:36:2: type Login is not a member of package models.users[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/main.scala.html:40:77: value Products is not a member of controllers.ReverseHomeController[0m
+[0m[[0m[31merror[0m] [0m[0m                            class="active"}><a href="@routes.HomeController.Products()">Products</a></li>[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/orderConfirmed.scala.html:35:37: value getItems is not a member of models.shopping.ShopOrder[0m
+[0m[[0m[31merror[0m] [0m[0m                    @for(i <- order.getItems) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/products.scala.html:1:1: type Product is not a member of package models[0m
+[0m[[0m[31merror[0m] [0m[0m@(products: List[models.Product],categories: List[models.Category], user: models.User, env: play.api.Environment)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/products.scala.html:1:25: type Product is not a member of package models[0m
+[0m[[0m[31merror[0m] [0m[0m@(products: List[models.Product],categories: List[models.Category], user: models.User, env: play.api.Environment)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/products.scala.html:1:58: type Category is not a member of package models[0m
+[0m[[0m[31merror[0m] [0m[0m@(products: List[models.Product],categories: List[models.Category], user: models.User, env: play.api.Environment)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/products.scala.html:1:82: type User is not a member of package models[0m
+[0m[[0m[31merror[0m] [0m[0m@(products: List[models.Product],categories: List[models.Category], user: models.User, env: play.api.Environment)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/products.scala.html:21:30: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m                        @for(c <- categories){[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/products.scala.html:33:26: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m                    @for(p <- products) {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/products.scala.html:69:6: type Product is not a member of package models[0m
+[0m[[0m[31merror[0m] [0m[0m    }[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m14 errors found[0m

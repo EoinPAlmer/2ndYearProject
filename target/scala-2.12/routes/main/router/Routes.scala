@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/2ndYearProject/conf/routes
-// @DATE:Tue Mar 19 15:23:25 GMT 2019
+// @DATE:Wed Mar 20 18:45:54 GMT 2019
 
 package router
 
@@ -20,7 +20,7 @@ class Routes(
   LoginController_3: controllers.LoginController,
   // @LINE:25
   Assets_2: controllers.Assets,
-  // @LINE:27
+  // @LINE:28
   ShoppingCtrl_0: controllers.ShoppingCtrl,
   val prefix: String
 ) extends GeneratedRouter {
@@ -33,7 +33,7 @@ class Routes(
     LoginController_3: controllers.LoginController,
     // @LINE:25
     Assets_2: controllers.Assets,
-    // @LINE:27
+    // @LINE:28
     ShoppingCtrl_0: controllers.ShoppingCtrl
   ) = this(errorHandler, HomeController_1, LoginController_3, Assets_2, ShoppingCtrl_0, "/")
 
@@ -251,7 +251,7 @@ class Routes(
     )
   )
 
-  // @LINE:27
+  // @LINE:28
   private[this] lazy val controllers_ShoppingCtrl_showBasket10_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("showBasket")))
   )
@@ -264,12 +264,12 @@ class Routes(
       Nil,
       "GET",
       this.prefix + """showBasket""",
-      """""",
+      """ Shopping""",
       Seq()
     )
   )
 
-  // @LINE:28
+  // @LINE:29
   private[this] lazy val controllers_ShoppingCtrl_addToBasket11_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("addToBasket/"), DynamicPart("id", """[^/]+""",true)))
   )
@@ -287,7 +287,7 @@ class Routes(
     )
   )
 
-  // @LINE:29
+  // @LINE:30
   private[this] lazy val controllers_ShoppingCtrl_addOne12_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("addOne/"), DynamicPart("itemId", """[^/]+""",true)))
   )
@@ -305,7 +305,7 @@ class Routes(
     )
   )
 
-  // @LINE:30
+  // @LINE:31
   private[this] lazy val controllers_ShoppingCtrl_removeOne13_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("removeOne/"), DynamicPart("itemId", """[^/]+""",true)))
   )
@@ -323,7 +323,7 @@ class Routes(
     )
   )
 
-  // @LINE:31
+  // @LINE:32
   private[this] lazy val controllers_ShoppingCtrl_emptyBasket14_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("emptyBasket")))
   )
@@ -341,7 +341,7 @@ class Routes(
     )
   )
 
-  // @LINE:32
+  // @LINE:33
   private[this] lazy val controllers_ShoppingCtrl_placeOrder15_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("placeOrder")))
   )
@@ -359,7 +359,7 @@ class Routes(
     )
   )
 
-  // @LINE:33
+  // @LINE:34
   private[this] lazy val controllers_ShoppingCtrl_viewOrder16_route = Route("GET",
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("viewOrder/"), DynamicPart("id", """[^/]+""",true)))
   )
@@ -440,43 +440,43 @@ class Routes(
         controllers_Assets_versioned9_invoker.call(Assets_2.versioned(path, file))
       }
   
-    // @LINE:27
+    // @LINE:28
     case controllers_ShoppingCtrl_showBasket10_route(params@_) =>
       call { 
         controllers_ShoppingCtrl_showBasket10_invoker.call(ShoppingCtrl_0.showBasket())
       }
   
-    // @LINE:28
+    // @LINE:29
     case controllers_ShoppingCtrl_addToBasket11_route(params@_) =>
       call(params.fromPath[Long]("id", None)) { (id) =>
         controllers_ShoppingCtrl_addToBasket11_invoker.call(ShoppingCtrl_0.addToBasket(id))
       }
   
-    // @LINE:29
+    // @LINE:30
     case controllers_ShoppingCtrl_addOne12_route(params@_) =>
       call(params.fromPath[Long]("itemId", None)) { (itemId) =>
         controllers_ShoppingCtrl_addOne12_invoker.call(ShoppingCtrl_0.addOne(itemId))
       }
   
-    // @LINE:30
+    // @LINE:31
     case controllers_ShoppingCtrl_removeOne13_route(params@_) =>
       call(params.fromPath[Long]("itemId", None)) { (itemId) =>
         controllers_ShoppingCtrl_removeOne13_invoker.call(ShoppingCtrl_0.removeOne(itemId))
       }
   
-    // @LINE:31
+    // @LINE:32
     case controllers_ShoppingCtrl_emptyBasket14_route(params@_) =>
       call { 
         controllers_ShoppingCtrl_emptyBasket14_invoker.call(ShoppingCtrl_0.emptyBasket())
       }
   
-    // @LINE:32
+    // @LINE:33
     case controllers_ShoppingCtrl_placeOrder15_route(params@_) =>
       call { 
         controllers_ShoppingCtrl_placeOrder15_invoker.call(ShoppingCtrl_0.placeOrder())
       }
   
-    // @LINE:33
+    // @LINE:34
     case controllers_ShoppingCtrl_viewOrder16_route(params@_) =>
       call(params.fromPath[Long]("id", None)) { (id) =>
         controllers_ShoppingCtrl_viewOrder16_invoker.call(ShoppingCtrl_0.viewOrder(id))

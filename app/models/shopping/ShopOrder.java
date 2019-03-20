@@ -6,15 +6,11 @@ import javax.persistence.*;
 import io.ebean.*;
 import play.data.format.*;
 import play.data.validation.*;
-import java.util.Date;
+
 import models.products.*;
 import models.users.*;
 
-@OneToMany(mappedBy="order", cascade = CascadeType.ALL)
-    private List<OrderItem> items;
-    
-    @ManyToOne
-    private Customer customer;
+
 // ShopOrder entity managed by Ebean
 @Entity
 public class ShopOrder extends Model {
@@ -23,7 +19,12 @@ public class ShopOrder extends Model {
     private Long id;    
     private Date orderDate;
     
-
+    @OneToMany(mappedBy="order", cascade = CascadeType.ALL)
+    private List<OrderProduct> products;
+    
+    @ManyToOne
+    private Customer customer;
+    
     // Default constructor
     public  ShopOrder() {
         orderDate = new Date();
@@ -44,14 +45,6 @@ public class ShopOrder extends Model {
         this.id = id;
     }
 
-    public Date getOrderDate() {
-        return orderDate;
-    }
-
-    public void setOrderDate(Date orderDate) {
-        orderDate = orderDate;
-    }
-
     public ShopOrder getOrder() {
         return order;
     }
@@ -68,20 +61,20 @@ public class ShopOrder extends Model {
         this.basket = basket;
     }
 
-    public ItemOnSale getItem() {
-        return item;
+    public ProductOnSale getProduct() {
+        return product;
     }
 
-    public void setItem(ItemOnSale item) {
-        this.item = item;
+    public void setProduct(ProductOnSale productm) {
+        this.product = product;
     }
 
-    public List<OrderItem> getItems() {
-        return items;
+    public List<OrderProduct> getProducts() {
+        return products;
     }
 
-    public void setItems(List<OrderItem> items) {
-        this.items = items;
+    public void setProducts(List<OrderProduct> products) {
+        this.products = products;
     }
 
     public Customer getCustomer() {
@@ -95,8 +88,8 @@ public class ShopOrder extends Model {
         
         double total = 0;
         
-        for (OrderItem i: items) {
-            total += i.getItemTotal();
+        for (OrderProduct p: products) {
+            total += i.getProductTotal();
         }
         return total;
     }

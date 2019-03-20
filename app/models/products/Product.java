@@ -26,10 +26,10 @@ public class Product extends Model {
     private Category category;
 
 
-    public Products() {
+    public Product() {
     }
 
-    public Products(Long id, String name, String brand, int size, int stock, double price) {
+    public Product(Long id, String name, String brand, int size, int stock, double price) {
         this.id = id;
         this.name = name;
         this.brand = brand;
