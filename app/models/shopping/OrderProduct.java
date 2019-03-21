@@ -12,6 +12,7 @@ import models.users.*;
 
 
 
+
 // OrderItem entity managed by Ebean
 @Entity
 public class OrderProduct extends Model {
@@ -70,6 +71,14 @@ private ProductOnSale product;
         this.id = id;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
 
     public int getQuantity() {
         return quantity;
@@ -95,8 +104,8 @@ private ProductOnSale product;
         this.basketProducts = basketProducts;
     }
 
-	public OrderProduct(ProductOnSale ios) {
-        product = ios;
+	public OrderProduct(ProductOnSale pos) {
+        product = pos;
         quantity = 1;
         price = ios.getPrice();
     }

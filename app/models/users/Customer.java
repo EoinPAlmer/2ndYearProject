@@ -35,11 +35,7 @@ public class Customer extends User{
     @OneToMany(mappedBy="customer", cascade = CascadeType.ALL)
     private List<ShopOrder> orders;
 
-    
 
-    public Customer(){
-
-    }
 	
 	public Customer(String email, String role, String name, String password, String street1, String street2, String town, String postCode, String creditCard)
 	{

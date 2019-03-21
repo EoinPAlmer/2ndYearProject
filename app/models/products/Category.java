@@ -2,8 +2,12 @@ package models.products;
 
 import java.util.*;
 import javax.persistence.*;
-import com.avaje.ebean.Model;
+import io.ebean.*;
 import play.data.validation.*;
+
+import models.shopping.*;
+import models.users.*;
+
 
 @Entity
 public class Category extends Model {

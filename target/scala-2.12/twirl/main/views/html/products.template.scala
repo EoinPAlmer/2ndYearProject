@@ -22,10 +22,10 @@ import play.mvc.Http.Context.Implicit._
 import play.data._
 import play.core.j.PlayFormsMagicForJava._
 
-object products extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template4[List[models.Product],List[models.Category],models.User,play.api.Environment,play.twirl.api.HtmlFormat.Appendable] {
+object products extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template4[List[models.products.Product],List[models.products.Category],models.users.User,play.api.Environment,play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
-  def apply/*1.2*/(products: List[models.Product],categories: List[models.Category], user: models.User, env: play.api.Environment):play.twirl.api.HtmlFormat.Appendable = {
+  def apply/*1.2*/(products: List[models.products.Product],categories: List[models.products.Category], user: models.users.User, env: play.api.Environment):play.twirl.api.HtmlFormat.Appendable = {
     _display_ {
       {
 
@@ -103,9 +103,9 @@ Seq[Any](format.raw/*2.1*/("""    """),_display_(/*2.6*/main("products", user)/*
     }
   }
 
-  def render(products:List[models.Product],categories:List[models.Category],user:models.User,env:play.api.Environment): play.twirl.api.HtmlFormat.Appendable = apply(products,categories,user,env)
+  def render(products:List[models.products.Product],categories:List[models.products.Category],user:models.users.User,env:play.api.Environment): play.twirl.api.HtmlFormat.Appendable = apply(products,categories,user,env)
 
-  def f:((List[models.Product],List[models.Category],models.User,play.api.Environment) => play.twirl.api.HtmlFormat.Appendable) = (products,categories,user,env) => apply(products,categories,user,env)
+  def f:((List[models.products.Product],List[models.products.Category],models.users.User,play.api.Environment) => play.twirl.api.HtmlFormat.Appendable) = (products,categories,user,env) => apply(products,categories,user,env)
 
   def ref: this.type = this
 
@@ -114,10 +114,10 @@ Seq[Any](format.raw/*2.1*/("""    """),_display_(/*2.6*/main("products", user)/*
 
               /*
                   -- GENERATED --
-                  DATE: Wed Mar 20 18:45:54 GMT 2019
+                  DATE: Thu Mar 21 15:51:48 GMT 2019
                   SOURCE: /home/wdd/2ndYearProject/app/views/products.scala.html
-                  HASH: 7e9238c74dee527d07e3df96d009cd2dddd48d6f
-                  MATRIX: 1020->1|1226->114|1256->119|1286->141|1325->143|1360->152|1543->309|1583->341|1622->343|1666->360|1743->411|1756->416|1791->431|1836->448|1888->469|1930->483|2163->689|2178->695|2226->722|2374->843|2410->863|2449->864|2507->894|2546->906|2561->912|2615->945|2684->986|2695->987|2725->995|2782->1024|2832->1047|2842->1048|2882->1067|2988->1142|3033->1159|3201->1300|3235->1318|3275->1320|3328->1345|3499->1489|3586->1566|3626->1567|3691->1604|3758->1644|3797->1662|3862->1708|3875->1712|3914->1713|3979->1750|4017->1761|4032->1767|4104->1817|4181->1863|4243->1897|4353->1980|4363->1981|4392->1989|4532->2101|4581->2128|4687->2207|4697->2208|4726->2216|4832->2295|4842->2296|4872->2305|4978->2384|4988->2385|5029->2405|5098->2447|5161->2501|5201->2503|5270->2544|5332->2579|5347->2585|5407->2623|5826->3015|5841->3021|5901->3059|6216->3343|6277->3376|6402->3470|6431->3471|6669->3679
+                  HASH: 74fc24ea9f56417c5340a77ecf1109bf5443971c
+                  MATRIX: 1044->1|1274->138|1304->143|1334->165|1373->167|1408->176|1591->333|1631->365|1670->367|1714->384|1791->435|1804->440|1839->455|1884->472|1936->493|1978->507|2211->713|2226->719|2274->746|2422->867|2458->887|2497->888|2555->918|2594->930|2609->936|2663->969|2732->1010|2743->1011|2773->1019|2830->1048|2880->1071|2890->1072|2930->1091|3036->1166|3081->1183|3249->1324|3283->1342|3323->1344|3376->1369|3547->1513|3634->1590|3674->1591|3739->1628|3806->1668|3845->1686|3910->1732|3923->1736|3962->1737|4027->1774|4065->1785|4080->1791|4152->1841|4229->1887|4291->1921|4401->2004|4411->2005|4440->2013|4580->2125|4629->2152|4735->2231|4745->2232|4774->2240|4880->2319|4890->2320|4920->2329|5026->2408|5036->2409|5077->2429|5146->2471|5209->2525|5249->2527|5318->2568|5380->2603|5395->2609|5455->2647|5874->3039|5889->3045|5949->3083|6264->3367|6325->3400|6450->3494|6479->3495|6717->3703
                   LINES: 28->1|33->2|33->2|33->2|33->2|34->3|38->7|38->7|38->7|39->8|40->9|40->9|40->9|41->10|43->12|45->14|50->19|50->19|50->19|52->21|52->21|52->21|54->23|54->23|54->23|54->23|54->23|54->23|54->23|55->24|55->24|55->24|55->24|57->26|58->27|64->33|64->33|64->33|65->34|67->36|67->36|67->36|68->37|68->37|68->37|69->38|69->38|69->38|70->39|70->39|70->39|70->39|71->40|73->42|74->43|74->43|74->43|75->44|75->44|76->45|76->45|76->45|77->46|77->46|77->46|78->47|78->47|78->47|79->48|79->48|79->48|80->49|80->49|80->49|80->49|85->54|85->54|85->54|89->58|90->59|93->62|93->62|100->69
                   -- GENERATED --
               */

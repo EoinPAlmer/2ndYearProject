@@ -4,7 +4,10 @@ import java.util.*;
 import javax.persistence.*;
 import play.data.format.*;
 import play.data.validation.*;
-import com.avaje.ebean.*;
+import io.ebean.*;
+
+import models.shopping.*;
+import models.users.*;
 
 @Entity
 public class Product extends Model {
@@ -25,8 +28,8 @@ public class Product extends Model {
     @ManyToOne
     private Category category;
 
+    public Product(){
 
-    public Product() {
     }
 
     public Product(Long id, String name, String brand, int size, int stock, double price) {

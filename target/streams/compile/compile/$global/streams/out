@@ -1,43 +1,16 @@
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/basket.scala.html:69:36: value getName is not a member of java.util.List[models.shopping.OrderProduct][0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/basket.scala.html:2:3: class models.shopping.ShopOrder is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m@(ShopOrder: List[models.shopping.Basket])[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/basket.scala.html:70:36: value getName is not a member of java.util.List[models.shopping.OrderProduct][0m
 [0m[[0m[31merror[0m] [0m[0m                <td>@i.getProducts.getName</td>[0m
 [0m[[0m[31merror[0m] [0m[0m                                   ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/basket.scala.html:70:36: value getBrand is not a member of java.util.List[models.shopping.OrderProduct][0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/basket.scala.html:71:36: value getBrand is not a member of java.util.List[models.shopping.OrderProduct][0m
 [0m[[0m[31merror[0m] [0m[0m                <td>@i.getProducts.getBrand()</td>[0m
 [0m[[0m[31merror[0m] [0m[0m                                   ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/login.scala.html:9:11: type Login is not a member of package models.users[0m
-[0m[[0m[31merror[0m] [0m[0m                <h2 class = "text-center text-muted">Login into <span class = "logo">Sneaker Sanctuary</span></h2>[0m
-[0m[[0m[31merror[0m] [0m[0m          ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/login.scala.html:2:32: type Login is not a member of package models.users[0m
-[0m[[0m[31merror[0m] [0m[0m@(loginForm: Form[models.users.Login], user: models.users.User)[0m
-[0m[[0m[31merror[0m] [0m[0m                               ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/login.scala.html:36:2: type Login is not a member of package models.users[0m
-[0m[[0m[31merror[0m] [0m[0m}[0m
-[0m[[0m[31merror[0m] [0m[0m ^[0m
 [0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/main.scala.html:40:77: value Products is not a member of controllers.ReverseHomeController[0m
 [0m[[0m[31merror[0m] [0m[0m                            class="active"}><a href="@routes.HomeController.Products()">Products</a></li>[0m
 [0m[[0m[31merror[0m] [0m[0m                                                                            ^[0m
 [0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/orderConfirmed.scala.html:35:37: value getItems is not a member of models.shopping.ShopOrder[0m
 [0m[[0m[31merror[0m] [0m[0m                    @for(i <- order.getItems) {[0m
 [0m[[0m[31merror[0m] [0m[0m                                    ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/products.scala.html:1:1: type Product is not a member of package models[0m
-[0m[[0m[31merror[0m] [0m[0m@(products: List[models.Product],categories: List[models.Category], user: models.User, env: play.api.Environment)[0m
-[0m[[0m[31merror[0m] [0m[0m^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/products.scala.html:1:25: type Product is not a member of package models[0m
-[0m[[0m[31merror[0m] [0m[0m@(products: List[models.Product],categories: List[models.Category], user: models.User, env: play.api.Environment)[0m
-[0m[[0m[31merror[0m] [0m[0m                        ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/products.scala.html:1:58: type Category is not a member of package models[0m
-[0m[[0m[31merror[0m] [0m[0m@(products: List[models.Product],categories: List[models.Category], user: models.User, env: play.api.Environment)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/products.scala.html:1:82: type User is not a member of package models[0m
-[0m[[0m[31merror[0m] [0m[0m@(products: List[models.Product],categories: List[models.Category], user: models.User, env: play.api.Environment)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                                 ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/products.scala.html:21:30: missing parameter type[0m
-[0m[[0m[31merror[0m] [0m[0m                        @for(c <- categories){[0m
-[0m[[0m[31merror[0m] [0m[0m                             ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/products.scala.html:33:26: missing parameter type[0m
-[0m[[0m[31merror[0m] [0m[0m                    @for(p <- products) {[0m
-[0m[[0m[31merror[0m] [0m[0m                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/products.scala.html:69:6: type Product is not a member of package models[0m
-[0m[[0m[31merror[0m] [0m[0m    }[0m
-[0m[[0m[31merror[0m] [0m[0m     ^[0m
-[0m[[0m[31merror[0m] [0m[0m14 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
