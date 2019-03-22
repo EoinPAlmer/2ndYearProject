@@ -15,6 +15,7 @@ import java.util.List;
 import javax.inject.Inject;
 
 import models.*;
+import models.users.*;
 import views.html.*;
 
 //import org.im4Java.core.ConvertCmd;
@@ -33,11 +34,11 @@ public class HomeController extends Controller {
     }
 
     public Result index() {
-        return ok(index.render(getUserFromSession()));
+        return ok(index.render(getuserFromSession()));
     }
 
     public Result products(Long cat) {
-        List<Products> productsList = new ArrayList<Product>();
+        List<Product> productsList = new ArrayList<Product>();
         List<Category> categoriesList = Category.findAll();
 
         if(cat == 0){

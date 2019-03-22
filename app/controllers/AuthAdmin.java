@@ -9,19 +9,19 @@ import models.*;
 
 import javax.annotation.processing.Completion;
 
-public class AuthManager extends Action.Simple {
+public class AuthAdmin extends Action.Simple {
 
 
     public CompletionStage<Result> call(Http.Context ctx) {
 
         String id = ctx.session().get("email");
         if (id != null) {
-            User u = User.getUserById(id);
+            User u = user.getUserById(id);
             if (u.getRole().equals("Manager")){
                 return delegate.call(ctx);
             }
         }
-        ctx.flash().put("error", "Manager Login Required.");
+        ctx.flash().put("error", "Admin Login Required.");
         return CompletableFuture.completedFuture(redirect(routes.HomeController.index()));
     }
 }

@@ -91,7 +91,7 @@ private Customer customer;
         // Check if item in basket
         // Find orderitem with this product
         // if found increment quantity
-        for (OrderProduct op : basketProducts) {
+        for (OrderProduct op : basketProduct) {
             if (op.getProduct().getId() == product.getId()) {
                 op.increaseQty();
                 productFound = true;
@@ -100,9 +100,9 @@ private Customer customer;
         }
         if (productFound == false) {
             // Add orderItem to list
-            OrderProduct newProduct = new OrderProduct(product);
+            OrderProduct newProduct = new OrderProduct(Product);
             // Add to items
-            basketProducts.add(newProduct);
+            basketProduct.add(newProduct);
         }
     }
 

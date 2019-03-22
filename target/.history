@@ -54,3 +54,9 @@ run
 exit
 run
 exit
+run
+exit
+clean
+compile
+run
+exit

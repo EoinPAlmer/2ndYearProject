@@ -37,7 +37,7 @@
                         <li @if(title == "home") {
                             class="active"}><a href="@routes.HomeController.index()">Home</a></li>
                         <li @if(title == "products") {
-                            class="active"}><a href="@routes.HomeController.Products()">Products</a></li>
+                            class="active"}><a href="@routes.HomeController.products()">Products</a></li>
                         @if((user != null) && ("admin".equals(user.getRole()))) {
                             <li @if(title == "Add Product") {class = "active"}>
                             <a href="@routes.HomeController.addProduct()">Add A Product</a>

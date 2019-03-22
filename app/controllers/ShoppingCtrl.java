@@ -37,7 +37,7 @@ public class ShoppingCtrl extends Controller {
     public Result addToBasket(Long id) {
         
         // Find the item on sale
-        ItemOnSale item = ItemOnSale.find.byId(id);
+        ProductOnSale product = ProductOnSale.find.byId(id);
         
         // Get basket for logged in customer
         Customer customer = (Customer)User.getUserById(session().get("email"));
@@ -50,7 +50,7 @@ public class ShoppingCtrl extends Controller {
             customer.update();
         }
         // Add product to the basket and save
-        customer.getBasket().addItemOnSale(item);
+        customer.getBasket().addProductOnSale(product);
         customer.update();
         
         // Show the basket contents     
@@ -60,7 +60,7 @@ public class ShoppingCtrl extends Controller {
     public Result emptyBasket() {
         
         Customer c = (Customer)User.getUserById(session().get("email"));
-        c.getBasket().removeAllItems();
+        c.getBasket().removeAllProducts();
         c.getBasket().update();
         
         return ok(basket.render(c));
@@ -76,13 +76,13 @@ public class ShoppingCtrl extends Controller {
         order.setCustomer(c);
         
         // Copy basket to order
-        order.setItems(c.getBasket().getBasketItems());
+        order.setProducts(c.getBasket().getBasketProducts());
         
         // Save the order now to generate a new id for this order
         order.save();
        
        // Move items from basket to order
-        for (OrderItem i: order.getItems()) {
+        for (OrderProduct i: order.getProducts()) {
             // Associate with order
             i.setOrder(order);
             // Remove from basket
@@ -95,7 +95,7 @@ public class ShoppingCtrl extends Controller {
         order.update();
         
         // Clear and update the shopping basket
-        c.getBasket().setBasketItems(null);
+        c.getBasket().setBasketProducts(null);
         c.getBasket().update();
         
         // Show order confirmed view

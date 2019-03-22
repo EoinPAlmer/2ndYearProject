@@ -89,13 +89,13 @@ public class Product extends Model {
         this.price = price;
     }
 
-    public static Finder<Long,Products> find = new Finder<Long,Products>(Products.class);
+    public static Finder<Long,Product> find = new Finder<Long,Product>(Product.class);
 
     public Category getCategory() {
         return category;
     }
 
-    public static List<Products> findAll(){
-        return Products.find.all();
+    public static List<Product> findAll(){
+        return Product.find.all();
     }
 }

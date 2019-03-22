@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/2ndYearProject/conf/routes
-// @DATE:Thu Mar 21 15:51:49 GMT 2019
+// @DATE:Fri Mar 22 12:24:03 GMT 2019
 
 import play.api.routing.JavaScriptReverseRoute
 

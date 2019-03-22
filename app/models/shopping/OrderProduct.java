@@ -79,6 +79,13 @@ private ProductOnSale product;
         this.name = name;
     }
 
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
 
     public int getQuantity() {
         return quantity;
@@ -100,7 +107,7 @@ private ProductOnSale product;
         return basketProducts;
     }
 
-    public void setBasketProducts(List<OrderProductm> basketProducts) {
+    public void setBasketProducts(List<OrderProduct> basketProducts) {
         this.basketProducts = basketProducts;
     }
 
