@@ -1,10 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/basket.scala.html:68:44: value getBasketProduct is not a member of models.shopping.Basket[0m
-[0m[[0m[31merror[0m] [0m[0m            @for(i <- customer.getBasket().getBasketProduct()) {[0m
-[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/orderConfirmed.scala.html:37:32: value getName is not a member of models.shopping.OrderProduct[0m
-[0m[[0m[31merror[0m] [0m[0m                        <td>@p.getName</td>[0m
-[0m[[0m[31merror[0m] [0m[0m                               ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/orderConfirmed.scala.html:38:32: value getBrand is not a member of models.shopping.OrderProduct[0m
-[0m[[0m[31merror[0m] [0m[0m                        <td>@p.getBrand</td>[0m
-[0m[[0m[31merror[0m] [0m[0m                               ^[0m
-[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/basket.scala.html:39:42: value getName is not a member of models.shopping.Basket[0m
+[0m[[0m[31merror[0m] [0m[0m                        <td>@i.getBasket.getName</td>[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/basket.scala.html:40:42: value getBrand is not a member of models.shopping.Basket[0m
+[0m[[0m[31merror[0m] [0m[0m                        <td>@i.getBasket.getBrand()</td>[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

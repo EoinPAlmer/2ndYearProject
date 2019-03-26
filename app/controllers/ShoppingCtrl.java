@@ -107,27 +107,27 @@ public class ShoppingCtrl extends Controller {
     }
     // Add an item to the basket
     @Transactional
-    public Result addOne(Long itemId) {
+    public Result addOne(Long productId) {
         
         // Get the order item
-        OrderItem item = OrderItem.find.byId(itemId);
+        OrderProduct product = OrderProduct.find.byId(productId);
         // Increment quantity
-        item.increaseQty();
+        product.increaseQty();
         // Save
-        item.update();
+        product.update();
         // Show updated basket
         return redirect(routes.ShoppingCtrl.showBasket());
     }
 
     @Transactional
-    public Result removeOne(Long itemId) {
+    public Result removeOne(Long productId) {
         
         // Get the order item
-        OrderItem item = OrderItem.find.byId(itemId);
+        OrderProduct product = OrderProduct.find.byId(productId);
         // Get user
         Customer c = (Customer)User.getUserById(session().get("email"));
         // Call basket remove item method
-        c.getBasket().removeItem(item);
+        c.getBasket().removeProduct(product);
         c.getBasket().update();
         // back to basket
         return ok(basket.render(c));

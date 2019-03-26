@@ -6,6 +6,11 @@ import java.util.concurrent.CompletableFuture;
 
 import models.users.*;
 
+/* - Docs -
+https://alexgaribay.com/2014/06/16/authentication-in-play-framework-using-java/
+https://www.playframework.com/documentation/2.2.x/JavaActionsComposition
+*/
+
 // Check if this is an admin user (before permitting an action)
 public class CheckIfCustomer extends Action.Simple {
 

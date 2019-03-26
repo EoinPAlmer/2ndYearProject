@@ -65,3 +65,10 @@ run
 exit
 run
 exit
+clean
+compile
+run
+exit
+run
+compile
+exit

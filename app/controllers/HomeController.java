@@ -33,6 +33,19 @@ public class HomeController extends Controller {
         this.env = e;
     }
 
+    public Result onsale(Long cat) {
+        List<ProductOnSale> productList = null;
+        List<Category> categoryList = Category.findAll();
+
+        if(cat ==0){
+            productList = ProductOnSale.findAll();
+        }else {
+            productList = Category.find.ref(cat).getProducts();
+        }
+        return ok(onsale.render(productList, categoryList,User.getUserById(session().get("email")),e));
+
+     }
+
     public Result index() {
         return ok(index.render(getuserFromSession()));
     }

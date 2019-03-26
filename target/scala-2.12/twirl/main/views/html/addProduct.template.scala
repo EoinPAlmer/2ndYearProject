@@ -23,10 +23,10 @@ import play.data._
 import play.core.j.PlayFormsMagicForJava._
 /*1.2*/import helper._
 
-object addProduct extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template2[Form[models.products.Product],models.users.User,play.twirl.api.HtmlFormat.Appendable] {
+object addProduct extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template2[Form[models.products.ProductOnSale],models.users.User,play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
-  def apply/*2.2*/(addProductForm: Form[models.products.Product])(user: models.users.User):play.twirl.api.HtmlFormat.Appendable = {
+  def apply/*2.2*/(addProductForm: Form[models.products.ProductOnSale])(user: models.users.User):play.twirl.api.HtmlFormat.Appendable = {
     _display_ {
       {
 
@@ -83,9 +83,9 @@ Seq[Any](format.raw/*3.1*/("""
     }
   }
 
-  def render(addProductForm:Form[models.products.Product],user:models.users.User): play.twirl.api.HtmlFormat.Appendable = apply(addProductForm)(user)
+  def render(addProductForm:Form[models.products.ProductOnSale],user:models.users.User): play.twirl.api.HtmlFormat.Appendable = apply(addProductForm)(user)
 
-  def f:((Form[models.products.Product]) => (models.users.User) => play.twirl.api.HtmlFormat.Appendable) = (addProductForm) => (user) => apply(addProductForm)(user)
+  def f:((Form[models.products.ProductOnSale]) => (models.users.User) => play.twirl.api.HtmlFormat.Appendable) = (addProductForm) => (user) => apply(addProductForm)(user)
 
   def ref: this.type = this
 
@@ -94,10 +94,10 @@ Seq[Any](format.raw/*3.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue Mar 26 14:51:41 GMT 2019
+                  DATE: Tue Mar 26 15:22:46 GMT 2019
                   SOURCE: /home/wdd/2ndYearProject/app/views/addProduct.scala.html
-                  HASH: 20d70428e731882539b04b3691df43d88872fa4f
-                  MATRIX: 651->1|1017->18|1183->91|1215->98|1247->122|1286->124|1322->134|1622->407|1768->543|1809->545|1858->594|1908->703|1957->725|1970->729|2001->739|2051->762|2146->836|2195->858|2295->936|2344->958|2446->1038|2495->1060|2595->1138|2644->1160|2746->1240|2795->1262|2897->1342|2947->1365|3035->1432|3120->1489|3440->1886|3493->1911|3530->1921|3545->1927|3592->1953|3750->2081
+                  HASH: e27bd76e5d9f4a7743623c004af34281433f5a2f
+                  MATRIX: 651->1|1023->18|1195->97|1227->104|1259->128|1298->130|1334->140|1634->413|1780->549|1821->551|1870->600|1920->709|1969->731|1982->735|2013->745|2063->768|2158->842|2207->864|2307->942|2356->964|2458->1044|2507->1066|2607->1144|2656->1166|2758->1246|2807->1268|2909->1348|2959->1371|3047->1438|3132->1495|3452->1892|3505->1917|3542->1927|3557->1933|3604->1959|3762->2087
                   LINES: 24->1|29->2|34->3|36->5|36->5|36->5|38->7|46->15|46->15|46->15|47->16|48->17|49->18|49->18|49->18|51->20|51->20|52->21|52->21|53->22|53->22|54->23|54->23|55->24|55->24|56->25|56->25|58->27|58->27|61->30|70->39|71->40|71->40|71->40|71->40|79->48
                   -- GENERATED --
               */

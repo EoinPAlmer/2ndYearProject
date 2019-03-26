@@ -7,12 +7,13 @@ import io.ebean.*;
 import play.data.format.*;
 import play.data.validation.*;
 
-import models.products.*;
 import models.shopping.*;
 
-@Table(name = "user")
-@DiscriminatorValue("c")
 
+
+@Table(name = "user")
+// This is a Customer of type admin
+@DiscriminatorValue("c")
 
 // Customer inherits from the User class
 @Entity
@@ -28,18 +29,27 @@ public class Customer extends User{
     private String postCode;
     @Constraints.Required
     private String creditCard;
-
+    
+    // Customer has one basket.
+    // Customer is the owner (foreign key will be added to Basket table)
+    // All changes to Customer are cascaded.
     @OneToOne(mappedBy="customer", cascade = CascadeType.ALL)
     private Basket basket;
 
+    // Customer can habe many ShopOrders.
+    // Customer is the owner (forieng key will be added to Basket table)
+    // All changes to Customer are cascaded
     @OneToMany(mappedBy="customer", cascade = CascadeType.ALL)
     private List<ShopOrder> orders;
 
+    public Customer(){
 
+    }
 	
-	public Customer(String email, String role, String name, String password, String street1, String street2, String town, String postCode, String creditCard)
+    public Customer(String email, String role, String name, String password, 
+            Date dateOfBirth, String street1, String street2, String town, String postCode, String creditCard)
 	{
-		super(email, role, name, password);
+		super(email, role, name, password,dateOfBirth);
         this.street1 = street1;
         this.street2 = street2;
         this.town = town;
@@ -79,7 +89,7 @@ public class Customer extends User{
         this.postCode = postCode;
     }
 
-    public String getCreditCard(){
+    public String getCreditCard() {
         return creditCard;
     }
 
@@ -91,7 +101,6 @@ public class Customer extends User{
     public static final List<Customer> findAll() {
        return Customer.find.all();
     }
-
     public Basket getBasket() {
         return basket;
     }
@@ -106,6 +115,5 @@ public class Customer extends User{
 
     public void setOrders(List<ShopOrder> orders) {
         this.orders = orders;
-    }
-
+}
 }

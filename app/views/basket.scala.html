@@ -1,11 +1,9 @@
 @(customer: models.users.Customer)
-(products: List[models.products.Product],categories: List[models.products.Category], user: models.users.User, env: play.api.Environment)
 
-@import helper._
+
 @import play.api.Play.current
 @import models.shopping._
 @import models.products._
-@import models.users._
 
 <!-- Pass page title and user on to main -->
 @main("Shopping Basket", customer) {
@@ -20,7 +18,36 @@
 			  </div>
 		} 
 
-		
+		<table class="table table-bordered table-hover table-condensed">
+			<thead>
+			<!-- The header row-->
+			<tr>
+				<th>Name</th>
+				<th>Brand</th>
+				<th>Price</th>
+				<th>Total</th>
+				<th>Quantity</th>
+                <th>dec.</th>
+                <th>inc.</th>
+			</tr>
+			</thead>
+			<tbody>
+                @if(customer.getBasket() != null) {
+                    <!-- Start of For loop - For each p in products add a row -->
+                    @for(i <- customer.getBasket().getBasketProducts()) {
+                    <tr>
+                        <td>@i.getBasket.getName</td>
+                        <td>@i.getBasket.getBrand()</td>
+                        <td>&euro; @("%.2f".format(i.getPrice))</td>
+                        <td>&euro; @("%.2f".format(i.getProductTotal))</td>
+                        <td>@i.getQuantity()</td>
+                        <td><a href="@routes.ShoppingCtrl.removeOne(i.getId)"><span class="glyphicon glyphicon-minus-sign"></span></a></td>
+                        <td><a href="@routes.ShoppingCtrl.addOne(i.getId)"><span class="glyphicon glyphicon-plus-sign"></span></a></td>
+                    </tr>
+                    }<!-- End of For loop -->
+              }
+			</tbody>
+		</table>
         <div class="row">
             <div class="col-md-12">
                 <p class="text-right"><strong>Basket Total: &euro; @("%.2f".format(customer.getBasket.getBasketTotal))</strong></p>
@@ -50,32 +77,3 @@
 	}
 </script>
 }
-<table class="table table-bordered table-hover table-condensed">
-    <thead>
-    <!-- The header row-->
-    <tr>
-        <th>Name</th>
-        <th>Brand</th>
-        <th>Size</th>
-        <th>Price</th>
-        <th>Total</th>
-        <th>Quantity</th>
-    </tr>
-    </thead>
-    <tbody>
-        @if(customer.getBasket() != null) {
-            <!-- Start of For loop - For each p in products add a row -->
-            @for(i <- customer.getBasket().getBasketProduct()) {
-            <tr>
-                <td>@i.getName</td>
-                <td>@i.getBrand()</td>
-                <td>&euro; @("%.2f".format(i.getPrice))</td>
-                <td>&euro; @("%.2f".format(i.getProductTotal))</td>
-                <td>@i.getQuantity()</td>
-                <td><a href="@routes.ShoppingCtrl.removeOne(i.getId)"><span class="glyphicon glyphicon-minus-sign"></span></a></td>
-                <td><a href="@routes.ShoppingCtrl.addOne(i.getId)"><span class="glyphicon glyphicon-plus-sign"></span></a></td>
-            </tr>
-            }<!-- End of For loop -->
-      }
-    </tbody>
-</table>
