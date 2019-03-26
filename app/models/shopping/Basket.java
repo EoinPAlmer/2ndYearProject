@@ -11,77 +11,23 @@ import models.products.*;
 import models.users.*;
 
 
-
 // Product entity managed by Ebean
 @Entity
 public class Basket extends Model {
 
-@Id
-private Long id;
-
-
-@OneToMany(mappedBy = "basket", cascade = CascadeType.PERSIST)
-private List<OrderProduct> basketProducts;
-
-@OneToOne
-private Customer customer;
-
+    @Id
+    private Long id;
     
+    @OneToMany(mappedBy = "basket", cascade = CascadeType.PERSIST)
+    private List<OrderProduct> basketProducts;
+    
+    @OneToOne
+    private Customer customer;
+
     // Default constructor
     public  Basket() {
     }
     
-	
-   //Generic query helper
-    public static Finder<Long,Basket> find = new Finder<Long,Basket>(Basket.class);
-
-    //Find all Products in the database
-    public static List<Basket> findAll() {
-        return Basket.find.all();
-    }
-
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public List<OrderProduct> getBasketProduct() {
-        return basketProducts;
-    }
-
-    public void setBasketProducts(List<OrderProduct> basketProducts) {
-        this.basketProducts = basketProducts;
-    }
-
-    public Customer getCustomer() {
-        return customer;
-    }
-
-    public void setCustomer(Customer customer) {
-        this.customer = customer;
-    }
-
-    public Basket getBasket() {
-        return basket;
-    }
-
-    public void setBasket(Basket basket) {
-        this.basket = basket;
-    }
-
-
-    public List<ShopOrder> getOrders() {
-        return orders;
-    }
-
-    public void setOrders(List<ShopOrder> orders) {
-        this.orders = orders;
-    }
-
     // Add item for sale to basket
     // Either update existing order item or ad a new one.
     public void addProductOnSale(ProductOnSale product) {
@@ -91,31 +37,21 @@ private Customer customer;
         // Check if item in basket
         // Find orderitem with this product
         // if found increment quantity
-        for (OrderProduct op : basketProduct) {
-            if (op.getProduct().getId() == product.getId()) {
-                op.increaseQty();
+        for (OrderProduct oi : baskeProducts) {
+            if (oi.getProduct().getId() == product.getId()) {
+                oi.increaseQty();
                 productFound = true;
                 break;
             }
         }
         if (productFound == false) {
             // Add orderItem to list
-            OrderProduct newProduct = new OrderProduct(Product);
+            OrderProduct newProduct = new OrderProduct(product);
             // Add to items
-            basketProduct.add(newProduct);
+            basketProducts.add(newProduct);
         }
     }
-
-    public double getBasketTotal() {
-        
-        double total = 0;
-        
-        for (OrderProduct p: basketProducts) {
-            total += p.getProductTotal();
-        }
-        return total;
-    }
-
+    
     public void removeProduct(OrderProduct product) {
 
         // Using an iterator ensures 'safe' removal of list objects
@@ -138,37 +74,56 @@ private Customer customer;
                     break;
                 }             
             }
-       }
+		}
     }
-
+    
     public void removeAllProducts() {
-        for(OrderProduct p: this.basketProducts) {
+        for(OrderProduct i: this.basketProducts) {
             i.delete();
         }
         this.basketProducts = null;
     }
-    // Add item for sale to basket
-    // Either update existing order item or ad a new one.
-    public void addProductOnSale(ProductOnSale product) {
+
+    public double getBasketTotal() {
         
-        boolean productFound = false;
-        // Check if product already in this basket
-        // Check if item in basket
-        // Find orderitem with this product
-        // if found increment quantity
-        for (OrderProduct op : basketProducts) {
-            if (op.getProduct().getId() == product.getId()) {
-                op.increaseQty();
-                productFound = true;
-                break;
-            }
+        double total = 0;
+        
+        for (OrderProduct i: basketPrducts) {
+            total += i.getProductTotal();
         }
-        if (productFound == false) {
-            // Add orderItem to list
-            OrderProduct newProduct = new OrderProduct(product);
-            // Add to items
-            basketProducts.add(newProduct);
-        }
+        return total;
+    }
+	
+	//Generic query helper
+    public static Finder<Long,Basket> find = new Finder<Long,Basket>(Basket.class);
+
+    //Find all Products in the database
+    public static List<Basket> findAll() {
+        return Basket.find.all();
     }
 
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public List<OrderProduct> getBasketProducts() {
+        return basketProducts;
+    }
+
+    public void setBasketProducts(List<OrderProduct> basketProducts) {
+        this.basketProducts = basketProducts;
+    }
+
+    public Customer getCustomer() {
+        return customer;
+    }
+
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
 }

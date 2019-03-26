@@ -10,35 +10,36 @@ import play.data.validation.*;
 import models.products.*;
 import models.users.*;
 
-
-
-
 // OrderItem entity managed by Ebean
 @Entity
 public class OrderProduct extends Model {
- 
+
     @Id
     private Long id;
+
+    @ManyToOne
+    private ShopOrder order;
+    
+    @ManyToOne
+    private Basket basket;
+    
+    // Unidirection mapping - Many order items can have one product
+    // Product not interested in this
+    @ManyToOne
+    private ProductOnSale product;
     
     private int quantity;
     private double price;
-
-    @ManyToOne
-private ShopOrder order;
-
-@ManyToOne
-private Basket basket;
-
-// Unidirection mapping - Many order items can have one product
-// Product not interested in this
-@ManyToOne
-private ProductOnSale product;
-
 
     // Default constructor
     public  OrderProduct() {
     }
     
+    public OrderProduct(ProductOnSale ios) {
+            product = ios;
+            quantity = 1;
+            price = ios.getPrice();
+    }
     
     // Increment quantity
     public void increaseQty() {
@@ -55,7 +56,7 @@ private ProductOnSale product;
         return this.price * this.quantity;
     }
 	
-   //Generic query helper
+	//Generic query helper
     public static Finder<Long,OrderProduct> find = new Finder<Long,OrderProduct>(OrderProduct.class);
 
     //Find all Products in the database
@@ -71,20 +72,28 @@ private ProductOnSale product;
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public ShopOrder getOrder() {
+        return order;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setOrder(ShopOrder order) {
+        this.order = order;
     }
 
-    public String getBrand() {
-        return brand;
+    public Basket getBasket() {
+        return basket;
     }
 
-    public void setBrand(String brand) {
-        this.brand = brand;
+    public void setBasket(Basket basket) {
+        this.basket = basket;
+    }
+
+    public ProductOnSale getProduct() {
+        return product;
+    }
+
+    public void setProduct(ProductOnSale product) {
+        this.product = product;
     }
 
     public int getQuantity() {
@@ -102,35 +111,4 @@ private ProductOnSale product;
     public void setPrice(double price) {
         this.price = price;
     }
-
-    public List<OrderProduct> getBasketProducts() {
-        return basketProducts;
-    }
-
-    public void setBasketProducts(List<OrderProduct> basketProducts) {
-        this.basketProducts = basketProducts;
-    }
-
-	public OrderProduct(ProductOnSale pos) {
-        product = pos;
-        quantity = 1;
-        price = ios.getPrice();
-    }
-    public List<OrderProduct> getProducts() {
-        return products;
-    }
-
-    public void setProducts(List<OrderProduct> Products) {
-        this.products = products;
-    }
-
-    public Customer getCustomer() {
-        return customer;
-    }
-
-    public void setCustomer(Customer customer) {
-        this.customer = customer;
-    }
-
 }
-
