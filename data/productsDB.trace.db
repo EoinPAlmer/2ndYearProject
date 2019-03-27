@@ -2897,3 +2897,18 @@ select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sal
 2019-03-27 17:58:06 jdbc[34]: exception
 org.h2.jdbc.JdbcSQLException: Table "PRODUCT_ON_SALE" not found; SQL statement:
 select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197]
+2019-03-27 18:19:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PRODUCT_ON_SALE" not found; SQL statement:
+select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197]
+2019-03-27 18:19:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PRODUCT_ON_SALE" not found; SQL statement:
+select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197]
+2019-03-27 18:21:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PRODUCT_ON_SALE" not found; SQL statement:
+select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197]
+2019-03-27 18:22:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PRODUCT_ON_SALE" not found; SQL statement:
+select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197]
+2019-03-27 18:29:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PRODUCT_ON_SALE" not found; SQL statement:
+select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197]
