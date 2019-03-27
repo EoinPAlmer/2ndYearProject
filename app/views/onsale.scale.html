@@ -56,7 +56,7 @@ user: models.users.User,env: play.api.Environment)
                   <td>@i.getStock</td>
                   <td>&euro; @("%.2f".format(i.getPrice))</td>
 
-                  @if((user != null) && ("admin".equals(user.getRole()))) {
+                  @if((user != null) && ("manager".equals(user.getRole()))) {
                   <!-- Update button -->
 						<td>
 							<a href="@routes.HomeController.updateProduct(i.getId)" class="button-xs btn-danger">

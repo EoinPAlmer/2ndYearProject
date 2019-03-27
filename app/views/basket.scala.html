@@ -36,8 +36,8 @@
                     <!-- Start of For loop - For each p in products add a row -->
                     @for(i <- customer.getBasket().getBasketProducts()) {
                     <tr>
-                        <td>@i.getBasket.getName</td>
-                        <td>@i.getBasket.getBrand()</td>
+                        <td>@i.getProduct.getName</td>
+                        <td>@i.getProduct.getBrand()</td>
                         <td>&euro; @("%.2f".format(i.getPrice))</td>
                         <td>&euro; @("%.2f".format(i.getProductTotal))</td>
                         <td>@i.getQuantity()</td>

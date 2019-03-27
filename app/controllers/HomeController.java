@@ -1,22 +1,30 @@
 package controllers;
 
-import play.api.Environment;
 import play.mvc.*;
-import play.mvc.Http;
-import play.mvc.Http.MultipartFormData.FilePart;
-import play.mvc.Http.MultipartFormData;
-import java.io.File;
+
+import views.html.*;
+
+import play.api.Environment;
 import play.data.*;
 import play.db.ebean.Transactional;
 
-import java.beans.Transient;
 import java.util.ArrayList;
 import java.util.List;
 import javax.inject.Inject;
 
 import models.*;
 import models.users.*;
-import views.html.*;
+import models.products.*;
+
+import play.mvc.Http.*;
+import play.mvc.Http.MultipartFormData.FilePart;
+import java.io.File;
+
+import java.io.IOException;
+import java.awt.image.*;
+import javax.imageio.*;
+import org.imgscalr.*;
+
 
 //import org.im4Java.core.ConvertCmd;
 //import org.im4Java.core.IMOperation;
@@ -65,7 +73,7 @@ public class HomeController extends Controller {
     }
 
     @Security.Authenticated(Secured.class)
-    @With(AuthAdmin.class)
+    @With(AuthManager.class)
     @Transactional
     public Result deleteProduct(Long id) {
         Product.find.ref(id).delete();
@@ -77,14 +85,14 @@ public class HomeController extends Controller {
 
 
     @Security.Authenticated(Secured.class)
-    @With(AuthAdmin.class)
+    @With(AuthManager.class)
     public Result addProduct() {
         Form<Product> addProductForm = formFactory.form(Products.class);
         return ok(addProduct.render(addProductForm, getUserFromSession()));
     }
 
     @Security.Authenticated(Secured.class)
-    @With(AuthAdmin.class)
+    @With(AuthManager.class)
     @Transactional
     public Result addProductSubmit() {
         Form<Product> newProductForm = formFactory.form(Product.class).bindFromRequest();
@@ -113,7 +121,7 @@ public class HomeController extends Controller {
     }
 
     @Security.Authenticated(Secured.class)
-    @With(AuthAdmin.class)
+    @With(AuthManager.class)
     @Transactional
     public Result updateProduct(Long id) {
 

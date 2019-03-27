@@ -1,7 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/basket.scala.html:39:42: value getName is not a member of models.shopping.Basket[0m
-[0m[[0m[31merror[0m] [0m[0m                        <td>@i.getBasket.getName</td>[0m
-[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/basket.scala.html:40:42: value getBrand is not a member of models.shopping.Basket[0m
-[0m[[0m[31merror[0m] [0m[0m                        <td>@i.getBasket.getBrand()</td>[0m
-[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/controllers/HomeController.java:26:8: object imgscalr is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.imgscalr.*;[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

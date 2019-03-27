@@ -126,4 +126,5 @@ public class Basket extends Model {
     public void setCustomer(Customer customer) {
         this.customer = customer;
     }
+            
 }
