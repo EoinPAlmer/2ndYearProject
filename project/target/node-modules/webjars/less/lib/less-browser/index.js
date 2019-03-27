@@ -11,10 +11,10 @@ module.exports = function(window, options) {
     //module.exports = less;
     less.options = options;
     var environment = less.environment,
-        FileManager = require("./file-manager")(options, less.logger),
-        fileManager = new FileManager();
-    environment.addFileManager(fileManager);
-    less.FileManager = FileManager;
+        FileAdmin = require("./file-Admin")(options, less.logger),
+        fileAdmin = new FileAdmin();
+    environment.addFileAdmin(fileAdmin);
+    less.FileAdmin = FileAdmin;
 
     require("./log-listener")(less, options);
     var errors = require("./error-reporting")(window, less, options);
@@ -101,7 +101,7 @@ module.exports = function(window, options) {
                 webInfo = loadedFile.webInfo;
 
             var newFileInfo = {
-                currentDirectory: fileManager.getPath(path),
+                currentDirectory: fileAdmin.getPath(path),
                 filename: path,
                 rootFilename: path,
                 relativeUrls: instanceOptions.relativeUrls};
@@ -140,7 +140,7 @@ module.exports = function(window, options) {
             });
         }
 
-        fileManager.loadFile(sheet.href, null, instanceOptions, environment, function(e, loadedFile) {
+        fileAdmin.loadFile(sheet.href, null, instanceOptions, environment, function(e, loadedFile) {
             if (e) {
                 callback(e);
                 return;
@@ -159,7 +159,7 @@ module.exports = function(window, options) {
         if (less.env === 'development') {
             less.watchTimer = setInterval(function () {
                 if (less.watchMode) {
-                    fileManager.clearFileCache();
+                    fileAdmin.clearFileCache();
                     loadStyleSheets(function (e, css, _, sheet, webInfo) {
                         if (e) {
                             errors.add(e, e.href || sheet.href);
@@ -215,7 +215,7 @@ module.exports = function(window, options) {
 
     less.refresh = function (reload, modifyVars, clearFileCache) {
         if ((reload || clearFileCache) && clearFileCache !== false) {
-            fileManager.clearFileCache();
+            fileAdmin.clearFileCache();
         }
         return new Promise(function (resolve, reject) {
             var startTime, endTime, totalMilliseconds;

@@ -37,7 +37,7 @@ public class Basket extends Model {
         // Check if item in basket
         // Find orderitem with this product
         // if found increment quantity
-        for (OrderProduct oi : baskeProducts) {
+        for (OrderProduct oi : basketProducts) {
             if (oi.getProduct().getId() == product.getId()) {
                 oi.increaseQty();
                 productFound = true;
@@ -88,7 +88,7 @@ public class Basket extends Model {
         
         double total = 0;
         
-        for (OrderProduct i: basketPrducts) {
+        for (OrderProduct i: basketProducts) {
             total += i.getProductTotal();
         }
         return total;

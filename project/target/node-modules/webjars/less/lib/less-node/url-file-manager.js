@@ -2,19 +2,19 @@ var isUrlRe = /^(?:https?:)?\/\//i,
     url = require('url'),
     request,
     PromiseConstructor,
-    AbstractFileManager = require("../less/environment/abstract-file-manager.js"),
+    AbstractFileAdmin = require("../less/environment/abstract-file-Admin.js"),
     logger = require("../less/logger");
 
-var UrlFileManager = function() {
+var UrlFileAdmin = function() {
 };
 
-UrlFileManager.prototype = new AbstractFileManager();
+UrlFileAdmin.prototype = new AbstractFileAdmin();
 
-UrlFileManager.prototype.supports = function(filename, currentDirectory, options, environment) {
+UrlFileAdmin.prototype.supports = function(filename, currentDirectory, options, environment) {
     return isUrlRe.test( filename ) || isUrlRe.test(currentDirectory);
 };
 
-UrlFileManager.prototype.loadFile = function(filename, currentDirectory, options, environment) {
+UrlFileAdmin.prototype.loadFile = function(filename, currentDirectory, options, environment) {
     if (!PromiseConstructor) {
         PromiseConstructor = typeof Promise === 'undefined' ? require('promise') : Promise;
     }
@@ -53,4 +53,4 @@ UrlFileManager.prototype.loadFile = function(filename, currentDirectory, options
     });
 };
 
-module.exports = UrlFileManager;
+module.exports = UrlFileAdmin;

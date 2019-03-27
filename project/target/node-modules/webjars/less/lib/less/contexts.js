@@ -29,9 +29,9 @@ var parseCopyProperties = [
     'useFileCache',     // browser only - whether to use the per file session cache
     // context
     'processImports',   // option & context - whether to process imports. if false then imports will not be imported.
-                        // Used by the import manager to stop multiple import visitors being created.
+                        // Used by the import Admin to stop multiple import visitors being created.
     'reference',        // Used to indicate that the contents are imported by reference
-    'pluginManager'     // Used as the plugin manager for the session
+    'pluginAdmin'     // Used as the plugin Admin for the session
 ];
 
 contexts.Parse = function(options) {
@@ -50,7 +50,7 @@ var evalCopyProperties = [
     'importMultiple', // whether we are currently importing multiple copies
     'urlArgs',        // whether to add args into url tokens
     'javascriptEnabled',// option - whether JavaScript is enabled. if undefined, defaults to true
-    'pluginManager',  // Used as the plugin manager for the session
+    'pluginAdmin',  // Used as the plugin Admin for the session
     'importantScope'  // used to bubble up !important statements
     ];
 

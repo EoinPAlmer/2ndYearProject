@@ -20,6 +20,8 @@ public class ProductOnSale extends Model {
     private int stock;
     @Constraints.Required
     private double price;
+    @Constraints.Required
+    private int size;
 
     @ManyToMany(cascade=CascadeType.ALL, mappedBy = "products")
     private List<Category> categories;

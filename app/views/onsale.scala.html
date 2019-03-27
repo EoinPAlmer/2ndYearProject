@@ -31,7 +31,7 @@ user: models.users.User,env: play.api.Environment)
             <th>Image</th>
             <th>ID</th>
             <th>Name</th>
-            <th>Description</th>
+            <th>Brand</th>
             <th>Stock</th>
             <th>Price</th>
             @if((user != null) && ("customer".equals(user.getRole()))) {
@@ -52,11 +52,11 @@ user: models.users.User,env: play.api.Environment)
 }
                   <td>@i.getId</td>
                   <td>@i.getName</td>
-                  <td>@i.getDescription</td>
+                  <td>@i.getBrand</td>
                   <td>@i.getStock</td>
                   <td>&euro; @("%.2f".format(i.getPrice))</td>
 
-                  @if((user != null) && ("manager".equals(user.getRole()))) {
+                  @if((user != null) && ("Admin".equals(user.getRole()))) {
                   <!-- Update button -->
 						<td>
 							<a href="@routes.HomeController.updateProduct(i.getId)" class="button-xs btn-danger">

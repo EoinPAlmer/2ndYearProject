@@ -27,9 +27,9 @@ module.exports = function(environment) {
             filePath = filePath.slice(0, fragmentStart);
         }
 
-        var fileManager = environment.getFileManager(filePath, currentDirectory, this.context, environment, true);
+        var fileAdmin = environment.getFileAdmin(filePath, currentDirectory, this.context, environment, true);
 
-        if (!fileManager) {
+        if (!fileAdmin) {
             return fallback(this, filePathNode);
         }
 
@@ -53,7 +53,7 @@ module.exports = function(environment) {
             useBase64 = /;base64$/.test(mimetype);
         }
 
-        var fileSync = fileManager.loadFileSync(filePath, currentDirectory, this.context, environment);
+        var fileSync = fileAdmin.loadFileSync(filePath, currentDirectory, this.context, environment);
         if (!fileSync.contents) {
             logger.warn("Skipped data-uri embedding of " + filePath + " because file not found");
             return fallback(this, filePathNode || mimetypeNode);

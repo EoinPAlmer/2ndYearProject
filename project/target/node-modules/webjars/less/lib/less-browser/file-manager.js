@@ -2,7 +2,7 @@
 
 module.exports = function(options, logger) {
 
-    var AbstractFileManager = require("../less/environment/abstract-file-manager.js");
+    var AbstractFileAdmin = require("../less/environment/abstract-file-Admin.js");
 
     var fileCache = {};
 
@@ -22,21 +22,21 @@ module.exports = function(options, logger) {
         }
     }
 
-    var FileManager = function() {
+    var FileAdmin = function() {
     };
 
-    FileManager.prototype = new AbstractFileManager();
+    FileAdmin.prototype = new AbstractFileAdmin();
 
-    FileManager.prototype.alwaysMakePathsAbsolute = function alwaysMakePathsAbsolute() {
+    FileAdmin.prototype.alwaysMakePathsAbsolute = function alwaysMakePathsAbsolute() {
         return true;
     };
-    FileManager.prototype.join = function join(basePath, laterPath) {
+    FileAdmin.prototype.join = function join(basePath, laterPath) {
         if (!basePath) {
             return laterPath;
         }
         return this.extractUrlParts(laterPath, basePath).path;
     };
-    FileManager.prototype.doXHR = function doXHR(url, type, callback, errback) {
+    FileAdmin.prototype.doXHR = function doXHR(url, type, callback, errback) {
 
         var xhr = getXMLHttpRequest();
         var async = options.isFileProtocol ? options.fileAsync : options.async;
@@ -74,15 +74,15 @@ module.exports = function(options, logger) {
             handleResponse(xhr, callback, errback);
         }
     };
-    FileManager.prototype.supports = function(filename, currentDirectory, options, environment) {
+    FileAdmin.prototype.supports = function(filename, currentDirectory, options, environment) {
         return true;
     };
 
-    FileManager.prototype.clearFileCache = function() {
+    FileAdmin.prototype.clearFileCache = function() {
         fileCache = {};
     };
 
-    FileManager.prototype.loadFile = function loadFile(filename, currentDirectory, options, environment, callback) {
+    FileAdmin.prototype.loadFile = function loadFile(filename, currentDirectory, options, environment, callback) {
         if (currentDirectory && !this.isPathAbsolute(filename)) {
             filename = currentDirectory + filename;
         }
@@ -115,5 +115,5 @@ module.exports = function(options, logger) {
         });
     };
 
-    return FileManager;
+    return FileAdmin;
 };

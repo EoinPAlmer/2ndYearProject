@@ -97,8 +97,8 @@ var Parser = function Parser(context, imports, fileInfo) {
             globalVars = (additionalData && additionalData.globalVars) ? Parser.serializeVars(additionalData.globalVars) + '\n' : '';
             modifyVars = (additionalData && additionalData.modifyVars) ? '\n' + Parser.serializeVars(additionalData.modifyVars) : '';
 
-            if (context.pluginManager) {
-                var preProcessors = context.pluginManager.getPreProcessors();
+            if (context.pluginAdmin) {
+                var preProcessors = context.pluginAdmin.getPreProcessors();
                 for (var i = 0; i < preProcessors.length; i++) {
                     str = preProcessors[i].process(str, { context: context, imports: imports, fileInfo: fileInfo });
                 }

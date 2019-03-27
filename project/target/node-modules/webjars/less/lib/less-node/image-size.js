@@ -16,16 +16,16 @@ module.exports = function(environment) {
             filePath = filePath.slice(0, fragmentStart);
         }
 
-        var fileManager = environment.getFileManager(filePath, currentDirectory, functionContext.context, environment, true);
+        var fileAdmin = environment.getFileAdmin(filePath, currentDirectory, functionContext.context, environment, true);
 
-        if (!fileManager) {
+        if (!fileAdmin) {
             throw {
                 type: "File",
-                message: "Can not set up FileManager for " + filePathNode
+                message: "Can not set up FileAdmin for " + filePathNode
             };
         }
 
-        var fileSync = fileManager.loadFileSync(filePath, currentDirectory, functionContext.context, environment);
+        var fileSync = fileAdmin.loadFileSync(filePath, currentDirectory, functionContext.context, environment);
 
         if (fileSync.error) {
             throw fileSync.error;

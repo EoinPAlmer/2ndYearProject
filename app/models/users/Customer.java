@@ -47,9 +47,9 @@ public class Customer extends User{
     }
 	
     public Customer(String email, String role, String name, String password, 
-            Date dateOfBirth, String street1, String street2, String town, String postCode, String creditCard)
+            String street1, String street2, String town, String postCode, String creditCard)
 	{
-		super(email, role, name, password,dateOfBirth);
+		super(email, role, name, password);
         this.street1 = street1;
         this.street2 = street2;
         this.town = town;

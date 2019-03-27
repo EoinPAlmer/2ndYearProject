@@ -13,7 +13,7 @@ module.exports = function(environment) {
     //  'entryPath' - absolute path to the entry file
     //  'reference' - whether the file should not be output and only output parts that are referenced
 
-    var ImportManager = function(context, rootFileInfo) {
+    var ImportAdmin = function(context, rootFileInfo) {
         this.rootFilename = rootFileInfo.filename;
         this.paths = context.paths || [];  // Search paths, when importing
         this.contents = {};             // map - filename to contents of all the files
@@ -33,20 +33,20 @@ module.exports = function(environment) {
      * @param importOptions - import options
      * @param callback - callback for when it is imported
      */
-    ImportManager.prototype.push = function (path, tryAppendLessExtension, currentFileInfo, importOptions, callback) {
-        var importManager = this;
+    ImportAdmin.prototype.push = function (path, tryAppendLessExtension, currentFileInfo, importOptions, callback) {
+        var importAdmin = this;
         this.queue.push(path);
 
         var fileParsedFunc = function (e, root, fullPath) {
-            importManager.queue.splice(importManager.queue.indexOf(path), 1); // Remove the path from the queue
+            importAdmin.queue.splice(importAdmin.queue.indexOf(path), 1); // Remove the path from the queue
 
-            var importedEqualsRoot = fullPath === importManager.rootFilename;
+            var importedEqualsRoot = fullPath === importAdmin.rootFilename;
             if (importOptions.optional && e) {
                 callback(null, {rules:[]}, false, null);
             }
             else {
-                importManager.files[fullPath] = root;
-                if (e && !importManager.error) { importManager.error = e; }
+                importAdmin.files[fullPath] = root;
+                if (e && !importAdmin.error) { importAdmin.error = e; }
                 callback(e, root, importedEqualsRoot, fullPath);
             }
         };
@@ -58,15 +58,15 @@ module.exports = function(environment) {
             rootFilename: currentFileInfo.rootFilename
         };
 
-        var fileManager = environment.getFileManager(path, currentFileInfo.currentDirectory, this.context, environment);
+        var fileAdmin = environment.getFileAdmin(path, currentFileInfo.currentDirectory, this.context, environment);
 
-        if (!fileManager) {
-            fileParsedFunc({ message: "Could not find a file-manager for " + path });
+        if (!fileAdmin) {
+            fileParsedFunc({ message: "Could not find a file-Admin for " + path });
             return;
         }
 
         if (tryAppendLessExtension) {
-            path = fileManager.tryAppendExtension(path, importOptions.plugin ? ".js" : ".less");
+            path = fileAdmin.tryAppendExtension(path, importOptions.plugin ? ".js" : ".less");
         }
 
         var loadFileCallback = function(loadedFile) {
@@ -81,22 +81,22 @@ module.exports = function(environment) {
             //   then rootpath should become 'less/module/nav/'
             // - If path of imported file is '../mixins.less' and rootpath is 'less/',
             //   then rootpath should become 'less/../'
-            newFileInfo.currentDirectory = fileManager.getPath(resolvedFilename);
+            newFileInfo.currentDirectory = fileAdmin.getPath(resolvedFilename);
             if (newFileInfo.relativeUrls) {
-                newFileInfo.rootpath = fileManager.join(
-                    (importManager.context.rootpath || ""),
-                    fileManager.pathDiff(newFileInfo.currentDirectory, newFileInfo.entryPath));
+                newFileInfo.rootpath = fileAdmin.join(
+                    (importAdmin.context.rootpath || ""),
+                    fileAdmin.pathDiff(newFileInfo.currentDirectory, newFileInfo.entryPath));
 
-                if (!fileManager.isPathAbsolute(newFileInfo.rootpath) && fileManager.alwaysMakePathsAbsolute()) {
-                    newFileInfo.rootpath = fileManager.join(newFileInfo.entryPath, newFileInfo.rootpath);
+                if (!fileAdmin.isPathAbsolute(newFileInfo.rootpath) && fileAdmin.alwaysMakePathsAbsolute()) {
+                    newFileInfo.rootpath = fileAdmin.join(newFileInfo.entryPath, newFileInfo.rootpath);
                 }
             }
             newFileInfo.filename = resolvedFilename;
 
-            var newEnv = new contexts.Parse(importManager.context);
+            var newEnv = new contexts.Parse(importAdmin.context);
 
             newEnv.processImports = false;
-            importManager.contents[resolvedFilename] = contents;
+            importAdmin.contents[resolvedFilename] = contents;
 
             if (currentFileInfo.reference || importOptions.reference) {
                 newFileInfo.reference = true;
@@ -109,13 +109,13 @@ module.exports = function(environment) {
             } else if (importOptions.inline) {
                 fileParsedFunc(null, contents, resolvedFilename);
             } else {
-                new Parser(newEnv, importManager, newFileInfo).parse(contents, function (e, root) {
+                new Parser(newEnv, importAdmin, newFileInfo).parse(contents, function (e, root) {
                     fileParsedFunc(e, root, resolvedFilename);
                 });
             }
         };
 
-        var promise = fileManager.loadFile(path, currentFileInfo.currentDirectory, this.context, environment,
+        var promise = fileAdmin.loadFile(path, currentFileInfo.currentDirectory, this.context, environment,
             function(err, loadedFile) {
             if (err) {
                 fileParsedFunc(err);
@@ -127,5 +127,5 @@ module.exports = function(environment) {
             promise.then(loadFileCallback, fileParsedFunc);
         }
     };
-    return ImportManager;
+    return ImportAdmin;
 };

@@ -1,19 +1,19 @@
 /**
- * Plugin Manager
+ * Plugin Admin
  */
-var PluginManager = function(less) {
+var PluginAdmin = function(less) {
     this.less = less;
     this.visitors = [];
     this.preProcessors = [];
     this.postProcessors = [];
     this.installedPlugins = [];
-    this.fileManagers = [];
+    this.fileAdmins = [];
 };
 /**
  * Adds all the plugins in the array
  * @param {Array} plugins
  */
-PluginManager.prototype.addPlugins = function(plugins) {
+PluginAdmin.prototype.addPlugins = function(plugins) {
     if (plugins) {
         for (var i = 0; i < plugins.length; i++) {
             this.addPlugin(plugins[i]);
@@ -24,7 +24,7 @@ PluginManager.prototype.addPlugins = function(plugins) {
  *
  * @param plugin
  */
-PluginManager.prototype.addPlugin = function(plugin) {
+PluginAdmin.prototype.addPlugin = function(plugin) {
     this.installedPlugins.push(plugin);
     plugin.install(this.less, this);
 };
@@ -33,7 +33,7 @@ PluginManager.prototype.addPlugin = function(plugin) {
  * when it should run.
  * @param visitor
  */
-PluginManager.prototype.addVisitor = function(visitor) {
+PluginAdmin.prototype.addVisitor = function(visitor) {
     this.visitors.push(visitor);
 };
 /**
@@ -41,7 +41,7 @@ PluginManager.prototype.addVisitor = function(visitor) {
  * @param {object} preProcessor
  * @param {number} priority - guidelines 1 = before import, 1000 = import, 2000 = after import
  */
-PluginManager.prototype.addPreProcessor = function(preProcessor, priority) {
+PluginAdmin.prototype.addPreProcessor = function(preProcessor, priority) {
     var indexToInsertAt;
     for (indexToInsertAt = 0; indexToInsertAt < this.preProcessors.length; indexToInsertAt++) {
         if (this.preProcessors[indexToInsertAt].priority >= priority) {
@@ -55,7 +55,7 @@ PluginManager.prototype.addPreProcessor = function(preProcessor, priority) {
  * @param {object} postProcessor
  * @param {number} priority - guidelines 1 = before compression, 1000 = compression, 2000 = after compression
  */
-PluginManager.prototype.addPostProcessor = function(postProcessor, priority) {
+PluginAdmin.prototype.addPostProcessor = function(postProcessor, priority) {
     var indexToInsertAt;
     for (indexToInsertAt = 0; indexToInsertAt < this.postProcessors.length; indexToInsertAt++) {
         if (this.postProcessors[indexToInsertAt].priority >= priority) {
@@ -66,17 +66,17 @@ PluginManager.prototype.addPostProcessor = function(postProcessor, priority) {
 };
 /**
  *
- * @param manager
+ * @param Admin
  */
-PluginManager.prototype.addFileManager = function(manager) {
-    this.fileManagers.push(manager);
+PluginAdmin.prototype.addFileAdmin = function(Admin) {
+    this.fileAdmins.push(Admin);
 };
 /**
  *
  * @returns {Array}
  * @private
  */
-PluginManager.prototype.getPreProcessors = function() {
+PluginAdmin.prototype.getPreProcessors = function() {
     var preProcessors = [];
     for (var i = 0; i < this.preProcessors.length; i++) {
         preProcessors.push(this.preProcessors[i].preProcessor);
@@ -88,7 +88,7 @@ PluginManager.prototype.getPreProcessors = function() {
  * @returns {Array}
  * @private
  */
-PluginManager.prototype.getPostProcessors = function() {
+PluginAdmin.prototype.getPostProcessors = function() {
     var postProcessors = [];
     for (var i = 0; i < this.postProcessors.length; i++) {
         postProcessors.push(this.postProcessors[i].postProcessor);
@@ -100,7 +100,7 @@ PluginManager.prototype.getPostProcessors = function() {
  * @returns {Array}
  * @private
  */
-PluginManager.prototype.getVisitors = function() {
+PluginAdmin.prototype.getVisitors = function() {
     return this.visitors;
 };
 /**
@@ -108,7 +108,7 @@ PluginManager.prototype.getVisitors = function() {
  * @returns {Array}
  * @private
  */
-PluginManager.prototype.getFileManagers = function() {
-    return this.fileManagers;
+PluginAdmin.prototype.getFileAdmins = function() {
+    return this.fileAdmins;
 };
-module.exports = PluginManager;
+module.exports = PluginAdmin;

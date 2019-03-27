@@ -38,7 +38,7 @@ Seq[Any](_display_(/*3.2*/main("home",user)/*3.19*/{_display_(Seq[Any](format.ra
             <div class="item active">
                 <img src=""""),_display_(/*8.28*/routes/*8.34*/.Assets.versioned("images/offwhite-j1.jpg")),format.raw/*8.77*/("""" alt="First Image">
                 <div class="carousel-caption">
-                    <a href=""""),_display_(/*10.31*/routes/*10.37*/.HomeController.products()),format.raw/*10.63*/("""">
+                    <a href=""""),_display_(/*10.31*/routes/*10.37*/.HomeController.onsale()),format.raw/*10.61*/("""">
                     </a>
                 </div>
             </div>
@@ -46,7 +46,7 @@ Seq[Any](_display_(/*3.2*/main("home",user)/*3.19*/{_display_(Seq[Any](format.ra
             <div class="item">
                 <img src=""""),_display_(/*16.28*/routes/*16.34*/.Assets.versioned("images/offwhite-vapormax1.jpg")),format.raw/*16.84*/("""" alt="Second Image">
                 <div class="carousel-caption">
-                    <a href=""""),_display_(/*18.31*/routes/*18.37*/.HomeController.products()),format.raw/*18.63*/("""">
+                    <a href=""""),_display_(/*18.31*/routes/*18.37*/.HomeController.onsale()),format.raw/*18.61*/("""">
                     </a>
                 </div>
                 <!--end of carousel caption-->
@@ -54,7 +54,7 @@ Seq[Any](_display_(/*3.2*/main("home",user)/*3.19*/{_display_(Seq[Any](format.ra
             <div class="item">
                 <img src=""""),_display_(/*24.28*/routes/*24.34*/.Assets.versioned("images/yeezy-v2-beluga2.jpg")),format.raw/*24.82*/("""" alt="Third Image">
                 <div class="carousel-caption">
-                    <a href=""""),_display_(/*26.31*/routes/*26.37*/.HomeController.products()),format.raw/*26.63*/("""">
+                    <a href=""""),_display_(/*26.31*/routes/*26.37*/.HomeController.onsale()),format.raw/*26.61*/("""">
                     </a>
                 </div>
                 <!--end of carousel caption-->
@@ -62,7 +62,7 @@ Seq[Any](_display_(/*3.2*/main("home",user)/*3.19*/{_display_(Seq[Any](format.ra
             <div class="item">
                 <img src=""""),_display_(/*32.28*/routes/*32.34*/.Assets.versioned("images/balenciaga.jpg")),format.raw/*32.76*/("""" alt="Forth Image">
                 <div class="carousel-caption">
-                    <a href=""""),_display_(/*34.31*/routes/*34.37*/.HomeController.products()),format.raw/*34.63*/("""">
+                    <a href=""""),_display_(/*34.31*/routes/*34.37*/.HomeController.onsale()),format.raw/*34.61*/("""">
                     </a>
                 </div>
                 <!--end of carousel caption-->
@@ -137,10 +137,10 @@ Seq[Any](_display_(/*3.2*/main("home",user)/*3.19*/{_display_(Seq[Any](format.ra
 
               /*
                   -- GENERATED --
-                  DATE: Wed Mar 27 11:36:47 GMT 2019
+                  DATE: Wed Mar 27 14:50:46 GMT 2019
                   SOURCE: /home/wdd/2ndYearProject/app/views/index.scala.html
-                  HASH: 7b47d489dd10c383c84c328f6f097405d2716edf
-                  MATRIX: 651->1|1000->36|1119->63|1144->80|1182->81|1213->86|1458->305|1472->311|1535->354|1660->452|1675->458|1722->484|1920->655|1935->661|2006->711|2132->810|2147->816|2194->842|2396->1017|2411->1023|2480->1071|2605->1169|2620->1175|2667->1201|2869->1376|2884->1382|2947->1424|3072->1522|3087->1528|3134->1554|4644->3037|4659->3043|4720->3083
+                  HASH: 9bfc48cebaffa8fc1555fb84886229b758fc739c
+                  MATRIX: 651->1|1000->36|1119->63|1144->80|1182->81|1213->86|1458->305|1472->311|1535->354|1660->452|1675->458|1720->482|1918->653|1933->659|2004->709|2130->808|2145->814|2190->838|2392->1013|2407->1019|2476->1067|2601->1165|2616->1171|2661->1195|2863->1370|2878->1376|2941->1418|3066->1516|3081->1522|3126->1546|4636->3029|4651->3035|4712->3075
                   LINES: 24->1|29->2|34->3|34->3|34->3|35->4|39->8|39->8|39->8|41->10|41->10|41->10|47->16|47->16|47->16|49->18|49->18|49->18|55->24|55->24|55->24|57->26|57->26|57->26|63->32|63->32|63->32|65->34|65->34|65->34|92->61|92->61|92->61
                   -- GENERATED --
               */

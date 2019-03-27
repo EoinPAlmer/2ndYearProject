@@ -1059,7 +1059,7 @@ var requirejs, require, define, xpcUtil;
 
                 var map = this.map;
 
-                //If the manager is for a plugin managed resource,
+                //If the Admin is for a plugin managed resource,
                 //ask the plugin to load it now.
                 if (this.shim) {
                     context.makeRequire(this.map, {
@@ -24703,7 +24703,7 @@ define('requirePatch', [ 'env!env/file', 'pragma', 'parse', 'lang', 'logger', 'c
             return file.exists(path);
         };
 
-        //Called when execManager runs for a dependency. Used to figure out
+        //Called when execAdmin runs for a dependency. Used to figure out
         //what order of execution.
         require.onResourceLoad = function (context, map) {
             var id = map.id,

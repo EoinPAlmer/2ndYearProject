@@ -1,8 +1,8 @@
 var environment = require("./environment"),
-    FileManager = require("./file-manager"),
-    UrlFileManager = require("./url-file-manager"),
+    FileAdmin = require("./file-Admin"),
+    UrlFileAdmin = require("./url-file-Admin"),
     createFromEnvironment = require("../less"),
-    less = createFromEnvironment(environment, [new FileManager(), new UrlFileManager()]),
+    less = createFromEnvironment(environment, [new FileAdmin(), new UrlFileAdmin()]),
     lesscHelper = require('./lessc-helper');
 
 // allow people to create less with their own environment
@@ -10,8 +10,8 @@ less.createFromEnvironment = createFromEnvironment;
 less.lesscHelper = lesscHelper;
 less.PluginLoader = require("./plugin-loader");
 less.fs = require("./fs");
-less.FileManager = FileManager;
-less.UrlFileManager = UrlFileManager;
+less.FileAdmin = FileAdmin;
+less.UrlFileAdmin = UrlFileAdmin;
 less.formatError = function(ctx, options) {
     options = options || {};
 

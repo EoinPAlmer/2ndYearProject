@@ -38,8 +38,8 @@ module.exports = function(SourceMapBuilder) {
             throw new LessError(e, this.imports);
         }
 
-        if (options.pluginManager) {
-            var postProcessors = options.pluginManager.getPostProcessors();
+        if (options.pluginAdmin) {
+            var postProcessors = options.pluginAdmin.getPostProcessors();
             for (var i = 0; i < postProcessors.length; i++) {
                 result.css = postProcessors[i].process(result.css, { sourceMap: sourceMapBuilder, options: options, imports: this.imports });
             }

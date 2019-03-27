@@ -4,10 +4,10 @@
 		module="sneaker-sanctuary_2.12"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20190327113516"
+		publication="20190327145045"
 	>
 		<description>
-		Sneaker-Sanctuary
+		Sneaker Sanctuary
 		</description>
 	</info>
 	<configurations>
@@ -60,5 +60,6 @@
 		<dependency org="com.typesafe.play" name="play-jdbc_2.12" rev="2.6.21" conf="compile->default(compile)"/>
 		<dependency org="org.assertj" name="assertj-core" rev="3.6.2" conf="test->default(compile)"/>
 		<dependency org="org.awaitility" name="awaitility" rev="2.0.0" conf="test->default(compile)"/>
+		<dependency org="org.imgscalr" name="imgscalr-lib" rev="4.2" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

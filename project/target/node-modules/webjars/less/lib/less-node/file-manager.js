@@ -1,26 +1,26 @@
 var path = require('path'),
     fs = require('./fs'),
     PromiseConstructor,
-    AbstractFileManager = require("../less/environment/abstract-file-manager.js");
+    AbstractFileAdmin = require("../less/environment/abstract-file-Admin.js");
 
 try {
     PromiseConstructor = typeof Promise === 'undefined' ? require('promise') : Promise;
 } catch(e) {
 }
 
-var FileManager = function() {
+var FileAdmin = function() {
 };
 
-FileManager.prototype = new AbstractFileManager();
+FileAdmin.prototype = new AbstractFileAdmin();
 
-FileManager.prototype.supports = function(filename, currentDirectory, options, environment) {
+FileAdmin.prototype.supports = function(filename, currentDirectory, options, environment) {
     return true;
 };
-FileManager.prototype.supportsSync = function(filename, currentDirectory, options, environment) {
+FileAdmin.prototype.supportsSync = function(filename, currentDirectory, options, environment) {
     return true;
 };
 
-FileManager.prototype.loadFile = function(filename, currentDirectory, options, environment, callback) {
+FileAdmin.prototype.loadFile = function(filename, currentDirectory, options, environment, callback) {
     var fullFilename,
         data,
         isAbsoluteFilename = this.isPathAbsolute(filename),
@@ -67,7 +67,7 @@ FileManager.prototype.loadFile = function(filename, currentDirectory, options, e
     });
 };
 
-FileManager.prototype.loadFileSync = function(filename, currentDirectory, options, environment, encoding) {
+FileAdmin.prototype.loadFileSync = function(filename, currentDirectory, options, environment, encoding) {
     var fullFilename, paths, filenamesTried = [], isAbsoluteFilename = this.isPathAbsolute(filename) , data;
     options = options || {};
 
@@ -105,4 +105,4 @@ FileManager.prototype.loadFileSync = function(filename, currentDirectory, option
     return result;
 };
 
-module.exports = FileManager;
+module.exports = FileAdmin;

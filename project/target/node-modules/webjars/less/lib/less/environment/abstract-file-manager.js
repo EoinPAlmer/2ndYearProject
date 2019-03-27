@@ -1,7 +1,7 @@
-var abstractFileManager = function() {
+var abstractFileAdmin = function() {
 };
 
-abstractFileManager.prototype.getPath = function (filename) {
+abstractFileAdmin.prototype.getPath = function (filename) {
     var j = filename.lastIndexOf('?');
     if (j > 0) {
         filename = filename.slice(0, j);
@@ -16,33 +16,33 @@ abstractFileManager.prototype.getPath = function (filename) {
     return filename.slice(0, j + 1);
 };
 
-abstractFileManager.prototype.tryAppendExtension = function(path, ext) {
+abstractFileAdmin.prototype.tryAppendExtension = function(path, ext) {
     return /(\.[a-z]*$)|([\?;].*)$/.test(path) ? path : path + ext;
 };
 
-abstractFileManager.prototype.tryAppendLessExtension = function(path) {
+abstractFileAdmin.prototype.tryAppendLessExtension = function(path) {
     return this.tryAppendExtension(path, '.less');
 };
 
-abstractFileManager.prototype.supportsSync = function() {
+abstractFileAdmin.prototype.supportsSync = function() {
     return false;
 };
 
-abstractFileManager.prototype.alwaysMakePathsAbsolute = function() {
+abstractFileAdmin.prototype.alwaysMakePathsAbsolute = function() {
     return false;
 };
 
-abstractFileManager.prototype.isPathAbsolute = function(filename) {
+abstractFileAdmin.prototype.isPathAbsolute = function(filename) {
     return (/^(?:[a-z-]+:|\/|\\|#)/i).test(filename);
 };
 
-abstractFileManager.prototype.join = function(basePath, laterPath) {
+abstractFileAdmin.prototype.join = function(basePath, laterPath) {
     if (!basePath) {
         return laterPath;
     }
     return basePath + laterPath;
 };
-abstractFileManager.prototype.pathDiff = function pathDiff(url, baseUrl) {
+abstractFileAdmin.prototype.pathDiff = function pathDiff(url, baseUrl) {
     // diff between two paths to create a relative path
 
     var urlParts = this.extractUrlParts(url),
@@ -66,7 +66,7 @@ abstractFileManager.prototype.pathDiff = function pathDiff(url, baseUrl) {
     return diff;
 };
 // helper function, not part of API
-abstractFileManager.prototype.extractUrlParts = function extractUrlParts(url, baseUrl) {
+abstractFileAdmin.prototype.extractUrlParts = function extractUrlParts(url, baseUrl) {
     // urlParts[1] = protocol&hostname || /
     // urlParts[2] = / if path relative to host base
     // urlParts[3] = directories
@@ -120,4 +120,4 @@ abstractFileManager.prototype.extractUrlParts = function extractUrlParts(url, ba
     return returner;
 };
 
-module.exports = abstractFileManager;
+module.exports = abstractFileAdmin;

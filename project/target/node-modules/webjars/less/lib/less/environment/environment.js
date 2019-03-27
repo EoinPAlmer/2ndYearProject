@@ -1,6 +1,6 @@
 var logger = require("../logger");
-var environment = function(externalEnvironment, fileManagers) {
-    this.fileManagers = fileManagers || [];
+var environment = function(externalEnvironment, fileAdmins) {
+    this.fileAdmins = fileAdmins || [];
     externalEnvironment = externalEnvironment || {};
 
     var optionalFunctions = ["encodeBase64", "mimeLookup", "charsetLookup", "getSourceMapGenerator"],
@@ -18,34 +18,34 @@ var environment = function(externalEnvironment, fileManagers) {
     }
 };
 
-environment.prototype.getFileManager = function (filename, currentDirectory, options, environment, isSync) {
+environment.prototype.getFileAdmin = function (filename, currentDirectory, options, environment, isSync) {
 
     if (!filename) {
-        logger.warn("getFileManager called with no filename.. Please report this issue. continuing.");
+        logger.warn("getFileAdmin called with no filename.. Please report this issue. continuing.");
     }
     if (currentDirectory == null) {
-        logger.warn("getFileManager called with null directory.. Please report this issue. continuing.");
+        logger.warn("getFileAdmin called with null directory.. Please report this issue. continuing.");
     }
 
-    var fileManagers = this.fileManagers;
-    if (options.pluginManager) {
-        fileManagers = [].concat(fileManagers).concat(options.pluginManager.getFileManagers());
+    var fileAdmins = this.fileAdmins;
+    if (options.pluginAdmin) {
+        fileAdmins = [].concat(fileAdmins).concat(options.pluginAdmin.getFileAdmins());
     }
-    for (var i = fileManagers.length - 1; i >= 0 ; i--) {
-        var fileManager = fileManagers[i];
-        if (fileManager[isSync ? "supportsSync" : "supports"](filename, currentDirectory, options, environment)) {
-            return fileManager;
+    for (var i = fileAdmins.length - 1; i >= 0 ; i--) {
+        var fileAdmin = fileAdmins[i];
+        if (fileAdmin[isSync ? "supportsSync" : "supports"](filename, currentDirectory, options, environment)) {
+            return fileAdmin;
         }
     }
     return null;
 };
 
-environment.prototype.addFileManager = function (fileManager) {
-    this.fileManagers.push(fileManager);
+environment.prototype.addFileAdmin = function (fileAdmin) {
+    this.fileAdmins.push(fileAdmin);
 };
 
-environment.prototype.clearFileManagers = function () {
-    this.fileManagers = [];
+environment.prototype.clearFileAdmins = function () {
+    this.fileAdmins = [];
 };
 
 module.exports = environment;

@@ -43,8 +43,8 @@ module.exports = function(root, options) {
             new visitor.ToCSSVisitor({compress: Boolean(options.compress)})
         ], i;
 
-    if (options.pluginManager) {
-        var pluginVisitors = options.pluginManager.getVisitors();
+    if (options.pluginAdmin) {
+        var pluginVisitors = options.pluginAdmin.getVisitors();
         for (i = 0; i < pluginVisitors.length; i++) {
             var pluginVisitor = pluginVisitors[i];
             if (pluginVisitor.isPreEvalVisitor) {

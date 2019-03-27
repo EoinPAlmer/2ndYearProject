@@ -9,7 +9,7 @@ import models.users.*;
 
 import javax.annotation.processing.Completion;
 
-public class AuthManager extends Action.Simple {
+public class AuthAdmin extends Action.Simple {
 
 
     public CompletionStage<Result> call(Http.Context ctx) {
@@ -17,11 +17,11 @@ public class AuthManager extends Action.Simple {
         String id = ctx.session().get("email");
         if (id != null) {
             User u = User.getUserById(id);
-            if ("manager".equals(u.getRole())){
+            if ("Admin".equals(u.getRole())){
                 return delegate.call(ctx);
             }
         }
-        ctx.flash().put("error", "Manager Login Required.");
+        ctx.flash().put("error", "Admin Login Required.");
         return CompletableFuture.completedFuture(redirect(routes.HomeController.index()));
     }
 }

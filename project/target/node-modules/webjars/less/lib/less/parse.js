@@ -1,9 +1,9 @@
 var PromiseConstructor,
     contexts = require("./contexts"),
     Parser = require('./parser/parser'),
-    PluginManager = require('./plugin-manager');
+    PluginAdmin = require('./plugin-Admin');
 
-module.exports = function(environment, ParseTree, ImportManager) {
+module.exports = function(environment, ParseTree, ImportAdmin) {
     var parse = function (input, options, callback) {
         options = options || {};
 
@@ -29,10 +29,10 @@ module.exports = function(environment, ParseTree, ImportManager) {
         } else {
             var context,
                 rootFileInfo,
-                pluginManager = new PluginManager(this);
+                pluginAdmin = new PluginAdmin(this);
 
-            pluginManager.addPlugins(options.plugins);
-            options.pluginManager = pluginManager;
+            pluginAdmin.addPlugins(options.plugins);
+            options.pluginAdmin = pluginAdmin;
 
             context = new contexts.Parse(options);
 
@@ -55,7 +55,7 @@ module.exports = function(environment, ParseTree, ImportManager) {
                 }
             }
 
-            var imports = new ImportManager(context, rootFileInfo);
+            var imports = new ImportAdmin(context, rootFileInfo);
 
             new Parser(context, imports, rootFileInfo)
                 .parse(input, function (e, root) {

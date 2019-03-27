@@ -105,7 +105,7 @@ npm/node_modules/request/node_modules/http-signature/node_modules/asn1/tst/ber/r
 npm/node_modules/columnify/node_modules/wcwidth/docs/index.md:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/columnify/node_modules/wcwidth/docs/index.md
 coffee-script/lib/coffee-script/rewriter.js:1391030376000:META-INF/resources/webjars/coffee-script-node/1.7.1/lib/coffee-script/rewriter.js
 npm/node_modules/mkdirp/index.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/mkdirp/index.js
-less/lib/less/import-manager.js:1428022396000:META-INF/resources/webjars/less-node/2.5.0/lib/less/import-manager.js
+less/lib/less/import-Admin.js:1428022396000:META-INF/resources/webjars/less-node/2.5.0/lib/less/import-Admin.js
 npm/node_modules/node-gyp/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/example.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/node-gyp/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/example.js
 npm/node_modules/request/node_modules/har-validator/node_modules/bluebird/js/main/call_get.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/request/node_modules/har-validator/node_modules/bluebird/js/main/call_get.js
 npm/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/.npmignore:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/node-gyp/node_modules/path-array/node_modules/array-index/.npmignore
@@ -314,7 +314,7 @@ npm/node_modules/readable-stream/node_modules/isarray/component.json:14334390460
 npm/node_modules/request/node_modules/bl/node_modules/readable-stream/README.md:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/request/node_modules/bl/node_modules/readable-stream/README.md
 npm/node_modules/request/node_modules/hawk/index.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/request/node_modules/hawk/index.js
 npm/node_modules/dezalgo/LICENSE:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/dezalgo/LICENSE
-less/lib/less/environment/file-manager-api.js:1428022396000:META-INF/resources/webjars/less-node/2.5.0/lib/less/environment/file-manager-api.js
+less/lib/less/environment/file-Admin-api.js:1428022396000:META-INF/resources/webjars/less-node/2.5.0/lib/less/environment/file-Admin-api.js
 npm/node_modules/minimatch/node_modules/brace-expansion/index.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/minimatch/node_modules/brace-expansion/index.js
 npm/node_modules/text-table/test/doubledot.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/text-table/test/doubledot.js
 npm/node_modules/normalize-package-data/README.md:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/normalize-package-data/README.md
@@ -568,7 +568,7 @@ npm/lib/substack.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/lib/subs
 npm/node_modules/npm-registry-client/test/lib/common.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/npm-registry-client/test/lib/common.js
 npm/node_modules/request/node_modules/tough-cookie/test/date_test.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/request/node_modules/tough-cookie/test/date_test.js
 npm/node_modules/tar/lib/entry.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/tar/lib/entry.js
-less/lib/less-browser/file-manager.js:1428022396000:META-INF/resources/webjars/less-node/2.5.0/lib/less-browser/file-manager.js
+less/lib/less-browser/file-Admin.js:1428022396000:META-INF/resources/webjars/less-node/2.5.0/lib/less-browser/file-Admin.js
 npm/node_modules/columnify/node_modules/wcwidth/node_modules/defaults/test.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/columnify/node_modules/wcwidth/node_modules/defaults/test.js
 npm/node_modules/github-url-from-git/Readme.md:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/github-url-from-git/Readme.md
 npm/node_modules/async-some/test/parameters.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/async-some/test/parameters.js
@@ -703,7 +703,7 @@ npm/node_modules/minimatch/browser.js:1433439046000:META-INF/resources/webjars/n
 npm/node_modules/request/node_modules/har-validator/node_modules/bluebird/js/main/debuggability.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/request/node_modules/har-validator/node_modules/bluebird/js/main/debuggability.js
 source-map/lib/source-map/source-map-consumer.js:1412235086000:META-INF/resources/webjars/source-map/0.1.40/lib/source-map/source-map-consumer.js
 npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/supports-color/package.json:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/supports-color/package.json
-less/lib/less-node/url-file-manager.js:1428022396000:META-INF/resources/webjars/less-node/2.5.0/lib/less-node/url-file-manager.js
+less/lib/less-node/url-file-Admin.js:1428022396000:META-INF/resources/webjars/less-node/2.5.0/lib/less-node/url-file-Admin.js
 npm/node_modules/block-stream/bench/block-stream-pause.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/block-stream/bench/block-stream-pause.js
 npm/node_modules/sorted-object/README.md:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/sorted-object/README.md
 npm/package.json:1434611784000:META-INF/resources/webjars/npm/2.11.2/package.json
@@ -1284,7 +1284,7 @@ npm/node_modules/normalize-git-url/normalize-git-url.js:1433439046000:META-INF/r
 npm/node_modules/node-gyp/node_modules/minimatch/node_modules/sigmund/bench.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/node-gyp/node_modules/minimatch/node_modules/sigmund/bench.js
 npm/node_modules/npm-registry-client/lib/authify.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/npm-registry-client/lib/authify.js
 npm/node_modules/read-installed/test/grandparent-peer-dev.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/read-installed/test/grandparent-peer-dev.js
-less/lib/less/environment/abstract-file-manager.js:1428022396000:META-INF/resources/webjars/less-node/2.5.0/lib/less/environment/abstract-file-manager.js
+less/lib/less/environment/abstract-file-Admin.js:1428022396000:META-INF/resources/webjars/less-node/2.5.0/lib/less/environment/abstract-file-Admin.js
 npm/node_modules/columnify/node_modules/wcwidth/node_modules/defaults/package.json:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/columnify/node_modules/wcwidth/node_modules/defaults/package.json
 npm/node_modules/inflight/README.md:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/inflight/README.md
 npm/node_modules/editor/index.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/editor/index.js
@@ -1440,7 +1440,7 @@ npm/node_modules/request/node_modules/bl/test/sauce.js:1433439046000:META-INF/re
 npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/has-ansi/node_modules/get-stdin/index.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/has-ansi/node_modules/get-stdin/index.js
 less/lib/less/tree/quoted.js:1428022396000:META-INF/resources/webjars/less-node/2.5.0/lib/less/tree/quoted.js
 npm/node_modules/normalize-package-data/test/strict.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/normalize-package-data/test/strict.js
-less/lib/less-node/file-manager.js:1428022396000:META-INF/resources/webjars/less-node/2.5.0/lib/less-node/file-manager.js
+less/lib/less-node/file-Admin.js:1428022396000:META-INF/resources/webjars/less-node/2.5.0/lib/less-node/file-Admin.js
 npm/node_modules/request/node_modules/tough-cookie/lib/store.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/request/node_modules/tough-cookie/lib/store.js
 npm/node_modules/request/node_modules/har-validator/src/schemas/cookie.json:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/request/node_modules/har-validator/src/schemas/cookie.json
 npm/node_modules/node-gyp/node_modules/tar/test/header.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/node-gyp/node_modules/tar/test/header.js
@@ -1692,7 +1692,7 @@ npm/node_modules/node-gyp/node_modules/glob/node_modules/minimatch/node_modules/
 npm/node_modules/read-package-json/node_modules/json-parse-helpfulerror/node_modules/jju/test/test_portable.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/read-package-json/node_modules/json-parse-helpfulerror/node_modules/jju/test/test_portable.js
 npm/node_modules/request/node_modules/json-stringify-safe/README.md:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/request/node_modules/json-stringify-safe/README.md
 npm/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/has-ansi/package.json:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/request/node_modules/har-validator/node_modules/chalk/node_modules/has-ansi/package.json
-npm/node_modules/request/node_modules/form-data/node_modules/async/support/sync-package-managers.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/request/node_modules/form-data/node_modules/async/support/sync-package-managers.js
+npm/node_modules/request/node_modules/form-data/node_modules/async/support/sync-package-Admins.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/request/node_modules/form-data/node_modules/async/support/sync-package-Admins.js
 npm/node_modules/readable-stream/duplex.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/readable-stream/duplex.js
 npm/node_modules/npmlog/node_modules/gauge/node_modules/lodash._createpadding/LICENSE.txt:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/npmlog/node_modules/gauge/node_modules/lodash._createpadding/LICENSE.txt
 npm/node_modules/mkdirp/test/sync.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/mkdirp/test/sync.js
@@ -1760,7 +1760,7 @@ npm/node_modules/request/node_modules/form-data/node_modules/combined-stream/lib
 less/lib/less/tree/unicode-descriptor.js:1428022396000:META-INF/resources/webjars/less-node/2.5.0/lib/less/tree/unicode-descriptor.js
 mkdirp/package.json:1399314490000:META-INF/resources/webjars/mkdirp/0.5.0/package.json
 npm/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/xtend/README.md:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/request/node_modules/har-validator/node_modules/is-my-json-valid/node_modules/xtend/README.md
-less/lib/less/plugin-manager.js:1428022396000:META-INF/resources/webjars/less-node/2.5.0/lib/less/plugin-manager.js
+less/lib/less/plugin-Admin.js:1428022396000:META-INF/resources/webjars/less-node/2.5.0/lib/less/plugin-Admin.js
 npm/lib/config/set-credentials-by-uri.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/lib/config/set-credentials-by-uri.js
 npm/node_modules/rimraf/node_modules/glob/LICENSE:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/rimraf/node_modules/glob/LICENSE
 npm/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/map.js:1433439046000:META-INF/resources/webjars/npm/2.11.2/node_modules/minimatch/node_modules/brace-expansion/node_modules/concat-map/example/map.js

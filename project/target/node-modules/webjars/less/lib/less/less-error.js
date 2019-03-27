@@ -1,13 +1,13 @@
 var utils = require("./utils");
 
-var LessError = module.exports = function LessError(e, importManager, currentFilename) {
+var LessError = module.exports = function LessError(e, importAdmin, currentFilename) {
 
     Error.call(this);
 
     var filename = e.filename || currentFilename;
 
-    if (importManager && filename) {
-        var input = importManager.contents[filename],
+    if (importAdmin && filename) {
+        var input = importAdmin.contents[filename],
             loc = utils.getLocation(e.index, input),
             line = loc.line,
             col  = loc.column,

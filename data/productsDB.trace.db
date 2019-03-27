@@ -374,7 +374,7 @@ org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INFORMATION_SCHEMA[
 INFORMATION_SCHEMA.USERS [42001-192]
 2019-03-19 15:29:11 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Column "TYEP" not found; SQL statement:
-insert into user (tyep,email,role,name,password) values ('m','finn@sneakersan.com','FinnHarvey','Manager','password') [42122-197]
+insert into user (tyep,email,role,name,password) values ('m','finn@sneakersan.com','FinnHarvey','Admin','password') [42122-197]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
 	at org.h2.message.DbException.get(DbException.java:179)
 	at org.h2.message.DbException.get(DbException.java:155)

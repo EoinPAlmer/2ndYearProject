@@ -1,6 +1,6 @@
 var PromiseConstructor;
 
-module.exports = function(environment, ParseTree, ImportManager) {
+module.exports = function(environment, ParseTree, ImportAdmin) {
     var render = function (input, options, callback) {
         if (typeof options === 'function') {
             callback = options;

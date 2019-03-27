@@ -432,7 +432,7 @@
 			</b>
 			<xsl:text> </xsl:text>
              <b><xsl:value-of select="@evicted-reason"/></b>
-			 in <b><xsl:value-of select="@evicted"/></b> conflict manager
+			 in <b><xsl:value-of select="@evicted"/></b> conflict Admin
         </td></tr>
         </xsl:if>
         </table>

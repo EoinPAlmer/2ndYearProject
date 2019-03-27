@@ -21,71 +21,79 @@ import play.api.data.Field
 import play.mvc.Http.Context.Implicit._
 import play.data._
 import play.core.j.PlayFormsMagicForJava._
-/*1.2*/import helper._
 
 object addProduct extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template2[Form[models.products.ProductOnSale],models.users.User,play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
-  def apply/*2.2*/(addProductForm: Form[models.products.ProductOnSale])(user: models.users.User):play.twirl.api.HtmlFormat.Appendable = {
+  def apply/*1.2*/(productForm: Form[models.products.ProductOnSale],user: models.users.User):play.twirl.api.HtmlFormat.Appendable = {
     _display_ {
       {
+/*4.2*/import helper._
 
 
-Seq[Any](format.raw/*3.1*/("""
+Seq[Any](format.raw/*2.1*/("""
 
-    """),_display_(/*5.6*/main("AddProduct", user)/*5.30*/ {_display_(Seq[Any](format.raw/*5.32*/("""
+"""),format.raw/*5.1*/("""
+"""),_display_(/*6.2*/main("Add Product",user)/*6.26*/{_display_(Seq[Any](format.raw/*6.27*/("""
+    """),format.raw/*7.5*/("""<p class="lead">Add a new product</p>
 
-        """),format.raw/*7.9*/("""<div class="container">
-            <h2 class = "text-center text-muted">Add A Product To <span class = "logo">Sneaker Sanctuary</span></h2>
+    <!-- Use a views.html.helpers package method to create the form (instead of html)-->
+    <!-- Note the arguments that are being passed to the scala function form (they are
+         essentially instructions for constructing an HTML form element)-->
+    """),_display_(/*12.6*/form(action=routes.HomeController.addProductSubmit(), 'class -> "form-horizontal", 'role -> "form",
+           'method -> "POST", 'enctype -> "multipart/form-data")/*13.65*/ {_display_(Seq[Any](format.raw/*13.67*/("""
+        """),format.raw/*14.37*/("""
+        """),format.raw/*15.99*/("""
+        """),_display_(/*16.10*/CSRF/*16.14*/.formField),format.raw/*16.24*/("""
 
-            <div class="row">
+        """),format.raw/*18.9*/("""<!-- Use helper methods to add fields to the form -->
+        <!-- Note that the form fields are related to the fields of the productForm object -->
+        <!-- Note the arguments that are being passed to the scala function inputText (they are 
+             essentially instructions for constructing an HTML input element)-->
+        <!-- Note the """),_display_(/*22.24*/select),format.raw/*22.30*/(""" """),format.raw/*22.31*/("""function's argument options. This needs to be a map of ids-to-names
+             and this is provided by the method Category.options(), which we added to the Category
+             class in the previous step. -->
+            """),_display_(/*25.14*/inputText(productForm("name"), '_label -> "Name", 'class -> "form-control")),format.raw/*25.89*/("""
+            """),format.raw/*26.13*/("""<p><strong>Categories</strong></p>
+            """),_display_(/*27.14*/for((value, name) <- products.Category.options) yield /*27.61*/ {_display_(Seq[Any](format.raw/*27.63*/("""
+                """),format.raw/*28.17*/("""<input type="checkbox" name="catSelect[]" value=""""),_display_(/*28.67*/value),format.raw/*28.72*/(""""  
+                    """),_display_(/*29.22*/if(productForm("id").getValue.isPresent && productForm("id").getValue.get != "")/*29.102*/ {_display_(Seq[Any](format.raw/*29.104*/(""" 
+                        """),_display_(/*30.26*/if(products.Category.inCategory(value.toLong, productForm("id").getValue.get.toLong))/*30.111*/ {_display_(Seq[Any](format.raw/*30.113*/("""
+                            """),format.raw/*31.29*/("""checked
+                        """)))}),format.raw/*32.26*/("""
+                    """)))}),format.raw/*33.22*/(""" 
+                """),format.raw/*34.17*/("""/> """),_display_(/*34.21*/name),format.raw/*34.25*/(""" """),format.raw/*34.26*/("""</br>
+            """)))}),format.raw/*35.14*/("""
+            """),format.raw/*36.13*/("""</p>
+            
+            """),_display_(/*38.14*/inputText(productForm("brand"), '_label -> "Brand", 'class -> "form-control")),format.raw/*38.91*/("""
+            """),_display_(/*39.14*/inputText(productForm("stock"), '_label -> "Stock", 'class -> "form-control")),format.raw/*39.91*/("""
+            """),_display_(/*40.14*/inputText(productForm("price"), '_label -> "Price", 'class -> "form-control")),format.raw/*40.91*/("""
 
-                <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 col-centered">
+            """),format.raw/*42.13*/("""<label>Image Upload</label>
+            <input class="btn-sm btn-default" type="file" name="upload">    
 
-
-                """),_display_(/*15.18*/form(action = routes.HomeController.addProductSubmit(), 'class -> "form-horizontal", 'role -> "form", 'enctype -> "multipart/form-data")/*15.154*/ {_display_(Seq[Any](format.raw/*15.156*/("""
-                    """),format.raw/*16.49*/("""
-                    """),format.raw/*17.109*/("""
-                    """),_display_(/*18.22*/CSRF/*18.26*/.formField),format.raw/*18.36*/("""
-
-                    """),_display_(/*20.22*/inputText(addProductForm("id"), '_label -> "ID", 'class -> "form-control")),format.raw/*20.96*/("""
-                    """),_display_(/*21.22*/inputText(addProductForm("name"), '_label -> "Name", 'class -> "form-control")),format.raw/*21.100*/("""
-                    """),_display_(/*22.22*/inputText(addProductForm("brand"), '_label -> "Brand", 'class -> "form-control")),format.raw/*22.102*/("""
-                    """),_display_(/*23.22*/inputText(addProductForm("size"), '_label -> "Size", 'class -> "form-control")),format.raw/*23.100*/("""
-                    """),_display_(/*24.22*/inputText(addProductForm("stock"), '_label -> "Stock", 'class -> "form-control")),format.raw/*24.102*/("""
-                    """),_display_(/*25.22*/inputText(addProductForm("price"), '_label -> "Price", 'class -> "form-control")),format.raw/*25.102*/("""
-
-                    """),_display_(/*27.22*/inputText(addProductForm("id"), '_label -> "", 'hidden -> "hidden")),format.raw/*27.89*/("""
-                   
-               
-                    """),format.raw/*30.21*/("""<label>Image Upload</label>
-                    <input class = "btn btn-dark" type = "file" name = "upload">
-
-                    <br>
-
-                    <div class="actions">
-                        <input type="submit" value="Add Product" class="btn btn-dark">
-
-
-                        """),format.raw/*39.131*/("""
-                        """),format.raw/*40.25*/("""<a href=""""),_display_(/*40.35*/routes/*40.41*/.HomeController.products()),format.raw/*40.67*/("""" class="btn btn-danger">Cancel</a>
-
-
-                    </div>
-                </div>
+            """),_display_(/*45.14*/inputText(productForm("id"), '_label -> "", 'hidden -> "hidden")),format.raw/*45.78*/("""
+            
+            """),format.raw/*47.13*/("""<!-- We use the bootstrap actions class for the buttons at the bottom:
+                1. The submit button for the form
+                2. A button that allows the user to cancel without adding an item
+            -->
+            <div class="actions">
+                <input type="submit" value="Add/Update product" class="btn btn-primary">
+                <a href=""""),_display_(/*53.27*/routes/*53.33*/.HomeController.onsale(0)),format.raw/*53.58*/("""">
+                    <button type="button" class="btn btn-warning">Cancel</button>
+                </a>
             </div>
-        </div>
-
-    """)))}),format.raw/*48.6*/("""
-
-    """)))}))
+    """)))}),format.raw/*57.6*/(""" """),format.raw/*57.24*/("""
+""")))}),format.raw/*58.2*/(""" """))
       }
     }
   }
 
-  def render(addProductForm:Form[models.products.ProductOnSale],user:models.users.User): play.twirl.api.HtmlFormat.Appendable = apply(addProductForm)(user)
+  def render(productForm:Form[models.products.ProductOnSale],user:models.users.User): play.twirl.api.HtmlFormat.Appendable = apply(productForm,user)
 
-  def f:((Form[models.products.ProductOnSale]) => (models.users.User) => play.twirl.api.HtmlFormat.Appendable) = (addProductForm) => (user) => apply(addProductForm)(user)
+  def f:((Form[models.products.ProductOnSale],models.users.User) => play.twirl.api.HtmlFormat.Appendable) = (productForm,user) => apply(productForm,user)
 
   def ref: this.type = this
 
@@ -94,11 +102,11 @@ Seq[Any](format.raw/*3.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Mar 27 11:36:47 GMT 2019
+                  DATE: Wed Mar 27 14:50:46 GMT 2019
                   SOURCE: /home/wdd/2ndYearProject/app/views/addProduct.scala.html
-                  HASH: e27bd76e5d9f4a7743623c004af34281433f5a2f
-                  MATRIX: 651->1|1023->18|1195->97|1227->104|1259->128|1298->130|1334->140|1634->413|1780->549|1821->551|1870->600|1920->709|1969->731|1982->735|2013->745|2063->768|2158->842|2207->864|2307->942|2356->964|2458->1044|2507->1066|2607->1144|2656->1166|2758->1246|2807->1268|2909->1348|2959->1371|3047->1438|3132->1495|3452->1892|3505->1917|3542->1927|3557->1933|3604->1959|3762->2087
-                  LINES: 24->1|29->2|34->3|36->5|36->5|36->5|38->7|46->15|46->15|46->15|47->16|48->17|49->18|49->18|49->18|51->20|51->20|52->21|52->21|53->22|53->22|54->23|54->23|55->24|55->24|56->25|56->25|58->27|58->27|61->30|70->39|71->40|71->40|71->40|71->40|79->48
+                  HASH: 287171bd73cee127a4b80410b81509aa3d124461
+                  MATRIX: 1000->1|1147->79|1191->76|1219->95|1246->97|1278->121|1316->122|1347->127|1669->423|1842->587|1882->589|1919->626|1956->725|1993->735|2006->739|2037->749|2074->759|2451->1109|2478->1115|2507->1116|2759->1341|2855->1416|2896->1429|2971->1477|3034->1524|3074->1526|3119->1543|3196->1593|3222->1598|3274->1623|3364->1703|3405->1705|3459->1732|3554->1817|3595->1819|3652->1848|3716->1881|3769->1903|3815->1921|3846->1925|3871->1929|3900->1930|3950->1949|3991->1962|4049->1993|4147->2070|4188->2084|4286->2161|4327->2175|4425->2252|4467->2266|4613->2385|4698->2449|4752->2475|5147->2843|5162->2849|5208->2874|5368->3004|5397->3022|5429->3024
+                  LINES: 28->1|31->4|34->2|36->5|37->6|37->6|37->6|38->7|43->12|44->13|44->13|45->14|46->15|47->16|47->16|47->16|49->18|53->22|53->22|53->22|56->25|56->25|57->26|58->27|58->27|58->27|59->28|59->28|59->28|60->29|60->29|60->29|61->30|61->30|61->30|62->31|63->32|64->33|65->34|65->34|65->34|65->34|66->35|67->36|69->38|69->38|70->39|70->39|71->40|71->40|73->42|76->45|76->45|78->47|84->53|84->53|84->53|88->57|88->57|89->58
                   -- GENERATED --
               */
           
