@@ -54,7 +54,7 @@ public class HomeController extends Controller {
         }else {
             productList = Category.find.ref(cat).getProducts();
         }
-        return ok(onsale.render(productList, categoryList,User.getUserById(session().get("email"))));
+        return ok(onsale.render(productList, categoryList,User.getUserById(session().get("email")),e));
 
      }
 
