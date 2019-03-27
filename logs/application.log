@@ -1,46 +1,18 @@
-2019-03-27 18:12:23,018 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-6 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-03-27 18:12:23,061 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-6 - Creating Pool for datasource 'default'
-2019-03-27 18:12:26,445 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-6 - ApplicationTimer demo: Starting application at 2019-03-27T18:12:26.439Z
-2019-03-27 18:12:26,533 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-6 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-03-27 18:12:27,336 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-6 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-03-27 18:12:28,201 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-6 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-03-27 19:29:02,892 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-18 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-03-27 19:29:02,909 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-18 - Creating Pool for datasource 'default'
+2019-03-27 19:29:05,000 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-18 - ApplicationTimer demo: Starting application at 2019-03-27T19:29:04.997Z
+2019-03-27 19:29:05,013 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-18 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-03-27 19:29:05,895 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-18 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-03-27 19:29:06,231 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-18 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-03-27 18:12:28,222 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-6 - Application started (Dev)
-2019-03-27 18:19:11,843 [INFO] from application in application-akka.actor.default-dispatcher-11 - ApplicationTimer demo: Stopping application at 2019-03-27T18:19:11.843Z after 405s.
-2019-03-27 18:19:11,860 [INFO] from application in application-akka.actor.default-dispatcher-11 - Shutting down connection pool.
-2019-03-27 18:19:12,657 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-13 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-03-27 18:19:12,658 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-13 - Creating Pool for datasource 'default'
-2019-03-27 18:19:12,977 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-13 - ApplicationTimer demo: Starting application at 2019-03-27T18:19:12.977Z
-2019-03-27 18:19:12,985 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-13 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-03-27 18:19:13,056 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-13 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-03-27 18:19:13,487 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-13 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-03-27 19:29:06,234 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-18 - Application started (Dev)
+2019-03-27 19:30:13,189 [ERROR] from application in application-akka.actor.default-dispatcher-7 - 
 
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2019-03-27 18:19:13,488 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-13 - Application started (Dev)
-2019-03-27 18:19:19,739 [INFO] from application in application-akka.actor.default-dispatcher-7 - ApplicationTimer demo: Stopping application at 2019-03-27T18:19:19.739Z after 7s.
-2019-03-27 18:19:19,741 [INFO] from application in application-akka.actor.default-dispatcher-7 - Shutting down connection pool.
-2019-03-27 18:19:20,615 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-15 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-03-27 18:19:20,618 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-15 - Creating Pool for datasource 'default'
-2019-03-27 18:19:20,921 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-15 - ApplicationTimer demo: Starting application at 2019-03-27T18:19:20.921Z
-2019-03-27 18:19:20,928 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-15 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-03-27 18:19:20,964 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-15 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-03-27 18:19:21,317 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-15 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2019-03-27 18:19:21,319 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-15 - Application started (Dev)
-2019-03-27 18:19:23,849 [ERROR] from application in application-akka.actor.default-dispatcher-9 - 
-
-! @7bbef7dni - Internal server error, for (GET) [/onsale] ->
+! @7bbeof7mi - Internal server error, for (GET) [/onsale] ->
  
 play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[PersistenceException: Query threw SQLException:Table "PRODUCT_ON_SALE" not found; SQL statement:
 select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197] Bind values:[null] Query was:select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0]]
@@ -113,7 +85,6 @@ select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sal
 	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
 	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
 	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
 	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
 	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:376)
 	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
@@ -145,493 +116,94 @@ select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sal
 	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQueryWithOption(CQuery.java:343)
 	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQuery(CQuery.java:310)
 	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:349)
-	... 59 common frames omitted
-2019-03-27 18:19:54,700 [INFO] from application in application-akka.actor.default-dispatcher-3 - ApplicationTimer demo: Stopping application at 2019-03-27T18:19:54.700Z after 34s.
-2019-03-27 18:19:54,703 [INFO] from application in application-akka.actor.default-dispatcher-3 - Shutting down connection pool.
-2019-03-27 18:19:55,375 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-16 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-03-27 18:19:55,376 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-16 - Creating Pool for datasource 'default'
-2019-03-27 18:19:55,649 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-16 - ApplicationTimer demo: Starting application at 2019-03-27T18:19:55.649Z
-2019-03-27 18:19:55,688 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-16 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-03-27 18:19:55,805 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-16 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-03-27 18:19:56,153 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-16 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+	... 58 common frames omitted
+2019-03-27 19:34:37,890 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-41 - 
+
+! @7bbep4910 - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[not found: value user]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:146)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$1(PlayReload.scala:33)
+	at scala.Option.map(Option.scala:146)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:28)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:24)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:51)
+	at scala.util.Either$LeftProjection.map(Either.scala:569)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:51)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:76)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:412)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:50)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:55)
+	at play.runsupport.Reloader.reload(Reloader.scala:412)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:123)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:241)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:138)
+	at akka.stream.impl.fusing.MapAsyncUnordered$$anon$31.onPush(Ops.scala:1318)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:519)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:482)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:378)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:588)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:472)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:563)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:745)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:760)
+	at akka.actor.Actor.aroundReceive(Actor.scala:517)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:515)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:670)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:588)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:557)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:258)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:225)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:235)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2019-03-27 19:36:21,912 [INFO] from application in application-akka.actor.default-dispatcher-13 - ApplicationTimer demo: Stopping application at 2019-03-27T19:36:21.912Z after 437s.
+2019-03-27 19:36:21,914 [INFO] from application in application-akka.actor.default-dispatcher-13 - Shutting down connection pool.
+2019-03-27 19:36:22,794 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-45 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-03-27 19:36:22,795 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-45 - Creating Pool for datasource 'default'
+2019-03-27 19:36:23,142 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-45 - ApplicationTimer demo: Starting application at 2019-03-27T19:36:23.142Z
+2019-03-27 19:36:23,199 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-45 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-03-27 19:36:23,432 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-45 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-03-27 19:36:24,992 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-45 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-03-27 18:19:56,156 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-16 - Application started (Dev)
-2019-03-27 18:19:56,264 [ERROR] from application in application-akka.actor.default-dispatcher-6 - 
-
-! @7bbef99mg - Internal server error, for (GET) [/onsale] ->
- 
-play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[PersistenceException: Query threw SQLException:Table "PRODUCT_ON_SALE" not found; SQL statement:
-select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197] Bind values:[null] Query was:select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0]]
-	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:251)
-	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:178)
-	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:382)
-	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:380)
-	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
-	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
-	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
-	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
-	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
-	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
-	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:44)
-	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
-	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
-	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
-	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-Caused by: javax.persistence.PersistenceException: Query threw SQLException:Table "PRODUCT_ON_SALE" not found; SQL statement:
-select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197] Bind values:[null] Query was:select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0
-	at io.ebean.config.dbplatform.SqlCodeTranslator.translate(SqlCodeTranslator.java:48)
-	at io.ebean.config.dbplatform.DatabasePlatform.translate(DatabasePlatform.java:195)
-	at io.ebeaninternal.server.query.CQueryEngine.translate(CQueryEngine.java:139)
-	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.translate(DefaultOrmQueryEngine.java:38)
-	at io.ebeaninternal.server.core.OrmQueryRequest.translate(OrmQueryRequest.java:81)
-	at io.ebeaninternal.server.query.CQuery.createPersistenceException(CQuery.java:666)
-	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:373)
-	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.findMany(DefaultOrmQueryEngine.java:126)
-	at io.ebeaninternal.server.core.OrmQueryRequest.findList(OrmQueryRequest.java:371)
-	at io.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1506)
-	at io.ebeaninternal.server.querydefn.DefaultOrmQuery.findList(DefaultOrmQuery.java:1239)
-	at io.ebean.Finder.all(Finder.java:148)
-	at models.products.ProductOnSale.findAll(ProductOnSale.java:48)
-	at controllers.HomeController.onsale(HomeController.java:53)
-	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$4(Routes.scala:685)
-	at play.core.routing.HandlerInvokerFactory$$anon$6.resultCall(HandlerInvoker.scala:134)
-	at play.core.routing.HandlerInvokerFactory$$anon$6.resultCall(HandlerInvoker.scala:133)
-	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$3$$anon$4$$anon$5.invocation(HandlerInvoker.scala:108)
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
-	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
-	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
-	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
-	at scala.util.Success.$anonfun$map$1(Try.scala:255)
-	at scala.util.Success.map(Try.scala:213)
-	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
-	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
-	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
-	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
-	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
-	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
-	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
-	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:372)
-	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:371)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:379)
-	at scala.concurrent.impl.Promise.transform(Promise.scala:33)
-	at scala.concurrent.impl.Promise.transform$(Promise.scala:31)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:379)
-	at scala.concurrent.Future.map(Future.scala:292)
-	at scala.concurrent.Future.map$(Future.scala:292)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:379)
-	at scala.concurrent.Future$.apply(Future.scala:658)
-	at play.core.j.JavaAction.apply(JavaAction.scala:138)
-	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
-	at scala.util.Try$.apply(Try.scala:213)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
-	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:376)
-	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
-	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
-	... 12 common frames omitted
-Caused by: org.h2.jdbc.JdbcSQLException: Table "PRODUCT_ON_SALE" not found; SQL statement:
-select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
-	at org.h2.message.DbException.get(DbException.java:179)
-	at org.h2.message.DbException.get(DbException.java:155)
-	at org.h2.command.Parser.readTableOrView(Parser.java:5920)
-	at org.h2.command.Parser.readTableFilter(Parser.java:1430)
-	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:2138)
-	at org.h2.command.Parser.parseSelectSimple(Parser.java:2287)
-	at org.h2.command.Parser.parseSelectSub(Parser.java:2133)
-	at org.h2.command.Parser.parseSelectUnion(Parser.java:1946)
-	at org.h2.command.Parser.parseSelect(Parser.java:1919)
-	at org.h2.command.Parser.parsePrepared(Parser.java:463)
-	at org.h2.command.Parser.parse(Parser.java:335)
-	at org.h2.command.Parser.parse(Parser.java:307)
-	at org.h2.command.Parser.prepareCommand(Parser.java:278)
-	at org.h2.engine.Session.prepareLocal(Session.java:611)
-	at org.h2.engine.Session.prepareCommand(Session.java:549)
-	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1247)
-	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
-	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:304)
-	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:318)
-	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
-	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQueryWithOption(CQuery.java:343)
-	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQuery(CQuery.java:310)
-	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:349)
-	... 59 common frames omitted
-2019-03-27 18:21:34,594 [INFO] from application in application-akka.actor.default-dispatcher-8 - ApplicationTimer demo: Stopping application at 2019-03-27T18:21:34.594Z after 99s.
-2019-03-27 18:21:34,596 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
-2019-03-27 18:21:35,206 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-11 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-03-27 18:21:35,212 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-11 - Creating Pool for datasource 'default'
-2019-03-27 18:21:35,508 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-11 - ApplicationTimer demo: Starting application at 2019-03-27T18:21:35.507Z
-2019-03-27 18:21:35,529 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-11 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-03-27 18:21:35,602 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-11 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-03-27 18:21:35,987 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-11 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-03-27 19:36:24,993 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-45 - Application started (Dev)
+2019-03-27 20:07:05,231 [INFO] from application in application-akka.actor.default-dispatcher-9 - ApplicationTimer demo: Stopping application at 2019-03-27T20:07:05.231Z after 1842s.
+2019-03-27 20:07:05,231 [INFO] from application in application-akka.actor.default-dispatcher-9 - Shutting down connection pool.
+2019-03-27 20:07:06,241 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-50 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-03-27 20:07:06,241 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-50 - Creating Pool for datasource 'default'
+2019-03-27 20:07:06,487 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-50 - ApplicationTimer demo: Starting application at 2019-03-27T20:07:06.487Z
+2019-03-27 20:07:06,491 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-50 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-03-27 20:07:06,591 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-50 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-03-27 20:07:06,893 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-50 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-03-27 18:21:35,989 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-11 - Application started (Dev)
-2019-03-27 18:21:36,085 [ERROR] from application in application-akka.actor.default-dispatcher-6 - 
-
-! @7bbeff1do - Internal server error, for (GET) [/onsale] ->
- 
-play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[PersistenceException: Query threw SQLException:Table "PRODUCT_ON_SALE" not found; SQL statement:
-select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197] Bind values:[null] Query was:select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0]]
-	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:251)
-	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:178)
-	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:382)
-	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:380)
-	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
-	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
-	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
-	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
-	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
-	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
-	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:44)
-	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
-	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
-	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
-	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-Caused by: javax.persistence.PersistenceException: Query threw SQLException:Table "PRODUCT_ON_SALE" not found; SQL statement:
-select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197] Bind values:[null] Query was:select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0
-	at io.ebean.config.dbplatform.SqlCodeTranslator.translate(SqlCodeTranslator.java:48)
-	at io.ebean.config.dbplatform.DatabasePlatform.translate(DatabasePlatform.java:195)
-	at io.ebeaninternal.server.query.CQueryEngine.translate(CQueryEngine.java:139)
-	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.translate(DefaultOrmQueryEngine.java:38)
-	at io.ebeaninternal.server.core.OrmQueryRequest.translate(OrmQueryRequest.java:81)
-	at io.ebeaninternal.server.query.CQuery.createPersistenceException(CQuery.java:666)
-	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:373)
-	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.findMany(DefaultOrmQueryEngine.java:126)
-	at io.ebeaninternal.server.core.OrmQueryRequest.findList(OrmQueryRequest.java:371)
-	at io.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1506)
-	at io.ebeaninternal.server.querydefn.DefaultOrmQuery.findList(DefaultOrmQuery.java:1239)
-	at io.ebean.Finder.all(Finder.java:148)
-	at models.products.ProductOnSale.findAll(ProductOnSale.java:48)
-	at controllers.HomeController.onsale(HomeController.java:53)
-	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$4(Routes.scala:685)
-	at play.core.routing.HandlerInvokerFactory$$anon$6.resultCall(HandlerInvoker.scala:134)
-	at play.core.routing.HandlerInvokerFactory$$anon$6.resultCall(HandlerInvoker.scala:133)
-	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$3$$anon$4$$anon$5.invocation(HandlerInvoker.scala:108)
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
-	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
-	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
-	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
-	at scala.util.Success.$anonfun$map$1(Try.scala:255)
-	at scala.util.Success.map(Try.scala:213)
-	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
-	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
-	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
-	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
-	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
-	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
-	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
-	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:372)
-	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:371)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:379)
-	at scala.concurrent.impl.Promise.transform(Promise.scala:33)
-	at scala.concurrent.impl.Promise.transform$(Promise.scala:31)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:379)
-	at scala.concurrent.Future.map(Future.scala:292)
-	at scala.concurrent.Future.map$(Future.scala:292)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:379)
-	at scala.concurrent.Future$.apply(Future.scala:658)
-	at play.core.j.JavaAction.apply(JavaAction.scala:138)
-	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
-	at scala.util.Try$.apply(Try.scala:213)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
-	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:376)
-	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
-	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
-	... 12 common frames omitted
-Caused by: org.h2.jdbc.JdbcSQLException: Table "PRODUCT_ON_SALE" not found; SQL statement:
-select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
-	at org.h2.message.DbException.get(DbException.java:179)
-	at org.h2.message.DbException.get(DbException.java:155)
-	at org.h2.command.Parser.readTableOrView(Parser.java:5920)
-	at org.h2.command.Parser.readTableFilter(Parser.java:1430)
-	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:2138)
-	at org.h2.command.Parser.parseSelectSimple(Parser.java:2287)
-	at org.h2.command.Parser.parseSelectSub(Parser.java:2133)
-	at org.h2.command.Parser.parseSelectUnion(Parser.java:1946)
-	at org.h2.command.Parser.parseSelect(Parser.java:1919)
-	at org.h2.command.Parser.parsePrepared(Parser.java:463)
-	at org.h2.command.Parser.parse(Parser.java:335)
-	at org.h2.command.Parser.parse(Parser.java:307)
-	at org.h2.command.Parser.prepareCommand(Parser.java:278)
-	at org.h2.engine.Session.prepareLocal(Session.java:611)
-	at org.h2.engine.Session.prepareCommand(Session.java:549)
-	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1247)
-	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
-	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:304)
-	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:318)
-	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
-	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQueryWithOption(CQuery.java:343)
-	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQuery(CQuery.java:310)
-	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:349)
-	... 59 common frames omitted
-2019-03-27 18:22:31,944 [INFO] from application in application-akka.actor.default-dispatcher-8 - ApplicationTimer demo: Stopping application at 2019-03-27T18:22:31.944Z after 56s.
-2019-03-27 18:22:31,946 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
-2019-03-27 18:22:32,396 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-14 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-03-27 18:22:32,397 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-14 - Creating Pool for datasource 'default'
-2019-03-27 18:22:32,646 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-14 - ApplicationTimer demo: Starting application at 2019-03-27T18:22:32.646Z
-2019-03-27 18:22:32,652 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-14 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-03-27 18:22:32,708 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-14 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-03-27 18:22:33,043 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-14 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-03-27 20:07:06,894 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-50 - Application started (Dev)
+2019-03-27 20:09:34,256 [INFO] from application in application-akka.actor.default-dispatcher-2 - ApplicationTimer demo: Stopping application at 2019-03-27T20:09:34.256Z after 148s.
+2019-03-27 20:09:34,256 [INFO] from application in application-akka.actor.default-dispatcher-2 - Shutting down connection pool.
+2019-03-27 20:09:34,466 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-56 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-03-27 20:09:34,466 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-56 - Creating Pool for datasource 'default'
+2019-03-27 20:09:34,522 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-56 - ApplicationTimer demo: Starting application at 2019-03-27T20:09:34.522Z
+2019-03-27 20:09:34,525 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-56 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-03-27 20:09:34,551 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-56 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-03-27 20:09:34,602 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-56 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-03-27 18:22:33,046 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-14 - Application started (Dev)
-2019-03-27 18:22:33,121 [ERROR] from application in application-akka.actor.default-dispatcher-8 - 
-
-! @7bbefi7nc - Internal server error, for (GET) [/onsale] ->
- 
-play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[PersistenceException: Query threw SQLException:Table "PRODUCT_ON_SALE" not found; SQL statement:
-select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197] Bind values:[null] Query was:select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0]]
-	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:251)
-	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:178)
-	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:382)
-	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:380)
-	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
-	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
-	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
-	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
-	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
-	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
-	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:44)
-	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
-	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
-	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
-	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-Caused by: javax.persistence.PersistenceException: Query threw SQLException:Table "PRODUCT_ON_SALE" not found; SQL statement:
-select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197] Bind values:[null] Query was:select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0
-	at io.ebean.config.dbplatform.SqlCodeTranslator.translate(SqlCodeTranslator.java:48)
-	at io.ebean.config.dbplatform.DatabasePlatform.translate(DatabasePlatform.java:195)
-	at io.ebeaninternal.server.query.CQueryEngine.translate(CQueryEngine.java:139)
-	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.translate(DefaultOrmQueryEngine.java:38)
-	at io.ebeaninternal.server.core.OrmQueryRequest.translate(OrmQueryRequest.java:81)
-	at io.ebeaninternal.server.query.CQuery.createPersistenceException(CQuery.java:666)
-	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:373)
-	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.findMany(DefaultOrmQueryEngine.java:126)
-	at io.ebeaninternal.server.core.OrmQueryRequest.findList(OrmQueryRequest.java:371)
-	at io.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1506)
-	at io.ebeaninternal.server.querydefn.DefaultOrmQuery.findList(DefaultOrmQuery.java:1239)
-	at io.ebean.Finder.all(Finder.java:148)
-	at models.products.ProductOnSale.findAll(ProductOnSale.java:48)
-	at controllers.HomeController.onsale(HomeController.java:53)
-	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$4(Routes.scala:685)
-	at play.core.routing.HandlerInvokerFactory$$anon$6.resultCall(HandlerInvoker.scala:134)
-	at play.core.routing.HandlerInvokerFactory$$anon$6.resultCall(HandlerInvoker.scala:133)
-	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$3$$anon$4$$anon$5.invocation(HandlerInvoker.scala:108)
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
-	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
-	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
-	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
-	at scala.util.Success.$anonfun$map$1(Try.scala:255)
-	at scala.util.Success.map(Try.scala:213)
-	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
-	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
-	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
-	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
-	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
-	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
-	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
-	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:372)
-	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:371)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:379)
-	at scala.concurrent.impl.Promise.transform(Promise.scala:33)
-	at scala.concurrent.impl.Promise.transform$(Promise.scala:31)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:379)
-	at scala.concurrent.Future.map(Future.scala:292)
-	at scala.concurrent.Future.map$(Future.scala:292)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:379)
-	at scala.concurrent.Future$.apply(Future.scala:658)
-	at play.core.j.JavaAction.apply(JavaAction.scala:138)
-	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
-	at scala.util.Try$.apply(Try.scala:213)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
-	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:376)
-	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
-	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
-	... 12 common frames omitted
-Caused by: org.h2.jdbc.JdbcSQLException: Table "PRODUCT_ON_SALE" not found; SQL statement:
-select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
-	at org.h2.message.DbException.get(DbException.java:179)
-	at org.h2.message.DbException.get(DbException.java:155)
-	at org.h2.command.Parser.readTableOrView(Parser.java:5920)
-	at org.h2.command.Parser.readTableFilter(Parser.java:1430)
-	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:2138)
-	at org.h2.command.Parser.parseSelectSimple(Parser.java:2287)
-	at org.h2.command.Parser.parseSelectSub(Parser.java:2133)
-	at org.h2.command.Parser.parseSelectUnion(Parser.java:1946)
-	at org.h2.command.Parser.parseSelect(Parser.java:1919)
-	at org.h2.command.Parser.parsePrepared(Parser.java:463)
-	at org.h2.command.Parser.parse(Parser.java:335)
-	at org.h2.command.Parser.parse(Parser.java:307)
-	at org.h2.command.Parser.prepareCommand(Parser.java:278)
-	at org.h2.engine.Session.prepareLocal(Session.java:611)
-	at org.h2.engine.Session.prepareCommand(Session.java:549)
-	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1247)
-	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
-	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:304)
-	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:318)
-	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
-	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQueryWithOption(CQuery.java:343)
-	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQuery(CQuery.java:310)
-	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:349)
-	... 59 common frames omitted
-2019-03-27 18:29:38,524 [INFO] from application in application-akka.actor.default-dispatcher-11 - ApplicationTimer demo: Stopping application at 2019-03-27T18:29:38.524Z after 426s.
-2019-03-27 18:29:38,525 [INFO] from application in application-akka.actor.default-dispatcher-11 - Shutting down connection pool.
-2019-03-27 18:29:39,111 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-19 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-03-27 18:29:39,111 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-19 - Creating Pool for datasource 'default'
-2019-03-27 18:29:39,353 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-19 - ApplicationTimer demo: Starting application at 2019-03-27T18:29:39.353Z
-2019-03-27 18:29:39,362 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-19 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-03-27 18:29:39,417 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-19 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-03-27 18:29:39,645 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-19 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2019-03-27 18:29:39,651 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-19 - Application started (Dev)
-2019-03-27 18:29:39,750 [ERROR] from application in application-akka.actor.default-dispatcher-3 - 
-
-! @7bbeggf0a - Internal server error, for (GET) [/onsale] ->
- 
-play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[PersistenceException: Query threw SQLException:Table "PRODUCT_ON_SALE" not found; SQL statement:
-select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197] Bind values:[null] Query was:select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0]]
-	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:251)
-	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:178)
-	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:382)
-	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:380)
-	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
-	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
-	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
-	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
-	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
-	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
-	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:44)
-	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
-	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
-	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
-	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-Caused by: javax.persistence.PersistenceException: Query threw SQLException:Table "PRODUCT_ON_SALE" not found; SQL statement:
-select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197] Bind values:[null] Query was:select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0
-	at io.ebean.config.dbplatform.SqlCodeTranslator.translate(SqlCodeTranslator.java:48)
-	at io.ebean.config.dbplatform.DatabasePlatform.translate(DatabasePlatform.java:195)
-	at io.ebeaninternal.server.query.CQueryEngine.translate(CQueryEngine.java:139)
-	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.translate(DefaultOrmQueryEngine.java:38)
-	at io.ebeaninternal.server.core.OrmQueryRequest.translate(OrmQueryRequest.java:81)
-	at io.ebeaninternal.server.query.CQuery.createPersistenceException(CQuery.java:666)
-	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:373)
-	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.findMany(DefaultOrmQueryEngine.java:126)
-	at io.ebeaninternal.server.core.OrmQueryRequest.findList(OrmQueryRequest.java:371)
-	at io.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1506)
-	at io.ebeaninternal.server.querydefn.DefaultOrmQuery.findList(DefaultOrmQuery.java:1239)
-	at io.ebean.Finder.all(Finder.java:148)
-	at models.products.ProductOnSale.findAll(ProductOnSale.java:48)
-	at controllers.HomeController.onsale(HomeController.java:53)
-	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$4(Routes.scala:685)
-	at play.core.routing.HandlerInvokerFactory$$anon$6.resultCall(HandlerInvoker.scala:134)
-	at play.core.routing.HandlerInvokerFactory$$anon$6.resultCall(HandlerInvoker.scala:133)
-	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$3$$anon$4$$anon$5.invocation(HandlerInvoker.scala:108)
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
-	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
-	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
-	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
-	at scala.util.Success.$anonfun$map$1(Try.scala:255)
-	at scala.util.Success.map(Try.scala:213)
-	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
-	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
-	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
-	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
-	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
-	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
-	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
-	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:372)
-	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:371)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:379)
-	at scala.concurrent.impl.Promise.transform(Promise.scala:33)
-	at scala.concurrent.impl.Promise.transform$(Promise.scala:31)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:379)
-	at scala.concurrent.Future.map(Future.scala:292)
-	at scala.concurrent.Future.map$(Future.scala:292)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:379)
-	at scala.concurrent.Future$.apply(Future.scala:658)
-	at play.core.j.JavaAction.apply(JavaAction.scala:138)
-	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
-	at scala.util.Try$.apply(Try.scala:213)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
-	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:376)
-	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
-	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
-	... 12 common frames omitted
-Caused by: org.h2.jdbc.JdbcSQLException: Table "PRODUCT_ON_SALE" not found; SQL statement:
-select t0.id, t0.name, t0.brand, t0.stock, t0.price, t0.size from product_on_sale t0 [42102-197]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
-	at org.h2.message.DbException.get(DbException.java:179)
-	at org.h2.message.DbException.get(DbException.java:155)
-	at org.h2.command.Parser.readTableOrView(Parser.java:5920)
-	at org.h2.command.Parser.readTableFilter(Parser.java:1430)
-	at org.h2.command.Parser.parseSelectSimpleFromPart(Parser.java:2138)
-	at org.h2.command.Parser.parseSelectSimple(Parser.java:2287)
-	at org.h2.command.Parser.parseSelectSub(Parser.java:2133)
-	at org.h2.command.Parser.parseSelectUnion(Parser.java:1946)
-	at org.h2.command.Parser.parseSelect(Parser.java:1919)
-	at org.h2.command.Parser.parsePrepared(Parser.java:463)
-	at org.h2.command.Parser.parse(Parser.java:335)
-	at org.h2.command.Parser.parse(Parser.java:307)
-	at org.h2.command.Parser.prepareCommand(Parser.java:278)
-	at org.h2.engine.Session.prepareLocal(Session.java:611)
-	at org.h2.engine.Session.prepareCommand(Session.java:549)
-	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1247)
-	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:76)
-	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:304)
-	at com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:318)
-	at com.zaxxer.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
-	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQueryWithOption(CQuery.java:343)
-	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQuery(CQuery.java:310)
-	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:349)
-	... 59 common frames omitted
-2019-03-27 18:37:48,553 [INFO] from play.core.server.AkkaHttpServer in pool-5-thread-1 - Stopping server...
+2019-03-27 20:09:34,604 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-56 - Application started (Dev)
+2019-03-27 21:01:11,784 [INFO] from play.core.server.AkkaHttpServer in pool-6-thread-2 - Stopping server...
+2019-03-27 21:01:12,218 [INFO] from application in application-akka.actor.default-dispatcher-9 - ApplicationTimer demo: Stopping application at 2019-03-27T21:01:12.218Z after 3098s.
+2019-03-27 21:01:12,218 [INFO] from application in application-akka.actor.default-dispatcher-9 - Shutting down connection pool.
