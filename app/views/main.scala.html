@@ -49,14 +49,6 @@
                         } else {
                             <a href = "@routes.LoginController.logout()">Logout @user.getName()</a>
                         }
-
-                        <div id="actions">
-                            <form action="@routes.ProductCtrl.listProducts(catId)" method="GET">
-                               <input type="search" id="searchbox" name="filter" value="@filter" placeholder="Filter by product name...">
-                               <input type="submit" id="searchsubmit" value="Filter by name" class="btn-md btn-primary">
-                            </form>
-                        </div>
-
                     </ul>
 
                 </div>
