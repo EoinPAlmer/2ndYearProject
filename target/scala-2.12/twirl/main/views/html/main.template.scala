@@ -66,29 +66,41 @@ Seq[Any](format.raw/*3.1*/("""<html>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li """),_display_(/*37.30*/if(title == "home")/*37.49*/ {_display_(Seq[Any](format.raw/*37.51*/("""
-                            """),format.raw/*38.29*/("""class="active"""")))}),format.raw/*38.44*/("""><a href=""""),_display_(/*38.55*/routes/*38.61*/.HomeController.index()),format.raw/*38.84*/("""">Home</a></li>
-                        <li """),_display_(/*39.30*/if(title == "products")/*39.53*/ {_display_(Seq[Any](format.raw/*39.55*/("""
-                            """),format.raw/*40.29*/("""class="active"""")))}),format.raw/*40.44*/("""><a href=""""),_display_(/*40.55*/routes/*40.61*/.HomeController.onsale()),format.raw/*40.85*/("""">Products</a></li>
-                        """),_display_(/*41.26*/if((user != null) && ("Admin".equals(user.getRole())))/*41.80*/ {_display_(Seq[Any](format.raw/*41.82*/("""
-                            """),format.raw/*42.29*/("""<li """),_display_(/*42.34*/if(title == "Add Product")/*42.60*/ {_display_(Seq[Any](format.raw/*42.62*/("""class = "active"""")))}),format.raw/*42.79*/(""">
-                            <a href=""""),_display_(/*43.39*/routes/*43.45*/.HomeController.addProduct()),format.raw/*43.73*/("""">Add A Product</a>
+                            """),format.raw/*38.29*/("""class="active"""")))}),format.raw/*38.44*/("""><a href=""""),_display_(/*38.55*/routes/*38.61*/.HomeController.index()),format.raw/*38.84*/("""">Home</a>
                             </li>
-                        """)))}),format.raw/*45.26*/("""
-                        """),format.raw/*46.25*/("""<li """),_display_(/*46.30*/if(title == "login")/*46.50*/{_display_(Seq[Any](format.raw/*46.51*/("""class = "active"""")))}),format.raw/*46.68*/(""">
-                        """),_display_(/*47.26*/if(user == null)/*47.42*/ {_display_(Seq[Any](format.raw/*47.44*/("""
-                            """),format.raw/*48.29*/("""<a href=""""),_display_(/*48.39*/routes/*48.45*/.LoginController.login()),format.raw/*48.69*/("""">Login</a>
-                        """)))}/*49.27*/else/*49.32*/{_display_(Seq[Any](format.raw/*49.33*/("""
-                            """),format.raw/*50.29*/("""<a href = """"),_display_(/*50.41*/routes/*50.47*/.LoginController.logout()),format.raw/*50.72*/("""">Logout """),_display_(/*50.82*/user/*50.86*/.getName()),format.raw/*50.96*/("""</a>
-                        """)))}),format.raw/*51.26*/("""
-                    """),format.raw/*52.21*/("""</ul>
+                            <li """),_display_(/*40.34*/if(title == "products")/*40.57*/ {_display_(Seq[Any](format.raw/*40.59*/("""
+                            """),format.raw/*41.29*/("""class="active"""")))}),format.raw/*41.44*/("""><a href=""""),_display_(/*41.55*/routes/*41.61*/.HomeController.onsale()),format.raw/*41.85*/("""">Products</a>
+                            </li>
+                            <li """),_display_(/*43.34*/if(title == "Register")/*43.57*/ {_display_(Seq[Any](format.raw/*43.59*/("""class="active"""")))}),format.raw/*43.74*/(""">
+                            <a href=""""),_display_(/*44.39*/routes/*44.45*/.LoginController.registerUser()),format.raw/*44.76*/("""">Register user</a>
+                            </li>
+                        """),_display_(/*46.26*/if((user != null) && ("Admin".equals(user.getRole())))/*46.80*/ {_display_(Seq[Any](format.raw/*46.82*/("""
+                            """),format.raw/*47.29*/("""<li """),_display_(/*47.34*/if(title == "Add Product")/*47.60*/ {_display_(Seq[Any](format.raw/*47.62*/("""class = "active"""")))}),format.raw/*47.79*/(""">
+                            <a href=""""),_display_(/*48.39*/routes/*48.45*/.HomeController.addProduct()),format.raw/*48.73*/("""">Add A Product</a>
+                            </li>
+                            <li """),_display_(/*50.34*/if(title == "Administrators")/*50.63*/ {_display_(Seq[Any](format.raw/*50.65*/("""class="active"""")))}),format.raw/*50.80*/(""">
+                            <a href=""""),_display_(/*51.39*/routes/*51.45*/.HomeController.usersAdmin()),format.raw/*51.73*/("""">View Admin</a>
+                            </li>
+				            <li """),_display_(/*53.22*/if(title == "Customers")/*53.46*/ {_display_(Seq[Any](format.raw/*53.48*/("""class="active"""")))}),format.raw/*53.63*/(""">
+                            <a href=""""),_display_(/*54.39*/routes/*54.45*/.HomeController.usersCustomer()),format.raw/*54.76*/("""">View Customers</a>
+                            </li>
+
+                        """)))}),format.raw/*57.26*/("""
+                        """),format.raw/*58.25*/("""<li """),_display_(/*58.30*/if(title == "login")/*58.50*/{_display_(Seq[Any](format.raw/*58.51*/("""class = "active"""")))}),format.raw/*58.68*/(""">
+                        """),_display_(/*59.26*/if(user == null)/*59.42*/ {_display_(Seq[Any](format.raw/*59.44*/("""
+                            """),format.raw/*60.29*/("""<a href=""""),_display_(/*60.39*/routes/*60.45*/.LoginController.login()),format.raw/*60.69*/("""">Login</a>
+                        """)))}/*61.27*/else/*61.32*/{_display_(Seq[Any](format.raw/*61.33*/("""
+                            """),format.raw/*62.29*/("""<a href = """"),_display_(/*62.41*/routes/*62.47*/.LoginController.logout()),format.raw/*62.72*/("""">Logout """),_display_(/*62.82*/user/*62.86*/.getName()),format.raw/*62.96*/("""</a>
+                        """)))}),format.raw/*63.26*/("""
+                    """),format.raw/*64.21*/("""</ul>
 
                 </div>
                     <!-- /.navbar-collapse -->
             </div>
                 <!-- /.container-->
         </nav> <!--End of navbar--->
-        """),_display_(/*59.10*/content),format.raw/*59.17*/("""
-        """),format.raw/*60.9*/("""<footer id="footer">
+        """),_display_(/*71.10*/content),format.raw/*71.17*/("""
+        """),format.raw/*72.9*/("""<footer id="footer">
             <div class="container">
                 <div class="row footerinfo">
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -110,20 +122,20 @@ Seq[Any](format.raw/*3.1*/("""<html>
         <!--Javascript file to make footer always on bottom of page -->
     <script>
 
-        function confirmDel()"""),format.raw/*82.30*/("""{"""),format.raw/*82.31*/("""
-            """),format.raw/*83.13*/("""return confirm('Are you sure?');
-        """),format.raw/*84.9*/("""}"""),format.raw/*84.10*/("""
+        function confirmDel()"""),format.raw/*94.30*/("""{"""),format.raw/*94.31*/("""
+            """),format.raw/*95.13*/("""return confirm('Are you sure?');
+        """),format.raw/*96.9*/("""}"""),format.raw/*96.10*/("""
 
-            """),format.raw/*86.13*/("""$(document).ready(function () """),format.raw/*86.43*/("""{"""),format.raw/*86.44*/("""
+            """),format.raw/*98.13*/("""$(document).ready(function () """),format.raw/*98.43*/("""{"""),format.raw/*98.44*/("""
 
-                """),format.raw/*88.17*/("""var docHeight = $(window).height();
+                """),format.raw/*100.17*/("""var docHeight = $(window).height();
                 var footerHeight = $('#footer').height();
                 var footerTop = $('#footer').position().top + footerHeight;
 
-                if (footerTop < docHeight) """),format.raw/*92.44*/("""{"""),format.raw/*92.45*/("""
-                    """),format.raw/*93.21*/("""$('#footer').css('margin-top', 10 + (docHeight - footerTop) + 'px');
-                """),format.raw/*94.17*/("""}"""),format.raw/*94.18*/("""
-            """),format.raw/*95.13*/("""}"""),format.raw/*95.14*/(""");
+                if (footerTop < docHeight) """),format.raw/*104.44*/("""{"""),format.raw/*104.45*/("""
+                    """),format.raw/*105.21*/("""$('#footer').css('margin-top', 10 + (docHeight - footerTop) + 'px');
+                """),format.raw/*106.17*/("""}"""),format.raw/*106.18*/("""
+            """),format.raw/*107.13*/("""}"""),format.raw/*107.14*/(""");
     </script>
 
 </html>
@@ -143,11 +155,11 @@ Seq[Any](format.raw/*3.1*/("""<html>
 
               /*
                   -- GENERATED --
-                  DATE: Fri Mar 29 12:53:50 GMT 2019
+                  DATE: Tue Apr 02 12:34:41 IST 2019
                   SOURCE: /home/wdd/2ndYearProject/app/views/main.scala.html
-                  HASH: eef22041e17d655927c6bdf0714646abd7fb91a6
-                  MATRIX: 970->1|1098->58|1160->92|2441->1346|2456->1352|2525->1399|3341->2188|3356->2194|3400->2217|3767->2557|3795->2576|3835->2578|3892->2607|3938->2622|3976->2633|3991->2639|4035->2662|4107->2707|4139->2730|4179->2732|4236->2761|4282->2776|4320->2787|4335->2793|4380->2817|4452->2862|4515->2916|4555->2918|4612->2947|4644->2952|4679->2978|4719->2980|4767->2997|4834->3037|4849->3043|4898->3071|5008->3150|5061->3175|5093->3180|5122->3200|5161->3201|5209->3218|5263->3245|5288->3261|5328->3263|5385->3292|5422->3302|5437->3308|5482->3332|5538->3370|5551->3375|5590->3376|5647->3405|5686->3417|5701->3423|5747->3448|5784->3458|5797->3462|5828->3472|5889->3502|5938->3523|6143->3701|6171->3708|6207->3717|7393->4875|7422->4876|7463->4889|7531->4930|7560->4931|7602->4945|7660->4975|7689->4976|7735->4994|7977->5208|8006->5209|8055->5230|8168->5315|8197->5316|8238->5329|8267->5330
-                  LINES: 28->1|31->2|34->3|48->17|48->17|48->17|63->32|63->32|63->32|68->37|68->37|68->37|69->38|69->38|69->38|69->38|69->38|70->39|70->39|70->39|71->40|71->40|71->40|71->40|71->40|72->41|72->41|72->41|73->42|73->42|73->42|73->42|73->42|74->43|74->43|74->43|76->45|77->46|77->46|77->46|77->46|77->46|78->47|78->47|78->47|79->48|79->48|79->48|79->48|80->49|80->49|80->49|81->50|81->50|81->50|81->50|81->50|81->50|81->50|82->51|83->52|90->59|90->59|91->60|113->82|113->82|114->83|115->84|115->84|117->86|117->86|117->86|119->88|123->92|123->92|124->93|125->94|125->94|126->95|126->95
+                  HASH: 2b032764165977d2b97dc6958c1e2b181139bccc
+                  MATRIX: 970->1|1098->58|1160->92|2441->1346|2456->1352|2525->1399|3341->2188|3356->2194|3400->2217|3767->2557|3795->2576|3835->2578|3892->2607|3938->2622|3976->2633|3991->2639|4035->2662|4140->2740|4172->2763|4212->2765|4269->2794|4315->2809|4353->2820|4368->2826|4413->2850|4522->2932|4554->2955|4594->2957|4640->2972|4707->3012|4722->3018|4774->3049|4880->3128|4943->3182|4983->3184|5040->3213|5072->3218|5107->3244|5147->3246|5195->3263|5262->3303|5277->3309|5326->3337|5440->3424|5478->3453|5518->3455|5564->3470|5631->3510|5646->3516|5695->3544|5794->3616|5827->3640|5867->3642|5913->3657|5980->3697|5995->3703|6047->3734|6159->3815|6212->3840|6244->3845|6273->3865|6312->3866|6360->3883|6414->3910|6439->3926|6479->3928|6536->3957|6573->3967|6588->3973|6633->3997|6689->4035|6702->4040|6741->4041|6798->4070|6837->4082|6852->4088|6898->4113|6935->4123|6948->4127|6979->4137|7040->4167|7089->4188|7294->4366|7322->4373|7358->4382|8544->5540|8573->5541|8614->5554|8682->5595|8711->5596|8753->5610|8811->5640|8840->5641|8887->5659|9130->5873|9160->5874|9210->5895|9324->5980|9354->5981|9396->5994|9426->5995
+                  LINES: 28->1|31->2|34->3|48->17|48->17|48->17|63->32|63->32|63->32|68->37|68->37|68->37|69->38|69->38|69->38|69->38|69->38|71->40|71->40|71->40|72->41|72->41|72->41|72->41|72->41|74->43|74->43|74->43|74->43|75->44|75->44|75->44|77->46|77->46|77->46|78->47|78->47|78->47|78->47|78->47|79->48|79->48|79->48|81->50|81->50|81->50|81->50|82->51|82->51|82->51|84->53|84->53|84->53|84->53|85->54|85->54|85->54|88->57|89->58|89->58|89->58|89->58|89->58|90->59|90->59|90->59|91->60|91->60|91->60|91->60|92->61|92->61|92->61|93->62|93->62|93->62|93->62|93->62|93->62|93->62|94->63|95->64|102->71|102->71|103->72|125->94|125->94|126->95|127->96|127->96|129->98|129->98|129->98|131->100|135->104|135->104|136->105|137->106|137->106|138->107|138->107
                   -- GENERATED --
               */
           

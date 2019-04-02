@@ -35,13 +35,25 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
                         <li @if(title == "home") {
-                            class="active"}><a href="@routes.HomeController.index()">Home</a></li>
-                        <li @if(title == "products") {
-                            class="active"}><a href="@routes.HomeController.onsale()">Products</a></li>
+                            class="active"}><a href="@routes.HomeController.index()">Home</a>
+                            </li>
+                            <li @if(title == "products") {
+                            class="active"}><a href="@routes.HomeController.onsale()">Products</a>
+                            </li>
+                            <li @if(title == "Register") {class="active"}>
+                            <a href="@routes.LoginController.registerUser()">Register user</a>
+                            </li>
                         @if((user != null) && ("Admin".equals(user.getRole()))) {
                             <li @if(title == "Add Product") {class = "active"}>
                             <a href="@routes.HomeController.addProduct()">Add A Product</a>
                             </li>
+                            <li @if(title == "Administrators") {class="active"}>
+                            <a href="@routes.HomeController.usersAdmin()">View Admin</a>
+                            </li>
+				            <li @if(title == "Customers") {class="active"}>
+                            <a href="@routes.HomeController.usersCustomer()">View Customers</a>
+                            </li>
+
                         }
                         <li @if(title == "login"){class = "active"}>
                         @if(user == null) {
