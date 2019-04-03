@@ -49,7 +49,7 @@ Seq[Any](_display_(/*2.2*/main("About",user)/*2.20*/{_display_(Seq[Any](format.r
 
               /*
                   -- GENERATED --
-                  DATE: Wed Apr 03 15:17:48 IST 2019
+                  DATE: Wed Apr 03 15:56:02 IST 2019
                   SOURCE: /home/wdd/2ndYearProject/app/views/about.scala.html
                   HASH: ea916462abe1b7884bfb96d9b1e0f2dad83747a8
                   MATRIX: 959->1|1078->28|1104->46|1142->47|1169->48|1260->110

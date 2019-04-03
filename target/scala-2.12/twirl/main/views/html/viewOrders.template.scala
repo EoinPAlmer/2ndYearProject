@@ -22,7 +22,7 @@ import play.mvc.Http.Context.Implicit._
 import play.data._
 import play.core.j.PlayFormsMagicForJava._
 
-object viewOrder extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template1[models.users.Customer,play.twirl.api.HtmlFormat.Appendable] {
+object viewOrders extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,_root_.play.twirl.api.Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with _root_.play.twirl.api.Template1[models.users.Customer,play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
   def apply/*1.2*/(customer: models.users.Customer):play.twirl.api.HtmlFormat.Appendable = {
@@ -112,10 +112,10 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Wed Apr 03 15:17:49 IST 2019
-                  SOURCE: /home/wdd/2ndYearProject/app/views/viewOrder.scala.html
+                  DATE: Wed Apr 03 16:07:56 IST 2019
+                  SOURCE: /home/wdd/2ndYearProject/app/views/viewOrders.scala.html
                   HASH: d74f6c1e9b48b815458e2b4598cf1391b859d0cd
-                  MATRIX: 967->1|1073->38|1109->68|1141->94|1194->35|1222->119|1249->120|1320->166|1357->195|1396->197|1427->201|1480->228|1521->260|1561->262|1594->268|1665->312|1679->317|1715->332|1748->338|1788->348|1858->390|1968->473|2014->503|2054->505|2108->531|2153->549|2163->550|2192->558|2821->1160|2862->1185|2902->1187|2956->1213|3017->1247|3027->1248|3054->1254|3116->1289|3126->1290|3168->1311|3230->1346|3240->1347|3283->1369|3352->1411|3402->1440|3471->1482|3526->1516|3635->1594|3866->1798|3920->1830|4031->1914|4046->1920|4103->1956|4247->2069
+                  MATRIX: 968->1|1074->38|1110->68|1142->94|1195->35|1223->119|1250->120|1321->166|1358->195|1397->197|1428->201|1481->228|1522->260|1562->262|1595->268|1666->312|1680->317|1716->332|1749->338|1789->348|1859->390|1969->473|2015->503|2055->505|2109->531|2154->549|2164->550|2193->558|2822->1160|2863->1185|2903->1187|2957->1213|3018->1247|3028->1248|3055->1254|3117->1289|3127->1290|3169->1311|3231->1346|3241->1347|3284->1369|3353->1411|3403->1440|3472->1482|3527->1516|3636->1594|3867->1798|3921->1830|4032->1914|4047->1920|4104->1956|4248->2069
                   LINES: 28->1|31->4|32->5|33->6|36->2|38->7|39->8|40->9|40->9|40->9|43->12|44->13|44->13|44->13|45->14|46->15|46->15|46->15|47->16|48->17|52->21|53->22|53->22|53->22|55->24|55->24|55->24|55->24|69->38|69->38|69->38|71->40|72->41|72->41|72->41|73->42|73->42|73->42|74->43|74->43|74->43|75->44|75->44|76->45|76->45|79->48|85->54|85->54|89->58|89->58|89->58|93->62
                   -- GENERATED --
               */

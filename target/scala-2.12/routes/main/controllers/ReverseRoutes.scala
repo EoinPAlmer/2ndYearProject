@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/2ndYearProject/conf/routes
-// @DATE:Wed Apr 03 15:17:47 IST 2019
+// @DATE:Wed Apr 03 15:56:02 IST 2019
 
 import play.api.mvc.Call
 

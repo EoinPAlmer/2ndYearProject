@@ -174,3 +174,11 @@ exit
 clean
 compile
 exit
+clean
+compile
+clean
+compile
+clean
+compile
+run
+exit
