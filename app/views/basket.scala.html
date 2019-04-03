@@ -11,6 +11,13 @@
 
 <div class="row">
 
+    <div class="col-md-12">
+        @if(flash.containsKey("error")) {
+                <div class="alert alert-success">
+                    @flash.get("error")
+                </div>
+        }
+
 	<div class="col-md-12">
 		@if(flash.containsKey("success")) {
 			  <div class="alert alert-success">
@@ -26,7 +33,7 @@
 				<th>Brand</th>
 				<th>Price</th>
 				<th>Total</th>
-				<th>Quantity</th>
+				<th>Stocky</th>
                 <th>dec.</th>
                 <th>inc.</th>
 			</tr>
@@ -40,9 +47,9 @@
                         <td>@i.getProduct.getBrand()</td>
                         <td>&euro; @("%.2f".format(i.getPrice))</td>
                         <td>&euro; @("%.2f".format(i.getProductTotal))</td>
-                        <td>@i.getQuantity()</td>
-                        <td><a href="@routes.ShoppingCtrl.removeOne(i.getId)"><span class="glyphicon glyphicon-minus-sign"></span></a></td>
-                        <td><a href="@routes.ShoppingCtrl.addOne(i.getId)"><span class="glyphicon glyphicon-plus-sign"></span></a></td>
+                        <td>@i.getProduct.getStock()</td>
+                        <td><a href="@routes.ShoppingCtrl.removeOne(i.getId, i.getProduct.getId)"><span class="glyphicon glyphicon-minus-sign"></span></a></td>
+                        <td><a href="@routes.ShoppingCtrl.addOne(i.getId, i.getProduct.getId)"><span class="glyphicon glyphicon-plus-sign"></span></a></td>
                     </tr>
                     }<!-- End of For loop -->
               }

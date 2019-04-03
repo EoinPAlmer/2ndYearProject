@@ -34,14 +34,17 @@ POST    /addCustomerSubmit          controllers.HomeController.addCustomerSubmit
 GET     /registerUser               controllers.LoginController.registerUser
 POST    /registerUserSubmit         controllers.LoginController.registerUserSubmit()
 
+
 # Shopping
 GET     /showBasket                 controllers.ShoppingCtrl.showBasket()
 GET     /addToBasket/:id            controllers.ShoppingCtrl.addToBasket(id: Long)
-GET     /addOne/:productId             controllers.ShoppingCtrl.addOne(productId: Long)
-GET     /removeOne/:productId          controllers.ShoppingCtrl.removeOne(productId: Long)
+GET     /addOne/:productId          controllers.ShoppingCtrl.addOne(productId: Long, pid: Long)
+GET     /removeOne/:productId       controllers.ShoppingCtrl.removeOne(productId: Long, pid: Long)
 GET     /emptyBasket                controllers.ShoppingCtrl.emptyBasket()
 GET     /placeOrder                 controllers.ShoppingCtrl.placeOrder()
 GET     /viewOrder/:id              controllers.ShoppingCtrl.viewOrder(id: Long)
+GET     /viewOrders                 controllers.ShoppingCtrl.viewOrders()
+GET     /cancelOrder/:id            controllers.ShoppingCtrl.cancelOrder(id: Long)
 
 
 

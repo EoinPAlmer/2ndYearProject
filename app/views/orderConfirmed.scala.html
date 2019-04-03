@@ -25,7 +25,7 @@
 				<th>Name</th>
 				<th>Brand</th>
 				<th>Price</th>
-				<th>Quantity</th>
+				<th>Stock</th>
                 <th>Total</th>
 			</tr>
 			</thead>
@@ -37,7 +37,7 @@
                         <td>@i.getProduct.getName</td>
                         <td>@i.getProduct.getBrand</td>
                         <td>&euro; @("%.2f".format(i.getPrice))</td>
-                        <td>@i.getQuantity()</td>
+                        <td>@i.getStock()</td>
                         <td>&euro; @("%.2f".format(i.getProductTotal))</td>
                     </tr>
                     }<!-- End of For loop -->

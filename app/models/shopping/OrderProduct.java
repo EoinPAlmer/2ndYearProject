@@ -28,7 +28,7 @@ public class OrderProduct extends Model {
     @ManyToOne
     private ProductOnSale product;
     
-    private int quantity;
+    private int stock;
     private double price;
 
     // Default constructor
@@ -37,23 +37,23 @@ public class OrderProduct extends Model {
     
     public OrderProduct(ProductOnSale ios) {
             product = ios;
-            quantity = 1;
+            stock = 1;
             price = ios.getPrice();
     }
     
     // Increment quantity
     public void increaseQty() {
-        quantity += 1;
+        stock += 1;
     }
     
     // Decrement quantity
     public void decreaseQty() {
-        quantity -= 1;
+        stock -= 1;
     }
     
     // Calculate and return total price for this order item
     public double getProductTotal() {
-        return this.price * this.quantity;
+        return this.price * this.stock;
     }
 	
 	//Generic query helper
@@ -96,12 +96,12 @@ public class OrderProduct extends Model {
         this.product = product;
     }
 
-    public int getQuantity() {
-        return quantity;
+    public int getStock() {
+        return stock;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public void setStock(int stock) {
+        this.stock = stock;
     }
 
     public double getPrice() {

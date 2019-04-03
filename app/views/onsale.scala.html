@@ -32,6 +32,7 @@ user: models.users.User,env:play.api.Environment)
             <th>ID</th>
             <th>Name</th>
             <th>Brand</th>
+            <th>Size</th>
             <th>Stock</th>
             <th>Price</th>
             @if((user != null) && ("customer".equals(user.getRole()))) {
@@ -53,6 +54,7 @@ user: models.users.User,env:play.api.Environment)
                   <td>@i.getId</td>
                   <td>@i.getName</td>
                   <td>@i.getBrand</td>
+                  <th>@i.getSize</th>
                   <td>@i.getStock</td>
                   <td>&euro; @("%.2f".format(i.getPrice))</td>
 

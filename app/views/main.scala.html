@@ -55,6 +55,10 @@
                             </li>
 
                         }
+                        @if((user != null) && ("customer".equals(user.getRole()))) {
+                            <li @if(title == "Orders") {class="active"}><a href="@routes.ShoppingCtrl.viewOrders">View Orders</a></li>
+            
+                        }
                         <li @if(title == "login"){class = "active"}>
                         @if(user == null) {
                             <a href="@routes.LoginController.login()">Login</a>

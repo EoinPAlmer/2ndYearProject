@@ -11,20 +11,16 @@ import java.util.Date;
 
 import models.products.*;
 import models.users.*;
-
+import java.text.SimpleDateFormat;
 // ShopOrder entity managed by Ebean
 @Entity
 public class ShopOrder extends Model {
 
     @Id
     private Long id;
+    private Calendar orderDate;
     
-    private Date orderDate;
-    
-    // Order contains may items.
-    // mappedBy makes this side of the mapping the owner
-    // so foreign key will be placed in resulting OrderItem table
-    // All changes, including deletes will be cascaded
+ 
     @OneToMany(mappedBy="order", cascade = CascadeType.ALL)
     private List<OrderProduct> products;
     
@@ -33,7 +29,7 @@ public class ShopOrder extends Model {
 
     // Default constructor
     public  ShopOrder() {
-        orderDate = new Date();
+        orderDate = Calendar.getInstance();
     }
     
     public double getOrderTotal() {
@@ -62,11 +58,18 @@ public class ShopOrder extends Model {
         this.id = id;
     }
 
-    public Date getOrderDate() {
+    public Calendar getOrderDate() {
         return orderDate;
     }
+    public String getOrderDateString() {
+        if(orderDate == null) {
+            return "No Date Availible";
+        }
+        String s = new SimpleDateFormat("dd-MMM-yyyy").format(orderDate.getTime());
+        return s;
+    }
 
-    public void setOrderDate(Date orderDate) {
+    public void setOrderDate(Calendar orderDate) {
         orderDate = orderDate;
     }
 
@@ -81,8 +84,17 @@ public class ShopOrder extends Model {
     public Customer getCustomer() {
         return customer;
     }
-
     public void setCustomer(Customer customer) {
         this.customer = customer;
+    }
+    public void adjustStock(){
+        for (OrderProduct i : products) {
+            ProductOnSale ios = ProductOnSale.find.byId(i.getProduct().getId());
+            if (i.getProduct().getId() == ios.getId()) {
+                int stock = i.getStock();
+                ios.incrementStock(stock);
+                ios.update();
+            }
+        }
     }
 }

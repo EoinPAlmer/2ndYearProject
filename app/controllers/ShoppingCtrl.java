@@ -12,6 +12,9 @@ import play.api.Environment;
 import models.users.*;
 import models.products.*;
 import models.shopping.*;
+import java.text.SimpleDateFormat;
+
+import java.util.Calendar;
 
 @Security.Authenticated(Secured.class)
 // Authorise user (check if user is a customer)
@@ -33,6 +36,8 @@ public class ShoppingCtrl extends Controller {
         ShopOrder order = ShopOrder.find.byId(id);
         return ok(orderConfirmed.render((Customer)User.getUserById(session().get("email")), order));
     }
+    
+    // Add item to customer basket
     @Transactional
     public Result addToBasket(Long id) {
         
@@ -49,10 +54,13 @@ public class ShoppingCtrl extends Controller {
             customer.getBasket().setCustomer(customer);
             customer.update();
         }
+        
         // Add product to the basket and save
         customer.getBasket().addProductOnSale(product);
         customer.update();
-        
+        //Update stock
+        product.decrementStock();
+        product.update();   
         // Show the basket contents     
         return ok(basket.render(customer));
     }
@@ -65,6 +73,7 @@ public class ShoppingCtrl extends Controller {
         
         return ok(basket.render(c));
     }
+    
     @Transactional
     public Result placeOrder() {
         Customer c = (Customer)User.getUserById(session().get("email"));
@@ -107,30 +116,77 @@ public class ShoppingCtrl extends Controller {
     }
     // Add an item to the basket
     @Transactional
-    public Result addOne(Long productId) {
+    public Result addOne(Long productId, Long pid) {
         
         // Get the order item
         OrderProduct product = OrderProduct.find.byId(productId);
+
+        ProductOnSale ios = ProductOnSale.find.byId(pid);
+
+        if(ios.getStock()>0){
         // Increment quantity
         product.increaseQty();
         // Save
         product.update();
+        ios.decrementStock();
+        ios.update();
+        }else{
+            flash("error","Sorry, no more of these products left");
+        }
         // Show updated basket
         return redirect(routes.ShoppingCtrl.showBasket());
     }
 
     @Transactional
-    public Result removeOne(Long productId) {
+    public Result removeOne(Long productId, Long pid) {
         
         // Get the order item
         OrderProduct product = OrderProduct.find.byId(productId);
+
+        ProductOnSale ios = ProductOnSale.find.byId(pid);
         // Get user
         Customer c = (Customer)User.getUserById(session().get("email"));
         // Call basket remove item method
-        c.getBasket().removeProduct(product);
+        c.getBasket().removeProduct(product,ios);
         c.getBasket().update();
         // back to basket
         return ok(basket.render(c));
+    }
+    @Transactional
+    public Result viewOrders() {       
+        return ok(viewOrders.render((Customer)User.getUserById(session().get("email"))));
+    }
+    @Transactional
+    public Result cancelOrder(Long orderId){
+        ShopOrder order = ShopOrder.find.byId(orderId);
+        Calendar c1 = Calendar.getInstance();
+        Calendar c2 = Calendar.getInstance();
+        
+        c1=order.getOrderDate();
+        if(compareDates(c1,c2)){
+           // order.removeAllItems(orderId);
+           order.adjustStock();
+           order.delete();
+           
+            flash("success", "Your order has been cancelled");
+        }else {
+            flash("success", "Sorry, it is too late to cancel this order");
+        }
+        return ok(viewOrders.render((Customer)User.getUserById(session().get("email"))));
+    }
+
+    public boolean compareDates(Calendar c1, Calendar c2){
+        boolean allowed = true;
+        long miliSecondForDate1 = c1.getTimeInMillis();
+        long miliSecondForDate2 = c2.getTimeInMillis();
+        // Calculate the difference in millisecond between two dates
+        long diffInMilis = miliSecondForDate2 - miliSecondForDate1;
+
+        long diffInMinutes = diffInMilis / (60 * 1000);
+        if(diffInMinutes >60){
+            allowed=false;
+        }
+        return allowed;
     }
 
 }
