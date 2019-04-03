@@ -63,6 +63,21 @@
        
         </div>
 
+        <div class="col-md-6">
+                <p class="text-right">
+                    <form action="/placeOrder" method="GET">
+                        <script
+                                src="https://checkout.stripe.com/checkout.js"
+                                class="stripe-button"
+                                data-key="pk_test_nVuHEQ2ji0jXquT0vTfBj1NR0081TzqDj8"
+                                data-name="SneakerSanctuary"
+                                data-description="Payment"
+                                data-amount="shopping\Basket\getBasketTotal()">
+                        </script>
+                    </form>
+                </p>
+        </div>
+        
 
 
 }
