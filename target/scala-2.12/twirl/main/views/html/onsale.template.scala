@@ -31,95 +31,91 @@ user: models.users.User,env:play.api.Environment):play.twirl.api.HtmlFormat.Appe
       {
 
 
-Seq[Any](_display_(/*3.2*/main("On Sale",user)/*3.22*/{_display_(Seq[Any](format.raw/*3.23*/("""
-    """),format.raw/*4.5*/("""<h1>On sale here</h1>
+Seq[Any](_display_(/*3.2*/main("products", user)/*3.24*/ {_display_(Seq[Any](format.raw/*3.26*/("""
+    """),format.raw/*4.5*/("""<div class="container">
 
+        <h2 class = "text-center text-muted"><span class = "logo">Sneaker Sancturay</span> Products In Stock</h2>
 
-    """),format.raw/*7.74*/("""
-	"""),_display_(/*8.3*/if(flash.containsKey("success"))/*8.35*/ {_display_(Seq[Any](format.raw/*8.37*/("""
-		"""),format.raw/*9.3*/("""<div class="alert alert-success">
-			"""),_display_(/*10.5*/flash/*10.10*/.get("success")),format.raw/*10.25*/("""
-		"""),format.raw/*11.3*/("""</div>
-""")))}),format.raw/*12.2*/("""
-    """),format.raw/*13.5*/("""<div class="col-sm-3">
-		<h4>Categories</h4>
-	        <ul class="list-group">
-                    <a href = """"),_display_(/*16.33*/routes/*16.39*/.HomeController.onsale(0)),format.raw/*16.64*/("""" class="list-group-product">All Categories</a>
-		        """),_display_(/*17.12*/for(c<-categories) yield /*17.30*/ {_display_(Seq[Any](format.raw/*17.32*/("""
-			        """),format.raw/*18.12*/("""<a href = """"),_display_(/*18.24*/routes/*18.30*/.HomeController.onsale(c.getId())),format.raw/*18.63*/("""" class="list-group-product catheight">"""),_display_(/*18.103*/c/*18.104*/.getName),format.raw/*18.112*/("""
-                        """),format.raw/*19.25*/("""<span class="badge">"""),_display_(/*19.46*/c/*19.47*/.getProducts.size),format.raw/*19.64*/("""</span> 
-                    </a>
-			    """)))}),format.raw/*21.9*/("""
-            """),format.raw/*22.13*/("""</ul>
+        """),_display_(/*8.10*/if(flash.containsKey("success"))/*8.42*/ {_display_(Seq[Any](format.raw/*8.44*/("""
+            """),format.raw/*9.13*/("""<div class="alert alert-success">
+            """),_display_(/*10.14*/flash/*10.19*/.get("success")),format.raw/*10.34*/("""
+            """),format.raw/*11.13*/("""</div>
+
+        """)))}),format.raw/*13.10*/("""
+
+        """),format.raw/*15.9*/("""<div class="row">
+
+            <div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12 col-centered">
+            <h3 class = "text-center text-muted">Categories</h3>
+
+                    <a href=""""),_display_(/*20.31*/routes/*20.37*/.HomeController.onsale(0)),format.raw/*20.62*/(""""><button class = "btn btn-lg btn-Dark">All Categories
+                       </button></a>
+                    """),_display_(/*22.22*/for(c <- categories) yield /*22.42*/{_display_(Seq[Any](format.raw/*22.43*/("""
+
+                        """),format.raw/*24.25*/("""<a href = """"),_display_(/*24.37*/routes/*24.43*/.HomeController.onsale(c.getId)),format.raw/*24.74*/(""""><button class = "btn btn-lg btn-Dark">"""),_display_(/*24.115*/c/*24.116*/.getName),format.raw/*24.124*/("""
+                        """),format.raw/*25.25*/("""<span class = "badge">"""),_display_(/*25.48*/c/*25.49*/.getProducts.size()),format.raw/*25.68*/("""</span></button>
+                        </a>
+                    """)))}),format.raw/*27.22*/("""
+            """),format.raw/*28.13*/("""</div>
+
+            <br>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="productbounds">
+
+                """),_display_(/*34.18*/for(p <- products) yield /*34.36*/ {_display_(Seq[Any](format.raw/*34.38*/("""
+                    """),format.raw/*35.21*/("""<div class="col-sm-6 col-md-4 col-xs-6 col-lg-4 products">
+                        <div class="thumbnail">
+                            """),_display_(/*37.30*/if(env.resource("public/images/productImages/" + p.getId + "thumb.jpg").isDefined)/*37.112*/{_display_(Seq[Any](format.raw/*37.113*/("""
+                                """),format.raw/*38.33*/("""<img src="/assets/images/productImages/"""),_display_(/*38.73*/(p.getId + "thumb.jpg")),format.raw/*38.96*/("""" alt="...">
+                            """)))}/*39.30*/else/*39.34*/{_display_(Seq[Any](format.raw/*39.35*/("""
+                                """),format.raw/*40.33*/("""<img src=""""),_display_(/*40.44*/routes/*40.50*/.Assets.versioned("images/productplaceholder.svg")),format.raw/*40.100*/("""" alt="...">
+                            """)))}),format.raw/*41.30*/("""
+
+                            """),format.raw/*43.29*/("""<div class="caption">
+                                <h3 class="text-center">"""),_display_(/*44.58*/p/*44.59*/.getName),format.raw/*44.67*/("""</h3>
+                                <h4 class="text-center"><span class = "redtext"><b>&euro;</b></span> """),_display_(/*45.103*/("%.2f".format(p.getPrice))),format.raw/*45.130*/("""</h4>
+                                <p class="text-center"><b>Size:</b> """),_display_(/*46.70*/p/*46.71*/.getSize),format.raw/*46.79*/("""</p>
+                                <p class="text-center"><b>Stock:</b> """),_display_(/*47.71*/p/*47.72*/.getStock),format.raw/*47.81*/("""</p>
+                                <p class="text-center"><b>Brand:</b> """),_display_(/*48.71*/p/*48.72*/.getBrand),format.raw/*48.81*/("""</p>
+                                """),_display_(/*49.34*/if((user != null) && ("Admin".equals(user.getRole())))/*49.88*/ {_display_(Seq[Any](format.raw/*49.90*/("""
+                                    """),format.raw/*50.37*/("""<p class = "text-center"><a href=""""),_display_(/*50.72*/routes/*50.78*/.HomeController.deleteProduct(p.getId)),format.raw/*50.116*/(""""
+                                    onclick="return confirmDel();">
+                                        <button class = "btn btn-lg btn-danger"><span class="glyphicon glyphicon-trash thrashbutton"></span> </button>
+                                    </a>
+                                    </p>
+                                    <p class = "text-center"><a href=""""),_display_(/*55.72*/routes/*55.78*/.HomeController.updateProduct(p.getId)),format.raw/*55.116*/("""">
+                                        <button class = "btn btn-lg btn-danger"><span class="glyphicon glyphicon-pencil thrashbutton"></span> </button>
+                                    </a>
+                                    </p>
+                                    """),_display_(/*59.38*/if(p.getStock() == 0)/*59.59*/{_display_(Seq[Any](format.raw/*59.60*/("""
+                                        """),format.raw/*60.41*/("""<td><img scr="asset/images/oos.jpg"/>
+                                         </td>
+                                    """)))}),format.raw/*62.38*/("""
+                                """)))}),format.raw/*63.34*/("""
+                            """),format.raw/*64.29*/("""</div>
+                        </div>
+                    </div>
+                """)))}),format.raw/*67.18*/(""" """),format.raw/*67.19*/("""<!--End of the loop-->
+            </div><!--End of product bounds-->
+            <!-- /.column-->
+        </div>
+            <!-- /.row-->
     </div>
-
-    <div class="col-sm-9">
-        <h4>Note that all products are second hand, unless otherwise stated.</h4>
-        <table class="table table-bordered table-hover table-condensed">
-            <thead>
-        <!-- The header row-->
-        <tr>
-            <th>Image</th>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Brand</th>
-            <th>Size</th>
-            <th>Stock</th>
-            <th>Price</th>
-            """),_display_(/*38.14*/if((user != null) && ("customer".equals(user.getRole())))/*38.71*/ {_display_(Seq[Any](format.raw/*38.73*/("""
-            """),format.raw/*39.13*/("""<th>Buy</th>
-            """)))}),format.raw/*40.14*/("""
-        """),format.raw/*41.9*/("""</tr>
-        </thead>
-        <tbody>
-        <!-- Product row(s) -->
-       
-            """),format.raw/*46.71*/("""
-            """),_display_(/*47.14*/for(i<-products) yield /*47.30*/ {_display_(Seq[Any](format.raw/*47.32*/("""
-               """),format.raw/*48.16*/("""<tr>
-                    """),_display_(/*49.22*/if(env.resource("public/images/productImages/" + i.getId + "thumb.jpg").isDefined)/*49.104*/ {_display_(Seq[Any](format.raw/*49.106*/("""
-                        """),format.raw/*50.25*/("""<td><img src="/assets/images/productImages/"""),_display_(/*50.69*/(i.getId + "thumb.jpg")),format.raw/*50.92*/(""""/></td>
-                    """)))}/*51.23*/else/*51.28*/{_display_(Seq[Any](format.raw/*51.29*/("""
-                        """),format.raw/*52.25*/("""<td><img src="/assets/images/productImages/noImage.jpg"/></td>
-""")))}),format.raw/*53.2*/("""
-                  """),format.raw/*54.19*/("""<td>"""),_display_(/*54.24*/i/*54.25*/.getId),format.raw/*54.31*/("""</td>
-                  <td>"""),_display_(/*55.24*/i/*55.25*/.getName),format.raw/*55.33*/("""</td>
-                  <td>"""),_display_(/*56.24*/i/*56.25*/.getBrand),format.raw/*56.34*/("""</td>
-                  <th>"""),_display_(/*57.24*/i/*57.25*/.getSize),format.raw/*57.33*/("""</th>
-                  <td>"""),_display_(/*58.24*/i/*58.25*/.getStock),format.raw/*58.34*/("""</td>
-                  <td>&euro; """),_display_(/*59.31*/("%.2f".format(i.getPrice))),format.raw/*59.58*/("""</td>
-
-                  """),_display_(/*61.20*/if((user != null) && ("Admin".equals(user.getRole())))/*61.74*/ {_display_(Seq[Any](format.raw/*61.76*/("""
-                  """),format.raw/*62.19*/("""<!-- Update button -->
-						<td>
-							<a href=""""),_display_(/*64.18*/routes/*64.24*/.HomeController.updateProduct(i.getId)),format.raw/*64.62*/("""" class="button-xs btn-danger">
-								<span class="glyphicon glyphicon-pencil"></span>
-							</a>
-                        </td>
-                  <!-- Delete button -->
-						<td>
-							<a href=""""),_display_(/*70.18*/routes/*70.24*/.HomeController.deleteProduct(i.getId)),format.raw/*70.62*/("""" class="button-xs btn-danger" onclick="return confirmDel();">
-								<span class="glyphicon glyphicon-trash"></span>
-							</a>
-                        </td>
-                  """)))}),format.raw/*74.20*/("""
-                  """),_display_(/*75.20*/if((user != null) && ("customer".equals(user.getRole())))/*75.77*/ {_display_(Seq[Any](format.raw/*75.79*/("""
-                        """),format.raw/*76.25*/("""<td><a href=""""),_display_(/*76.39*/routes/*76.45*/.ShoppingCtrl.addToBasket(i.getId)),format.raw/*76.79*/("""" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-shopping-cart"></span></a></td>
-                  """)))}),format.raw/*77.20*/("""
-               """),format.raw/*78.16*/("""</tr>
-            """)))}),format.raw/*79.14*/("""
+                </td>
+            """)))}),format.raw/*74.14*/("""
         
-        """),format.raw/*81.9*/("""</tbody>
+        """),format.raw/*76.9*/("""</tbody>
     </table>
-    """),_display_(/*83.6*/if((user != null) && ("admin".equals(user.getRole())))/*83.60*/ {_display_(Seq[Any](format.raw/*83.62*/("""
-    """),format.raw/*84.5*/("""<p>
-        <a href=""""),_display_(/*85.19*/routes/*85.25*/.HomeController.addProduct()),format.raw/*85.53*/("""">
+    """),_display_(/*78.6*/if((user != null) && ("admin".equals(user.getRole())))/*78.60*/ {_display_(Seq[Any](format.raw/*78.62*/("""
+    """),format.raw/*79.5*/("""<p>
+        <a href=""""),_display_(/*80.19*/routes/*80.25*/.HomeController.addProduct()),format.raw/*80.53*/("""">
             <button class="btn btn-primary">Add an product</button>
         </a>
     </p>
-    """)))}),format.raw/*89.6*/("""
-"""),format.raw/*90.1*/("""</div>
- """)))}))
+    """)))}),format.raw/*84.6*/("""
+
+"""),format.raw/*86.1*/("""</div>
+ """))
       }
     }
   }
@@ -135,11 +131,11 @@ Seq[Any](_display_(/*3.2*/main("On Sale",user)/*3.22*/{_display_(Seq[Any](format
 
               /*
                   -- GENERATED --
-                  DATE: Wed Apr 03 17:25:32 IST 2019
+                  DATE: Wed Apr 10 03:31:30 IST 2019
                   SOURCE: /home/wdd/2ndYearProject/app/views/onsale.scala.html
-                  HASH: 0a654b378eb145fc84362086fac648c69f9b3ab1
-                  MATRIX: 1048->1|1282->143|1310->163|1348->164|1379->169|1434->266|1462->269|1502->301|1541->303|1570->306|1634->344|1648->349|1684->364|1714->367|1752->375|1784->380|1921->490|1936->496|1982->521|2068->580|2102->598|2142->600|2182->612|2221->624|2236->630|2290->663|2358->703|2369->704|2399->712|2452->737|2500->758|2510->759|2548->776|2620->818|2661->831|3149->1292|3215->1349|3255->1351|3296->1364|3353->1390|3389->1399|3508->1548|3549->1562|3581->1578|3621->1580|3665->1596|3718->1622|3810->1704|3851->1706|3904->1731|3975->1775|4019->1798|4068->1829|4081->1834|4120->1835|4173->1860|4267->1924|4314->1943|4346->1948|4356->1949|4383->1955|4439->1984|4449->1985|4478->1993|4534->2022|4544->2023|4574->2032|4630->2061|4640->2062|4669->2070|4725->2099|4735->2100|4765->2109|4828->2145|4876->2172|4929->2198|4992->2252|5032->2254|5079->2273|5157->2324|5172->2330|5231->2368|5458->2568|5473->2574|5532->2612|5743->2792|5790->2812|5856->2869|5896->2871|5949->2896|5990->2910|6005->2916|6060->2950|6208->3067|6252->3083|6302->3102|6347->3120|6400->3147|6463->3201|6503->3203|6535->3208|6584->3230|6599->3236|6648->3264|6776->3362|6804->3363
-                  LINES: 28->1|34->3|34->3|34->3|35->4|38->7|39->8|39->8|39->8|40->9|41->10|41->10|41->10|42->11|43->12|44->13|47->16|47->16|47->16|48->17|48->17|48->17|49->18|49->18|49->18|49->18|49->18|49->18|49->18|50->19|50->19|50->19|50->19|52->21|53->22|69->38|69->38|69->38|70->39|71->40|72->41|77->46|78->47|78->47|78->47|79->48|80->49|80->49|80->49|81->50|81->50|81->50|82->51|82->51|82->51|83->52|84->53|85->54|85->54|85->54|85->54|86->55|86->55|86->55|87->56|87->56|87->56|88->57|88->57|88->57|89->58|89->58|89->58|90->59|90->59|92->61|92->61|92->61|93->62|95->64|95->64|95->64|101->70|101->70|101->70|105->74|106->75|106->75|106->75|107->76|107->76|107->76|107->76|108->77|109->78|110->79|112->81|114->83|114->83|114->83|115->84|116->85|116->85|116->85|120->89|121->90
+                  HASH: 028e4ff7c090ac80198b275e2d12b4987da16452
+                  MATRIX: 1048->1|1282->143|1312->165|1351->167|1382->172|1557->321|1597->353|1636->355|1676->368|1750->415|1764->420|1800->435|1841->448|1889->465|1926->475|2147->669|2162->675|2208->700|2348->813|2384->833|2423->834|2477->860|2516->872|2531->878|2583->909|2652->950|2663->951|2693->959|2746->984|2796->1007|2806->1008|2846->1027|2944->1094|2985->1107|3141->1236|3175->1254|3215->1256|3264->1277|3427->1413|3519->1495|3559->1496|3620->1529|3687->1569|3731->1592|3792->1634|3805->1638|3844->1639|3905->1672|3943->1683|3958->1689|4030->1739|4103->1781|4161->1811|4267->1890|4277->1891|4306->1899|4442->2007|4491->2034|4593->2109|4603->2110|4632->2118|4734->2193|4744->2194|4774->2203|4876->2278|4886->2279|4916->2288|4981->2326|5044->2380|5084->2382|5149->2419|5211->2454|5226->2460|5286->2498|5687->2872|5702->2878|5762->2916|6063->3190|6093->3211|6132->3212|6201->3253|6354->3375|6419->3409|6476->3438|6589->3520|6618->3521|6835->3707|6880->3725|6933->3752|6996->3806|7036->3808|7068->3813|7117->3835|7132->3841|7181->3869|7309->3967|7338->3969
+                  LINES: 28->1|34->3|34->3|34->3|35->4|39->8|39->8|39->8|40->9|41->10|41->10|41->10|42->11|44->13|46->15|51->20|51->20|51->20|53->22|53->22|53->22|55->24|55->24|55->24|55->24|55->24|55->24|55->24|56->25|56->25|56->25|56->25|58->27|59->28|65->34|65->34|65->34|66->35|68->37|68->37|68->37|69->38|69->38|69->38|70->39|70->39|70->39|71->40|71->40|71->40|71->40|72->41|74->43|75->44|75->44|75->44|76->45|76->45|77->46|77->46|77->46|78->47|78->47|78->47|79->48|79->48|79->48|80->49|80->49|80->49|81->50|81->50|81->50|81->50|86->55|86->55|86->55|90->59|90->59|90->59|91->60|93->62|94->63|95->64|98->67|98->67|105->74|107->76|109->78|109->78|109->78|110->79|111->80|111->80|111->80|115->84|117->86
                   -- GENERATED --
               */
           

@@ -1,81 +1,76 @@
 @(products: List[models.products.ProductOnSale],categories: List[models.products.Category],
 user: models.users.User,env:play.api.Environment)
-@main("On Sale",user){
-    <h1>On sale here</h1>
+@main("products", user) {
+    <div class="container">
 
+        <h2 class = "text-center text-muted"><span class = "logo">Sneaker Sancturay</span> Products In Stock</h2>
 
-    @* Display successful new product message from flash, if it is set *@
-	@if(flash.containsKey("success")) {
-		<div class="alert alert-success">
-			@flash.get("success")
-		</div>
-}
-    <div class="col-sm-3">
-		<h4>Categories</h4>
-	        <ul class="list-group">
-                    <a href = "@routes.HomeController.onsale(0)" class="list-group-product">All Categories</a>
-		        @for(c<-categories) {
-			        <a href = "@routes.HomeController.onsale(c.getId())" class="list-group-product catheight">@c.getName
-                        <span class="badge">@c.getProducts.size</span> 
-                    </a>
-			    }
-            </ul>
+        @if(flash.containsKey("success")) {
+            <div class="alert alert-success">
+            @flash.get("success")
+            </div>
+
+        }
+
+        <div class="row">
+
+            <div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12 col-centered">
+            <h3 class = "text-center text-muted">Categories</h3>
+
+                    <a href="@routes.HomeController.onsale(0)"><button class = "btn btn-lg btn-Dark">All Categories
+                       </button></a>
+                    @for(c <- categories){
+
+                        <a href = "@routes.HomeController.onsale(c.getId)"><button class = "btn btn-lg btn-Dark">@c.getName
+                        <span class = "badge">@c.getProducts.size()</span></button>
+                        </a>
+                    }
+            </div>
+
+            <br>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="productbounds">
+
+                @for(p <- products) {
+                    <div class="col-sm-6 col-md-4 col-xs-6 col-lg-4 products">
+                        <div class="thumbnail">
+                            @if(env.resource("public/images/productImages/" + p.getId + "thumb.jpg").isDefined){
+                                <img src="/assets/images/productImages/@(p.getId + "thumb.jpg")" alt="...">
+                            }else{
+                                <img src="@routes.Assets.versioned("images/productplaceholder.svg")" alt="...">
+                            }
+
+                            <div class="caption">
+                                <h3 class="text-center">@p.getName</h3>
+                                <h4 class="text-center"><span class = "redtext"><b>&euro;</b></span> @("%.2f".format(p.getPrice))</h4>
+                                <p class="text-center"><b>Size:</b> @p.getSize</p>
+                                <p class="text-center"><b>Stock:</b> @p.getStock</p>
+                                <p class="text-center"><b>Brand:</b> @p.getBrand</p>
+                                @if((user != null) && ("Admin".equals(user.getRole()))) {
+                                    <p class = "text-center"><a href="@routes.HomeController.deleteProduct(p.getId)"
+                                    onclick="return confirmDel();">
+                                        <button class = "btn btn-lg btn-danger"><span class="glyphicon glyphicon-trash thrashbutton"></span> </button>
+                                    </a>
+                                    </p>
+                                    <p class = "text-center"><a href="@routes.HomeController.updateProduct(p.getId)">
+                                        <button class = "btn btn-lg btn-danger"><span class="glyphicon glyphicon-pencil thrashbutton"></span> </button>
+                                    </a>
+                                    </p>
+                                    @if(p.getStock() == 0){
+                                        <td><img scr="asset/images/oos.jpg"/>
+                                         </td>
+                                    }
+                                }
+                            </div>
+                        </div>
+                    </div>
+                } <!--End of the loop-->
+            </div><!--End of product bounds-->
+            <!-- /.column-->
+        </div>
+            <!-- /.row-->
     </div>
-
-    <div class="col-sm-9">
-        <h4>Note that all products are second hand, unless otherwise stated.</h4>
-        <table class="table table-bordered table-hover table-condensed">
-            <thead>
-        <!-- The header row-->
-        <tr>
-            <th>Image</th>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Brand</th>
-            <th>Size</th>
-            <th>Stock</th>
-            <th>Price</th>
-            @if((user != null) && ("customer".equals(user.getRole()))) {
-            <th>Buy</th>
-            }
-        </tr>
-        </thead>
-        <tbody>
-        <!-- Product row(s) -->
-       
-            @* Loop for creating table rows from ProductOnSale data *@
-            @for(i<-products) {
-               <tr>
-                    @if(env.resource("public/images/productImages/" + i.getId + "thumb.jpg").isDefined) {
-                        <td><img src="/assets/images/productImages/@(i.getId + "thumb.jpg")"/></td>
-                    } else {
-                        <td><img src="/assets/images/productImages/noImage.jpg"/></td>
-}
-                  <td>@i.getId</td>
-                  <td>@i.getName</td>
-                  <td>@i.getBrand</td>
-                  <th>@i.getSize</th>
-                  <td>@i.getStock</td>
-                  <td>&euro; @("%.2f".format(i.getPrice))</td>
-
-                  @if((user != null) && ("Admin".equals(user.getRole()))) {
-                  <!-- Update button -->
-						<td>
-							<a href="@routes.HomeController.updateProduct(i.getId)" class="button-xs btn-danger">
-								<span class="glyphicon glyphicon-pencil"></span>
-							</a>
-                        </td>
-                  <!-- Delete button -->
-						<td>
-							<a href="@routes.HomeController.deleteProduct(i.getId)" class="button-xs btn-danger" onclick="return confirmDel();">
-								<span class="glyphicon glyphicon-trash"></span>
-							</a>
-                        </td>
-                  }
-                  @if((user != null) && ("customer".equals(user.getRole()))) {
-                        <td><a href="@routes.ShoppingCtrl.addToBasket(i.getId)" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-shopping-cart"></span></a></td>
-                  }
-               </tr>
+                </td>
             }
         
         </tbody>
@@ -87,5 +82,6 @@ user: models.users.User,env:play.api.Environment)
         </a>
     </p>
     }
+
 </div>
- }
+ 
