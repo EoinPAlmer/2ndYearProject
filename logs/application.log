@@ -1,260 +1,20 @@
-2019-04-10 02:41:22,992 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-2 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-04-10 02:41:23,002 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-2 - Creating Pool for datasource 'default'
-2019-04-10 02:41:24,657 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-2 - ApplicationTimer demo: Starting application at 2019-04-10T01:41:24.645Z
-2019-04-10 02:41:24,731 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-2 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-04-10 02:41:25,185 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-2 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-04-10 02:41:25,454 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-2 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
-2019-04-10 02:41:25,472 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-2 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-04-10 15:30:24,743 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-11 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-10 15:30:24,824 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-11 - Creating Pool for datasource 'default'
+2019-04-10 15:30:28,881 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-11 - ApplicationTimer demo: Starting application at 2019-04-10T14:30:28.855Z
+2019-04-10 15:30:28,958 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-11 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-10 15:30:30,247 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-11 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-10 15:30:30,936 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-11 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-10 15:30:30,967 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-11 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-04-10 02:41:25,478 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-2 - Application started (Dev)
-2019-04-10 02:43:45,559 [INFO] from application in application-akka.actor.default-dispatcher-8 - ApplicationTimer demo: Stopping application at 2019-04-10T01:43:45.559Z after 141s.
-2019-04-10 02:43:45,564 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
-2019-04-10 02:43:45,964 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-37 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-04-10 02:43:45,965 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-37 - Creating Pool for datasource 'default'
-2019-04-10 02:43:46,121 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-37 - ApplicationTimer demo: Starting application at 2019-04-10T01:43:46.121Z
-2019-04-10 02:43:46,126 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-37 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-04-10 02:43:46,149 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-37 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-04-10 02:43:46,274 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-37 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
-2019-04-10 02:43:46,285 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-37 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-04-10 15:30:30,987 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-11 - Application started (Dev)
+2019-04-10 15:31:19,037 [WARN] from application in application-akka.actor.default-dispatcher-9 - The "validate" method in class "models.users.Login" is deprecated since Play 2.6. To migrate to class-level constraints see https://www.playframework.com/documentation/2.6.x/Migration26#java-form-changes and https://www.playframework.com/documentation/2.6.x/JavaForms#Advanced-validation
+2019-04-10 15:33:13,259 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-7 - 
 
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2019-04-10 02:43:46,286 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-37 - Application started (Dev)
-2019-04-10 02:44:16,362 [INFO] from application in application-akka.actor.default-dispatcher-11 - ApplicationTimer demo: Stopping application at 2019-04-10T01:44:16.362Z after 30s.
-2019-04-10 02:44:16,363 [INFO] from application in application-akka.actor.default-dispatcher-11 - Shutting down connection pool.
-2019-04-10 02:44:16,681 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-36 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-04-10 02:44:16,682 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-36 - Creating Pool for datasource 'default'
-2019-04-10 02:44:16,781 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-36 - ApplicationTimer demo: Starting application at 2019-04-10T01:44:16.781Z
-2019-04-10 02:44:16,795 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-36 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-04-10 02:44:16,818 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-36 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-04-10 02:44:16,909 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-36 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
-2019-04-10 02:44:16,917 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-36 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2019-04-10 02:44:16,919 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-36 - Application started (Dev)
-2019-04-10 02:45:32,760 [INFO] from application in application-akka.actor.default-dispatcher-9 - ApplicationTimer demo: Stopping application at 2019-04-10T01:45:32.759Z after 76s.
-2019-04-10 02:45:32,760 [INFO] from application in application-akka.actor.default-dispatcher-9 - Shutting down connection pool.
-2019-04-10 02:45:33,105 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-37 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-04-10 02:45:33,107 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-37 - Creating Pool for datasource 'default'
-2019-04-10 02:45:33,204 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-37 - ApplicationTimer demo: Starting application at 2019-04-10T01:45:33.204Z
-2019-04-10 02:45:33,209 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-37 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-04-10 02:45:33,224 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-37 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-04-10 02:45:33,303 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-37 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
-2019-04-10 02:45:33,306 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-37 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2019-04-10 02:45:33,307 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-37 - Application started (Dev)
-2019-04-10 02:45:52,049 [INFO] from application in application-akka.actor.default-dispatcher-3 - ApplicationTimer demo: Stopping application at 2019-04-10T01:45:52.049Z after 19s.
-2019-04-10 02:45:52,049 [INFO] from application in application-akka.actor.default-dispatcher-3 - Shutting down connection pool.
-2019-04-10 02:45:52,403 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-38 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-04-10 02:45:52,406 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-38 - Creating Pool for datasource 'default'
-2019-04-10 02:45:52,544 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-38 - ApplicationTimer demo: Starting application at 2019-04-10T01:45:52.544Z
-2019-04-10 02:45:52,553 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-38 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-04-10 02:45:52,574 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-38 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-04-10 02:45:52,662 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-38 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
-2019-04-10 02:45:52,670 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-38 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2019-04-10 02:45:52,674 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-38 - Application started (Dev)
-2019-04-10 02:46:23,360 [INFO] from application in application-akka.actor.default-dispatcher-9 - ApplicationTimer demo: Stopping application at 2019-04-10T01:46:23.360Z after 31s.
-2019-04-10 02:46:23,361 [INFO] from application in application-akka.actor.default-dispatcher-9 - Shutting down connection pool.
-2019-04-10 02:46:23,556 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-18 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-04-10 02:46:23,556 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-18 - Creating Pool for datasource 'default'
-2019-04-10 02:46:23,655 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-18 - ApplicationTimer demo: Starting application at 2019-04-10T01:46:23.655Z
-2019-04-10 02:46:23,660 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-18 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-04-10 02:46:23,685 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-18 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-04-10 02:46:23,794 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-18 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
-2019-04-10 02:46:23,798 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-18 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2019-04-10 02:46:23,801 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-18 - Application started (Dev)
-2019-04-10 02:46:47,457 [INFO] from application in application-akka.actor.default-dispatcher-4 - ApplicationTimer demo: Stopping application at 2019-04-10T01:46:47.457Z after 24s.
-2019-04-10 02:46:47,458 [INFO] from application in application-akka.actor.default-dispatcher-4 - Shutting down connection pool.
-2019-04-10 02:46:47,669 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-18 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-04-10 02:46:47,670 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-18 - Creating Pool for datasource 'default'
-2019-04-10 02:46:47,752 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-18 - ApplicationTimer demo: Starting application at 2019-04-10T01:46:47.752Z
-2019-04-10 02:46:47,760 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-18 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-04-10 02:46:47,776 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-18 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-04-10 02:46:47,876 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-18 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
-2019-04-10 02:46:47,885 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-18 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2019-04-10 02:46:47,888 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-18 - Application started (Dev)
-2019-04-10 02:55:23,728 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-42 - 
-
-! @7bf7b1dab - Internal server error, for (GET) [/login] ->
- 
-play.sbt.PlayExceptions$CompilationException: Compilation error[value update is not a member of Int]
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
-	at scala.Option.map(Option.scala:146)
-	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$1(PlayReload.scala:33)
-	at scala.Option.map(Option.scala:146)
-	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:28)
-	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:24)
-	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:51)
-	at scala.util.Either$LeftProjection.map(Either.scala:569)
-	at play.sbt.run.PlayReload$.compile(PlayReload.scala:51)
-	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:76)
-	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:412)
-	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:50)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:55)
-	at play.runsupport.Reloader.reload(Reloader.scala:412)
-	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:123)
-	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:241)
-	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:138)
-	at akka.stream.impl.fusing.MapAsyncUnordered$$anon$31.onPush(Ops.scala:1318)
-	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:519)
-	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:482)
-	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:378)
-	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:588)
-	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:472)
-	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:563)
-	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:745)
-	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:760)
-	at akka.actor.Actor.aroundReceive(Actor.scala:517)
-	at akka.actor.Actor.aroundReceive$(Actor.scala:515)
-	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:670)
-	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:588)
-	at akka.actor.ActorCell.invoke(ActorCell.scala:557)
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:258)
-	at akka.dispatch.Mailbox.run(Mailbox.scala:225)
-	at akka.dispatch.Mailbox.exec(Mailbox.scala:235)
-	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
-	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
-	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
-	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-2019-04-10 02:55:25,100 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-45 - 
-
-! @7bf7b1ffh - Internal server error, for (GET) [/login] ->
- 
-play.sbt.PlayExceptions$CompilationException: Compilation error[value update is not a member of Int]
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
-	at scala.Option.map(Option.scala:146)
-	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$1(PlayReload.scala:33)
-	at scala.Option.map(Option.scala:146)
-	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:28)
-	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:24)
-	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:51)
-	at scala.util.Either$LeftProjection.map(Either.scala:569)
-	at play.sbt.run.PlayReload$.compile(PlayReload.scala:51)
-	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:76)
-	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:412)
-	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:50)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:55)
-	at play.runsupport.Reloader.reload(Reloader.scala:412)
-	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:123)
-	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:241)
-	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:138)
-	at akka.stream.impl.fusing.MapAsyncUnordered$$anon$31.onPush(Ops.scala:1318)
-	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:519)
-	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:482)
-	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:378)
-	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:588)
-	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:472)
-	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:563)
-	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:745)
-	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:760)
-	at akka.actor.Actor.aroundReceive(Actor.scala:517)
-	at akka.actor.Actor.aroundReceive$(Actor.scala:515)
-	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:670)
-	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:588)
-	at akka.actor.ActorCell.invoke(ActorCell.scala:557)
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:258)
-	at akka.dispatch.Mailbox.run(Mailbox.scala:225)
-	at akka.dispatch.Mailbox.exec(Mailbox.scala:235)
-	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
-	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
-	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
-	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-2019-04-10 02:56:56,333 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-48 - 
-
-! @7bf7b6keh - Internal server error, for (GET) [/login] ->
- 
-play.sbt.PlayExceptions$CompilationException: Compilation error[not found: value i]
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
-	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
-	at scala.Option.map(Option.scala:146)
-	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$1(PlayReload.scala:33)
-	at scala.Option.map(Option.scala:146)
-	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:28)
-	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:24)
-	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:51)
-	at scala.util.Either$LeftProjection.map(Either.scala:569)
-	at play.sbt.run.PlayReload$.compile(PlayReload.scala:51)
-	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:76)
-	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:412)
-	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:50)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:55)
-	at play.runsupport.Reloader.reload(Reloader.scala:412)
-	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:123)
-	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:241)
-	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:138)
-	at akka.stream.impl.fusing.MapAsyncUnordered$$anon$31.onPush(Ops.scala:1318)
-	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:519)
-	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:482)
-	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:378)
-	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:588)
-	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:472)
-	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:563)
-	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:745)
-	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:760)
-	at akka.actor.Actor.aroundReceive(Actor.scala:517)
-	at akka.actor.Actor.aroundReceive$(Actor.scala:515)
-	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:670)
-	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:588)
-	at akka.actor.ActorCell.invoke(ActorCell.scala:557)
-	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:258)
-	at akka.dispatch.Mailbox.run(Mailbox.scala:225)
-	at akka.dispatch.Mailbox.exec(Mailbox.scala:235)
-	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
-	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
-	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
-	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-2019-04-10 02:57:12,260 [INFO] from application in application-akka.actor.default-dispatcher-11 - ApplicationTimer demo: Stopping application at 2019-04-10T01:57:12.260Z after 625s.
-2019-04-10 02:57:12,262 [INFO] from application in application-akka.actor.default-dispatcher-11 - Shutting down connection pool.
-2019-04-10 02:57:12,507 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-36 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-04-10 02:57:12,508 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-36 - Creating Pool for datasource 'default'
-2019-04-10 02:57:12,591 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-36 - ApplicationTimer demo: Starting application at 2019-04-10T01:57:12.591Z
-2019-04-10 02:57:12,601 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-36 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-04-10 02:57:12,618 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-36 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-04-10 02:57:12,701 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-36 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
-2019-04-10 02:57:12,702 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-36 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
-
-    play.filters.csrf.CSRFFilter
-    play.filters.headers.SecurityHeadersFilter
-    play.filters.hosts.AllowedHostsFilter
-
-2019-04-10 02:57:12,703 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-36 - Application started (Dev)
-2019-04-10 02:57:34,440 [WARN] from application in application-akka.actor.default-dispatcher-6 - The "validate" method in class "models.users.Login" is deprecated since Play 2.6. To migrate to class-level constraints see https://www.playframework.com/documentation/2.6.x/Migration26#java-form-changes and https://www.playframework.com/documentation/2.6.x/JavaForms#Advanced-validation
-2019-04-10 03:03:46,514 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-57 - 
-
-! @7bf7c4376 - Internal server error, for (GET) [/onsale] ->
+! @7bfb6edik - Internal server error, for (GET) [/onsale] ->
  
 play.sbt.PlayExceptions$CompilationException: Compilation error[Not parsed?]
 	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
@@ -297,11 +57,11 @@ play.sbt.PlayExceptions$CompilationException: Compilation error[Not parsed?]
 	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
 	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
 	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-2019-04-10 03:04:02,927 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-57 - 
+2019-04-10 15:34:57,122 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-10 - 
 
-! @7bf7c51g3 - Internal server error, for (GET) [/onsale] ->
+! @7bfb6kbld - Internal server error, for (GET) [/] ->
  
-play.sbt.PlayExceptions$CompilationException: Compilation error[not found: value p]
+play.sbt.PlayExceptions$CompilationException: Compilation error[Not parsed?]
 	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
 	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
 	at scala.Option.map(Option.scala:146)
@@ -342,9 +102,9 @@ play.sbt.PlayExceptions$CompilationException: Compilation error[not found: value
 	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
 	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
 	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-2019-04-10 03:04:27,800 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-57 - 
+2019-04-10 15:37:51,132 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-54 - 
 
-! @7bf7c6caj - Internal server error, for (GET) [/onsale] ->
+! @7bfb7496a - Internal server error, for (GET) [/] ->
  
 play.sbt.PlayExceptions$CompilationException: Compilation error[not found: value i]
 	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
@@ -387,402 +147,285 @@ play.sbt.PlayExceptions$CompilationException: Compilation error[not found: value
 	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
 	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
 	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-2019-04-10 03:05:58,492 [INFO] from application in application-akka.actor.default-dispatcher-14 - ApplicationTimer demo: Stopping application at 2019-04-10T02:05:58.492Z after 526s.
-2019-04-10 03:05:58,493 [INFO] from application in application-akka.actor.default-dispatcher-14 - Shutting down connection pool.
-2019-04-10 03:05:58,709 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-46 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-04-10 03:05:58,709 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-46 - Creating Pool for datasource 'default'
-2019-04-10 03:05:58,811 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-46 - ApplicationTimer demo: Starting application at 2019-04-10T02:05:58.811Z
-2019-04-10 03:05:58,817 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-46 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-04-10 03:05:58,829 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-46 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-04-10 03:05:58,919 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-46 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
-2019-04-10 03:05:58,921 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-46 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-04-10 15:38:29,259 [INFO] from application in application-akka.actor.default-dispatcher-7 - ApplicationTimer demo: Stopping application at 2019-04-10T14:38:29.259Z after 481s.
+2019-04-10 15:38:29,262 [INFO] from application in application-akka.actor.default-dispatcher-7 - Shutting down connection pool.
+2019-04-10 15:38:30,308 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-52 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-10 15:38:30,308 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-52 - Creating Pool for datasource 'default'
+2019-04-10 15:38:30,633 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-52 - ApplicationTimer demo: Starting application at 2019-04-10T14:38:30.633Z
+2019-04-10 15:38:30,644 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-52 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-10 15:38:30,748 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-52 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-10 15:38:31,286 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-52 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-10 15:38:31,290 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-52 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-04-10 03:05:58,922 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-46 - Application started (Dev)
-2019-04-10 03:18:28,932 [WARN] from application in application-akka.actor.default-dispatcher-2 - The "validate" method in class "models.users.Login" is deprecated since Play 2.6. To migrate to class-level constraints see https://www.playframework.com/documentation/2.6.x/Migration26#java-form-changes and https://www.playframework.com/documentation/2.6.x/JavaForms#Advanced-validation
-2019-04-10 03:18:51,377 [DEBUG] from application in application-akka.actor.default-dispatcher-2 - id: finn@sneakersan.com
-2019-04-10 03:18:51,549 [ERROR] from application in application-akka.actor.default-dispatcher-2 - 
-
-! @7bf7e3g3n - Internal server error, for (GET) [/deleteProduct/1] ->
- 
-play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[DataIntegrityException: Error[Referential integrity constraint violation: "FK_ORDER_PRODUCT_PRODUCT_ID: PUBLIC.ORDER_PRODUCT FOREIGN KEY(PRODUCT_ID) REFERENCES PUBLIC.PRODUCT_ON_SALE(ID) (1)"; SQL statement: delete from product_on_sale where id=? [23503-197]]]]
-	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:251)
-	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:178)
-	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:382)
-	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:380)
-	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
-	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
-	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
-	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
-	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
-	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
-	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:44)
-	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
-	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
-	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
-	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-Caused by: io.ebean.DataIntegrityException: Error[Referential integrity constraint violation: "FK_ORDER_PRODUCT_PRODUCT_ID: PUBLIC.ORDER_PRODUCT FOREIGN KEY(PRODUCT_ID) REFERENCES PUBLIC.PRODUCT_ON_SALE(ID) (1)"; SQL statement: delete from product_on_sale where id=? [23503-197]]
-	at io.ebean.config.dbplatform.SqlCodeTranslator.translate(SqlCodeTranslator.java:44)
-	at io.ebean.config.dbplatform.DatabasePlatform.translate(DatabasePlatform.java:195)
-	at io.ebeaninternal.server.persist.dml.DmlBeanPersister.execute(DmlBeanPersister.java:83)
-	at io.ebeaninternal.server.persist.dml.DmlBeanPersister.delete(DmlBeanPersister.java:41)
-	at io.ebeaninternal.server.core.PersistRequestBean.executeDelete(PersistRequestBean.java:1108)
-	at io.ebeaninternal.server.core.PersistRequestBean.executeNow(PersistRequestBean.java:678)
-	at io.ebeaninternal.server.persist.BatchControl.executeOrQueue(BatchControl.java:160)
-	at io.ebeaninternal.server.core.PersistRequestBean.executeOrQueue(PersistRequestBean.java:700)
-	at io.ebeaninternal.server.persist.DefaultPersister.delete(DefaultPersister.java:772)
-	at io.ebeaninternal.server.persist.DefaultPersister.deleteRequest(DefaultPersister.java:550)
-	at io.ebeaninternal.server.persist.DefaultPersister.deleteRequest(DefaultPersister.java:530)
-	at io.ebeaninternal.server.persist.DefaultPersister.delete(DefaultPersister.java:522)
-	at io.ebeaninternal.server.core.DefaultServer.delete(DefaultServer.java:1893)
-	at io.ebeaninternal.server.core.DefaultServer.delete(DefaultServer.java:1885)
-	at io.ebean.Model.delete(Model.java:240)
-	at controllers.HomeController.deleteProduct(HomeController.java:199)
-	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$12(Routes.scala:747)
-	at play.core.routing.HandlerInvokerFactory$$anon$6.resultCall(HandlerInvoker.scala:134)
-	at play.core.routing.HandlerInvokerFactory$$anon$6.resultCall(HandlerInvoker.scala:133)
-	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$3$$anon$4$$anon$5.invocation(HandlerInvoker.scala:108)
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
-	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
-	at controllers.AuthAdmin.call(AuthAdmin.java:21)
-	at play.db.ebean.TransactionalAction.lambda$call$6(TransactionalAction.java:18)
-	at io.ebeaninternal.server.core.DefaultServer.execute(DefaultServer.java:670)
-	at io.ebeaninternal.server.core.DefaultServer.execute(DefaultServer.java:663)
-	at io.ebean.Ebean.execute(Ebean.java:1270)
-	at play.db.ebean.TransactionalAction.call(TransactionalAction.java:18)
-	at play.mvc.Security$AuthenticatedAction.call(Security.java:70)
-	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
-	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
-	at scala.util.Success.$anonfun$map$1(Try.scala:255)
-	at scala.util.Success.map(Try.scala:213)
-	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
-	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
-	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
-	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
-	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
-	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
-	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
-	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:372)
-	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:371)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:379)
-	at scala.concurrent.impl.Promise.transform(Promise.scala:33)
-	at scala.concurrent.impl.Promise.transform$(Promise.scala:31)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:379)
-	at scala.concurrent.Future.map(Future.scala:292)
-	at scala.concurrent.Future.map$(Future.scala:292)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:379)
-	at scala.concurrent.Future$.apply(Future.scala:658)
-	at play.core.j.JavaAction.apply(JavaAction.scala:138)
-	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
-	at scala.util.Try$.apply(Try.scala:213)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
-	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:376)
-	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
-	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
-	... 12 common frames omitted
-Caused by: org.h2.jdbc.JdbcSQLException: Referential integrity constraint violation: "FK_ORDER_PRODUCT_PRODUCT_ID: PUBLIC.ORDER_PRODUCT FOREIGN KEY(PRODUCT_ID) REFERENCES PUBLIC.PRODUCT_ON_SALE(ID) (1)"; SQL statement:
-delete from product_on_sale where id=? [23503-197]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
-	at org.h2.message.DbException.get(DbException.java:179)
-	at org.h2.message.DbException.get(DbException.java:155)
-	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:386)
-	at org.h2.constraint.ConstraintReferential.checkRowRefTable(ConstraintReferential.java:403)
-	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:278)
-	at org.h2.table.Table.fireConstraints(Table.java:995)
-	at org.h2.table.Table.fireAfterRow(Table.java:1013)
-	at org.h2.command.dml.Delete.update(Delete.java:108)
-	at org.h2.command.CommandContainer.update(CommandContainer.java:102)
-	at org.h2.command.Command.executeUpdate(Command.java:261)
-	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:199)
-	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:153)
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
-	at io.ebeaninternal.server.type.DataBind.executeUpdate(DataBind.java:82)
-	at io.ebeaninternal.server.persist.dml.DeleteHandler.execute(DeleteHandler.java:47)
-	at io.ebeaninternal.server.persist.dml.DmlBeanPersister.execute(DmlBeanPersister.java:73)
-	... 72 common frames omitted
-2019-04-10 03:19:21,616 [DEBUG] from application in application-akka.actor.default-dispatcher-9 - id: finn@sneakersan.com
-2019-04-10 03:19:26,178 [DEBUG] from application in application-akka.actor.default-dispatcher-9 - id: finn@sneakersan.com
-2019-04-10 03:19:29,275 [DEBUG] from application in application-akka.actor.default-dispatcher-15 - id: finn@sneakersan.com
-2019-04-10 03:19:33,063 [DEBUG] from application in application-akka.actor.default-dispatcher-15 - id: finn@sneakersan.com
-2019-04-10 03:19:35,691 [DEBUG] from application in application-akka.actor.default-dispatcher-9 - id: finn@sneakersan.com
-2019-04-10 03:19:38,558 [DEBUG] from application in application-akka.actor.default-dispatcher-15 - id: finn@sneakersan.com
-2019-04-10 03:19:41,340 [DEBUG] from application in application-akka.actor.default-dispatcher-15 - id: finn@sneakersan.com
-2019-04-10 03:19:44,533 [DEBUG] from application in application-akka.actor.default-dispatcher-15 - id: finn@sneakersan.com
-2019-04-10 03:19:44,546 [ERROR] from application in application-akka.actor.default-dispatcher-15 - 
-
-! @7bf7e6gdn - Internal server error, for (GET) [/deleteProduct/1] ->
- 
-play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[DataIntegrityException: Error[Referential integrity constraint violation: "FK_ORDER_PRODUCT_PRODUCT_ID: PUBLIC.ORDER_PRODUCT FOREIGN KEY(PRODUCT_ID) REFERENCES PUBLIC.PRODUCT_ON_SALE(ID) (1)"; SQL statement: delete from product_on_sale where id=? [23503-197]]]]
-	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:251)
-	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:178)
-	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:382)
-	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:380)
-	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
-	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
-	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
-	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
-	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
-	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
-	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:44)
-	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
-	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
-	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
-	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-Caused by: io.ebean.DataIntegrityException: Error[Referential integrity constraint violation: "FK_ORDER_PRODUCT_PRODUCT_ID: PUBLIC.ORDER_PRODUCT FOREIGN KEY(PRODUCT_ID) REFERENCES PUBLIC.PRODUCT_ON_SALE(ID) (1)"; SQL statement: delete from product_on_sale where id=? [23503-197]]
-	at io.ebean.config.dbplatform.SqlCodeTranslator.translate(SqlCodeTranslator.java:44)
-	at io.ebean.config.dbplatform.DatabasePlatform.translate(DatabasePlatform.java:195)
-	at io.ebeaninternal.server.persist.dml.DmlBeanPersister.execute(DmlBeanPersister.java:83)
-	at io.ebeaninternal.server.persist.dml.DmlBeanPersister.delete(DmlBeanPersister.java:41)
-	at io.ebeaninternal.server.core.PersistRequestBean.executeDelete(PersistRequestBean.java:1108)
-	at io.ebeaninternal.server.core.PersistRequestBean.executeNow(PersistRequestBean.java:678)
-	at io.ebeaninternal.server.persist.BatchControl.executeOrQueue(BatchControl.java:160)
-	at io.ebeaninternal.server.core.PersistRequestBean.executeOrQueue(PersistRequestBean.java:700)
-	at io.ebeaninternal.server.persist.DefaultPersister.delete(DefaultPersister.java:772)
-	at io.ebeaninternal.server.persist.DefaultPersister.deleteRequest(DefaultPersister.java:550)
-	at io.ebeaninternal.server.persist.DefaultPersister.deleteRequest(DefaultPersister.java:530)
-	at io.ebeaninternal.server.persist.DefaultPersister.delete(DefaultPersister.java:522)
-	at io.ebeaninternal.server.core.DefaultServer.delete(DefaultServer.java:1893)
-	at io.ebeaninternal.server.core.DefaultServer.delete(DefaultServer.java:1885)
-	at io.ebean.Model.delete(Model.java:240)
-	at controllers.HomeController.deleteProduct(HomeController.java:199)
-	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$12(Routes.scala:747)
-	at play.core.routing.HandlerInvokerFactory$$anon$6.resultCall(HandlerInvoker.scala:134)
-	at play.core.routing.HandlerInvokerFactory$$anon$6.resultCall(HandlerInvoker.scala:133)
-	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$3$$anon$4$$anon$5.invocation(HandlerInvoker.scala:108)
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
-	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
-	at controllers.AuthAdmin.call(AuthAdmin.java:21)
-	at play.db.ebean.TransactionalAction.lambda$call$6(TransactionalAction.java:18)
-	at io.ebeaninternal.server.core.DefaultServer.execute(DefaultServer.java:670)
-	at io.ebeaninternal.server.core.DefaultServer.execute(DefaultServer.java:663)
-	at io.ebean.Ebean.execute(Ebean.java:1270)
-	at play.db.ebean.TransactionalAction.call(TransactionalAction.java:18)
-	at play.mvc.Security$AuthenticatedAction.call(Security.java:70)
-	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
-	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
-	at scala.util.Success.$anonfun$map$1(Try.scala:255)
-	at scala.util.Success.map(Try.scala:213)
-	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
-	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
-	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
-	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
-	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
-	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
-	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
-	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:372)
-	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:371)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:379)
-	at scala.concurrent.impl.Promise.transform(Promise.scala:33)
-	at scala.concurrent.impl.Promise.transform$(Promise.scala:31)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:379)
-	at scala.concurrent.Future.map(Future.scala:292)
-	at scala.concurrent.Future.map$(Future.scala:292)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:379)
-	at scala.concurrent.Future$.apply(Future.scala:658)
-	at play.core.j.JavaAction.apply(JavaAction.scala:138)
-	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
-	at scala.util.Try$.apply(Try.scala:213)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
-	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:376)
-	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
-	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
-	... 12 common frames omitted
-Caused by: org.h2.jdbc.JdbcSQLException: Referential integrity constraint violation: "FK_ORDER_PRODUCT_PRODUCT_ID: PUBLIC.ORDER_PRODUCT FOREIGN KEY(PRODUCT_ID) REFERENCES PUBLIC.PRODUCT_ON_SALE(ID) (1)"; SQL statement:
-delete from product_on_sale where id=? [23503-197]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
-	at org.h2.message.DbException.get(DbException.java:179)
-	at org.h2.message.DbException.get(DbException.java:155)
-	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:386)
-	at org.h2.constraint.ConstraintReferential.checkRowRefTable(ConstraintReferential.java:403)
-	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:278)
-	at org.h2.table.Table.fireConstraints(Table.java:995)
-	at org.h2.table.Table.fireAfterRow(Table.java:1013)
-	at org.h2.command.dml.Delete.update(Delete.java:108)
-	at org.h2.command.CommandContainer.update(CommandContainer.java:102)
-	at org.h2.command.Command.executeUpdate(Command.java:261)
-	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:199)
-	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:153)
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
-	at io.ebeaninternal.server.type.DataBind.executeUpdate(DataBind.java:82)
-	at io.ebeaninternal.server.persist.dml.DeleteHandler.execute(DeleteHandler.java:47)
-	at io.ebeaninternal.server.persist.dml.DmlBeanPersister.execute(DmlBeanPersister.java:73)
-	... 72 common frames omitted
-2019-04-10 03:19:50,340 [DEBUG] from application in application-akka.actor.default-dispatcher-15 - id: finn@sneakersan.com
-2019-04-10 03:20:42,915 [DEBUG] from application in application-akka.actor.default-dispatcher-18 - id: finn@sneakersan.com
-2019-04-10 03:22:15,807 [INFO] from application in application-akka.actor.default-dispatcher-9 - ApplicationTimer demo: Stopping application at 2019-04-10T02:22:15.807Z after 977s.
-2019-04-10 03:22:15,807 [INFO] from application in application-akka.actor.default-dispatcher-9 - Shutting down connection pool.
-2019-04-10 03:22:16,051 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-88 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-04-10 03:22:16,054 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-88 - Creating Pool for datasource 'default'
-2019-04-10 03:22:16,140 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-88 - ApplicationTimer demo: Starting application at 2019-04-10T02:22:16.140Z
-2019-04-10 03:22:16,143 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-88 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-04-10 03:22:16,167 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-88 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-04-10 03:22:16,243 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-88 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
-2019-04-10 03:22:16,246 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-88 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-04-10 15:38:31,292 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-52 - Application started (Dev)
+2019-04-10 15:38:54,681 [WARN] from application in application-akka.actor.default-dispatcher-3 - The "validate" method in class "models.users.Login" is deprecated since Play 2.6. To migrate to class-level constraints see https://www.playframework.com/documentation/2.6.x/Migration26#java-form-changes and https://www.playframework.com/documentation/2.6.x/JavaForms#Advanced-validation
+2019-04-10 15:40:04,402 [INFO] from application in application-akka.actor.default-dispatcher-20 - ApplicationTimer demo: Stopping application at 2019-04-10T14:40:04.402Z after 94s.
+2019-04-10 15:40:04,402 [INFO] from application in application-akka.actor.default-dispatcher-20 - Shutting down connection pool.
+2019-04-10 15:40:05,028 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-52 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-10 15:40:05,028 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-52 - Creating Pool for datasource 'default'
+2019-04-10 15:40:05,299 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-52 - ApplicationTimer demo: Starting application at 2019-04-10T14:40:05.298Z
+2019-04-10 15:40:05,311 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-52 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-10 15:40:05,381 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-52 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-10 15:40:05,627 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-52 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-10 15:40:05,634 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-52 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-04-10 03:22:16,250 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-88 - Application started (Dev)
-2019-04-10 03:22:16,288 [DEBUG] from application in application-akka.actor.default-dispatcher-6 - id: finn@sneakersan.com
-2019-04-10 03:22:56,978 [DEBUG] from application in application-akka.actor.default-dispatcher-10 - id: finn@sneakersan.com
-2019-04-10 03:23:05,152 [DEBUG] from application in application-akka.actor.default-dispatcher-11 - id: finn@sneakersan.com
-2019-04-10 03:23:55,821 [DEBUG] from application in application-akka.actor.default-dispatcher-19 - id: finn@sneakersan.com
-2019-04-10 03:24:07,975 [DEBUG] from application in application-akka.actor.default-dispatcher-20 - id: finn@sneakersan.com
-2019-04-10 03:24:48,831 [DEBUG] from application in application-akka.actor.default-dispatcher-28 - id: finn@sneakersan.com
-2019-04-10 03:26:15,472 [DEBUG] from application in application-akka.actor.default-dispatcher-16 - id: finn@sneakersan.com
-2019-04-10 03:29:35,257 [DEBUG] from application in application-akka.actor.default-dispatcher-37 - id: finn@sneakersan.com
-2019-04-10 03:31:33,544 [INFO] from application in application-akka.actor.default-dispatcher-42 - ApplicationTimer demo: Stopping application at 2019-04-10T02:31:33.544Z after 557s.
-2019-04-10 03:31:33,544 [INFO] from application in application-akka.actor.default-dispatcher-42 - Shutting down connection pool.
-2019-04-10 03:31:33,764 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-102 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-04-10 03:31:33,765 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-102 - Creating Pool for datasource 'default'
-2019-04-10 03:31:33,860 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-102 - ApplicationTimer demo: Starting application at 2019-04-10T02:31:33.859Z
-2019-04-10 03:31:33,870 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-102 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-04-10 03:31:33,910 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-102 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-04-10 03:31:34,008 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-102 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
-2019-04-10 03:31:34,012 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-102 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-04-10 15:40:05,635 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-52 - Application started (Dev)
+2019-04-10 15:44:26,843 [WARN] from application in application-akka.actor.default-dispatcher-11 - The "validate" method in class "models.users.Login" is deprecated since Play 2.6. To migrate to class-level constraints see https://www.playframework.com/documentation/2.6.x/Migration26#java-form-changes and https://www.playframework.com/documentation/2.6.x/JavaForms#Advanced-validation
+2019-04-10 15:46:08,565 [INFO] from application in application-akka.actor.default-dispatcher-10 - ApplicationTimer demo: Stopping application at 2019-04-10T14:46:08.565Z after 363s.
+2019-04-10 15:46:08,565 [INFO] from application in application-akka.actor.default-dispatcher-10 - Shutting down connection pool.
+2019-04-10 15:46:09,242 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-66 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-10 15:46:09,245 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-66 - Creating Pool for datasource 'default'
+2019-04-10 15:46:09,492 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-66 - ApplicationTimer demo: Starting application at 2019-04-10T14:46:09.492Z
+2019-04-10 15:46:09,500 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-66 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-10 15:46:09,562 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-66 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-10 15:46:09,769 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-66 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-10 15:46:09,776 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-66 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-04-10 03:31:34,012 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-102 - Application started (Dev)
-2019-04-10 03:31:34,038 [DEBUG] from application in application-akka.actor.default-dispatcher-6 - id: finn@sneakersan.com
-2019-04-10 03:32:21,837 [DEBUG] from application in application-akka.actor.default-dispatcher-3 - id: finn@sneakersan.com
-2019-04-10 03:32:39,504 [DEBUG] from application in application-akka.actor.default-dispatcher-12 - id: finn@sneakersan.com
-2019-04-10 03:32:39,514 [ERROR] from application in application-akka.actor.default-dispatcher-12 - 
+2019-04-10 15:46:09,779 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-66 - Application started (Dev)
+2019-04-10 15:46:19,086 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-65 - The "validate" method in class "models.users.Login" is deprecated since Play 2.6. To migrate to class-level constraints see https://www.playframework.com/documentation/2.6.x/Migration26#java-form-changes and https://www.playframework.com/documentation/2.6.x/JavaForms#Advanced-validation
+2019-04-10 15:46:28,896 [WARN] from application in application-akka.actor.default-dispatcher-2 - The "validate" method in class "models.users.Login" is deprecated since Play 2.6. To migrate to class-level constraints see https://www.playframework.com/documentation/2.6.x/Migration26#java-form-changes and https://www.playframework.com/documentation/2.6.x/JavaForms#Advanced-validation
+2019-04-10 15:46:34,336 [DEBUG] from application in application-akka.actor.default-dispatcher-4 - id: customer@sneakersan.com
+2019-04-10 15:46:37,869 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-65 - id: customer@sneakersan.com
+2019-04-10 15:46:40,415 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-67 - id: customer@sneakersan.com
+2019-04-10 15:46:46,112 [DEBUG] from application in application-akka.actor.default-dispatcher-4 - id: customer@sneakersan.com
+2019-04-10 15:46:46,193 [WARN] from play in application-akka.actor.default-dispatcher-4 - You are using status code '200' with flashing, which should only be used with a redirect status!
+2019-04-10 15:50:06,144 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-73 - 
 
-! @7bf7foioi - Internal server error, for (GET) [/deleteProduct/1] ->
+! @7bfb8k4ba - Internal server error, for (GET) [/onsale] ->
  
-play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[DataIntegrityException: Error[Referential integrity constraint violation: "FK_ORDER_PRODUCT_PRODUCT_ID: PUBLIC.ORDER_PRODUCT FOREIGN KEY(PRODUCT_ID) REFERENCES PUBLIC.PRODUCT_ON_SALE(ID) (1)"; SQL statement: delete from product_on_sale where id=? [23503-197]]]]
-	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:251)
-	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:178)
-	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:382)
-	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:380)
-	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
-	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
-	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
-	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
-	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
-	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
-	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:44)
+play.sbt.PlayExceptions$CompilationException: Compilation error[not found: value filter]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:146)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$1(PlayReload.scala:33)
+	at scala.Option.map(Option.scala:146)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:28)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:24)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:51)
+	at scala.util.Either$LeftProjection.map(Either.scala:569)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:51)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:76)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:412)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:50)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:55)
+	at play.runsupport.Reloader.reload(Reloader.scala:412)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:123)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:241)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:138)
+	at akka.stream.impl.fusing.MapAsyncUnordered$$anon$31.onPush(Ops.scala:1318)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:519)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:482)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:378)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:588)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:472)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:563)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:745)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:760)
+	at akka.actor.Actor.aroundReceive(Actor.scala:517)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:515)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:670)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:588)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:557)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:258)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:225)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:235)
 	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
 	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
 	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
 	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-Caused by: io.ebean.DataIntegrityException: Error[Referential integrity constraint violation: "FK_ORDER_PRODUCT_PRODUCT_ID: PUBLIC.ORDER_PRODUCT FOREIGN KEY(PRODUCT_ID) REFERENCES PUBLIC.PRODUCT_ON_SALE(ID) (1)"; SQL statement: delete from product_on_sale where id=? [23503-197]]
-	at io.ebean.config.dbplatform.SqlCodeTranslator.translate(SqlCodeTranslator.java:44)
-	at io.ebean.config.dbplatform.DatabasePlatform.translate(DatabasePlatform.java:195)
-	at io.ebeaninternal.server.persist.dml.DmlBeanPersister.execute(DmlBeanPersister.java:83)
-	at io.ebeaninternal.server.persist.dml.DmlBeanPersister.delete(DmlBeanPersister.java:41)
-	at io.ebeaninternal.server.core.PersistRequestBean.executeDelete(PersistRequestBean.java:1108)
-	at io.ebeaninternal.server.core.PersistRequestBean.executeNow(PersistRequestBean.java:678)
-	at io.ebeaninternal.server.persist.BatchControl.executeOrQueue(BatchControl.java:160)
-	at io.ebeaninternal.server.core.PersistRequestBean.executeOrQueue(PersistRequestBean.java:700)
-	at io.ebeaninternal.server.persist.DefaultPersister.delete(DefaultPersister.java:772)
-	at io.ebeaninternal.server.persist.DefaultPersister.deleteRequest(DefaultPersister.java:550)
-	at io.ebeaninternal.server.persist.DefaultPersister.deleteRequest(DefaultPersister.java:530)
-	at io.ebeaninternal.server.persist.DefaultPersister.delete(DefaultPersister.java:522)
-	at io.ebeaninternal.server.core.DefaultServer.delete(DefaultServer.java:1893)
-	at io.ebeaninternal.server.core.DefaultServer.delete(DefaultServer.java:1885)
-	at io.ebean.Model.delete(Model.java:240)
-	at controllers.HomeController.deleteProduct(HomeController.java:199)
-	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$12(Routes.scala:747)
-	at play.core.routing.HandlerInvokerFactory$$anon$6.resultCall(HandlerInvoker.scala:134)
-	at play.core.routing.HandlerInvokerFactory$$anon$6.resultCall(HandlerInvoker.scala:133)
-	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$3$$anon$4$$anon$5.invocation(HandlerInvoker.scala:108)
-	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
-	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
-	at controllers.AuthAdmin.call(AuthAdmin.java:21)
-	at play.db.ebean.TransactionalAction.lambda$call$6(TransactionalAction.java:18)
-	at io.ebeaninternal.server.core.DefaultServer.execute(DefaultServer.java:670)
-	at io.ebeaninternal.server.core.DefaultServer.execute(DefaultServer.java:663)
-	at io.ebean.Ebean.execute(Ebean.java:1270)
-	at play.db.ebean.TransactionalAction.call(TransactionalAction.java:18)
-	at play.mvc.Security$AuthenticatedAction.call(Security.java:70)
-	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
-	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:658)
-	at scala.util.Success.$anonfun$map$1(Try.scala:255)
-	at scala.util.Success.map(Try.scala:213)
-	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
-	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
-	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
-	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
-	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
-	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
-	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
-	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
-	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:372)
-	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:371)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:379)
-	at scala.concurrent.impl.Promise.transform(Promise.scala:33)
-	at scala.concurrent.impl.Promise.transform$(Promise.scala:31)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:379)
-	at scala.concurrent.Future.map(Future.scala:292)
-	at scala.concurrent.Future.map$(Future.scala:292)
-	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:379)
-	at scala.concurrent.Future$.apply(Future.scala:658)
-	at play.core.j.JavaAction.apply(JavaAction.scala:138)
-	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
-	at scala.util.Try$.apply(Try.scala:213)
-	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at scala.Function1.$anonfun$andThen$1(Function1.scala:57)
-	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
-	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:376)
-	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
-	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
-	... 12 common frames omitted
-Caused by: org.h2.jdbc.JdbcSQLException: Referential integrity constraint violation: "FK_ORDER_PRODUCT_PRODUCT_ID: PUBLIC.ORDER_PRODUCT FOREIGN KEY(PRODUCT_ID) REFERENCES PUBLIC.PRODUCT_ON_SALE(ID) (1)"; SQL statement:
-delete from product_on_sale where id=? [23503-197]
-	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
-	at org.h2.message.DbException.get(DbException.java:179)
-	at org.h2.message.DbException.get(DbException.java:155)
-	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:386)
-	at org.h2.constraint.ConstraintReferential.checkRowRefTable(ConstraintReferential.java:403)
-	at org.h2.constraint.ConstraintReferential.checkRow(ConstraintReferential.java:278)
-	at org.h2.table.Table.fireConstraints(Table.java:995)
-	at org.h2.table.Table.fireAfterRow(Table.java:1013)
-	at org.h2.command.dml.Delete.update(Delete.java:108)
-	at org.h2.command.CommandContainer.update(CommandContainer.java:102)
-	at org.h2.command.Command.executeUpdate(Command.java:261)
-	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:199)
-	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:153)
-	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
-	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
-	at io.ebeaninternal.server.type.DataBind.executeUpdate(DataBind.java:82)
-	at io.ebeaninternal.server.persist.dml.DeleteHandler.execute(DeleteHandler.java:47)
-	at io.ebeaninternal.server.persist.dml.DmlBeanPersister.execute(DmlBeanPersister.java:73)
-	... 71 common frames omitted
-2019-04-10 03:33:02,589 [DEBUG] from application in application-akka.actor.default-dispatcher-14 - id: finn@sneakersan.com
-2019-04-10 03:34:06,638 [DEBUG] from application in application-akka.actor.default-dispatcher-21 - id: finn@sneakersan.com
-2019-04-10 03:37:42,155 [INFO] from play.core.server.AkkaHttpServer in pool-6-thread-2 - Stopping server...
-2019-04-10 03:37:42,204 [INFO] from application in application-akka.actor.default-dispatcher-34 - ApplicationTimer demo: Stopping application at 2019-04-10T02:37:42.204Z after 369s.
-2019-04-10 03:37:42,206 [INFO] from application in application-akka.actor.default-dispatcher-34 - Shutting down connection pool.
+2019-04-10 15:51:08,538 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-73 - 
+
+! @7bfb8niln - Internal server error, for (GET) [/onsale] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[not found: value c]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:146)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$1(PlayReload.scala:33)
+	at scala.Option.map(Option.scala:146)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:28)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:24)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:51)
+	at scala.util.Either$LeftProjection.map(Either.scala:569)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:51)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:76)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:412)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:50)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:55)
+	at play.runsupport.Reloader.reload(Reloader.scala:412)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:123)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:241)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:138)
+	at akka.stream.impl.fusing.MapAsyncUnordered$$anon$31.onPush(Ops.scala:1318)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:519)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:482)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:378)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:588)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:472)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:563)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:745)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:760)
+	at akka.actor.Actor.aroundReceive(Actor.scala:517)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:515)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:670)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:588)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:557)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:258)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:225)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:235)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2019-04-10 15:51:40,858 [INFO] from application in application-akka.actor.default-dispatcher-15 - ApplicationTimer demo: Stopping application at 2019-04-10T14:51:40.858Z after 331s.
+2019-04-10 15:51:40,860 [INFO] from application in application-akka.actor.default-dispatcher-15 - Shutting down connection pool.
+2019-04-10 15:51:41,459 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-69 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-10 15:51:41,462 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-69 - Creating Pool for datasource 'default'
+2019-04-10 15:51:41,607 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-69 - ApplicationTimer demo: Starting application at 2019-04-10T14:51:41.607Z
+2019-04-10 15:51:41,615 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-69 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-10 15:51:41,636 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-69 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-10 15:51:41,835 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-69 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-10 15:51:41,840 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-69 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-04-10 15:51:41,840 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-69 - Application started (Dev)
+2019-04-10 15:52:39,647 [INFO] from application in application-akka.actor.default-dispatcher-16 - ApplicationTimer demo: Stopping application at 2019-04-10T14:52:39.647Z after 58s.
+2019-04-10 15:52:39,648 [INFO] from application in application-akka.actor.default-dispatcher-16 - Shutting down connection pool.
+2019-04-10 15:52:40,083 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-69 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-10 15:52:40,084 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-69 - Creating Pool for datasource 'default'
+2019-04-10 15:52:40,222 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-69 - ApplicationTimer demo: Starting application at 2019-04-10T14:52:40.222Z
+2019-04-10 15:52:40,230 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-69 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-10 15:52:40,262 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-69 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-10 15:52:40,431 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-69 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-10 15:52:40,454 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-69 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-04-10 15:52:40,455 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-69 - Application started (Dev)
+2019-04-10 15:53:57,301 [INFO] from application in application-akka.actor.default-dispatcher-5 - ApplicationTimer demo: Stopping application at 2019-04-10T14:53:57.301Z after 77s.
+2019-04-10 15:53:57,301 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.
+2019-04-10 15:53:57,845 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-73 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-10 15:53:57,846 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-73 - Creating Pool for datasource 'default'
+2019-04-10 15:53:58,021 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-73 - ApplicationTimer demo: Starting application at 2019-04-10T14:53:58.021Z
+2019-04-10 15:53:58,026 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-73 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-10 15:53:58,039 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-73 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-10 15:53:58,153 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-73 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-10 15:53:58,161 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-73 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-04-10 15:53:58,161 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-73 - Application started (Dev)
+2019-04-10 15:56:39,274 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-76 - 
+
+! @7bfb9gdoj - Internal server error, for (GET) [/onsale?filter=Adidas&filter=Balenciaga&filter=Nike&filter=Yeezy] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[not found: value c]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:146)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$1(PlayReload.scala:33)
+	at scala.Option.map(Option.scala:146)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:28)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:24)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:51)
+	at scala.util.Either$LeftProjection.map(Either.scala:569)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:51)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:76)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:412)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:50)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:55)
+	at play.runsupport.Reloader.reload(Reloader.scala:412)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:123)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:241)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:138)
+	at akka.stream.impl.fusing.MapAsyncUnordered$$anon$31.onPush(Ops.scala:1318)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:519)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:482)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:378)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:588)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:472)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:563)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:745)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:760)
+	at akka.actor.Actor.aroundReceive(Actor.scala:517)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:515)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:670)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:588)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:557)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:258)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:225)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:235)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2019-04-10 15:57:17,795 [INFO] from application in application-akka.actor.default-dispatcher-14 - ApplicationTimer demo: Stopping application at 2019-04-10T14:57:17.795Z after 199s.
+2019-04-10 15:57:17,796 [INFO] from application in application-akka.actor.default-dispatcher-14 - Shutting down connection pool.
+2019-04-10 15:57:18,378 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-79 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-10 15:57:18,383 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-79 - Creating Pool for datasource 'default'
+2019-04-10 15:57:18,584 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-79 - ApplicationTimer demo: Starting application at 2019-04-10T14:57:18.584Z
+2019-04-10 15:57:18,590 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-79 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-10 15:57:18,609 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-79 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-10 15:57:18,759 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-79 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-10 15:57:18,776 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-79 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-04-10 15:57:18,777 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-79 - Application started (Dev)
+2019-04-10 15:58:12,498 [INFO] from application in application-akka.actor.default-dispatcher-12 - ApplicationTimer demo: Stopping application at 2019-04-10T14:58:12.498Z after 54s.
+2019-04-10 15:58:12,503 [INFO] from application in application-akka.actor.default-dispatcher-12 - Shutting down connection pool.
+2019-04-10 15:58:12,990 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-77 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-10 15:58:12,992 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-77 - Creating Pool for datasource 'default'
+2019-04-10 15:58:13,163 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-77 - ApplicationTimer demo: Starting application at 2019-04-10T14:58:13.163Z
+2019-04-10 15:58:13,167 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-77 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-10 15:58:13,198 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-77 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-10 15:58:13,292 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-77 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-10 15:58:13,296 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-77 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-04-10 15:58:13,297 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-77 - Application started (Dev)
+2019-04-10 15:59:39,046 [INFO] from application in application-akka.actor.default-dispatcher-14 - ApplicationTimer demo: Stopping application at 2019-04-10T14:59:39.045Z after 86s.
+2019-04-10 15:59:39,049 [INFO] from application in application-akka.actor.default-dispatcher-14 - Shutting down connection pool.
+2019-04-10 15:59:39,552 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-78 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-10 15:59:39,553 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-78 - Creating Pool for datasource 'default'
+2019-04-10 15:59:39,719 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-78 - ApplicationTimer demo: Starting application at 2019-04-10T14:59:39.719Z
+2019-04-10 15:59:39,723 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-78 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-10 15:59:39,735 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-78 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-10 15:59:39,900 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-78 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-10 15:59:39,910 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-78 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-04-10 15:59:39,912 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-78 - Application started (Dev)
+2019-04-10 16:32:50,053 [INFO] from play.core.server.AkkaHttpServer in pool-6-thread-1 - Stopping server...
+2019-04-10 16:32:50,148 [INFO] from application in application-akka.actor.default-dispatcher-18 - ApplicationTimer demo: Stopping application at 2019-04-10T15:32:50.148Z after 1991s.
+2019-04-10 16:32:50,148 [INFO] from application in application-akka.actor.default-dispatcher-18 - Shutting down connection pool.

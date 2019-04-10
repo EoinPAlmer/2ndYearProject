@@ -29,6 +29,19 @@ user: models.users.User,env:play.api.Environment)
 
             <br>
 
+            <div class = "col-lg-6 col-md-6 col-sm-12 col-xs-12 col-centered">
+                        <div id="actions">
+                             @for(c <- categories){
+                                <form action="@routes.HomeController.onsale()" method="GET">
+                               <input type="search" id="searchbox" name="filter" value="Filter" placeholder="Filter by product name...">
+                               <input type="submit" id="searchsubmit" value="Filter by name" class="btn-md btn-primary">}
+                            </form>
+                           </div>
+
+                </div>
+
+            <br>
+
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="productbounds">
 
                 @for(p <- products) {
@@ -49,18 +62,25 @@ user: models.users.User,env:play.api.Environment)
                                 @if((user != null) && ("Admin".equals(user.getRole()))) {
                                     <p class = "text-center"><a href="@routes.HomeController.deleteProduct(p.getId)"
                                     onclick="return confirmDel();">
-                                        <button class = "btn btn-lg btn-danger"><span class="glyphicon glyphicon-trash thrashbutton"></span> </button>
+                                        <button class = "btn btn-lg btn-danger"><span class="glyphicon glyphicon-trash"></span> </button>
                                     </a>
                                     </p>
                                     <p class = "text-center"><a href="@routes.HomeController.updateProduct(p.getId)">
-                                        <button class = "btn btn-lg btn-danger"><span class="glyphicon glyphicon-pencil thrashbutton"></span> </button>
+                                        <button class = "btn btn-lg btn-danger"><span class="glyphicon glyphicon-pencil"></span> </button>
                                     </a>
                                     </p>
                                     @if(p.getStock() == 0){
                                         <td><img scr="asset/images/oos.jpg"/>
                                          </td>
                                     }
+                                    
                                 }
+
+                                @if((user != null) && ("customer".equals(user.getRole()))) {
+                                    <p class = "text-center"><a href="@routes.ShoppingCtrl.addToBasket(p.getId)">
+                                        <button class = "btn btn-lg btn-danger"><span class="glyphicon glyphicon-shopping-cart"></span> </button>
+                                    </a>
+                              }
                             </div>
                         </div>
                     </div>

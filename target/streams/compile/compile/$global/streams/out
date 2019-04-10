@@ -1,7 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/onsale.scala.html:70:71: not found: value i[0m
-[0m[[0m[31merror[0m] [0m[0m                        <td><a href="@routes.ShoppingCtrl.addToBasket(i.getId)" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-shopping-cart"></span></a></td>                  [0m
-[0m[[0m[31merror[0m] [0m[0m                                                                      ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/onsale.scala.html:71:25: not found: value p[0m
-[0m[[0m[31merror[0m] [0m[0m                    @if(p.getStock() == 0){[0m
-[0m[[0m[31merror[0m] [0m[0m                        ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/onsale.scala.html:34:73: not found: value c[0m
+[0m[[0m[31merror[0m] [0m[0m                            <form action="@routes.HomeController.onsale(c.getId)" method="GET">[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
