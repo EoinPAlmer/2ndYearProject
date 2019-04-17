@@ -188,3 +188,12 @@ run
 exit
 run
 exit
+run
+h2-browser
+clean
+run
+h2-browser
+run
+clean
+run
+exit

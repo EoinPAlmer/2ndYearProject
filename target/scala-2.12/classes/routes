@@ -32,7 +32,7 @@ GET     /addCustomer                controllers.HomeController.addCustomer
 POST    /addCustomerSubmit          controllers.HomeController.addCustomerSubmit
 
 GET     /registerUser               controllers.LoginController.registerUser
-POST    /registerUserSubmit         controllers.LoginController.registerUserSubmit()
+POST    /registerUserSubmit         controllers.LoginController.registerUserSubmit
 
 
 # Shopping

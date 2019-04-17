@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/wdd/2ndYearProject/conf/routes
-// @DATE:Wed Apr 03 15:56:02 IST 2019
+// @DATE:Wed Apr 17 17:38:47 IST 2019
 
 package router
 
@@ -73,7 +73,7 @@ class Routes(
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """addCustomer""", """controllers.HomeController.addCustomer"""),
     ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """addCustomerSubmit""", """controllers.HomeController.addCustomerSubmit"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """registerUser""", """controllers.LoginController.registerUser"""),
-    ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """registerUserSubmit""", """controllers.LoginController.registerUserSubmit()"""),
+    ("""POST""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """registerUserSubmit""", """controllers.LoginController.registerUserSubmit"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """showBasket""", """controllers.ShoppingCtrl.showBasket()"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """addToBasket/""" + "$" + """id<[^/]+>""", """controllers.ShoppingCtrl.addToBasket(id:Long)"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """addOne/""" + "$" + """productId<[^/]+>""", """controllers.ShoppingCtrl.addOne(productId:Long, pid:Long)"""),
@@ -425,7 +425,7 @@ class Routes(
     PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("registerUserSubmit")))
   )
   private[this] lazy val controllers_LoginController_registerUserSubmit18_invoker = createInvoker(
-    LoginController_5.registerUserSubmit(),
+    LoginController_5.registerUserSubmit,
     play.api.routing.HandlerDef(this.getClass.getClassLoader,
       "router",
       "controllers.LoginController",
@@ -822,7 +822,7 @@ class Routes(
     // @LINE:35
     case controllers_LoginController_registerUserSubmit18_route(params@_) =>
       call { 
-        controllers_LoginController_registerUserSubmit18_invoker.call(LoginController_5.registerUserSubmit())
+        controllers_LoginController_registerUserSubmit18_invoker.call(LoginController_5.registerUserSubmit)
       }
   
     // @LINE:39
