@@ -2939,3 +2939,47 @@ insert into ProductOnSale (id,name,brand,size,price,stock) values(7, 'Baleniaga 
 2019-03-29 12:49:10 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLException: Table "PRODUCTONSALE" not found; SQL statement:
 insert into ProductOnSale (id,name,brand,size,price,stock) values(8, 'Balenciaga Thriple S', 'Balenciaga', 9, 600, 10) [42102-197]
+2019-04-18 16:33:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE CATEGORY_PRODUCT_ON_SALE (
+  CATEGORY_ID                   BIGINT NOT NULL,
+  PRODUCT_ON_SALE_ID            BIGINT NOT NULL,
+  CONSTRAINT PK_CATEGORY_PRODUCT_ON_SALE PRIMARY KEY (CATEGORY_ID,PRODUCT_ON_SALE_ID),
+  FOREIGN KEY( CATEGORY_ID) 
+REFERENCES CATEGORY_ID (
+)[*] "; expected "identifier"; SQL statement:
+create table category_product_on_sale (
+  category_id                   bigint not null,
+  product_on_sale_id            bigint not null,
+  constraint pk_category_product_on_sale primary key (category_id,product_on_sale_id),
+  foreign key( category_id) 
+references category_id (
+) [42001-197]
+2019-04-18 16:34:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Column "PRODUCT_ON_SALE_ID" not found; SQL statement:
+create table category_product_on_sale (
+  category_id                   bigint not null,
+  product_on_sale_id            bigint not null,
+  constraint pk_category_product_on_sale primary key (category_id,product_on_sale_id),
+  foreign key( product_on_sale_id) 
+references product_on_sale (product_on_sale_id) on delete cascade
+) [42122-197]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:357)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:682)
+	at org.h2.table.IndexColumn.mapColumns(IndexColumn.java:74)
+	at org.h2.command.ddl.AlterTableAddConstraint.tryUpdate(AlterTableAddConstraint.java:227)
+	at org.h2.command.ddl.AlterTableAddConstraint.update(AlterTableAddConstraint.java:78)
+	at org.h2.command.ddl.CommandWithColumns.createConstraints(CommandWithColumns.java:88)
+	at org.h2.command.ddl.CreateTable.update(CreateTable.java:122)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:102)
+	at org.h2.command.Command.executeUpdate(Command.java:261)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:233)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:1077)
+	at org.h2.server.web.WebApp.getResult(WebApp.java:1386)
+	at org.h2.server.web.WebApp.query(WebApp.java:1060)
+	at org.h2.server.web.WebApp$1.next(WebApp.java:1022)
+	at org.h2.server.web.WebApp$1.next(WebApp.java:1009)
+	at org.h2.server.web.WebThread.process(WebThread.java:165)
+	at org.h2.server.web.WebThread.run(WebThread.java:90)
+	at java.lang.Thread.run(Thread.java:748)

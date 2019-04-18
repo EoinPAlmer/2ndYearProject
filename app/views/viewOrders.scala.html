@@ -27,9 +27,8 @@
                             <thead>
                             <!-- The header row-->
                             <tr>
-                                <th>Id</th>
                                 <th>Name</th>
-                                <th>Stock</th>
+                                <th>Siza</th>
                                 <th>Price</th>
                                 <th>Total</th>
                             </tr>
@@ -38,9 +37,8 @@
                         @for(i <- o.getProducts()) {
 
                         <tr>
-                        <td>@i.getId</td>
                         <td>@i.getProduct.getName()</td>
-                        <td>@i.getProduct.getStock()</td>
+                        <td>@i.getProduct.getSize()</td>
                         <td>&euro; @("%.2f".format(i.getPrice()))</td>
                         <td>&euro; @("%.2f".format(i.getProductTotal))</td>
                         
@@ -76,6 +74,9 @@
                         </script>
                     </form>
                 </p>
+        </div>
+        <div>
+
         </div>
         
 

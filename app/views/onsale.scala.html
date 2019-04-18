@@ -3,7 +3,7 @@ user: models.users.User,env:play.api.Environment)
 @main("products", user) {
     <div class="container">
 
-        <h2 class = "text-center text-muted"><span class = "logo">Sneaker Sancturay</span> Products In Stock</h2>
+        <h2 class = "text-center text-muted"><span class = "logo">Sneaker Sanctuary</span> Products In Stock</h2>
 
         @if(flash.containsKey("success")) {
             <div class="alert alert-success">
@@ -52,9 +52,9 @@ user: models.users.User,env:play.api.Environment)
                     <div class="col-sm-6 col-md-4 col-xs-6 col-lg-4 products">
                         <div class="thumbnail">
                             @if(env.resource("public/images/productImages/" + p.getId + "thumb.jpg").isDefined){
-                                <img src="/assets/images/productImages/@(p.getId + "thumb.jpg")" alt="...">
+                                <img src="/assets/images/productImages/@(p.getId + "thumb.jpg")" alt="..." height="242" width="200">
                             }else{
-                                <img src="@routes.Assets.versioned("images/productplaceholder.svg")" alt="...">
+                                <img src="@routes.Assets.versioned("images/productplaceholder.svg")" alt="..." height="242" width="200">
                             }
 
                             <div class="caption">
