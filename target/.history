@@ -230,3 +230,5 @@ clean
 run
 ]clean
 exit
+run
+exit
