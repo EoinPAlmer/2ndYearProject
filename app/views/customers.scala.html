@@ -66,4 +66,21 @@
         </a>
     </p>
 </div>
+<script>
+
+    function confirmDel(){
+        return confirm('Are you sure?');
+    }
+
+        $(document).ready(function () {
+
+            var docHeight = $(window).height();
+            var footerHeight = $('#footer').height();
+            var footerTop = $('#footer').position().top + footerHeight;
+
+            if (footerTop < docHeight) {
+                $('#footer').css('margin-top', 350 + (docHeight - footerTop) + 'px');
+            }
+        });
+</script>
  }

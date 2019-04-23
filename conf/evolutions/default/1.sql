@@ -55,6 +55,7 @@ create table user (
   name                          varchar(255),
   password                      varchar(255),
   role                          varchar(255),
+  password2                     varchar(255),
   street1                       varchar(255),
   street2                       varchar(255),
   town                          varchar(255),

@@ -212,3 +212,15 @@ h2 browser
 h2-browser
 run
 exit
+run
+exit
+clean
+compile
+run
+compile
+run
+clean
+compile
+run
+cd ..
+exit

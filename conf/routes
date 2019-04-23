@@ -9,8 +9,8 @@ GET     /onsale                     controllers.HomeController.onsale(cat:Long?=
 GET     /about                      controllers.HomeController.about
 
 
-GET     /addProduct                    controllers.HomeController.addProduct
-GET     /updateProduct/:id             controllers.HomeController.updateProduct(id: Long)
+GET     /addProduct                  controllers.HomeController.addProduct
+GET     /updateProduct/:id           controllers.HomeController.updateProduct(id: Long)
 GET     /deleteProduct/:id             controllers.HomeController.deleteProduct(id: Long)
 
 POST    /addProductSubmit              controllers.HomeController.addProductSubmit

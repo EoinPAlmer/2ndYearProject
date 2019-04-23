@@ -24,6 +24,7 @@ public class LoginController extends Controller {
     }
     
     public Result login() {
+
         Form<Login> loginForm = formFactory.form(Login.class);
         return ok(login.render(loginForm,User.getUserById(session().get("email"))));
 }
@@ -57,30 +58,38 @@ public Result logout() {
 
 
 public Result registerUser() {
-    Form<Customer> cForm = formFactory.form(Customer.class);
-    return ok(addCustomer.render(cForm,User.getUserById(session().get("email"))));
+    Form<UserPassword2> regForm = formFactory.form(UserPassword2.class);
+    return ok(registerUser.render(regForm,User.getUserById(session().get("email"))));
 }
 
 @Transactional
 public Result registerUserSubmit() {
-Form<Customer> newUserForm = formFactory.form(Customer.class).bindFromRequest();
-if (newUserForm.hasErrors()) {
+
+    Form<UserPassword2> newUserForm2 = formFactory.form(UserPassword2.class).bindFromRequest();
+
+    if (newUserForm2.hasErrors()) {
+
+        return badRequest(registerUser.render(newUserForm2,User.getUserById(session().get("email"))));
+    } else {
+
+        UserPassword2 newUser2 = newUserForm2.get();
+
+
+        if(!newUser2.getPassword2().equals(newUser2.getPassword())){
+            flash("error", "Passwords must match "); 
+            return redirect(controllers.routes.LoginController.registerUser());
+            
+        } 
     
-    return badRequest(addCustomer.render(newUserForm,User.getUserById(session().get("email"))));
-} else {
-    Customer newUser = newUserForm.get();
-    System.out.println("Name: "+newUserForm.field("name").getValue().get());
-    System.out.println("Email: "+newUserForm.field("email").getValue().get());
-    System.out.println("Password: "+newUserForm.field("password").getValue().get());
-    System.out.println("Role: "+newUserForm.field("role").getValue().get());
-    
-    if(User.getUserById(newUser.getEmail())==null){
-        newUser.save();
-    }else{
-        newUser.update();
-    }
-    flash("success", "User " + newUser.getName() + " was added/updated.");
-    return redirect(controllers.routes.HomeController.usersCustomer()); 
+        if(User.getUserById(newUser2.getEmail())==null){
+            newUser2.save();
+        }else{
+            newUser2.update();
+        }
+
+    flash("success", "User " + newUser2.getName() + " was registered.");
+
+    return redirect(controllers.routes.LoginController.login()); 
     }
 }
 

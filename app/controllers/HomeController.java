@@ -285,7 +285,7 @@ if (newUserForm.hasErrors()) {
     return redirect(controllers.routes.HomeController.usersAdmin()); 
     }
 }
-
+@Security.Authenticated(Secured.class)
 public Result addCustomer() {
     Form<Customer> cForm = formFactory.form(Customer.class);
     return ok(addCustomer.render(cForm,User.getUserById(session().get("email"))));
@@ -365,19 +365,5 @@ public Result usersAdmin() {
     return ok(customers.render(cList,User.getUserById(session().get("email"))));
 
  }
-
-//  @Transactional
-//  public Result ListProducts(Long cat, String filter){
-//      List<Category> categories = Category.findAll();
-//      List<ProductOnSale> product = new ArrayList<ProductOnSale>();
-
-//      if(cat == 0){
-//          product = ProductOnSale.findAll(filter);
-//      }
-//      else{
-//          products = ProductOnSale.findFilter(cat, filter);
-//      }
-//      return ok(ListProducts.render(env, categories, products, cat, filter));
-//  }
 
 }
