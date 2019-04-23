@@ -60,7 +60,6 @@ create table user (
   street2                       varchar(255),
   town                          varchar(255),
   post_code                     varchar(255),
-  credit_card                   varchar(255),
   constraint pk_user primary key (email)
 );
 

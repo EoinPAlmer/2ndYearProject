@@ -303,6 +303,10 @@ if (newUserForm.hasErrors()) {
     System.out.println("Email: "+newUserForm.field("email").getValue().get());
     System.out.println("Password: "+newUserForm.field("password").getValue().get());
     System.out.println("Role: "+newUserForm.field("role").getValue().get());
+    System.out.println("Street1: "+newUserForm.field("street1").getValue().get());
+    System.out.println("Street2: "+newUserForm.field("street2").getValue().get());
+    System.out.println("Town: "+newUserForm.field("town").getValue().get());
+    System.out.println("PostCode: "+newUserForm.field("PostCode").getValue().get());
     
     if(User.getUserById(newUser.getEmail())==null){
         newUser.save();

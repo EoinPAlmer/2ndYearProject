@@ -59,7 +59,7 @@ public Result logout() {
 
 public Result registerUser() {
     Form<UserPassword2> regForm = formFactory.form(UserPassword2.class);
-    return ok(registerUser.render(regForm,User.getUserById(session().get("email"))));
+    return ok(registerUser.render(regForm,Customer.getUserById(session().get("email"))));
 }
 
 @Transactional

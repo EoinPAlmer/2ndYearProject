@@ -52,23 +52,22 @@ Seq[Any](format.raw/*2.1*/("""
              """),_display_(/*21.15*/inputText(cForm("street2"), '_label -> "Street 2", 'class -> "form-control")),format.raw/*21.91*/("""
              """),_display_(/*22.15*/inputText(cForm("town"), '_label -> "Town", 'class -> "form-control")),format.raw/*22.84*/("""
              """),_display_(/*23.15*/inputText(cForm("postCode"), '_label -> "PostCode", 'class -> "form-control")),format.raw/*23.92*/("""
-             """),_display_(/*24.15*/inputText(cForm("creditCard"), '_label -> "Credit Card",'class -> "form-control")),format.raw/*24.96*/("""
 
-             """),_display_(/*26.15*/inputText(cForm("role").copy(value=Some("customer")), '_label -> "",'hidden -> "hidden")),format.raw/*26.103*/("""
-             """),_display_(/*27.15*/inputText(cForm("email"), '_label -> "", 'hidden -> "hidden")),format.raw/*27.76*/("""
+             """),_display_(/*25.15*/inputText(cForm("role").copy(value=Some("customer")), '_label -> "",'hidden -> "hidden")),format.raw/*25.103*/("""
+             """),_display_(/*26.15*/inputText(cForm("email"), '_label -> "", 'hidden -> "hidden")),format.raw/*26.76*/("""
             
-            """),format.raw/*29.13*/("""<!-- We use the bootstrap actions class for the buttons at the bottom:
+            """),format.raw/*28.13*/("""<!-- We use the bootstrap actions class for the buttons at the bottom:
                 1. The submit button for the form
                 2. A button that allows the user to cancel without adding an item
             -->
             <div class="actions">
                 <input type="submit" value="Add/Update Customer" class="btn btn-Dark">
-                <a href=""""),_display_(/*35.27*/routes/*35.33*/.HomeController.usersCustomer()),format.raw/*35.64*/("""">
+                <a href=""""),_display_(/*34.27*/routes/*34.33*/.HomeController.usersCustomer()),format.raw/*34.64*/("""">
                     <button type="button" class="btn btn-warning">Cancel</button>
                 </a>
             </div>
-    """)))}),format.raw/*39.6*/(""" """),format.raw/*39.24*/("""
-""")))}),format.raw/*40.2*/(""" """))
+    """)))}),format.raw/*38.6*/(""" """),format.raw/*38.24*/("""
+""")))}),format.raw/*39.2*/(""" """))
       }
     }
   }
@@ -84,11 +83,11 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue Apr 23 17:14:26 IST 2019
+                  DATE: Tue Apr 23 20:25:14 IST 2019
                   SOURCE: /home/wdd/2ndYearProject/app/views/addCustomer.scala.html
-                  HASH: b8d4c03b4f4775872710a80155ebfda6a8c7159b
-                  MATRIX: 993->1|1126->65|1170->62|1198->81|1225->83|1258->108|1296->109|1327->114|1650->411|1758->509|1799->511|1836->548|1873->647|1910->657|1923->661|1954->671|1996->686|2088->757|2130->772|2220->841|2262->856|2389->961|2431->976|2529->1053|2580->1077|2677->1153|2719->1168|2816->1244|2858->1259|2948->1328|2990->1343|3088->1420|3130->1435|3232->1516|3275->1532|3385->1620|3427->1635|3509->1696|3563->1722|3956->2088|3971->2094|4023->2125|4183->2255|4212->2273|4244->2275
-                  LINES: 28->1|31->4|34->2|36->5|37->6|37->6|37->6|38->7|43->12|43->12|43->12|44->13|45->14|46->15|46->15|46->15|47->16|47->16|48->17|48->17|49->18|49->18|50->19|50->19|51->20|51->20|52->21|52->21|53->22|53->22|54->23|54->23|55->24|55->24|57->26|57->26|58->27|58->27|60->29|66->35|66->35|66->35|70->39|70->39|71->40
+                  HASH: cead2c7c00eb0baa90a759bdf0a4047fc7b9fdfa
+                  MATRIX: 993->1|1126->65|1170->62|1198->81|1225->83|1258->108|1296->109|1327->114|1650->411|1758->509|1799->511|1836->548|1873->647|1910->657|1923->661|1954->671|1996->686|2088->757|2130->772|2220->841|2262->856|2389->961|2431->976|2529->1053|2580->1077|2677->1153|2719->1168|2816->1244|2858->1259|2948->1328|2990->1343|3088->1420|3131->1436|3241->1524|3283->1539|3365->1600|3419->1626|3812->1992|3827->1998|3879->2029|4039->2159|4068->2177|4100->2179
+                  LINES: 28->1|31->4|34->2|36->5|37->6|37->6|37->6|38->7|43->12|43->12|43->12|44->13|45->14|46->15|46->15|46->15|47->16|47->16|48->17|48->17|49->18|49->18|50->19|50->19|51->20|51->20|52->21|52->21|53->22|53->22|54->23|54->23|56->25|56->25|57->26|57->26|59->28|65->34|65->34|65->34|69->38|69->38|70->39
                   -- GENERATED --
               */
           

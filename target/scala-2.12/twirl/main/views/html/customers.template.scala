@@ -55,64 +55,56 @@ Seq[Any](_display_(/*2.2*/main("Customers",user)/*2.24*/{_display_(Seq[Any](form
             <th>Street 2</th>
             <th>Town</th>
             <th>Postcode</th>
-            <th>Credit Card</th>
         </tr>
         </thead>
         <tbody>
         <!-- Product row(s) -->
        
-            """),format.raw/*33.62*/("""
-            """),_display_(/*34.14*/for(c<-customers) yield /*34.31*/ {_display_(Seq[Any](format.raw/*34.33*/("""
-               """),format.raw/*35.16*/("""<tr>
-                  <td>"""),_display_(/*36.24*/c/*36.25*/.getEmail),format.raw/*36.34*/("""</td>
-                  <td>"""),_display_(/*37.24*/c/*37.25*/.getRole),format.raw/*37.33*/("""</td>
-                  <td>"""),_display_(/*38.24*/c/*38.25*/.getName),format.raw/*38.33*/("""</td>
-                  <td>"""),_display_(/*39.24*/c/*39.25*/.getPassword),format.raw/*39.37*/("""</td>
-                  <td>"""),_display_(/*40.24*/c/*40.25*/.getStreet1),format.raw/*40.36*/("""</td>
-                  <td>"""),_display_(/*41.24*/c/*41.25*/.getStreet2),format.raw/*41.36*/("""</td>
-                  <td>"""),_display_(/*42.24*/c/*42.25*/.getTown),format.raw/*42.33*/("""</td>
-                  <td>"""),_display_(/*43.24*/c/*43.25*/.getPostCode),format.raw/*43.37*/("""</td>
-                  <td>"""),_display_(/*44.24*/c/*44.25*/.getCreditCard),format.raw/*44.39*/("""</td>
-                  <!-- Update button -->
-						<td>
-							<a href=""""),_display_(/*47.18*/routes/*47.24*/.HomeController.updateCustomer(c.getEmail)),format.raw/*47.66*/("""" class="button-xs btn-danger">
-								<span class="glyphicon glyphicon-pencil"></span>
-							</a>
-                        </td>
+            """),format.raw/*32.66*/("""
+            """),_display_(/*33.14*/for(c<-customers) yield /*33.31*/ {_display_(Seq[Any](format.raw/*33.33*/("""
+               """),format.raw/*34.16*/("""<tr>
+                  <td>"""),_display_(/*35.24*/c/*35.25*/.getEmail),format.raw/*35.34*/("""</td>
+                  <td>"""),_display_(/*36.24*/c/*36.25*/.getRole),format.raw/*36.33*/("""</td>
+                  <td>"""),_display_(/*37.24*/c/*37.25*/.getName),format.raw/*37.33*/("""</td>
+                  <td>"""),_display_(/*38.24*/c/*38.25*/.getPassword),format.raw/*38.37*/("""</td>
+                  <td>"""),_display_(/*39.24*/c/*39.25*/.getStreet1),format.raw/*39.36*/("""</td>
+                  <td>"""),_display_(/*40.24*/c/*40.25*/.getStreet2),format.raw/*40.36*/("""</td>
+                  <td>"""),_display_(/*41.24*/c/*41.25*/.getTown),format.raw/*41.33*/("""</td>
+                  <td>"""),_display_(/*42.24*/c/*42.25*/.getPostCode),format.raw/*42.37*/("""</td>
                   <!-- Delete button -->
 						<td>
-							<a href=""""),_display_(/*53.18*/routes/*53.24*/.HomeController.deleteCustomer(c.getEmail)),format.raw/*53.66*/("""" class="button-xs btn-danger" onclick="return confirmDel();">
+							<a href=""""),_display_(/*45.18*/routes/*45.24*/.HomeController.deleteCustomer(c.getEmail)),format.raw/*45.66*/("""" class="button-xs btn-danger" onclick="return confirmDel();">
 								<span class="glyphicon glyphicon-trash"></span>
 							</a>
                         </td>
                </tr>
-            """)))}),format.raw/*58.14*/("""
+            """)))}),format.raw/*50.14*/("""
         
-        """),format.raw/*60.9*/("""</tbody>
+        """),format.raw/*52.9*/("""</tbody>
     </table>
 
     <p>
-        <a href=""""),_display_(/*64.19*/routes/*64.25*/.HomeController.addCustomer()),format.raw/*64.54*/("""">
+        <a href=""""),_display_(/*56.19*/routes/*56.25*/.HomeController.addCustomer()),format.raw/*56.54*/("""">
             <button class="btn btn-Dark">Add a new Customer</button>
         </a>
     </p>
 </div>
 <script>
 
-    function confirmDel()"""),format.raw/*71.26*/("""{"""),format.raw/*71.27*/("""
-        """),format.raw/*72.9*/("""return confirm('Are you sure?');
-    """),format.raw/*73.5*/("""}"""),format.raw/*73.6*/("""
+    function confirmDel()"""),format.raw/*63.26*/("""{"""),format.raw/*63.27*/("""
+        """),format.raw/*64.9*/("""return confirm('Are you sure?');
+    """),format.raw/*65.5*/("""}"""),format.raw/*65.6*/("""
 
-        """),format.raw/*75.9*/("""$(document).ready(function () """),format.raw/*75.39*/("""{"""),format.raw/*75.40*/("""
+        """),format.raw/*67.9*/("""$(document).ready(function () """),format.raw/*67.39*/("""{"""),format.raw/*67.40*/("""
 
-            """),format.raw/*77.13*/("""var docHeight = $(window).height();
+            """),format.raw/*69.13*/("""var docHeight = $(window).height();
             var footerHeight = $('#footer').height();
             var footerTop = $('#footer').position().top + footerHeight;
 
-            if (footerTop < docHeight) """),format.raw/*81.40*/("""{"""),format.raw/*81.41*/("""
-                """),format.raw/*82.17*/("""$('#footer').css('margin-top', 380 + (docHeight - footerTop) + 'px');
-            """),format.raw/*83.13*/("""}"""),format.raw/*83.14*/("""
-        """),format.raw/*84.9*/("""}"""),format.raw/*84.10*/(""");
+            if (footerTop < docHeight) """),format.raw/*73.40*/("""{"""),format.raw/*73.41*/("""
+                """),format.raw/*74.17*/("""$('#footer').css('margin-top', 380 + (docHeight - footerTop) + 'px');
+            """),format.raw/*75.13*/("""}"""),format.raw/*75.14*/("""
+        """),format.raw/*76.9*/("""}"""),format.raw/*76.10*/(""");
 </script>
  """)))}))
       }
@@ -130,11 +122,11 @@ Seq[Any](_display_(/*2.2*/main("Customers",user)/*2.24*/{_display_(Seq[Any](form
 
               /*
                   -- GENERATED --
-                  DATE: Tue Apr 23 17:14:25 IST 2019
+                  DATE: Tue Apr 23 20:50:42 IST 2019
                   SOURCE: /home/wdd/2ndYearProject/app/views/customers.scala.html
-                  HASH: f3ff5789ac191d8445725cd506deb03bf4694876
-                  MATRIX: 991->1|1149->67|1179->89|1217->90|1248->95|1308->194|1336->197|1376->229|1415->231|1444->234|1507->272|1520->277|1555->292|1585->295|1623->303|1656->309|2269->943|2310->957|2343->974|2383->976|2427->992|2482->1020|2492->1021|2522->1030|2578->1059|2588->1060|2617->1068|2673->1097|2683->1098|2712->1106|2768->1135|2778->1136|2811->1148|2867->1177|2877->1178|2909->1189|2965->1218|2975->1219|3007->1230|3063->1259|3073->1260|3102->1268|3158->1297|3168->1298|3201->1310|3257->1339|3267->1340|3302->1354|3404->1429|3419->1435|3482->1477|3709->1677|3724->1683|3787->1725|4013->1920|4058->1938|4134->1987|4149->1993|4199->2022|4363->2158|4392->2159|4428->2168|4492->2205|4520->2206|4557->2216|4615->2246|4644->2247|4686->2261|4916->2463|4945->2464|4990->2481|5100->2563|5129->2564|5165->2573|5194->2574
-                  LINES: 28->1|33->2|33->2|33->2|34->3|37->6|38->7|38->7|38->7|39->8|40->9|40->9|40->9|41->10|42->11|44->13|64->33|65->34|65->34|65->34|66->35|67->36|67->36|67->36|68->37|68->37|68->37|69->38|69->38|69->38|70->39|70->39|70->39|71->40|71->40|71->40|72->41|72->41|72->41|73->42|73->42|73->42|74->43|74->43|74->43|75->44|75->44|75->44|78->47|78->47|78->47|84->53|84->53|84->53|89->58|91->60|95->64|95->64|95->64|102->71|102->71|103->72|104->73|104->73|106->75|106->75|106->75|108->77|112->81|112->81|113->82|114->83|114->83|115->84|115->84
+                  HASH: 2c6cae642ebfbce1975234bdb72ab508a3118083
+                  MATRIX: 991->1|1149->67|1179->89|1217->90|1248->95|1308->194|1336->197|1376->229|1415->231|1444->234|1507->272|1520->277|1555->292|1585->295|1623->303|1656->309|2236->914|2277->928|2310->945|2350->947|2394->963|2449->991|2459->992|2489->1001|2545->1030|2555->1031|2584->1039|2640->1068|2650->1069|2679->1077|2735->1106|2745->1107|2778->1119|2834->1148|2844->1149|2876->1160|2932->1189|2942->1190|2974->1201|3030->1230|3040->1231|3069->1239|3125->1268|3135->1269|3168->1281|3270->1356|3285->1362|3348->1404|3574->1599|3619->1617|3695->1666|3710->1672|3760->1701|3924->1837|3953->1838|3989->1847|4053->1884|4081->1885|4118->1895|4176->1925|4205->1926|4247->1940|4477->2142|4506->2143|4551->2160|4661->2242|4690->2243|4726->2252|4755->2253
+                  LINES: 28->1|33->2|33->2|33->2|34->3|37->6|38->7|38->7|38->7|39->8|40->9|40->9|40->9|41->10|42->11|44->13|63->32|64->33|64->33|64->33|65->34|66->35|66->35|66->35|67->36|67->36|67->36|68->37|68->37|68->37|69->38|69->38|69->38|70->39|70->39|70->39|71->40|71->40|71->40|72->41|72->41|72->41|73->42|73->42|73->42|76->45|76->45|76->45|81->50|83->52|87->56|87->56|87->56|94->63|94->63|95->64|96->65|96->65|98->67|98->67|98->67|100->69|104->73|104->73|105->74|106->75|106->75|107->76|107->76
                   -- GENERATED --
               */
           
