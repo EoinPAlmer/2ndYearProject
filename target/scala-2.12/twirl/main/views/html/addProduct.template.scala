@@ -53,41 +53,48 @@ Seq[Any](format.raw/*2.1*/("""
         <!-- Note the """),_display_(/*22.24*/select),format.raw/*22.30*/(""" """),format.raw/*22.31*/("""function's argument options. This needs to be a map of ids-to-names
              and this is provided by the method Category.options(), which we added to the Category
              class in the previous step. -->
-            """),_display_(/*25.14*/inputText(productForm("name"), '_label -> "Name", 'class -> "form-control")),format.raw/*25.89*/("""
-            """),format.raw/*26.13*/("""<p><strong>Categories</strong></p>
-            """),_display_(/*27.14*/for((value, name) <- products.Category.options) yield /*27.61*/ {_display_(Seq[Any](format.raw/*27.63*/("""
-                """),format.raw/*28.17*/("""<input type="checkbox" name="catSelect[]" value=""""),_display_(/*28.67*/value),format.raw/*28.72*/(""""  
-                    """),_display_(/*29.22*/if(productForm("id").getValue.isPresent && productForm("id").getValue.get != "")/*29.102*/ {_display_(Seq[Any](format.raw/*29.104*/(""" 
-                        """),_display_(/*30.26*/if(products.Category.inCategory(value.toLong, productForm("id").getValue.get.toLong))/*30.111*/ {_display_(Seq[Any](format.raw/*30.113*/("""
-                            """),format.raw/*31.29*/("""checked
-                        """)))}),format.raw/*32.26*/("""
-                    """)))}),format.raw/*33.22*/(""" 
-                """),format.raw/*34.17*/("""/> """),_display_(/*34.21*/name),format.raw/*34.25*/(""" """),format.raw/*34.26*/("""</br>
-            """)))}),format.raw/*35.14*/("""
-            """),format.raw/*36.13*/("""</p>
-            
-            """),_display_(/*38.14*/inputText(productForm("brand"), '_label -> "Brand", 'class -> "form-control")),format.raw/*38.91*/("""
-            """),_display_(/*39.14*/inputText(productForm("stock"), '_label -> "Stock", 'class -> "form-control")),format.raw/*39.91*/("""
-            """),_display_(/*40.14*/inputText(productForm("price"), '_label -> "Price", 'class -> "form-control")),format.raw/*40.91*/("""
-            """),_display_(/*41.14*/inputText(productForm("size"), '_label -> "Size", 'class -> "form-control")),format.raw/*41.89*/("""
 
-            """),format.raw/*43.13*/("""<label>Image Upload</label>
+             <div class="row text-center">
+                <div class="col-md-offset-4 col-md-4">
+                    <form role="form">
+            """),_display_(/*29.14*/inputText(productForm("name"), '_label -> "Name", 'class -> "form-control")),format.raw/*29.89*/("""
+            """),format.raw/*30.13*/("""<p><strong>Categories</strong></p>
+            """),_display_(/*31.14*/for((value, name) <- products.Category.options) yield /*31.61*/ {_display_(Seq[Any](format.raw/*31.63*/("""
+                """),format.raw/*32.17*/("""<input type="checkbox" name="catSelect[]" value=""""),_display_(/*32.67*/value),format.raw/*32.72*/(""""  
+                    """),_display_(/*33.22*/if(productForm("id").getValue.isPresent && productForm("id").getValue.get != "")/*33.102*/ {_display_(Seq[Any](format.raw/*33.104*/(""" 
+                        """),_display_(/*34.26*/if(products.Category.inCategory(value.toLong, productForm("id").getValue.get.toLong))/*34.111*/ {_display_(Seq[Any](format.raw/*34.113*/("""
+                            """),format.raw/*35.29*/("""checked
+                        """)))}),format.raw/*36.26*/("""
+                    """)))}),format.raw/*37.22*/(""" 
+                """),format.raw/*38.17*/("""/> """),_display_(/*38.21*/name),format.raw/*38.25*/(""" """),format.raw/*38.26*/("""</br>
+            """)))}),format.raw/*39.14*/("""
+            """),format.raw/*40.13*/("""</p>
+            
+            """),_display_(/*42.14*/inputText(productForm("brand"), '_label -> "Brand", 'class -> "form-control")),format.raw/*42.91*/("""
+            """),_display_(/*43.14*/inputText(productForm("stock"), '_label -> "Stock", 'class -> "form-control")),format.raw/*43.91*/("""
+            """),_display_(/*44.14*/inputText(productForm("price"), '_label -> "Price", 'class -> "form-control")),format.raw/*44.91*/("""
+            """),_display_(/*45.14*/inputText(productForm("size"), '_label -> "Size", 'class -> "form-control")),format.raw/*45.89*/("""
+
+            """),format.raw/*47.13*/("""<label>Image Upload</label>
             <input class="btn-sm btn-default" type="file" name="upload">    
 
-            """),_display_(/*46.14*/inputText(productForm("id"), '_label -> "", 'hidden -> "hidden")),format.raw/*46.78*/("""
+            """),_display_(/*50.14*/inputText(productForm("id"), '_label -> "", 'hidden -> "hidden")),format.raw/*50.78*/("""
             
-            """),format.raw/*48.13*/("""<!-- We use the bootstrap actions class for the buttons at the bottom:
+            """),format.raw/*52.13*/("""<!-- We use the bootstrap actions class for the buttons at the bottom:
                 1. The submit button for the form
                 2. A button that allows the user to cancel without adding an item
             -->
             <div class="actions">
-                <input type="submit" value="Add/Update product" class="btn btn-primary">
-                <a href=""""),_display_(/*54.27*/routes/*54.33*/.HomeController.onsale(0)),format.raw/*54.58*/("""">
+                <input type="submit" value="Add/Update product" class="btn btn-Dark">
+                <a href=""""),_display_(/*58.27*/routes/*58.33*/.HomeController.onsale(0)),format.raw/*58.58*/("""">
                     <button type="button" class="btn btn-warning">Cancel</button>
                 </a>
             </div>
-    """)))}),format.raw/*58.6*/(""" """),format.raw/*58.24*/("""
-""")))}),format.raw/*59.2*/(""" """))
+        </form>
+    </div>
+</div>
+    """)))}),format.raw/*65.6*/(""" """),format.raw/*65.24*/("""
+""")))}),format.raw/*66.2*/(""" """))
       }
     }
   }
@@ -103,11 +110,11 @@ Seq[Any](format.raw/*2.1*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue Apr 23 14:12:08 IST 2019
+                  DATE: Tue Apr 23 15:13:56 IST 2019
                   SOURCE: /home/wdd/2ndYearProject/app/views/addProduct.scala.html
-                  HASH: 579b45e291915943304e07eae2686ed9ebbe6d98
-                  MATRIX: 1000->1|1147->79|1191->76|1219->95|1246->97|1278->121|1316->122|1347->127|1669->423|1842->587|1882->589|1919->626|1956->725|1993->735|2006->739|2037->749|2074->759|2451->1109|2478->1115|2507->1116|2759->1341|2855->1416|2896->1429|2971->1477|3034->1524|3074->1526|3119->1543|3196->1593|3222->1598|3274->1623|3364->1703|3405->1705|3459->1732|3554->1817|3595->1819|3652->1848|3716->1881|3769->1903|3815->1921|3846->1925|3871->1929|3900->1930|3950->1949|3991->1962|4049->1993|4147->2070|4188->2084|4286->2161|4327->2175|4425->2252|4466->2266|4562->2341|4604->2355|4750->2474|4835->2538|4889->2564|5284->2932|5299->2938|5345->2963|5505->3093|5534->3111|5566->3113
-                  LINES: 28->1|31->4|34->2|36->5|37->6|37->6|37->6|38->7|43->12|44->13|44->13|45->14|46->15|47->16|47->16|47->16|49->18|53->22|53->22|53->22|56->25|56->25|57->26|58->27|58->27|58->27|59->28|59->28|59->28|60->29|60->29|60->29|61->30|61->30|61->30|62->31|63->32|64->33|65->34|65->34|65->34|65->34|66->35|67->36|69->38|69->38|70->39|70->39|71->40|71->40|72->41|72->41|74->43|77->46|77->46|79->48|85->54|85->54|85->54|89->58|89->58|90->59
+                  HASH: a52bdd2e9210d8777063ebe9fb3ae6e347427edc
+                  MATRIX: 1000->1|1147->79|1191->76|1219->95|1246->97|1278->121|1316->122|1347->127|1669->423|1842->587|1882->589|1919->626|1956->725|1993->735|2006->739|2037->749|2074->759|2451->1109|2478->1115|2507->1116|2897->1479|2993->1554|3034->1567|3109->1615|3172->1662|3212->1664|3257->1681|3334->1731|3360->1736|3412->1761|3502->1841|3543->1843|3597->1870|3692->1955|3733->1957|3790->1986|3854->2019|3907->2041|3953->2059|3984->2063|4009->2067|4038->2068|4088->2087|4129->2100|4187->2131|4285->2208|4326->2222|4424->2299|4465->2313|4563->2390|4604->2404|4700->2479|4742->2493|4888->2612|4973->2676|5027->2702|5419->3067|5434->3073|5480->3098|5674->3262|5703->3280|5735->3282
+                  LINES: 28->1|31->4|34->2|36->5|37->6|37->6|37->6|38->7|43->12|44->13|44->13|45->14|46->15|47->16|47->16|47->16|49->18|53->22|53->22|53->22|60->29|60->29|61->30|62->31|62->31|62->31|63->32|63->32|63->32|64->33|64->33|64->33|65->34|65->34|65->34|66->35|67->36|68->37|69->38|69->38|69->38|69->38|70->39|71->40|73->42|73->42|74->43|74->43|75->44|75->44|76->45|76->45|78->47|81->50|81->50|83->52|89->58|89->58|89->58|96->65|96->65|97->66
                   -- GENERATED --
               */
           

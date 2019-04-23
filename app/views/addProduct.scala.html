@@ -22,6 +22,10 @@
         <!-- Note the @select function's argument options. This needs to be a map of ids-to-names
              and this is provided by the method Category.options(), which we added to the Category
              class in the previous step. -->
+
+             <div class="row text-center">
+                <div class="col-md-offset-4 col-md-4">
+                    <form role="form">
             @inputText(productForm("name"), '_label -> "Name", 'class -> "form-control")
             <p><strong>Categories</strong></p>
             @for((value, name) <- products.Category.options) {
@@ -50,10 +54,13 @@
                 2. A button that allows the user to cancel without adding an item
             -->
             <div class="actions">
-                <input type="submit" value="Add/Update product" class="btn btn-primary">
+                <input type="submit" value="Add/Update product" class="btn btn-Dark">
                 <a href="@routes.HomeController.onsale(0)">
                     <button type="button" class="btn btn-warning">Cancel</button>
                 </a>
             </div>
+        </form>
+    </div>
+</div>
     } @* end of form *@
 } @* end of main *@

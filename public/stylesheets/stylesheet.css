@@ -156,3 +156,9 @@ footer p, footer h4{
 .footerinfo{
 	padding-top: 2em;
 }
+
+thumb.img{
+	width: 360px;
+	height: 257px;
+
+}

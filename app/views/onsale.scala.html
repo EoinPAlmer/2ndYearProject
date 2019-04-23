@@ -29,20 +29,27 @@ user: models.users.User,env:play.api.Environment)
 
             <br>
 
+            <!-- <div class = "col-lg-6 col-md-1 col-sm-6 col-xs-6 col-centered">
+                        <div id="actions">
+                                <form action="@routes.HomeController.onsale(0)" method="GET">
+                                <input type="search" id="searchbox" name="" value="" placeholder="Filter by product name...">
+                                <input type="submit" id="searchsubmit" value="Filter by name" class="form-control">
+                            </form>
+                           </div>
+
+                        </div> -->
             
+
+
 
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="productbounds">
 
                 @for(p <- products) {
                     <div class="col-sm-6 col-md-4 col-xs-6 col-lg-4 products">
                         <div class="thumbnail">
-                            @if(env.resource("public/images/productImages/" + p.getId + "thumb.jpg").isDefined){
-                                <img src="/assets/images/productImages/@(p.getId + "thumb.jpg")" alt="..." height="242" width="200">
-                            }else{
-                                <img src="@routes.Assets.versioned("images/productplaceholder.svg")" alt="..." height="242" width="200">
-                            }
-
+                        
                             <div class="caption">
+                                    <img src="/assets/images/productImages/@(p.getId + ".jpg")" alt="..." height="270" width="300">
                                 <h3 class="text-center">@p.getName</h3>
                                 <h4 class="text-center"><span class = "redtext"><b>&euro;</b></span> @("%.2f".format(p.getPrice))</h4>
                                 <p class="text-center"><b>Size:</b> @p.getSize</p>
