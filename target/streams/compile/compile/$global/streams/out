@@ -1,13 +1,11 @@
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/onsale.scala.html:35:85: not found: value filter[0m
-[0m[[0m[31merror[0m] [0m[0m                                <input type="search" id="searchbox" name="" value="@filter" placeholder="Filter by product name...">[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                                    ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/onsale.scala.html:44:39: value ProductCtrl is not a member of object controllers.routes[0m
-[0m[[0m[31merror[0m] [0m[0m                <form action="@routes.ProductCtrl.listProducts(catId)" method="GET">[0m
-[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/onsale.scala.html:44:64: not found: value catId[0m
-[0m[[0m[31merror[0m] [0m[0m                <form action="@routes.ProductCtrl.listProducts(catId)" method="GET">[0m
-[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/views/onsale.scala.html:45:78: not found: value filter[0m
-[0m[[0m[31merror[0m] [0m[0m                   <input type="search" id="searchbox" name="filter" value="@filter" placeholder="Filter by product name...">[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                             ^[0m
-[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/users/UserPassword2.java:60:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable basket[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class models.users.UserPassword2[0m
+[0m[[0m[31merror[0m] [0m[0m        return basket;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/users/UserPassword2.java:64:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol:   variable orders[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class models.users.UserPassword2[0m
+[0m[[0m[31merror[0m] [0m[0m        return orders;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/2ndYearProject/app/models/users/UserPassword2.java:68:1: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m  symbol: variable orders[0m
+[0m[[0m[31merror[0m] [0m[0m        this.orders = orders;[0m

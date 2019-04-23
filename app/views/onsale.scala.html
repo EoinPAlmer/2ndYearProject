@@ -49,7 +49,7 @@ user: models.users.User,env:play.api.Environment)
                         <div class="thumbnail">
                         
                             <div class="caption">
-                                    <img src="/assets/images/productImages/@(p.getId + ".jpg")" alt="..." height="270" width="300">
+                                    <img src="/assets/images/productImages/@(p.getId + ".jpg")" alt="..." height="260" width="310">
                                 <h3 class="text-center">@p.getName</h3>
                                 <h4 class="text-center"><span class = "redtext"><b>&euro;</b></span> @("%.2f".format(p.getPrice))</h4>
                                 <p class="text-center"><b>Size:</b> @p.getSize</p>

@@ -226,3 +226,7 @@ cd ..
 exit
 run
 exit
+clean
+run
+]clean
+exit
