@@ -1,113 +1,173 @@
-2019-04-23 23:54:43,206 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-6 - Database [default] initialized at jdbc:h2:file:./data/productsDB
-2019-04-23 23:54:43,213 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-6 - Creating Pool for datasource 'default'
-2019-04-23 23:54:44,925 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-6 - ApplicationTimer demo: Starting application at 2019-04-23T22:54:44.924Z
-2019-04-23 23:54:44,963 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-6 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
-2019-04-23 23:54:45,546 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-6 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
-2019-04-23 23:54:45,867 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-6 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
-2019-04-23 23:54:45,894 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-6 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-04-24 14:59:03,749 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-5 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-24 14:59:03,755 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-5 - Creating Pool for datasource 'default'
+2019-04-24 14:59:05,343 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-5 - ApplicationTimer demo: Starting application at 2019-04-24T13:59:05.342Z
+2019-04-24 14:59:05,390 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-5 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-24 14:59:05,842 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-5 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-24 14:59:06,214 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-5 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-24 14:59:06,235 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-5 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-04-23 23:54:45,902 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-6 - Application started (Dev)
-2019-04-24 00:00:17,230 [DEBUG] from application in application-akka.actor.default-dispatcher-2 - id: paul@sneakersan.com
-2019-04-24 00:01:24,953 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-28 - id: paul@sneakersan.com
-2019-04-24 00:01:29,859 [DEBUG] from application in application-akka.actor.default-dispatcher-13 - id: paul@sneakersan.com
-2019-04-24 00:01:51,571 [DEBUG] from application in application-akka.actor.default-dispatcher-14 - id: paul@sneakersan.com
-2019-04-24 00:03:50,056 [DEBUG] from application in application-akka.actor.default-dispatcher-10 - id: paul@sneakersan.com
-2019-04-24 00:03:52,666 [DEBUG] from application in application-akka.actor.default-dispatcher-28 - id: paul@sneakersan.com
-2019-04-24 00:03:54,600 [DEBUG] from application in application-akka.actor.default-dispatcher-26 - id: paul@sneakersan.com
-2019-04-24 00:03:56,332 [DEBUG] from application in application-akka.actor.default-dispatcher-25 - id: paul@sneakersan.com
-2019-04-24 00:03:58,049 [DEBUG] from application in application-akka.actor.default-dispatcher-28 - id: paul@sneakersan.com
-2019-04-24 00:03:59,908 [DEBUG] from application in application-akka.actor.default-dispatcher-28 - id: paul@sneakersan.com
-2019-04-24 00:04:01,693 [DEBUG] from application in application-akka.actor.default-dispatcher-28 - id: paul@sneakersan.com
-2019-04-24 00:04:03,525 [DEBUG] from application in application-akka.actor.default-dispatcher-28 - id: paul@sneakersan.com
-2019-04-24 00:04:05,170 [DEBUG] from application in application-akka.actor.default-dispatcher-28 - id: paul@sneakersan.com
-2019-04-24 00:04:22,328 [DEBUG] from application in application-akka.actor.default-dispatcher-25 - id: paul@sneakersan.com
-2019-04-24 00:05:42,332 [DEBUG] from application in application-akka.actor.default-dispatcher-32 - id: paul@sneakersan.com
-2019-04-24 00:06:01,299 [DEBUG] from application in application-akka.actor.default-dispatcher-29 - id: paul@sneakersan.com
-2019-04-24 00:06:50,971 [DEBUG] from application in application-akka.actor.default-dispatcher-40 - id: paul@sneakersan.com
-2019-04-24 00:07:17,326 [DEBUG] from application in application-akka.actor.default-dispatcher-42 - id: paul@sneakersan.com
-2019-04-24 00:08:00,950 [DEBUG] from application in application-akka.actor.default-dispatcher-51 - id: paul@sneakersan.com
-2019-04-24 00:08:06,929 [DEBUG] from application in application-akka.actor.default-dispatcher-41 - id: paul@sneakersan.com
-2019-04-24 00:08:59,620 [DEBUG] from application in application-akka.actor.default-dispatcher-59 - id: paul@sneakersan.com
-2019-04-24 00:09:07,245 [DEBUG] from application in application-akka.actor.default-dispatcher-56 - id: paul@sneakersan.com
-2019-04-24 00:09:44,501 [DEBUG] from application in application-akka.actor.default-dispatcher-64 - id: paul@sneakersan.com
-2019-04-24 00:09:57,779 [DEBUG] from application in application-akka.actor.default-dispatcher-58 - id: paul@sneakersan.com
-2019-04-24 00:10:42,355 [DEBUG] from application in application-akka.actor.default-dispatcher-75 - id: paul@sneakersan.com
-2019-04-24 00:10:50,951 [DEBUG] from application in application-akka.actor.default-dispatcher-75 - id: paul@sneakersan.com
-2019-04-24 00:11:25,855 [DEBUG] from application in application-akka.actor.default-dispatcher-80 - id: paul@sneakersan.com
-2019-04-24 00:11:32,984 [DEBUG] from application in application-akka.actor.default-dispatcher-71 - id: paul@sneakersan.com
-2019-04-24 00:11:52,466 [DEBUG] from application in application-akka.actor.default-dispatcher-84 - id: paul@sneakersan.com
-2019-04-24 00:12:37,256 [DEBUG] from application in application-akka.actor.default-dispatcher-92 - id: paul@sneakersan.com
-2019-04-24 00:12:43,616 [DEBUG] from application in application-akka.actor.default-dispatcher-91 - id: paul@sneakersan.com
-2019-04-24 00:14:08,395 [DEBUG] from application in application-akka.actor.default-dispatcher-106 - id: paul@sneakersan.com
-2019-04-24 00:14:13,673 [DEBUG] from application in application-akka.actor.default-dispatcher-110 - id: paul@sneakersan.com
-2019-04-24 00:14:45,507 [DEBUG] from application in application-akka.actor.default-dispatcher-111 - id: paul@sneakersan.com
-2019-04-24 00:14:49,909 [DEBUG] from application in application-akka.actor.default-dispatcher-111 - id: paul@sneakersan.com
-2019-04-24 00:15:22,083 [DEBUG] from application in application-akka.actor.default-dispatcher-121 - id: paul@sneakersan.com
-2019-04-24 00:15:28,247 [DEBUG] from application in application-akka.actor.default-dispatcher-123 - id: paul@sneakersan.com
-2019-04-24 00:17:01,062 [DEBUG] from application in application-akka.actor.default-dispatcher-115 - id: paul@sneakersan.com
-2019-04-24 00:17:10,835 [DEBUG] from application in application-akka.actor.default-dispatcher-131 - id: paul@sneakersan.com
-2019-04-24 00:17:48,498 [DEBUG] from application in application-akka.actor.default-dispatcher-144 - id: paul@sneakersan.com
-2019-04-24 00:17:52,382 [DEBUG] from application in application-akka.actor.default-dispatcher-140 - id: paul@sneakersan.com
-2019-04-24 00:18:54,526 [DEBUG] from application in application-akka.actor.default-dispatcher-156 - id: paul@sneakersan.com
-2019-04-24 00:19:00,876 [DEBUG] from application in application-akka.actor.default-dispatcher-148 - id: paul@sneakersan.com
-2019-04-24 00:19:33,590 [DEBUG] from application in application-akka.actor.default-dispatcher-163 - id: paul@sneakersan.com
-2019-04-24 00:19:50,880 [DEBUG] from application in application-akka.actor.default-dispatcher-149 - id: paul@sneakersan.com
-2019-04-24 00:20:52,019 [DEBUG] from application in application-akka.actor.default-dispatcher-171 - id: paul@sneakersan.com
-2019-04-24 00:20:57,670 [DEBUG] from application in application-akka.actor.default-dispatcher-177 - id: paul@sneakersan.com
-2019-04-24 00:21:57,771 [DEBUG] from application in application-akka.actor.default-dispatcher-182 - id: paul@sneakersan.com
-2019-04-24 00:22:08,602 [DEBUG] from application in application-akka.actor.default-dispatcher-180 - id: paul@sneakersan.com
-2019-04-24 00:28:11,083 [DEBUG] from application in application-akka.actor.default-dispatcher-150 - id: paul@sneakersan.com
-2019-04-24 00:28:15,725 [DEBUG] from application in application-akka.actor.default-dispatcher-150 - id: paul@sneakersan.com
-2019-04-24 00:29:42,088 [DEBUG] from application in application-akka.actor.default-dispatcher-201 - id: paul@sneakersan.com
-2019-04-24 00:30:00,080 [DEBUG] from application in application-akka.actor.default-dispatcher-205 - id: paul@sneakersan.com
-2019-04-24 00:30:09,402 [DEBUG] from application in application-akka.actor.default-dispatcher-192 - id: paul@sneakersan.com
-2019-04-24 00:30:51,897 [DEBUG] from application in application-akka.actor.default-dispatcher-218 - id: paul@sneakersan.com
-2019-04-24 00:31:02,411 [DEBUG] from application in application-akka.actor.default-dispatcher-225 - id: paul@sneakersan.com
-2019-04-24 00:31:09,210 [DEBUG] from application in application-akka.actor.default-dispatcher-214 - id: paul@sneakersan.com
-2019-04-24 00:31:12,617 [DEBUG] from application in application-akka.actor.default-dispatcher-215 - id: paul@sneakersan.com
-2019-04-24 00:31:26,524 [DEBUG] from application in application-akka.actor.default-dispatcher-215 - id: paul@sneakersan.com
-2019-04-24 00:31:31,398 [DEBUG] from application in application-akka.actor.default-dispatcher-215 - id: paul@sneakersan.com
-2019-04-24 00:31:39,325 [DEBUG] from application in application-akka.actor.default-dispatcher-217 - id: paul@sneakersan.com
-2019-04-24 00:31:44,498 [DEBUG] from application in application-akka.actor.default-dispatcher-240 - id: paul@sneakersan.com
-2019-04-24 00:31:48,719 [DEBUG] from application in application-akka.actor.default-dispatcher-231 - id: paul@sneakersan.com
-2019-04-24 00:32:07,678 [DEBUG] from application in application-akka.actor.default-dispatcher-246 - id: paul@sneakersan.com
-2019-04-24 00:32:17,302 [DEBUG] from application in application-akka.actor.default-dispatcher-240 - id: paul@sneakersan.com
-2019-04-24 00:32:45,411 [DEBUG] from application in application-akka.actor.default-dispatcher-254 - id: paul@sneakersan.com
-2019-04-24 00:32:54,940 [DEBUG] from application in application-akka.actor.default-dispatcher-248 - id: paul@sneakersan.com
-2019-04-24 00:33:43,505 [DEBUG] from application in application-akka.actor.default-dispatcher-269 - id: paul@sneakersan.com
-2019-04-24 00:34:36,957 [DEBUG] from application in application-akka.actor.default-dispatcher-266 - id: paul@sneakersan.com
-2019-04-24 00:34:55,738 [DEBUG] from application in application-akka.actor.default-dispatcher-275 - id: paul@sneakersan.com
-2019-04-24 00:34:59,702 [DEBUG] from application in application-akka.actor.default-dispatcher-275 - id: paul@sneakersan.com
-2019-04-24 00:35:05,186 [DEBUG] from application in application-akka.actor.default-dispatcher-275 - id: paul@sneakersan.com
-2019-04-24 00:35:25,104 [DEBUG] from application in application-akka.actor.default-dispatcher-275 - id: paul@sneakersan.com
-2019-04-24 00:35:34,920 [DEBUG] from application in application-akka.actor.default-dispatcher-289 - id: paul@sneakersan.com
-2019-04-24 00:35:53,385 [DEBUG] from application in application-akka.actor.default-dispatcher-282 - id: paul@sneakersan.com
-2019-04-24 00:36:02,528 [DEBUG] from application in application-akka.actor.default-dispatcher-282 - id: paul@sneakersan.com
-2019-04-24 00:36:26,047 [DEBUG] from application in application-akka.actor.default-dispatcher-298 - id: paul@sneakersan.com
-2019-04-24 00:36:35,109 [DEBUG] from application in application-akka.actor.default-dispatcher-291 - id: paul@sneakersan.com
-2019-04-24 00:36:57,196 [DEBUG] from application in application-akka.actor.default-dispatcher-298 - id: paul@sneakersan.com
-2019-04-24 00:37:01,392 [DEBUG] from application in application-akka.actor.default-dispatcher-307 - id: paul@sneakersan.com
-2019-04-24 00:37:23,219 [DEBUG] from application in application-akka.actor.default-dispatcher-316 - id: paul@sneakersan.com
-2019-04-24 00:37:45,574 [DEBUG] from application in application-akka.actor.default-dispatcher-315 - id: paul@sneakersan.com
-2019-04-24 00:39:06,488 [DEBUG] from application in application-akka.actor.default-dispatcher-327 - id: paul@sneakersan.com
-2019-04-24 00:39:21,257 [DEBUG] from application in application-akka.actor.default-dispatcher-325 - id: paul@sneakersan.com
-2019-04-24 00:39:53,554 [DEBUG] from application in application-akka.actor.default-dispatcher-335 - id: paul@sneakersan.com
-2019-04-24 00:39:57,939 [DEBUG] from application in application-akka.actor.default-dispatcher-332 - id: paul@sneakersan.com
-2019-04-24 00:40:30,967 [DEBUG] from application in application-akka.actor.default-dispatcher-341 - id: paul@sneakersan.com
-2019-04-24 00:40:36,235 [DEBUG] from application in application-akka.actor.default-dispatcher-324 - id: paul@sneakersan.com
-2019-04-24 00:41:33,265 [DEBUG] from application in application-akka.actor.default-dispatcher-351 - id: paul@sneakersan.com
-2019-04-24 00:41:37,691 [DEBUG] from application in application-akka.actor.default-dispatcher-358 - id: paul@sneakersan.com
-2019-04-24 00:42:09,055 [DEBUG] from application in application-akka.actor.default-dispatcher-360 - id: paul@sneakersan.com
-2019-04-24 00:42:14,427 [DEBUG] from application in application-akka.actor.default-dispatcher-361 - id: paul@sneakersan.com
-2019-04-24 00:42:43,530 [DEBUG] from application in application-akka.actor.default-dispatcher-363 - id: paul@sneakersan.com
-2019-04-24 00:45:43,740 [DEBUG] from application in application-akka.actor.default-dispatcher-388 - id: paul@sneakersan.com
-2019-04-24 00:45:46,380 [DEBUG] from application in application-akka.actor.default-dispatcher-388 - id: paul@sneakersan.com
-2019-04-24 00:45:48,382 [DEBUG] from application in application-akka.actor.default-dispatcher-388 - id: paul@sneakersan.com
-2019-04-24 00:46:47,984 [DEBUG] from application in application-akka.actor.default-dispatcher-391 - id: paul@sneakersan.com
-2019-04-24 00:47:03,804 [INFO] from play.core.server.AkkaHttpServer in pool-6-thread-5 - Stopping server...
-2019-04-24 00:47:04,026 [INFO] from application in application-akka.actor.default-dispatcher-390 - ApplicationTimer demo: Stopping application at 2019-04-23T23:47:04.026Z after 3140s.
-2019-04-24 00:47:04,027 [INFO] from application in application-akka.actor.default-dispatcher-390 - Shutting down connection pool.
+2019-04-24 14:59:06,243 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-5 - Application started (Dev)
+2019-04-24 14:59:39,510 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-11 - The "validate" method in class "models.users.Login" is deprecated since Play 2.6. To migrate to class-level constraints see https://www.playframework.com/documentation/2.6.x/Migration26#java-form-changes and https://www.playframework.com/documentation/2.6.x/JavaForms#Advanced-validation
+2019-04-24 14:59:46,485 [DEBUG] from application in application-akka.actor.default-dispatcher-12 - id: paul@sneakersan.com
+2019-04-24 14:59:52,045 [DEBUG] from application in application-akka.actor.default-dispatcher-15 - id: paul@sneakersan.com
+2019-04-24 15:00:08,186 [DEBUG] from application in application-akka.actor.default-dispatcher-9 - id: paul@sneakersan.com
+2019-04-24 15:00:13,224 [DEBUG] from application in application-akka.actor.default-dispatcher-15 - id: paul@sneakersan.com
+2019-04-24 15:01:10,151 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-11 - id: paul@sneakersan.com
+2019-04-24 15:04:54,921 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - id: paul@sneakersan.com
+2019-04-24 15:07:40,050 [INFO] from application in application-akka.actor.default-dispatcher-32 - ApplicationTimer demo: Stopping application at 2019-04-24T14:07:40.050Z after 515s.
+2019-04-24 15:07:40,052 [INFO] from application in application-akka.actor.default-dispatcher-32 - Shutting down connection pool.
+2019-04-24 15:07:40,590 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-48 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-24 15:07:40,591 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-48 - Creating Pool for datasource 'default'
+2019-04-24 15:07:40,870 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-48 - ApplicationTimer demo: Starting application at 2019-04-24T14:07:40.870Z
+2019-04-24 15:07:40,881 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-48 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-24 15:07:41,005 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-48 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-24 15:07:41,111 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-48 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-24 15:07:41,115 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-48 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-04-24 15:07:41,120 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-48 - Application started (Dev)
+2019-04-24 15:11:38,886 [INFO] from application in application-akka.actor.default-dispatcher-10 - ApplicationTimer demo: Stopping application at 2019-04-24T14:11:38.886Z after 238s.
+2019-04-24 15:11:38,886 [INFO] from application in application-akka.actor.default-dispatcher-10 - Shutting down connection pool.
+2019-04-24 15:11:39,279 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-53 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-24 15:11:39,279 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-53 - Creating Pool for datasource 'default'
+2019-04-24 15:11:39,704 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-53 - ApplicationTimer demo: Starting application at 2019-04-24T14:11:39.703Z
+2019-04-24 15:11:39,711 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-53 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-24 15:11:39,856 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-53 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-24 15:11:40,235 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-53 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-24 15:11:40,244 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-53 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-04-24 15:11:40,245 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-53 - Application started (Dev)
+2019-04-24 15:12:48,418 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-53 - The "validate" method in class "models.users.Login" is deprecated since Play 2.6. To migrate to class-level constraints see https://www.playframework.com/documentation/2.6.x/Migration26#java-form-changes and https://www.playframework.com/documentation/2.6.x/JavaForms#Advanced-validation
+2019-04-24 15:12:58,894 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-51 - id: testcustomer@sneakersan.com
+2019-04-24 15:13:06,215 [DEBUG] from application in application-akka.actor.default-dispatcher-6 - id: testcustomer@sneakersan.com
+2019-04-24 15:13:06,263 [DEBUG] from application in application-akka.actor.default-dispatcher-6 - id: testcustomer@sneakersan.com
+2019-04-24 15:13:10,068 [DEBUG] from application in application-akka.actor.default-dispatcher-6 - id: testcustomer@sneakersan.com
+2019-04-24 15:13:14,636 [DEBUG] from application in application-akka.actor.default-dispatcher-6 - id: testcustomer@sneakersan.com
+2019-04-24 15:14:17,704 [INFO] from application in application-akka.actor.default-dispatcher-18 - ApplicationTimer demo: Stopping application at 2019-04-24T14:14:17.704Z after 158s.
+2019-04-24 15:14:17,704 [INFO] from application in application-akka.actor.default-dispatcher-18 - Shutting down connection pool.
+2019-04-24 15:14:18,321 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-55 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-24 15:14:18,328 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-55 - Creating Pool for datasource 'default'
+2019-04-24 15:14:18,599 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-55 - ApplicationTimer demo: Starting application at 2019-04-24T14:14:18.599Z
+2019-04-24 15:14:18,614 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-55 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-24 15:14:18,690 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-55 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-24 15:14:18,994 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-55 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-24 15:14:18,996 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-55 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-04-24 15:14:18,996 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-55 - Application started (Dev)
+2019-04-24 15:14:19,066 [DEBUG] from application in play-dev-mode-akka.actor.default-dispatcher-55 - id: testcustomer@sneakersan.com
+2019-04-24 15:15:11,460 [INFO] from application in application-akka.actor.default-dispatcher-2 - ApplicationTimer demo: Stopping application at 2019-04-24T14:15:11.460Z after 53s.
+2019-04-24 15:15:11,460 [INFO] from application in application-akka.actor.default-dispatcher-2 - Shutting down connection pool.
+2019-04-24 15:15:11,893 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-45 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-24 15:15:11,900 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-45 - Creating Pool for datasource 'default'
+2019-04-24 15:15:12,325 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-45 - ApplicationTimer demo: Starting application at 2019-04-24T14:15:12.325Z
+2019-04-24 15:15:12,329 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-45 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-24 15:15:12,377 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-45 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-24 15:15:13,128 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-45 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-24 15:15:13,132 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-45 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-04-24 15:15:13,134 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-45 - Application started (Dev)
+2019-04-24 15:15:13,177 [DEBUG] from application in application-akka.actor.default-dispatcher-2 - id: testcustomer@sneakersan.com
+2019-04-24 15:15:27,835 [DEBUG] from application in application-akka.actor.default-dispatcher-5 - id: testcustomer@sneakersan.com
+2019-04-24 15:16:35,281 [INFO] from application in application-akka.actor.default-dispatcher-8 - ApplicationTimer demo: Stopping application at 2019-04-24T14:16:35.281Z after 83s.
+2019-04-24 15:16:35,281 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
+2019-04-24 15:16:35,935 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-55 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-24 15:16:35,948 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-55 - Creating Pool for datasource 'default'
+2019-04-24 15:16:36,348 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-55 - ApplicationTimer demo: Starting application at 2019-04-24T14:16:36.348Z
+2019-04-24 15:16:36,373 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-55 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-24 15:16:36,574 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-55 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-24 15:16:37,129 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-55 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-24 15:16:37,141 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-55 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-04-24 15:16:37,141 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-55 - Application started (Dev)
+2019-04-24 15:16:37,245 [DEBUG] from application in application-akka.actor.default-dispatcher-2 - id: testcustomer@sneakersan.com
+2019-04-24 15:17:08,104 [INFO] from application in application-akka.actor.default-dispatcher-5 - ApplicationTimer demo: Stopping application at 2019-04-24T14:17:08.104Z after 32s.
+2019-04-24 15:17:08,104 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.
+2019-04-24 15:17:08,716 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-57 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-24 15:17:08,716 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-57 - Creating Pool for datasource 'default'
+2019-04-24 15:17:11,055 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-57 - ApplicationTimer demo: Starting application at 2019-04-24T14:17:11.055Z
+2019-04-24 15:17:11,059 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-57 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-24 15:17:12,631 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-57 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-24 15:17:13,761 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-57 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-24 15:17:13,763 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-57 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-04-24 15:17:13,763 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-57 - Application started (Dev)
+2019-04-24 15:17:13,785 [DEBUG] from application in application-akka.actor.default-dispatcher-4 - id: testcustomer@sneakersan.com
+2019-04-24 15:19:11,163 [INFO] from application in application-akka.actor.default-dispatcher-14 - ApplicationTimer demo: Stopping application at 2019-04-24T14:19:11.163Z after 120s.
+2019-04-24 15:19:11,163 [INFO] from application in application-akka.actor.default-dispatcher-14 - Shutting down connection pool.
+2019-04-24 15:19:12,841 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-55 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-24 15:19:12,842 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-55 - Creating Pool for datasource 'default'
+2019-04-24 15:19:13,473 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-55 - ApplicationTimer demo: Starting application at 2019-04-24T14:19:13.473Z
+2019-04-24 15:19:13,476 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-55 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-24 15:19:13,742 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-55 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-24 15:19:14,402 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-55 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-24 15:19:14,411 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-55 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-04-24 15:19:14,411 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-55 - Application started (Dev)
+2019-04-24 15:19:14,601 [DEBUG] from application in application-akka.actor.default-dispatcher-7 - id: testcustomer@sneakersan.com
+2019-04-24 15:19:20,601 [DEBUG] from application in application-akka.actor.default-dispatcher-8 - id: testcustomer@sneakersan.com
+2019-04-24 15:19:25,842 [DEBUG] from application in application-akka.actor.default-dispatcher-8 - id: testcustomer@sneakersan.com
+2019-04-24 15:19:36,528 [DEBUG] from application in application-akka.actor.default-dispatcher-10 - id: testcustomer@sneakersan.com
+2019-04-24 15:20:40,563 [INFO] from application in application-akka.actor.default-dispatcher-15 - ApplicationTimer demo: Stopping application at 2019-04-24T14:20:40.563Z after 87s.
+2019-04-24 15:20:40,563 [INFO] from application in application-akka.actor.default-dispatcher-15 - Shutting down connection pool.
+2019-04-24 15:20:40,934 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-57 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-24 15:20:40,935 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-57 - Creating Pool for datasource 'default'
+2019-04-24 15:20:41,301 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-57 - ApplicationTimer demo: Starting application at 2019-04-24T14:20:41.301Z
+2019-04-24 15:20:41,311 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-57 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-24 15:20:41,510 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-57 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-24 15:20:41,933 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-57 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-24 15:20:41,936 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-57 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-04-24 15:20:41,937 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-57 - Application started (Dev)
+2019-04-24 15:33:12,816 [INFO] from application in application-akka.actor.default-dispatcher-9 - ApplicationTimer demo: Stopping application at 2019-04-24T14:33:12.816Z after 751s.
+2019-04-24 15:33:12,817 [INFO] from application in application-akka.actor.default-dispatcher-9 - Shutting down connection pool.
+2019-04-24 15:33:13,220 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-64 - Database [default] initialized at jdbc:h2:file:./data/productsDB
+2019-04-24 15:33:13,221 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-64 - Creating Pool for datasource 'default'
+2019-04-24 15:33:13,486 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-64 - ApplicationTimer demo: Starting application at 2019-04-24T14:33:13.486Z
+2019-04-24 15:33:13,490 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-64 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 43: play.crypto.secret is deprecated, use play.http.secret.key instead
+2019-04-24 15:33:13,544 [WARN] from org.hibernate.validator.messageinterpolation.ParameterMessageInterpolator in play-dev-mode-akka.actor.default-dispatcher-64 - HV000184: ParameterMessageInterpolator has been chosen, EL interpolation will not be supported
+2019-04-24 15:33:13,814 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-64 - application.conf @ file:/home/wdd/2ndYearProject/target/scala-2.12/classes/application.conf: 261: csrf is deprecated, use play.filters.csrf instead
+2019-04-24 15:33:13,817 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-64 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-04-24 15:33:13,819 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-64 - Application started (Dev)
+2019-04-24 15:38:36,875 [INFO] from play.core.server.AkkaHttpServer in pool-6-thread-1 - Stopping server...
+2019-04-24 15:38:37,508 [INFO] from application in application-akka.actor.default-dispatcher-10 - ApplicationTimer demo: Stopping application at 2019-04-24T14:38:37.508Z after 324s.
+2019-04-24 15:38:37,509 [INFO] from application in application-akka.actor.default-dispatcher-10 - Shutting down connection pool.

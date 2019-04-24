@@ -20,10 +20,10 @@
             <th>Role </th>
             <th>Name</th>
             <th>Password</th>
-            <th>Street 1</th>
+            <!-- <th>Street 1</th>
             <th>Street 2</th>
             <th>Town</th>
-            <th>Postcode</th>
+            <th>Postcode</th> -->
         </tr>
         </thead>
         <tbody>
@@ -36,10 +36,10 @@
                   <td>@c.getRole</td>
                   <td>@c.getName</td>
                   <td>@c.getPassword</td>
-                  <td>@c.getStreet1</td>
+                  <!-- <td>@c.getStreet1</td>
                   <td>@c.getStreet2</td>
                   <td>@c.getTown</td>
-                  <td>@c.getPostCode</td>
+                  <td>@c.getPostCode</td> -->
                   <!-- Delete button -->
 						<td>
 							<a href="@routes.HomeController.deleteCustomer(c.getEmail)" class="button-xs btn-danger" onclick="return confirmDel();">
@@ -52,11 +52,11 @@
         </tbody>
     </table>
 
-    <p>
+    <!-- <p>
         <a href="@routes.HomeController.addCustomer()">
             <button class="btn btn-Dark">Add a new Customer</button>
         </a>
-    </p>
+    </p> -->
 </div>
 <script>
 
