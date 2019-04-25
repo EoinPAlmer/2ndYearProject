@@ -3,7 +3,7 @@
 <ivy-report version="1.0">
 	<info
 		organisation="default"
-		module="iandaly-sourcedsoles-d991719c7913-build"
+		module="sneakersanctuary-d991719c7913-build"
 		revision="0.1-SNAPSHOT"
 		extra-scalaVersion="2.10"
 		extra-sbtVersion="0.13"

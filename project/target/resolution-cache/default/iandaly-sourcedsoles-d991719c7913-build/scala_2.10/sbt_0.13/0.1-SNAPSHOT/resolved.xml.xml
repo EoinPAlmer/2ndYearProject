@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
 	<info organisation="default"
-		module="iandaly-sourcedsoles-d991719c7913-build"
+		module="sneakersanctuary-d991719c7913-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
 		publication="20190222142435"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
-		iandaly-sourcedsoles-d991719c7913-build
+		sneakersanctuary-d991719c7913-build
 		</description>
 	</info>
 	<configurations>
@@ -27,10 +27,10 @@
 		<conf name="scala-tool" visibility="private" description=""/>
 	</configurations>
 	<publications>
-		<artifact name="iandaly-sourcedsoles-d991719c7913-build" type="pom" ext="pom" conf="pom"/>
-		<artifact name="iandaly-sourcedsoles-d991719c7913-build" type="jar" ext="jar" conf="compile"/>
-		<artifact name="iandaly-sourcedsoles-d991719c7913-build" type="src" ext="jar" conf="sources" e:classifier="sources"/>
-		<artifact name="iandaly-sourcedsoles-d991719c7913-build" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+		<artifact name="sneakersanctuary-d991719c7913-build" type="pom" ext="pom" conf="pom"/>
+		<artifact name="sneakersanctuary-d991719c7913-build" type="jar" ext="jar" conf="compile"/>
+		<artifact name="sneakersanctuary-d991719c7913-build" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="sneakersanctuary-d991719c7913-build" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.6" conf="scala-tool->default,optional(default)"/>

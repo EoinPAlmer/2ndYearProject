@@ -3,7 +3,7 @@
 <ivy-report version="1.0">
 	<info
 		organisation="default"
-		module="iandaly-sourcedsoles-d991719c7913-build"
+		module="sneakersanctuary-d991719c7913-build"
 		revision="0.1-SNAPSHOT"
 		extra-scalaVersion="2.10"
 		extra-sbtVersion="0.13"
@@ -14,7 +14,7 @@
 		<module organisation="org.scala-sbt" name="sbt">
 			<revision name="0.13.11" status="release" pubdate="20160221190721" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
 				<metadata-artifact status="no" details="" size="1455" time="0" location="/home/wdd/.ivy2/cache/org.scala-sbt/sbt/ivy-0.13.11.xml" searched="false" origin-is-local="false" origin-location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.11/ivys/ivy.xml"/>
-				<caller organisation="default" name="iandaly-sourcedsoles-d991719c7913-build" conf="provided" rev="0.13.11" rev-constraint-default="0.13.11" rev-constraint-dynamic="0.13.11" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="default" name="sneakersanctuary-d991719c7913-build" conf="provided" rev="0.13.11" rev-constraint-default="0.13.11" rev-constraint-dynamic="0.13.11" callerrev="0.1-SNAPSHOT"/>
 				<artifacts>
 					<artifact name="sbt" type="jar" ext="jar" status="no" details="" size="21683" time="0" location="/home/wdd/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.11.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.11/jars/sbt.jar"/>
@@ -679,7 +679,7 @@
 				<caller organisation="org.spire-math" name="json4s-support_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.4" callerrev="0.6.0"/>
 				<caller organisation="org.scala-sbt" name="compile" conf="compile" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.13.11"/>
 				<caller organisation="org.scala-sbt" name="tracking" conf="compile" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.13.11"/>
-				<caller organisation="default" name="iandaly-sourcedsoles-d991719c7913-build" conf="provided" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="default" name="sneakersanctuary-d991719c7913-build" conf="provided" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.1-SNAPSHOT"/>
 				<caller organisation="org.scala-sbt" name="classpath" conf="compile" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.13.11"/>
 				<caller organisation="org.scala-sbt" name="logging" conf="compile" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.6" callerrev="0.13.11"/>
 				<caller organisation="org.spire-math" name="jawn-parser_2.10" conf="compile, runtime" rev="2.10.6" rev-constraint-default="2.10.6" rev-constraint-dynamic="2.10.4" callerrev="0.6.0"/>
